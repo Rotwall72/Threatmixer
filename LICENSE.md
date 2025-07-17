@@ -5,6 +5,7 @@
 Hey, I'm rotwall, and I'm responsible for the coding and designing of this webpage. Here's some links if you want to find out more about me or see what else I'm working on:
 - [Github](https://github.com/Rotwall72)
 - [Youtube](https://www.youtube.com/@Rotwall)
+- [Email](rotwall721@gmail.com)
 
 You can also find me on the [Official Rain World Discord Server](https://discord.gg/rainworld), my username is the same there as it is anywhere else.
 

@@ -595,6 +595,23 @@
         "background": "assets/images/backgrounds/concealed_gardens.png",
         "preview": "assets/music/music_snippets/CG_snippet.mp3"
     },
+    {   
+        "name": "Corroded Manufactory",
+        "group": "mods",
+        "layers": [
+            ["kick_icon.png", "assets/music/threat_music/mods/CRID/TH_CRID - KICK.ogg", 0],
+            ["hat_icon.png", "assets/music/threat_music/mods/CRID/TH_CRID - PERC.ogg", 0],
+            ["perc_icon.png", "assets/music/threat_music/mods/CRID/TH_CRID - HIT.ogg", 0],
+            ["arps_icon.png", "assets/music/threat_music/mods/CRID/TH_CRID - SYNTH2.ogg", 0],
+            ["synth_icon.png", "assets/music/threat_music/mods/CRID/TH_CRID - SYNTH.ogg", 0],
+            ["bass_icon.png", "assets/music/threat_music/mods/CRID/TH_CRID - LEAD.ogg", 0]
+        ],
+        "colors": ["#857454"],
+        "filters": ["brightness(0) saturate(100%) invert(48%) sepia(19%) saturate(702%) hue-rotate(1deg) brightness(90%) contrast(80%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/corroded_manufactory.png",
+        "preview": "assets/music/music_snippets/CRID_snippet.mp3"
+    },
     {
         "name": "Data Manifold",
         "group": "mods",

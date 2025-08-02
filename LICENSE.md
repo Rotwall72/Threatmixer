@@ -74,6 +74,7 @@ Here's a full list of everyone who's region, music, and/or art is shown in this 
 - [Snoodle](https://snoodle-stuff.carrd.co/) (Personal Website)
 - [Snugboat](https://x.com/SnugBoat11) (Twitter)
 - Spog_frog
+- [totallydutch](https://steamcommunity.com/profiles/76561199198610727) (Steam)
 - [Tronsx](https://www.youtube.com/@tronsx8480) (Youtube)
 - Tsunochizu
 - [Wolfycatt](https://wolfycatt.crd.co/) (Personal Website)
@@ -100,6 +101,9 @@ And here's the credits by region:
 ## Coral Caves:
 - Region & Region Art by Fishnoid
 - Threat Theme by Snoodle
+
+## Corroded Manufactory
+- Region, Region Art, & Threat Theme by totallydutch
 
 ## Cliffside:
 - Region by Parageist

@@ -67,7 +67,7 @@ function setUpSelectionScreen(regionData) {
                 newRegionButton.classList.add("region_button");
 
                 // styling
-                newRegionButton.style.backgroundImage = `url(../${region.background})`;
+                newRegionButton.style.backgroundImage = `url(${region.background})`;
                 newRegionButton.innerText = region.name;
                 newRegionButton.style.color = `${region.colors[0]}`;
                 newRegionButton.style.border = `0.3vw solid`;
@@ -449,7 +449,7 @@ function addOnClick(element, regionData, resolve) {
                     layerNameArray.push(layerName);
                 
                     // storing audio files
-                    regionThreatLayers.push(new Audio("../" + layer[1]));
+                    regionThreatLayers.push(new Audio(layer[1]));
                 
             });
 

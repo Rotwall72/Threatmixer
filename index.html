@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/Threatmixer/">
     <title>Threatmixer</title>
     <link rel="stylesheet" href="styling/general.css">
     <link rel="stylesheet" href="styling/home_screen.css">
     <link rel="stylesheet" href="styling/selection_screen.css">
     <link rel="stylesheet" href="styling/music_screen.css">
-    <link rel="icon" type="image/x-icon" href="..\assets/images/favicon/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon/favicon.ico">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/15.0.3/marked.min.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tocktimer/1.1.1/tock.min.js" defer></script>
@@ -24,7 +25,7 @@
     <div id="screen_cover">
         <p>Please rotate the device to best enjoy the webpage!</p>
         <p>If you wish to stay in portrait mode though, just tap the screen.</p>
-        <img id="rotate_screen_icon" src="..\assets/images/button_icons/rotate_screen_icon.png">
+        <img id="rotate_screen_icon" src="assets/images/button_icons/rotate_screen_icon.png">
     </div>
 
     <!-- Volume Sliders Datalist -->
@@ -53,22 +54,22 @@
 
         <!-- Menu Music Toggle -->
         <button data-title="Menu Music Toggle (Off)" class="back_button" id="menu_music_toggle_button">
-            <img id="menu_music_toggle_icon" src="..\assets\images\button_icons\menu_music_disabled_icon.png">
+            <img id="menu_music_toggle_icon" src="assets\images\button_icons\menu_music_disabled_icon.png">
         </button>
 
         <!-- Link Buttons -->
         <button data-title="Join the Discord!" class="back_button link_button" id="discord_button">
-            <img class="link_icon" src="..\assets\images\button_icons\discord_icon.png">
+            <img class="link_icon" src="assets\images\button_icons\discord_icon.png">
         </button>
         
         <button data-title="See the Repository!" class="back_button link_button" id="github_button">
-            <img class="link_icon" src="..\assets\images\button_icons\github_icon.png">
+            <img class="link_icon" src="assets\images\button_icons\github_icon.png">
         </button> 
 
         <p id="disclaimer">DISCLAIMER: I am not affiliated with Videocult or Akupara Games in any way. This is a fan project, and I own none of the images or music featured on this page. Also, beware major main game and dlc spoilers!</p>
         <p id="version">Version 1.14.27</p>
 
-        <img id="bird" src="..\assets\images\misc\vanillabean.png">
+        <img id="bird" src="assets\images\misc\vanillabean.png">
     </div>
 
     <!-- Selection Screen -->
@@ -79,7 +80,7 @@
 
         <!--Preview Toggle -->
         <button data-title="Preview Toggle (On)" class="back_button" id="preview_toggle_button">
-            <img id="preview_toggle_icon" src="..\assets\images\button_icons\preview_enabled_icon.png">
+            <img id="preview_toggle_icon" src="assets\images\button_icons\preview_enabled_icon.png">
         </button> 
 
         <!-- Side Buttons-->
@@ -132,7 +133,7 @@
         <p class="loading_info" id="loading_text"></p>
         <p class="loading_info" id="loading_details"></p>
         <p class="loading_info" id="loading_error_response">Something may have gone wrong... try refreshing the site or opening inspect element. <br> If the issue persists, please check the HELP menu or make a bug report on the discord.</p>
-        <img id="loading_logo" src="..\assets/images/misc/logo.png">
+        <img id="loading_logo" src="assets/images/misc/logo.png">
     </div>
 
     <!-- Music Screen -->
@@ -144,12 +145,12 @@
         <div id="music_option_buttons_container">
             <!-- Exit Button -->
             <button data-title="Back" class="needs_other_tippy_style" id="exit_button">
-                <img class="other_button_icons" src="..\assets/images/button_icons/exit_icon.png">
+                <img class="other_button_icons" src="assets/images/button_icons/exit_icon.png">
             </button>
 
             <!-- Settings Button -->
             <button data-title="Settings" class="needs_other_tippy_style" id="settings_button">
-                <img class="other_button_icons" src="..\assets/images/button_icons/gear_icon.png">
+                <img class="other_button_icons" src="assets/images/button_icons/gear_icon.png">
             </button>
         </div>
 
@@ -171,34 +172,34 @@
         <div id="option_buttons_container">
             <!-- Music control -->
             <button data-title="Start Song" class="other_buttons darken_button" id="start_button">
-                <img class="other_button_icons" src="..\assets/images/button_icons/start_icon.png">
+                <img class="other_button_icons" src="assets/images/button_icons/start_icon.png">
             </button>
             <button data-title="Play All Layers" class="other_buttons" id="play_button">
-                <img class="other_button_icons" src="..\assets/images/button_icons/play_all_icon.png">
+                <img class="other_button_icons" src="assets/images/button_icons/play_all_icon.png">
             </button>
             <button data-title="Pause Song & Recording" class="other_buttons darken_button" id="pause_button">
-                <img class="other_button_icons" src="..\assets/images/button_icons/pause_icon.png">
+                <img class="other_button_icons" src="assets/images/button_icons/pause_icon.png">
             </button>
         
             <!-- Recording control -->
             <button data-title="Start Recording" class="other_buttons recording_buttons" id="record_button">
-                <img class="other_button_icons" src="..\assets/images/button_icons/rec_icon.png">
+                <img class="other_button_icons" src="assets/images/button_icons/rec_icon.png">
             </button>
             <button data-title="Save Recording" class="other_buttons recording_buttons darken_button" id="save_button">
-                <img class="other_button_icons" src="..\assets/images/button_icons/save_icon.png">
+                <img class="other_button_icons" src="assets/images/button_icons/save_icon.png">
             </button>
             <button data-title="Discard Recording" class="other_buttons recording_buttons darken_button" id="delete_button">
-                <img class="other_button_icons" src="..\assets/images/button_icons/delete_icon.png">
+                <img class="other_button_icons" src="assets/images/button_icons/delete_icon.png">
             </button>
 
             <!-- Fade toggle -->
             <button data-title="Fade Toggle (Off)" class="other_buttons" id="fade_toggle">
-                <img class="other_button_icons" id="fade_toggle_icon" src="..\assets/images/button_icons/fade_disabled_icon.png">
+                <img class="other_button_icons" id="fade_toggle_icon" src="assets/images/button_icons/fade_disabled_icon.png">
             </button>
 
             <!-- Visualizer toggle -->
             <button data-title="Visualizer Toggle (On)" class="other_buttons" id="visualizer_toggle">
-                <img class="other_button_icons" src="..\assets/images/button_icons/vis_enabled_icon.png">
+                <img class="other_button_icons" src="assets/images/button_icons/vis_enabled_icon.png">
             </button>
         </div>
 
@@ -222,7 +223,7 @@
             </div>
         </div>
 
-        <img id="c" src="..\assets/images/backgrounds/find_me.png">
+        <img id="c" src="assets/images/backgrounds/find_me.png">
     </div>
 </body>
 </html>

@@ -38,7 +38,7 @@ This file contains the stylization for the home and laoding screens, as well as 
 #home_screen {
     width: 100%;
     background-size: cover;
-    background-image: url(../assets/images/backgrounds/alt_home_screen_bg.png);
+    background-image: url(/assets/images/backgrounds/alt_home_screen_bg.png);
 }
 
 #disclaimer, #version {

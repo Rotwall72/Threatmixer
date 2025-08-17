@@ -78,7 +78,6 @@ const layerButtons = document.getElementsByClassName("layer_button"), // music s
     masterVolumeSlider = document.getElementById("master_volume_slider"),
     sliders = document.getElementsByClassName("sliders");
 
-
 // globals
 let menuMusicTimeout, // misc/home screen
     canBounce = true,

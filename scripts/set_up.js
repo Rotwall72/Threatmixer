@@ -2,7 +2,6 @@
 Here, miscellaneous processes, including those for the home screen, can be found
 */
 
-// first figuring out if the user is using a mobile device
 let deviceName = navigator.userAgent,
     mobileNames = /android|iphone|kindle|ipad/i,
     isMobileDevice = mobileNames.test(deviceName);

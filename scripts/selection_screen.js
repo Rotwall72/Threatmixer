@@ -101,7 +101,20 @@ function setUpSelectionScreen(regionData) {
                     else {
                         region.favorited = false;
                         region.groups.pop();
-                        favoritedArray.splice(favoritedArray.indexOf(regionItem), 1);
+
+                        var removedRegionIndex;
+                        favoritedArray.forEach((region, index) => {
+                            const regionName = region[0],
+                                regionGroup = region[1],
+                                removedRegionName = regionItem[0],
+                                removedRegionGroup = regionItem[1];
+
+                            if (regionName === removedRegionName && regionGroup === removedRegionGroup && removedRegionIndex === undefined) {
+                                removedRegionIndex = index;
+                            }
+                        })
+
+                        favoritedArray.splice(removedRegionIndex, 1);
                         groupInfo.innerText = groupInfo.innerText.replace(", Favorites", "");
                     }
 

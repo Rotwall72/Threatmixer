@@ -59,7 +59,7 @@ Here's a full list of everyone who's region, music, and/or art is shown in this 
 - [Don](https://www.youtube.com/@donschnulione6646) (Youtube)
 - Fishswallower
 - [Fishnoid](https://www.youtube.com/channel/UCG-mPR0LtVn4QX0QSmSwCjQ) (Youtube)
--[Gamerdog1654](https://steamcommunity.com/id/gamerdogdotcom) (Steam)
+- [Gamerdog1654](https://steamcommunity.com/id/gamerdogdotcom) (Steam)
 - [Henpemaz](https://www.youtube.com/@henpemaz) (Youtube)
 - [Hessi](https://www.youtube.com/@hessi_943/videos) (Youtube)
 - Inspectnerd
@@ -86,6 +86,7 @@ Here's a full list of everyone who's region, music, and/or art is shown in this 
 - [Roasted AND Toasted](https://www.youtube.com/@roastedandtoasted187/videos) (Youtube)
 - [Sako L Patatas](https://www.youtube.com/channel/UCSVoNhfzaXNclJG7U8GkoXA) (Youtube)
 - [SaykioPorko](https://www.youtube.com/channel/UCZZkji3lcDIY7h8T5C-WxIQ) (Youtube)
+- [Sequoia7](https://www.youtube.com/@Sequoia7_RW) (Youtube)
 - [Serpanoy](https://serpanoy.carrd.co/) (Personal Website)
 - [Snoodle](https://snoodle-stuff.carrd.co/) (Personal Website)
 - [Snugboat](https://x.com/SnugBoat11) (Twitter)
@@ -297,7 +298,8 @@ And here's the credits by region:
 - Region & Threat Theme by LudoCrypt
 
 ## Winter's End Regions
-- Regions & Threat Themes by Myztileaf
+- Regions by Myztileaf
+- Threat Themes by Sequoia7 & Roasted AND Toasted
 
 ## Weakened Platform
 - Region & Threat Theme by Alekus

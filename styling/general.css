@@ -37,8 +37,33 @@ button {
     border-radius: 0.6vw;
 }
 
-button:active {
+div {
+    scrollbar-color:hsl(220, 4%, 86%) black;
+}
+
+button:active, input[type=checkbox]:active {
     transform: scale(0.95);
+}
+
+input[type=checkbox] {
+    appearance: none;
+    margin: 0vw;
+    margin-bottom: 0.3vw;
+    margin-right: 0.5vw;
+    width: 1.4vw;
+    height: 1.4vw;
+    cursor: pointer;
+    accent-color: black;
+    border: 0.2vw solid #dadbdd;
+    border-radius: 0.55vw;
+    transition: scale 0.2s ease;
+}
+
+input[type=checkbox]:checked {
+    background-image: url(../assets/images/misc/checkmark.png);
+    background-size: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .tippy-box[data-theme~="default-style"], .tippy-box[data-theme~="other-button-style"] {
@@ -104,7 +129,7 @@ progress::-webkit-progress-value {
     font-size: 1vw;
 }
 
-#loading_error_response {
+.error_responses {
     opacity: 0%;
     transition: opacity 0.5s ease;
 }

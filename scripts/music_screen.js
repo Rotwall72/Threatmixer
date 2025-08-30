@@ -168,6 +168,8 @@ function startLayerFadeIn(layer) {
                     layerButton.dataset.title = " (Playing)";
                     updateTippyContent(layerButton, layerName, layerIndex);
                 }
+
+                // console.log(layer.volume.gain.value);
             }, updateIntervalTime);
         }
         else {
@@ -214,6 +216,7 @@ function startLayerFadeOut(layer) {
                 if (audioContext.state != "suspended" && !songPaused) {
                     newVolume -= volumeRed;
                     if (newVolume <= 0) {newVolume = 0;}
+                    console.log(newVolume / volumeMult)
                     layer.volume.gain.value = newVolume * volumeMult;
                 }
             }
@@ -258,23 +261,34 @@ function setUpMusicScreen() {
     var processingGoal = regionThreatLayers.length
     updateLoadingInfo(0, processingGoal)
 
+    // error handling
+    const oneMinute = 60000; // in ms
     var waitingForError = true;
     var errorListener = setTimeout(() => {
-        loadingErrorResponse.style.opacity = "1";
         waitingForError = false;
-    }, 20000);
+        errorResponses[0].innerText = "The loading time has been longer than usual. Something may have gone wrong.";
+        errorResponses[1].innerText = "Refresh the page and try again. If the issue persists, troubleshoot your connection and/or seek help in our discord.";
+        setResponseOpacityandColor("1", "orange");
+    }, oneMinute);
 
-    // more web API junk
     loadSounds = 
         regionThreatLayers.map((audio) => {
             return fetch(audio.src)
-                .then((result) => {return result.arrayBuffer();})
+                .then((result) => {
+                    if (!result.ok) {
+                        clearTimeout(errorListener);
+                        errorResponses[0].innerText = `An error has occured. Error status: ${result.status}`;
+                        errorResponses[1].innerText = "See console for more information. If this is a re-occuring issue, leave a bug report in our discord.";
+                        setResponseOpacityandColor("1", "red");
+                    }
+                    return result.arrayBuffer();
+                })     
                 .then((arrayBuffer) => {return audioContext.decodeAudioData(arrayBuffer);}) 
                 .then((arrayBuffer) => {
                     processingProgress++;
                     updateLoadingInfo(processingProgress, processingGoal);
                     return arrayBuffer;
-                })
+                });
         });
 
     Promise.all(loadSounds).then((arrayBuffer) => {
@@ -282,7 +296,7 @@ function setUpMusicScreen() {
         showScreen(musicScreen);
 
         if (waitingForError) {clearTimeout(errorListener);}
-        loadingErrorResponse.style.opacity = "0";
+        setResponseOpacityandColor("0", "white");
 
         // ensuring that each layer loops at the exact same time
         if (!farShoreSelected) {
@@ -436,7 +450,7 @@ function setUpMusicScreen() {
 
                         else { // if it does,
                             currentLayer.isSoloed = true;
-                            soloButtons[currentIndex].style.filter = brightened; // brighten the solo button
+                            soloButtons[currentIndex].style.filter = brightened;
                             soloButtons[currentIndex].querySelector("img").src = soloIcon2;
                         }
                     });
@@ -869,6 +883,13 @@ function startUpdatingBar(globalDuration, songTimer) {
 function stopUpdatingBar() {
     clearInterval(barUpdateInterval);
     if (audioContext.state != "suspended" || !songStarted) {progressBar.value = 0;}
+}
+
+function setResponseOpacityandColor(opacity, color) {
+    Array.from(errorResponses).forEach((text) => {
+        text.style.opacity = opacity;
+        text.style.color = color;
+    });
 }
 
 // hiding settings container when clicking anywhere else

@@ -11,9 +11,9 @@ You can also find me on the [Official Rain World Discord Server](https://discord
 
 ## Contributors
 
-- [ECSP](https://ecsp.dev/) (Personal Website): Pixel Art, Playtesting, and Creative Assistence
-- [ParraKoot](https://m.soundcloud.com/laurens-wallner-859047082) (Soundcloud): Main menu music, Playtesting, and Creative Assistence
-- [Budc](https://budc123.github.io/) (Personal Website): Code Assistence and Playtesting
+- [ECSP](https://ecsp.dev/) (Personal Website): Pixel Art, Playtesting, & Creative Assistence
+- [ParraKoot](https://m.soundcloud.com/laurens-wallner-859047082) (Soundcloud): Main menu music, Playtesting, & Creative Assistence
+- [Budc](https://budc123.github.io/) (Personal Website): Code Assistence & Playtesting
 
 ## Videocult
 
@@ -39,6 +39,7 @@ Here's a full list of everyone who's region, music, and/or art is shown in this 
 - [4slugcats](https://x.com/SelenireeArt) (Twitter)
 - [Aki](https://www.youtube.com/@aki7007) (Youtube)
 - [Alekus](https://www.youtube.com/@Alekus43) (Youtube)
+- [Albert Guy](https://www.youtube.com/@Albertable) (Youtube)
 - [aprilWORSTmonth](https://steamcommunity.com/profiles/76561198881171789) (Steam)
 - [Andrew Man](https://electricsheap.bandcamp.com/album/chronological-error) (Bandcamp)
 - [AndrewFM](http://www.egg-zero.com/) (Personal Website)
@@ -46,37 +47,54 @@ Here's a full list of everyone who's region, music, and/or art is shown in this 
 - [Atom](https://www.youtube.com/channel/UCvaQ90JC05F6wo3y_2T_WRA) (Youtube)
 - [AxeXir](https://www.youtube.com/channel/UCnleE9tJyc5kz6Mt53aQuMw) (Youtube)
 - Beep
+- [Blasting](https://steamcommunity.com/id/blastingbongos) (Steam)
+- [Blizzard Psyche](https://steamcommunity.com/id/BlizzardPsyche) (Steam)
+- BLU
 - [Bro](https://www.youtube.com/channel/UCGRoe1Z5loGEVcYnPBvXEew) (Youtube)
-- BubbleGUMz
+- [BubbleGUMz](www.youtube.com/@BubbleyCodes) (Youtube)
+- [cam_dev](www.youtube.com/@dragonmasterc) (Youtube)
 - [Carrotpudding](https://www.youtube.com/@carrotpudding2191) (Youtube)
 - Classick
+- [Detrax](https://steamcommunity.com/profiles/76561198449674241) (Steam)
 - [Don](https://www.youtube.com/@donschnulione6646) (Youtube)
 - Fishswallower
 - [Fishnoid](https://www.youtube.com/channel/UCG-mPR0LtVn4QX0QSmSwCjQ) (Youtube)
+-[Gamerdog1654](https://steamcommunity.com/id/gamerdogdotcom) (Steam)
 - [Henpemaz](https://www.youtube.com/@henpemaz) (Youtube)
 - [Hessi](https://www.youtube.com/@hessi_943/videos) (Youtube)
 - Inspectnerd
+- [Iterator-iterator](https://steamcommunity.com/profiles/76561198045845551) (Steam)
 - [Joseph Nied](https://www.youtube.com/@josephtnied) (Youtube)
 - [Kaeporo](https://www.youtube.com/@Kaeporo) (Youtube)
+- [Kizorke](https://steamcommunity.com/profiles/76561199006667350) (Steam)
 - [klumquart](https://steamcommunity.com/profiles/76561199123058149) (Steam)
+- LolaTheLoach
 - [LudoCrypt](https://ludocrypt.bandcamp.com/music) (Bandcamp)
 - Mikronaut
+- [MojiEmoji](https://www.youtube.com/@MojiEmoji) (Youtube)
 - [Mojosoup](https://x.com/MojoMojosoup) (Twitter)
 - [Myrmice](https://steamcommunity.com/id/myrmice/) (Steam)
+- [Myztileaf](https://steamcommunity.com/id/MyztiLeaf)
 - [Nautilo](https://www.youtube.com/@nautillo2481) (Youtube)
+- Ninjakittens
 - [Notocorda](https://www.deviantart.com/notocordada) (Deviantart)
 - [Nytrok07](www.youtube.com/@filonplaysgames) (Youtube)
+- [owlsquish](www.youtube.com/@owlsquish) (Youtube)
 - [Parageist](https://steamcommunity.com/id/Parageist) (Steam)
 - [Pinpoint](https://oliverlollsdesign.com/) (Personal Website)
 - [Ren is Taking Ten](https://www.youtube.com/channel/UCwbD6t3L5doFdyyKr6d6Qqg) (Youtube)
 - [Roasted AND Toasted](https://www.youtube.com/@roastedandtoasted187/videos) (Youtube)
+- [Sako L Patatas](https://www.youtube.com/channel/UCSVoNhfzaXNclJG7U8GkoXA) (Youtube)
+- [SaykioPorko](https://www.youtube.com/channel/UCZZkji3lcDIY7h8T5C-WxIQ) (Youtube)
 - [Serpanoy](https://serpanoy.carrd.co/) (Personal Website)
 - [Snoodle](https://snoodle-stuff.carrd.co/) (Personal Website)
 - [Snugboat](https://x.com/SnugBoat11) (Twitter)
 - Spog_frog
 - [totallydutch](https://steamcommunity.com/profiles/76561199198610727) (Steam)
 - [Tronsx](https://www.youtube.com/@tronsx8480) (Youtube)
+- [Turt](https://steamcommunity.com/id/turtlemanjackson) (Steam)
 - Tsunochizu
+- Vela
 - [Wolfycatt](https://wolfycatt.crd.co/) (Personal Website)
 - [Wrayk](https://steamcommunity.com/profiles/76561197975243281) (Steam)
 
@@ -85,18 +103,31 @@ Here's a full list of everyone who's region, music, and/or art is shown in this 
 And here's the credits by region:
 
 ## Aether Ridge:
-- Region, Region Art, and Threat Theme by Kaeporo
+- Region, Region Art, & Threat Theme by Kaeporo
 
 ## Aqueducts:
-- Region & Region Art by Carrotpudding
+- Region by Carrotpudding
 - Threat Theme by Pinpoint
+
+## Ashen Bow:
+- Region & Threat Theme by owlsquish
+- Region Art by artisticallycaffeinated
+
+## Archaic Facility (A & B):
+- Region & Region Art by cam_dev
+- Threat Theme by Anonymous
 
 ## Badlands (Legacy):
 - Region & Region Art by Fishnoid
 - Threat Theme by Snoodle
 
+## Cliffside:
+- Region by Parageist
+- Region Art by Wolfycatt
+- Threat Theme by LudoCrypt
+
 ## Concealed Gardens:
-- Region & Threat Theme by Henpemaz
+- Region, Region Art, & Threat Theme by Henpemaz
 
 ## Coral Caves:
 - Region & Region Art by Fishnoid
@@ -105,17 +136,29 @@ And here's the credits by region:
 ## Corroded Manufactory
 - Region, Region Art, & Threat Theme by totallydutch
 
-## Cliffside:
-- Region by Parageist
-- Region Art by Wolfycatt
-- Threat Theme by LudoCrypt
+## Corroded Passage
+- Region & Region Art by Gamerdog1654
+- Threat Theme by MojiEmoji
+
+## Curious Ascent
+- Region by Turt
+- Threat Theme by Tryn
+- Region Art by Vela
 
 ## Data Manifolds:
 - Region & Region Art by aprilWORSTmonth
 - Threat Theme by Snoodle
 
+## Decaying Wastes:
+- Region & Threat Theme by Blizzard Psyche
+
 ## Deserted Wastelands:
-- Region, Region Art, and Threat Theme by Don
+- Region, Region Art, & Threat Theme by Don
+
+## Eroded Refinery:
+- Region by Detrax
+- Threat Theme by Aki
+- Region art by 4slugcats
 
 ## Far Shore:
 - Region by Myrmice
@@ -127,10 +170,16 @@ And here's the credits by region:
 - Regions by Nytrok07
 - Threat Themes by Roasted AND Toasted
 
-## Forsaken Station:
+## Forsaken Station (A & B):
 - Region by Tronsx
-- Region Art by aprilWORSTmonth
+- Region Art by 4slugcats
 - Threat Theme by Roasted AND Toasted
+
+## Gloaming Refinery:
+- Region & Threat Theme by BubbleGUMz
+
+## Grand Reservoir:
+- Region & Threat Theme by Albert Guy
 
 ## Shrouded Assembly (Fog Gulch / Steaming Edifice):
 - Regions by Klumquart
@@ -169,6 +218,9 @@ And here's the credits by region:
 - Region Art by 4slugcats & snugboat
 - Other Contributors: Bro, Solar
 
+## Outer Outskirts:
+- Region, Threat Theme, & Region art by Kizorke
+
 ## Peripheral Wreckage
 - Region by BubbleGUMz
 - Threat Theme by Hessi
@@ -190,6 +242,11 @@ And here's the credits by region:
 - Region by Mojosoup
 - Region Art by Notocorda
 - Threat Theme by Snoodle
+
+## Reclaiming Entropy Regions:
+- Regions by Parageist
+- Threat Themes by Ninjakittens, MojiEmoji, LolaTheLoach, & BLU
+- Region arts by Parageist & Sako L Patatas
 
 ## Scorched District:
 - Region by Myrmice
@@ -215,10 +272,14 @@ And here's the credits by region:
 - Region Art by Notocordia
 - Threat Theme by Serpanoy
 
+## The Cusp:
+- Region and Region Art by Blasting
+- Threat Theme by SaykioPorko
+
 ## The Grinder:
 - Region by Atom
 - Threat Theme by Atom & Ren is Taking Ten
-- Region Art by artisticcallycaffeinated
+- Region Art by artisticallycaffeinated
 
 ## The Mast:
 - Region & Threat Theme by Snoodle
@@ -235,6 +296,9 @@ And here's the credits by region:
 ## Urban Reservoir
 - Region & Threat Theme by LudoCrypt
 
+## Winter's End Regions
+- Regions & Threat Themes by Myztileaf
+
 ## Weakened Platform
 - Region & Threat Theme by Alekus
 
@@ -249,7 +313,7 @@ The artists whose music is featured in this mod and now this webpage are:
     - The Wall (Day & Night)
 - [BeanieBongle](https://www.youtube.com/@BeanieBongle777) (Youtube)
     - Undergrowth
-- [BruhNo U](https://www.youtube.com/@Albertable) (Youtube)
+- [Albert Guy](https://www.youtube.com/@Albertable) (Youtube)
     - Underhang
 - [Kaylestuffs](https://www.youtube.com/@thingsarepostedhere) (Youtube)
     - Drainage System, Silent Construct, Submerged Superstructe, & House of Braids
@@ -262,9 +326,27 @@ The artists whose music is featured in this mod and now this webpage are:
 
 [Roasted's Threat Themes](https://steamcommunity.com/sharedfiles/filedetails/?id=3150619909) is a mod created and organized by DeltaTime, Kidi, Teacup of DOOM, and Roasted AND Toasted, which does the same thing as the Extra Threat Themes mod and adds a plethora of new threat themes to the game.
 
-All of the songs featured in this mod, which can be accessed from the third slide of the custom tab and onwards, were produced by [Roasted AND Toasted](https://www.youtube.com/@roastedandtoasted187) (Youtube).
+All of the songs featured in this mod were produced by [Roasted AND Toasted](https://www.youtube.com/@roastedandtoasted187) (Youtube).
 
-### Once again, thanks to all of you for allowing your amazing works to become a part of Threatmixer. You're all incredibly talented, and I couldn't be more elated to be in a community full of people like yourselves.
+# *No More Rain World / Night Threat Themes Credits*
+
+[No More Rain World](https://steamcommunity.com/sharedfiles/filedetails/?id=3295491887) is another mod created by Tryn which gives every region a day/night cycle in place of rain.
+
+All of the songs featured in this mod were produced by [Qwertz](https://www.youtube.com/channel/UCCNebeweaV1W3iWMN96-iPQ) (Youtube).
+
+# *Frigid Threat Themes Credits*
+
+[Frigid Threat Themes](https://steamcommunity.com/sharedfiles/filedetails/?id=3100138236) is a mod created by [Best Gamer Ever](https://steamcommunity.com/id/NeverGonna-Give-You-Up) (Steam) which gives the Saint region variants new threat themes.
+
+All of the songs featured in this mod were also produced by Best Gamer Ever.
+
+# *Pilgrimate Threat Themes Credits*
+
+[Pilgrimate Threat Themes](https://steamcommunity.com/sharedfiles/filedetails/?id=3475378071) is a mod created by Sako L Patatas which, like Frigid Threat Themes, gives the Saint region variants new threat themes.
+
+All of the songs featured in this mod were also produced by Sako L Pata.
+
+### Once again, thanks to all of you for allowing your amazing works to become a part of Threatmixer. You're all incredibly talented, and I couldn't be more proud to be in a community full of creatives like yourselves.
 
 # *Licenses*
 

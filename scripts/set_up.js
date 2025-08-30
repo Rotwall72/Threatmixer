@@ -2,7 +2,8 @@
 Here, miscellaneous processes, including those for the home screen, can be found
 */
 
-let deviceName = navigator.userAgent,
+// first figuring out if the user is using a mobile device
+const deviceName = navigator.userAgent,
     mobileNames = /android|iphone|kindle|ipad/i,
     isMobileDevice = mobileNames.test(deviceName);
 
@@ -15,7 +16,6 @@ const aboutButton = document.getElementById("about_button"), // misc/home screen
     loadingScreen = document.getElementById("loading_screen"),
     homeScreen = document.getElementById("home_screen"),
     screenCover = document.getElementById("screen_cover"),
-    regionButton = document.getElementsByClassName("region_button"),
     selectionScreen = document.getElementById("selection_screen"),
     name2 = document.getElementById("name2"),
     bird = document.getElementById("bird"),
@@ -25,26 +25,23 @@ const aboutButton = document.getElementById("about_button"), // misc/home screen
     githubButton = document.getElementById("github_button"),
     loadingText = document.getElementById("loading_text"),
     loadingDetails = document.getElementById("loading_details"),
-    loadingErrorResponse = document.getElementById("loading_error_response"),
+    errorResponses = document.getElementsByClassName("error_responses"),
     elementsNeedingOtherTippy = document.getElementsByClassName("needs_other_tippy_style");
 
-const selectionHeader = document.getElementById("selection_header"), // selection screen
-    baseButton = document.getElementById("base_button"),
-    moddedButton = document.getElementById("modded_button"),
-    mscButton = document.getElementById("downpour_button"),
-    watchButton = document.getElementById("watcher_button"),
-    customButton = document.getElementById("custom_button"),
-    baseCarousel = document.getElementById("base_carousel"),
-    modCarousel = document.getElementById("mod_carousel"),
-    mscCarousel = document.getElementById("downpour_carousel"),
-    watchCarousel = document.getElementById("watcher_carousel"),
-    customCarousel = document.getElementById("custom_carousel"),
-    carrotButtons = document.getElementsByClassName("carrot_buttons"),
-    regionButtonContainer = document.getElementsByClassName("region_button_container"),
-    slideNum = document.getElementById("slide_number"),
+const regionButtonContainer = document.getElementById("region_button_container"), // selection screen
+    regionButtons = document.getElementsByClassName("region_button"),
+    buttonOverflow = document.getElementById("button_overflow"),
     selectionBackButton = document.getElementById("selection_back_button"),
     previewToggleButton = document.getElementById("preview_toggle_button"),
     previewToggleIcon = document.getElementById("preview_toggle_icon"),
+    searchBar = document.getElementById("search_bar"),
+    filterOptions = document.getElementsByClassName("filter_options"),
+    filterLabels = document.getElementsByClassName("filter_labels"),
+    groupInfo = document.getElementById("group_info"),
+    layerInfo = document.getElementById("layer_info"),
+    musicCreditsInfo = document.getElementById("music_credits_info"),
+    regionCreditsInfo = document.getElementById("region_credits_info"),
+    artCreditsInfo = document.getElementById("art_credits_info"),
     regionTitle = document.getElementById("region_name");
 
 const layerButtons = document.getElementsByClassName("layer_button"), // music screen
@@ -78,36 +75,17 @@ const layerButtons = document.getElementsByClassName("layer_button"), // music s
     sliders = document.getElementsByClassName("sliders");
 
 // globals
-let menuMusicTimeout, // misc/home screen
+const linkPrefix = "https://raw.githubusercontent.com/Rotwall72/Threatmixer-Audio-Storage/main/"; // misc/home screen
+let menuMusicTimeout, 
     canBounce = true,
     menuMusicEnabled = false,
     tippyLayerNames = [],
     volumeSliders = [];
 
-const brightened = "brightness(100%)", // selection screen
-    dimmed = "brightness(50%)",
-    unmute = 1,
-    mute = 0,
-    soloIcon1 = "assets/images/button_icons/solo_icon_1.png",
-    soloIcon2 = "assets/images/button_icons/solo_icon_2.png";
-let regionThreatLayers, hoverCheck, currentPreviewPlaying,
-    divIndex = -1,
-    baseSlideNum = 1,
-    baseSlideNumMax = 0,
-    storedBaseSlide = 0, 
-    modSlideNum = 1,
-    modSlideNumMax = 0,
-    storedModSlide = 0,
-    mscSlideNum = 1,
-    mscSlideNumMax = 0,
-    storedMscSlide = 0,
-    watchSlideNum = 1,
-    watchSlideNumMax = 0,
-    storedWatchSlide = 0,
-    customSlideNum = 1,
-    customSlideNumMax = 0,
-    storedCustomSlide = 0,
+let regionThreatLayers, hoverCheck, currentPreviewPlaying, // selection screen
+    noRegionsText, favFilterLabel,
     houseCount = 0,
+    storedScrollPosition = buttonOverflow.scrollTop,
     farShoreSelected = false,
     menuMusicPlaying = false,
     clickOnTimeout = false,
@@ -115,10 +93,19 @@ let regionThreatLayers, hoverCheck, currentPreviewPlaying,
     previewIsFadingOut = false,
     previewCanPlay = false,
     loadingRegion = false,
-    previewsOn = true,
-    selectionState = "base";
+    regionCountFinished = false,
+    favoriteButtonCicked = false,
+    previewsOn = getLocalItem("previewsOn"),
+    excludeList = [],
+    favoritedArray = getLocalItem("favorites");
 
-const percentConversion = 100; // music screen
+const percentConversion = 100, // music screen
+    brightened = "brightness(100%)",
+    dimmed = "brightness(50%)",
+    unmute = 1,
+    mute = 0,
+    soloIcon1 = "assets/images/button_icons/solo_icon_1.png",
+    soloIcon2 = "assets/images/button_icons/solo_icon_2.png";
 let songSoloed, songStarted, eraseRecording, loadedLayers, 
     layersPlaying, startingLayers, recordedData, songDuration, 
     barUpdateInterval, fadeCheck, instanceSongLength,
@@ -135,8 +122,7 @@ let songSoloed, songStarted, eraseRecording, loadedLayers,
     layerNameArray = [];
 
 // hiding certain screens for cleaner page startup
-const hiddenElements = [loadingScreen, musicScreen, selectionScreen,
-    modCarousel, mscCarousel, watchCarousel, customCarousel]
+const hiddenElements = [loadingScreen, musicScreen, selectionScreen];
 
 // hiding all other screens and only showing the home screen first
 hideScreen(selectionScreen, musicScreen, loadingScreen);
@@ -207,27 +193,15 @@ MDArray.forEach((file) => {
         // giving each file their respective class and button
         switch (file) {
             case ("README.md"):
-                aboutButton.onclick = () => {
-                    MDAndButtonContainer.style.visibility = "visible";
-                    MDAndButtonContainer.style.opacity = "1";
-                    MDContainer.scrollTop = 0
-                };
+                defineMarkdownOnclick(aboutButton, MDAndButtonContainer, MDContainer);
                 break;
 
             case ("TUTORIAL.md"):
-                helpButton.onclick = () => {
-                    MDAndButtonContainer.style.visibility = "visible"
-                    MDAndButtonContainer.style.opacity = "1";
-                    MDContainer.scrollTop = 0
-                };
+                defineMarkdownOnclick(helpButton, MDAndButtonContainer, MDContainer);
                 break;
 
             case ("LICENSE.md"):
-                creditsButton.onclick = () => {
-                    MDAndButtonContainer.style.visibility = "visible"
-                    MDAndButtonContainer.style.opacity = "1";
-                    MDContainer.scrollTop = 0
-                };
+                defineMarkdownOnclick(creditsButton, MDAndButtonContainer, MDContainer);
                 break;
         }
 
@@ -255,11 +229,6 @@ beginButton.onclick = () => {
     hideScreen(homeScreen, selectionScreen);
     loadingText.innerText = "Preparing selection screen...";
     showScreen(loadingScreen);
-    storedBaseSlide = 0;
-    storedModSlide = 0;
-    storedMscSlide = 0;
-    storedWatchSlide = 0;
-    storedCustomSlide = 0;
     if (menuMusicPlaying && menuMusicEnabled) {menuMusic.fade(menuMusic.volume(), 0, 3000);}
     clearInterval(menuMusicCheck);
     clearTimeout(menuMusicTimeout);
@@ -280,11 +249,11 @@ discordButton.style.setProperty("--glow-color", "#5865f299");
 discordButton.style.setProperty("--left-distance", "1.1vw");
 githubButton.style.setProperty("--border-color", "#f0f6fc");
 githubButton.style.setProperty("--glow-color", "#f0f6fc99");
-githubButton.style.setProperty("--left-distance", "6.5vw");
+githubButton.style.setProperty("--left-distance", "7.1vw");
 
 // menu music handling
 let menuMusic = new Howl({
-    src: "assets/music/misc/menu_music.mp3",
+    src: buildAudioSRC("music/misc/menu_music.mp3"),
     loop: true,
     onplay: () => {menuMusicPlaying = true;},
     onstop: () => {menuMusicPlaying = false;}
@@ -306,7 +275,7 @@ name2.onclick = () => {
     if (canBounce) {
         bird.style.display = "block";
         bird.style.animation = "bounce 1s ease alternate 2";
-        var squeak = new Audio("assets/music/music_snippets/squeak.wav")
+        var squeak = new Audio(buildAudioSRC("music/music_snippets/squeak.wav"));
         squeak.play()
         canBounce = false;
 
@@ -319,6 +288,14 @@ name2.onclick = () => {
 }
 
 // MISC FUNCTIONS
+function defineMarkdownOnclick(button, parentContainer, childContainer) {
+    button.onclick = () => {
+        parentContainer.style.visibility = "visible";
+        parentContainer.style.opacity = "1";
+        childContainer.scrollTop = 0;
+    }
+}
+
 function switchToBright(...elements) {
     elements.forEach((element) => {
         if (Array.from(layerButtons).includes(element)) {
@@ -460,5 +437,24 @@ function defineButtonLink(button, src) {
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
+    }
+}
+
+function buildAudioSRC(pathing) {
+    return linkPrefix + pathing;
+}
+
+function getLocalItem(item) {
+    switch (item) {
+        case ("favorites"):
+            const returnedArray = localStorage.getItem(item);
+            if (returnedArray === null) {return [];}
+            return JSON.parse(returnedArray); 
+        case ("previewsOn"):
+            const returnedBool = localStorage.getItem(item);
+            if (returnedBool === null) {return true;}
+            return returnedBool === true;
+        default:
+            return null;
     }
 }

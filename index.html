@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <base href="/Threatmixer/">
+    <!--<base href="/Threatmixer/">-->
     <title>Threatmixer</title>
     <link rel="stylesheet" href="styling/general.css">
     <link rel="stylesheet" href="styling/home_screen.css">
     <link rel="stylesheet" href="styling/selection_screen.css">
     <link rel="stylesheet" href="styling/music_screen.css">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon/favicon.ico">
+    <link rel="https" href="access.http">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/15.0.3/marked.min.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tocktimer/1.1.1/tock.min.js" defer></script>
@@ -37,12 +38,13 @@
     <!-- Home Screen -->
     <div id="home_screen">
         <div id="title_and_logo_container">
-            <h1 id="page_name">Threatmixer</h1>
+            <h1 id="page_name">Threatmixer (Dev)</h1>
         </div>
 
-        <h5 id="subheader1" class="subheaders">Created by Rotwall</h2>
+        <h5 id="subheader1" class="subheaders">Created by Rotwall, with:</h2>
         <h5 id="subheader2" class="subheaders">Pixel Art by <a id="name1" href="https://maps.app.goo.gl/VNufuofzo4jLEgFp9" target="_blank">ECSP</a></h2>
         <h5 id="subheader3" class="subheaders">Menu Music by <span id="name2">ParraKoot</span></h2>
+        <h5 id="subheader4" class="subheaders">& Additional Help From Budc</h5>
 
         <div id="home_button_container">
             <button class="home_buttons" id="begin_button">BEGIN!</button>
@@ -66,65 +68,97 @@
             <img class="link_icon" src="assets\images\button_icons\github_icon.png">
         </button> 
 
-        <p id="disclaimer">DISCLAIMER: I am not affiliated with Videocult or Akupara Games in any way. This is a fan project, and I own none of the images or music featured on this page. Also, beware major main game and dlc spoilers!</p>
-        <p id="version">Version 1.14.28</p>
+        <p id="disclaimer">DISCLAIMER: I am not affiliated with Videocult or Akupara Games in any way. This is a fan project, and I own none of the images or music featured on this page. Also, beware of major main game and dlc spoilers!</p>
+        <p id="version">Version 2.0.0</p>
 
         <img id="bird" src="assets\images\misc\vanillabean.png">
     </div>
 
     <!-- Selection Screen -->
     <div id="selection_screen">
+        <div id="left_selection_screen_container">
+            <div id="buttons_and_search_container">
+                <!-- Back Button -->
+                <button class="selection_back_and_preview_buttons" id="selection_back_button">
+                    <img id="selection_back_button_icon" src="assets/images/button_icons/alt_exit_icon.png">
+                </button>
 
-        <!-- Back Button -->
-        <button class="back_button" id="selection_back_button">X</button>
+                <!--Preview Toggle -->
+                <button data-title="Preview Toggle (On)" class="selection_back_and_preview_buttons" id="preview_toggle_button">
+                    <img id="preview_toggle_icon" src="assets\images\button_icons\preview_enabled_icon.png">
+                </button>
 
-        <!--Preview Toggle -->
-        <button data-title="Preview Toggle (On)" class="back_button" id="preview_toggle_button">
-            <img id="preview_toggle_icon" src="assets\images\button_icons\preview_enabled_icon.png">
-        </button> 
+                <!-- Search Bar -->
+                <input id="search_bar" type="text" placeholder="Type to search...">
+            </div>
 
-        <!-- Side Buttons-->
-        <div id="side_button_container">
-            <button class="side_button" id="custom_button">
-                <span class="side_button_text">
-                    Custom
-                </span>
-            </button>
-            <button class="side_button" id="modded_button">
-                <span class="side_button_text">
-                    Modded
-                </span>
-            </button>
-            <button class="side_button" id="watcher_button">
-                <span class="side_button_text">
-                    Watcher
-                </span>
-            </button>
-            <button class="side_button" id="downpour_button">
-                <span class="side_button_text">
-                    Downpour
-                </span>
-            </button>
-            <button class="side_button extend_button" id="base_button">
-                <span class="side_button_text">
-                    Vanilla
-                </span>
-            </button>
+            <!-- Region Button Container -->
+            <div id="region_button_container">
+                <div id="button_overflow"></div>
+            </div>
         </div>
 
-        <!-- Carousel-->
-        <div id="selection_container">
-            <h1 id="selection_header">Vanilla Regions</h1>
-            <div id="carousel_container">
-                <button class="carrot_buttons brighten_button" id="left_button">&lt;</button>
-                <div class="carousel" id="base_carousel"></div>
-                <div class="carousel" id="downpour_carousel"></div>
-                <div class="carousel" id="watcher_carousel"></div>
-                <div class="carousel" id="mod_carousel"></div>
-                <div class="carousel" id="custom_carousel"></div>
-                <button class="carrot_buttons brighten_button" id="right_button">&gt;</button>
+        <div id="filter_and_info_container">
+            <!-- Filter Container -->
+            <div id="filter_container">
+                <h2 id="filter_header">Search Filters</h2>
+                <form id="filter_form">
+                    <div class="filter_option_divs">
+                        <input class="filter_options" id="base_filter" type="checkbox" value="base" checked/>
+                        <label class="filter_labels" for="base_filter">Vanilla Regions</label>
+                    </div>
+                    <div class="filter_option_divs">
+                        <input class="filter_options" id="msc_filter" type="checkbox" value="msc" checked/>
+                        <label class="filter_labels" for="msc_filter">Downpour Regions</label>
+                    </div>
+                    <div class="filter_option_divs">
+                        <input class="filter_options" id="watch_filter" type="checkbox" value="watch" checked/>
+                        <label class="filter_labels" for="watch_filter">Watcher Regions</label>
+                    </div>
+                    <div class="filter_option_divs">
+                        <input class="filter_options" id="mods_filter" type="checkbox" value="mods" checked/>
+                        <label class="filter_labels" for="mods_filter">Modded Regions</label>
+                    </div>
+                    <div class="filter_option_divs">
+                        <input class="filter_options" id="extra_filter" type="checkbox" value="extra" checked/>
+                        <label class="filter_labels" for="extra_filter">Extra Threat Themes</label>
+                    </div>
+                    <div class="filter_option_divs">
+                        <input class="filter_options" id="roast_filter" type="checkbox" value="roast" checked/>
+                        <label class="filter_labels" for="roast_filter">Roasted's Threat Themes</label>
+                    </div>
+                    <div class="filter_option_divs">
+                        <input class="filter_options" id="night_filter" type="checkbox" value="night" checked/>
+                        <label class="filter_labels" for="night_filter">NMRW/Night Variants</label>
+                    </div>
+                    <div class="filter_option_divs">
+                        <input class="filter_options" id="frigid_filter" type="checkbox" value="frigid" checked/>
+                        <label class="filter_labels" for="frigid_filter">Frigid Threat Themes</label>
+                    </div>
+                    <div class="filter_option_divs">
+                        <input class="filter_options" id="pilgrim_filter" type="checkbox" value="pilgrim" checked/>
+                        <label class="filter_labels" for="pilgrim_filter">Pilgrimate Threat Themes</label>
+                    </div>
+                    <div class="filter_option_divs">
+                        <input class="filter_options" id="fav_filter" type="checkbox" value="fav" checked/>
+                        <label class="filter_labels" for="fav_filter">Favorites</label>
+                    </div>
+                </form>
             </div>
-            <p id="slide_number">1.</p>
+
+            <hr id="filter_and_info_break"/>
+
+            <!-- Info Container -->
+            <div id="master_info_container">
+                <h2 id="info_header">Region Info</h2>
+                <div id="info_container">
+                    <p class="info_text" id="group_info">Category: N/A</p>
+                    <p class="info_text" id="layer_info">Layers: N/A</p>
+                    <p class="info_text" id="music_credits_info">Song by: N/A</p>
+                    <p class="info_text" id="region_credits_info">Region by: N/A</p>
+                    <p class="info_text" id="art_credits_info">Art by: N/A</p>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -132,7 +166,8 @@
     <div id="loading_screen">
         <p class="loading_info" id="loading_text"></p>
         <p class="loading_info" id="loading_details"></p>
-        <p class="loading_info" id="loading_error_response">Something may have gone wrong... try refreshing the site or opening inspect element. <br> If the issue persists, please check the HELP menu or make a bug report on the discord.</p>
+        <p class="loading_info error_responses" id="loading_error_response"></p>
+        <p class="loading_info error_responses" id="sub_error_response"></p>
         <img id="loading_logo" src="assets/images/misc/logo.png">
     </div>
 

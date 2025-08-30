@@ -14,13 +14,35 @@ If you wish to use any pixel art on the page for whatever purpose, please contac
 
 # *Community*
 
-If you want to see developement logs, share mixes, or just hang out with other fans of Threatmixer, join our [Discord server!](https://discord.gg/BCU2UbMRBc) If you're trying to reach me but don't want to do so through discord, you could also use my email: rotwall721@gmail.com
+If you want to see developement logs, share mixes, or just hang out with other fans of Threatmixer, join our [Discord server!](https://discord.gg/BCU2UbMRBc)
 
 # *Changelog*
 
-Version 1.13.27
-- Volume sliders
-- Improved fading functionality
-- Fading duration settings
-- 6 new songs
-- 1 new easter egg 
+Version 2.0.0
+- Revamped Selection Screen UI
+    - Search Bar
+    - Category Filters
+    - Favoriting Feature
+    - New Region Indicators
+- 46 new songs
+    - Ashen Bow
+    - Archaic Facility
+    - Corroded Passage
+    - Curious Ascent
+    - Decaying Wastes
+    - Eroded Refinery
+    - Gloaming Refinery
+    - Grand Reservoir
+    - Outer Outskirts
+    - The Cusp
+    - Winter's End Threat Themes
+    - Reclaiming Entropy Threat Themes
+    - NMRW Threat Themes
+    - Frigid Threat Themes
+    - Pilgrimate Threat Themes
+- Relocated audio storage
+- More loading screen info
+
+In progress:
+- Up-to-date tutorial section
+- Mobile compatability

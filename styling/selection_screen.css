@@ -1,99 +1,19 @@
 /* Selection Screen */ 
-
-#selection_back_button {
-    font-size: 1.5vw;
-    padding-right: 3vw;
-    padding-left: 1.4vw;
-    padding-top: 1vw;
-    padding-bottom: 3.5vw;
-    left: 0;
-    top: 0;
-    margin-left: 1vw;
-    margin-top: 2vw;
-}
-
-#preview_toggle_button, #menu_music_toggle_button {
-    left: auto;
-    top: 1.1vw;
-    right: 1.6vw;
-    padding-right: 5.5vw;
-    padding-left: 0.7vw;
-    padding-top: 0.7vw;
-    padding-bottom: 5.5vw;
-}
-
-#preview_toggle_icon, #menu_music_toggle_icon {
-    image-rendering: pixelated;
-    width: 5vw;
-}
-
-.region_button {
-    font-family: Rodondo;
-    padding: 0.2vw;
-    font-size: 3.1vw;
-    text-shadow: 0.25vw 0.25vw 0.25vw #000000e6;
-    white-space: normal;
-    text-align: center;
-    width: 20vw;
-    height: 14vw;
-    margin-bottom: 3vw;
-    background-size: 25vw;
-    background-position: left;
-}
-
-.region_button:hover {
-    scale: 1.1;
-    animation: sway 8s ease alternate infinite;
-}
-
 #selection_screen {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
     width: 100%;
     background: linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
         ),
         url(../assets/images/backgrounds/selection_screen_bg.png);
-    background-color: white;
     background-size: cover;
 }
 
-#side_button_container {
-    rotate: 270deg;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    z-index: 0;
-    position: absolute;
-    left: -0.01vw;
-    margin-left: -10.75vw;
-    margin-top: 2vw;
-    max-height: 2.9vw;
-}
-
-.side_button {
-    display: flex;
-    align-items: center;
-    color: white;
-    background-color: rgba(44, 44, 44, 0.9);
-    box-shadow: none;
-    border: 0.16vw solid #dadbdd;
-    border-radius: 1vw 1vw 0vw 0vw;
-    margin: 0.1vw;
-    padding-left: 0.4vw;
-    padding-top: 0.5vw;
-    padding-bottom: 0.2vw;
-    height: 2.5vw;
-    transition: height 0.3s ease;
-}
-
-.extend_button {
-    height: 4vw;
-}
-
-#selection_container {
+#selection_container, #region_button_container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,55 +22,216 @@
     border-radius: 1vw;
     padding: 1vw;
     background-color: rgba(44, 44, 44, 0.9);
-    height: 43vw;
+    height: 35vw;
+    width: 70vw
 }
 
-.region_button_container {
+#button_overflow {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    flex-basis: 70vw;
-    flex-grow: 0;
-    flex-shrink: 0;
-    margin-top: 2vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-top: 1vw;
+    width: 72vw;
 }
 
-.carousel {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    overflow: hidden;
-    width: 70.1vw;
-}
-
-#carousel_container {
+#buttons_and_search_container {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+}
+
+.selection_back_and_preview_buttons, #menu_music_toggle_button {
+    padding-right: 4.7vw;
+    padding-left: 0.7vw;
+    padding-top: 0.7vw;
+    padding-bottom: 5vw;
+}
+
+.selection_back_and_preview_buttons {
+    width: 1vw;
+    height: 1vw;
+    box-shadow: none;
+    border: 0.2vw solid #dadbdd;
+}
+
+#preview_toggle_icon, #selection_back_button_icon, #menu_music_toggle_icon {
+    image-rendering: pixelated;
+    width: 4.2vw;
+}
+
+#search_bar {
+    height: 2.5vw;
+    width: 55vw;
+    font-family: RWmenu;
+    font-size: 1vw;
+    border: 0.2vw solid #dadbdd;
+    border-radius: 999vw;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #dadbdd;
+    padding-left: 1vw;
+}
+
+#search_bar:focus {
+    outline: none;
+}
+
+#no_regions_text {
+    display: none;
+    font-family: RWmenu;
+}
+
+#right_selection_screen_container {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
-.carrot_buttons {
+#filter_and_info_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25.3vw;
+    height: 42.4vw;
+    margin-left: 0.7vw;
+    border: 0.16vw solid #dadbdd;
+    border-radius: 1vw;
+    background-color: rgba(44, 44, 44, 0.9);
+}
+
+#filter_header {
+    margin-top: 0.4vw;
+    margin-bottom: 1.5vw;
+}
+
+#filter_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#filter_form {
+    font-family: RWmenu;
+    font-size: 0.75vw; 
+    border: 0.2vw solid #dadbdd;
+    border-radius: 1vw;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 10.4vw;
+    width: 22.3vw;
+    padding: 0.6vw;
+    overflow: scroll;
+}
+
+.filter_option_divs {
+    width: max-content;
+    display: flex;
+    align-items: center;
+}
+
+.filter_labels {
+    filter: brightness(var(--label-brightness, 100%));
+    transition: filter 0.2s ease;
+}
+
+#master_info_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 19.8vw;
+}
+
+#info_container {
+    font-family: RWmenu;
     font-size: 0.8vw;
-    padding: 0.4vw;
-    height: max-content;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 0.2vw solid #dadbdd;
+    border-radius: 1vw;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 13.4vw;
+    width: 22.3vw;
+    padding: 0.6vw;
 }
 
-#left_button {
-    padding-left: 0.5vw
+#info_header {
+    font-family: Rodondo;
+    font-size: 3.2vw;
+    margin-bottom: 0.5vw;
+    margin-top: 0vw;
 }
 
-#selection_header {
-    font-size: 6vw;
-    letter-spacing: 0.3vw;
-    margin: 1vw;
+.info_text {
+    margin: 0vw;
 }
 
-#slide_number {
-    z-index: 0;
+#layer_info, #region_credits_info {
+    text-decoration: underline;
+}
+
+#filter_and_info_break {
+    width: 23vw;
+    border: 0.13vw solid #dadbdd;
+    margin-bottom: 0vw;
+}
+
+.info_breaks {
+    width: 10vw;
+}
+
+.region_button {
+    font-family: Rodondo;
+    padding: 0.2vw;
+    font-size: 2.5vw;
+    text-shadow: 0.18vw 0.18vw 0.18vw #000000e6;
+    border: 0.3vw solid;
+    color: var(--region-button-color);
+    white-space: normal;
+    text-align: center;
+    width: 16vw;
+    height: 12vw;
+    margin-bottom: 3vw;
+    background-size: 25vw;
+    background-position: left;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.region_button:hover {
+    scale: 1.1;
+    animation: sway 8s ease alternate infinite;
+    box-shadow: 0vw 0vw 1.3vw 0.4vw var(--region-button-glow-color);
+    .favorite_button {
+        opacity: 30%;
+    }
+}
+
+.favorite_button, .new_region_indicators {
     position: absolute;
-    right: 13vw;
-    bottom: 0.5vw;
+    image-rendering: pixelated;
+    width: 1.5vw;
+    height: 1.5vw;
+    left: 0.5vw;
+    top: 0.5vw;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.new_region_indicators {
+    filter: var(--indicator-filter);
+    width: 1.6vw;
+    height: 1.6vw;
+    opacity: 1;
+    left: auto;
+    right: 0.3vw;
+}
+
+.favorite_button:hover, .favorited {
+    opacity: 1 !important;
 }

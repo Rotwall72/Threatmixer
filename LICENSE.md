@@ -73,6 +73,7 @@ Here's a full list of everyone who's region, music, and/or art is shown in this 
 - Mikronaut
 - [MojiEmoji](https://www.youtube.com/@MojiEmoji) (Youtube)
 - [Mojosoup](https://x.com/MojoMojosoup) (Twitter)
+- [Mold223](https://steamcommunity.com/profiles/76561199567480000) (Steam)
 - [Myrmice](https://steamcommunity.com/id/myrmice/) (Steam)
 - [Myztileaf](https://steamcommunity.com/id/MyztiLeaf)
 - [Nautilo](https://www.youtube.com/@nautillo2481) (Youtube)
@@ -122,6 +123,10 @@ And here's the credits by region:
 - Region & Region Art by Fishnoid
 - Threat Theme by Snoodle
 
+## Bioengineering Center:
+- Region & Region Art by Mold223
+- Threat Theme by LudoCrypt
+
 ## Cliffside:
 - Region by Parageist
 - Region Art by Wolfycatt
@@ -134,7 +139,7 @@ And here's the credits by region:
 - Region & Region Art by Fishnoid
 - Threat Theme by Snoodle
 
-## Corroded Manufactory
+## Industrial Outflow
 - Region, Region Art, & Threat Theme by totallydutch
 
 ## Corroded Passage
@@ -200,8 +205,11 @@ And here's the credits by region:
 - Region & Region Art by Nautilo
 - Threat Theme by Snoodle
 
+
+
 ## Luminous Cove:
 - Region by Myrmice
+- Region art by Beep
 - Threat Theme by Aki
 
 ## Lush Mire:

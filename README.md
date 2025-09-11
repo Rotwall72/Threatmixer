@@ -18,30 +18,11 @@ If you want to see developement logs, share mixes, or just hang out with other f
 
 # *Changelog*
 
-Version 2.0.0
-- Revamped Selection Screen UI
-    - Search Bar
-    - Category Filters
-    - Favoriting Feature
-    - New Region Indicators
-- 46 new songs
-    - Ashen Bow
-    - Archaic Facility
-    - Corroded Passage
-    - Curious Ascent
-    - Decaying Wastes
-    - Eroded Refinery
-    - Gloaming Refinery
-    - Grand Reservoir
-    - Outer Outskirts
-    - The Cusp
-    - Winter's End Threat Themes
-    - Reclaiming Entropy Threat Themes
-    - NMRW Threat Themes
-    - Frigid Threat Themes
-    - Pilgrimate Threat Themes
-- Relocated audio storage
-- More loading screen info
+Version 2.1.1
+- 2 new regions
+    - Bioengineering Center
+    - Industrial Outflow
+- New background art for Luminous Cove
 
 In progress:
 - Up-to-date tutorial section

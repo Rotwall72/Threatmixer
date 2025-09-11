@@ -653,7 +653,7 @@
     {   
         "name": "Ashen Bow",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "owlsquish",
         "regionCredits": "owlsquish",
@@ -679,7 +679,7 @@
     {
         "name": "Archaic Facility (A)",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Anonymous",
         "regionCredits": "cam_dev",
@@ -705,7 +705,7 @@
     {
         "name": "Archaic Facility (B)",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Anonymous",
         "regionCredits": "cam_dev",
@@ -754,9 +754,33 @@
         "preview": "music/music_snippets/BL_snippet.mp3"
     },
     {
-        "name": "Blizzard's Embrace",
+        "name": "Bioengineering Center",
         "groups": ["mods"],
         "new": true,
+        "favorited": false,
+        "songCredits": "LudoCrypt",
+        "regionCredits": "Mold223",
+        "artCredits": "Mold223",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/mods/BI/TH_BI - KICK.ogg", 0],
+            ["shaker_icon.png", "music/threat_music/mods/BI/TH_BI - SHAKER.ogg", 0],
+            ["perc_icon.png", "music/threat_music/mods/BI/TH_BI - PERC.ogg", 0],
+            ["pad_icon.png", "music/threat_music/mods/BI/TH_BI - LEADPERC.ogg", 0],
+            ["bass_icon.png", "music/threat_music/mods/BI/TH_BI - BASS.ogg", 0],
+            ["arps_icon.png", "music/threat_music/mods/BI/TH_BI - ARPS.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/BI/TH_BI - LEAD.ogg", 0],
+            ["scug_sing_icon.png", "music/threat_music/mods/BI/TH_BI - VOX.ogg", 0]
+        ],
+        "colors": ["#b06762"],
+        "filters": ["brightness(0) saturate(100%) invert(41%) sepia(5%) saturate(3598%) hue-rotate(315deg) brightness(112%) contrast(103%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/bioengineering_center.png",
+        "preview": "music/music_snippets/BI_snippet.mp3"
+    },
+    {
+        "name": "Blizzard's Embrace",
+        "groups": ["mods"],
+        "new": false,
         "favorited": false,
         "songCredits": "Roasted AND Toasted",
         "regionCredits": "Myztileaf",
@@ -872,7 +896,7 @@
     {   
         "name": "Corroded Passage",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "MojiEmoji",
         "regionCredits": "Gamerdog1654",
@@ -896,7 +920,7 @@
     {   
         "name": "Curious Ascent",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Tryn",
         "regionCredits": "Turt",
@@ -943,7 +967,7 @@
     {
         "name": "Decaying Wastes",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Blizzard Psyche",
         "regionCredits": "Blizzard Psyche",
@@ -987,7 +1011,7 @@
     {
         "name": "Eroded Refinery",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Aki",
         "regionCredits": "Detrax",
@@ -1116,7 +1140,7 @@
     {
         "name": "Gloaming Refinery",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "BubbleGUMz",
         "regionCredits": "BubbleGUMz",
@@ -1139,7 +1163,7 @@
     {   
         "name": "Gloomy Marshland",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Ninjakittens",
         "regionCredits": "Parageist",
@@ -1164,7 +1188,7 @@
     {   
         "name": "Grand Reservoir",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Albert Guy",
         "regionCredits": "Albert Guy",
@@ -1188,7 +1212,7 @@
     {   
         "name": "Grand Reservoir (Old)",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Albert Guy",
         "regionCredits": "Albert Guy",
@@ -1286,13 +1310,33 @@
         "preview": "music/music_snippets/HC_snippet.mp3"
     },
     {   
+        "name": "Industrial Outflow",
+        "groups": ["mods"],
+        "new": true,
+        "favorited": false,
+        "songCredits": "totallydutch",
+        "regionCredits": "totallydutch",
+        "artCredits": "totallydutch",
+        "layers": [
+            ["weird_icon.png", "music/threat_music/mods/IDDC/TH_IDDC - SHK.ogg", 0],
+            ["pad_icon.png", "music/threat_music/mods/IDDC/TH_IDDC - PER.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/IDDC/TH_IDDC - OOO.ogg", 0],
+            ["pad_icon.png", "music/threat_music/mods/IDDC/TH_IDDC - YEP.ogg", 0]
+        ],
+        "colors": ["#4d4d53"],
+        "filters": ["brightness(0) saturate(100%) invert(29%) sepia(8%) saturate(373%) hue-rotate(202deg) brightness(90%) contrast(84%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/industrial_outflow.png",
+        "preview": "music/music_snippets/IDDC_snippet.mp3"
+    },
+    {   
         "name": "Luminous Cove",
         "groups": ["mods"],
         "new": false,
         "favorited": false,
         "songCredits": "Aki",
         "regionCredits": "Myrmice",
-        "artCredits": "N/A",
+        "artCredits": "Beep",
         "layers": [
             ["kick_icon.png", "music/threat_music/mods/EU/TH_EU - KICK.ogg", 1],
             ["snare_icon.png", "music/threat_music/mods/EU/TH_EU - SNARE.ogg", 1],
@@ -1379,7 +1423,7 @@
     {   
         "name": "Nascent Woods",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "MojiEmoji",
         "regionCredits": "Parageist",
@@ -1424,7 +1468,7 @@
     {
         "name": "Outer Outskirts",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Kizorke",
         "regionCredits": "Kizorke",
@@ -1446,7 +1490,7 @@
     {
         "name": "Outpost Citadel",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Sequoia7",
         "regionCredits": "Myztileaf",
@@ -1515,7 +1559,7 @@
     {   
         "name": "Pipegrave",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "LolaTheLoach",
         "regionCredits": "Parageist",
@@ -1610,7 +1654,7 @@
     {   
         "name": "Rusted Basin",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "LolaTheLoach",
         "regionCredits": "Parageist",
@@ -1653,7 +1697,7 @@
     {   
         "name": "Rusted Canals",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Iterator-iterator",
         "regionCredits": "Iterator-iterator",
@@ -1770,7 +1814,7 @@
     {   
         "name": "Smokestack Treetop",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "LolaTheLoach",
         "regionCredits": "Parageist",
@@ -1870,7 +1914,7 @@
     {   
         "name": "Sunlit Alleyways",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "LolaTheLoach",
         "regionCredits": "Parageist",
@@ -1950,7 +1994,7 @@
     {   
         "name": "The Cusp",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "SaykioPorko",
         "regionCredits": "Blasting",
@@ -2167,7 +2211,7 @@
     {   
         "name": "Withstanding Factory",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "BLU",
         "regionCredits": "Parageist",
@@ -3121,7 +3165,7 @@
     {
         "name": "Chimney Canopy",
         "groups": ["night"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Qwertz",
         "regionCredits": "Videocult",
@@ -3146,7 +3190,7 @@
     {
         "name": "Farm Arrays",
         "groups": ["night"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Qwertz",
         "regionCredits": "Videocult",
@@ -3171,7 +3215,7 @@
     {
         "name": "Garbage Wastes",
         "groups": ["night"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Qwertz",
         "regionCredits": "Videocult",
@@ -3195,7 +3239,7 @@
     {
         "name": "Industrial Complex",
         "groups": ["night"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Qwertz",
         "regionCredits": "Videocult",
@@ -3220,7 +3264,7 @@
     {
         "name": "Outskirts",
         "groups": ["night"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Qwertz",
         "regionCredits": "Videocult",
@@ -3246,7 +3290,7 @@
     {
         "name": "Shoreline",
         "groups": ["night"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Qwertz",
         "regionCredits": "Videocult",
@@ -3271,7 +3315,7 @@
     {
         "name": "Sky Islands",
         "groups": ["night"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Qwertz",
         "regionCredits": "Videocult",
@@ -3296,7 +3340,7 @@
     {
         "name": "Desolate Fields",
         "groups": ["frigid"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Best Gamer Ever",
         "regionCredits": "Downpour Team",
@@ -3319,7 +3363,7 @@
     {
         "name": "Frigid Coast",
         "groups": ["frigid"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Best Gamer Ever",
         "regionCredits": "Downpour Team",
@@ -3341,7 +3385,7 @@
     {
         "name": "Glacial Wasteland",
         "groups": ["frigid"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Best Gamer Ever",
         "regionCredits": "Downpour Team",
@@ -3362,7 +3406,7 @@
     {
         "name": "Icy Monument",
         "groups": ["frigid"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Best Gamer Ever",
         "regionCredits": "Downpour Team",
@@ -3386,7 +3430,7 @@
     {
         "name": "Solitary Towers",
         "groups": ["frigid"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Best Gamer Ever",
         "regionCredits": "Downpour Team",
@@ -3409,7 +3453,7 @@
     {
         "name": "Suburban Drifts",
         "groups": ["frigid"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Best Gamer Ever",
         "regionCredits": "Downpour Team",
@@ -3431,7 +3475,7 @@
     {
         "name": "Barren Conduits",
         "groups": ["pilgrim"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Sake L Patatas",
         "regionCredits": "Downpour Team",
@@ -3456,7 +3500,7 @@
     {
         "name": "Desolate Fields",
         "groups": ["pilgrim"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Sake L Patatas",
         "regionCredits": "Downpour Team",
@@ -3480,7 +3524,7 @@
     {
         "name": "Drainage System",
         "groups": ["pilgrim"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Sake L Patatas",
         "regionCredits": "Downpour Team",
@@ -3504,7 +3548,7 @@
     {
         "name": "Frigid Coast",
         "groups": ["pilgrim"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Sake L Patatas",
         "regionCredits": "Downpour Team",
@@ -3528,7 +3572,7 @@
     {
         "name": "Glacial Wasteland",
         "groups": ["pilgrim"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Sake L Patatas",
         "regionCredits": "Downpour Team",
@@ -3553,7 +3597,7 @@
     {
         "name": "Icy Monument",
         "groups": ["pilgrim"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Sake L Patatas",
         "regionCredits": "Downpour Team",
@@ -3577,7 +3621,7 @@
     {
         "name": "Silent Construct",
         "groups": ["pilgrim"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Sake L Patatas",
         "regionCredits": "Downpour Team",
@@ -3601,7 +3645,7 @@
     {
         "name": "Solitary Towers",
         "groups": ["pilgrim"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Sake L Patatas",
         "regionCredits": "Downpour Team",
@@ -3628,7 +3672,7 @@
     {
         "name": "Suburban Drifts",
         "groups": ["pilgrim"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Sake L Patatas",
         "regionCredits": "Downpour Team",
@@ -3652,7 +3696,7 @@
     {
         "name": "Undergrowth",
         "groups": ["pilgrim"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Sake L Patatas",
         "regionCredits": "Downpour Team",
@@ -3676,7 +3720,7 @@
     {
         "name": "Windswept Spires",
         "groups": ["pilgrim"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Sake L Patatas",
         "regionCredits": "Downpour Team",

@@ -3,13 +3,6 @@ Here, the selection screen is set up, which involves getting all of the region d
 of the region buttons work.
 */
 
-// Setting up the preview toggle
-createTippy(previewToggleButton, previewToggleButton.dataset.title, "#dadbdd");
-if (getLocalItem("previewsOn") === false) {
-    previewToggleIcon.src = "assets/images/button_icons/preview_disabled_icon.png";
-    updateTippyContent(previewToggleButton, "Preview Toggle (Off)");
-}
-
 function setUpSelectionScreen(regionData) {
     // switching previews off if we're on mobile
     if (isMobileDevice) {

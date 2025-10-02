@@ -18,11 +18,15 @@ If you want to see developement logs, share mixes, or just hang out with other f
 
 # *Changelog*
 
-Version 2.1.1
-- 2 new regions
-    - Bioengineering Center
-    - Industrial Outflow
-- New background art for Luminous Cove
+Version 2.2.1
+- 3 new regions/songs
+    - The Surface
+    - Shattered Terrace
+    - Pillar Grove
+- New layers for Stormy Coast
+
+Bugfixes:
+- Fixed a small issue with local storage not saving the preview toggle state correctly
 
 In progress:
 - Up-to-date tutorial section

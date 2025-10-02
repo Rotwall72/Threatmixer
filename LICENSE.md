@@ -205,8 +205,6 @@ And here's the credits by region:
 - Region & Region Art by Nautilo
 - Threat Theme by Snoodle
 
-
-
 ## Luminous Cove:
 - Region by Myrmice
 - Region art by Beep

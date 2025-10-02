@@ -483,6 +483,29 @@
         "preview": "music/music_snippets/ARC_snippet.mp3"
     },
     {
+        "name": "Pillar Grove",
+        "groups": ["watch"],
+        "new": true,
+        "favorited": false,
+        "songCredits": "James Primate",
+        "regionCredits": "Watcher Team",
+        "artCredits": "N/A",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/watch/PG/TH_W11 - KICK.ogg", 0],
+            ["pad_icon.png", "music/threat_music/watch/PG/TH_W11 - PERC.ogg", 0],
+            ["snare_icon.png", "music/threat_music/watch/PG/TH_W11 - SNARE.ogg", 0],
+            ["weird_icon.png", "music/threat_music/watch/PG/TH_W11 - NOISE.ogg", 0],
+            ["bass_icon.png", "music/threat_music/watch/PG/TH_W11 - BASS.ogg", 0],
+            ["xylo_icon.png", "music/threat_music/watch/PG/TH_W11 - TONE.ogg", 0],
+            ["synth_icon.png", "music/threat_music/watch/PG/TH_W11 - LEAD.ogg", 0]
+        ],
+        "colors": ["#d8c5bb"],
+        "filters": ["brightness(0) saturate(100%) invert(98%) sepia(65%) saturate(828%) hue-rotate(296deg) brightness(104%) contrast(69%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/pillar_grove.png",
+        "preview": "music/music_snippets/PG_snippet.mp3"
+    },
+    {
         "name": "Rusted Wrecks",
         "groups": ["watch"],
         "new": false,
@@ -503,6 +526,30 @@
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/rusted_wrecks.png",
         "preview": "music/music_snippets/RR_snippet.mp3"
+    },
+    {
+        "name": "Shattered Terrace",
+        "groups": ["watch"],
+        "new": true,
+        "favorited": false,
+        "songCredits": "James Primate",
+        "regionCredits": "Watcher Team",
+        "artCredits": "N/A",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/watch/ST/TH_W10 - KICK.ogg", 0],
+            ["weird_icon.png", "music/threat_music/watch/ST/TH_W10 - PERC.ogg", 0],
+            ["pad_icon.png", "music/threat_music/watch/ST/TH_W10 - PADS.ogg", 0],
+            ["radio_icon.png", "music/threat_music/watch/ST/TH_W10 - NOISE.ogg", 0],
+            ["synth_icon.png", "music/threat_music/watch/ST/TH_W10 - BASS.ogg", 0],
+            ["snare_icon.png", "music/threat_music/watch/ST/TH_W10 - DRUMS.ogg", 0],
+            ["arps_icon.png", "music/threat_music/watch/ST/TH_W10 - LEAD.ogg", 0],
+            ["synth_icon.png", "music/threat_music/watch/ST/TH_W10 - LEADS.ogg", 0]
+        ],
+        "colors": ["#d2ce77"],
+        "filters": ["brightness(0) saturate(100%) invert(90%) sepia(40%) saturate(461%) hue-rotate(358deg) brightness(86%) contrast(91%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/shattered_terrace.png",
+        "preview": "music/music_snippets/ST_snippet.mp3"
     },
     {
         "name": "Signal Spires",
@@ -529,7 +576,7 @@
     {
         "name": "Stormy Coast",
         "groups": ["watch"],
-        "new": false,
+        "new": true,
         "favorited": false,
         "songCredits": "Serpanoy",
         "regionCredits": "Wrayk",
@@ -538,7 +585,7 @@
             ["rain_icon.png", "music/threat_music/watch/SK/TH_SK - NOISE.ogg", 0],
             ["kick_icon.png", "music/threat_music/watch/SK/TH_SK - KICK.ogg", 0],
             ["snare_icon.png", "music/threat_music/watch/SK/TH_SK - HOP.ogg", 0],
-            ["bongos_icon.png", "music/threat_music/watch/SK/TH_SK - TOMS.ogg", 0],
+            ["tom_icon.png", "music/threat_music/watch/SK/TH_SK - TOMS.ogg", 0],
             ["pad_icon.png", "music/threat_music/watch/SK/TH_SK - FUNKDRUMS.ogg", 0],
             ["tribal_drums_icon.png", "music/threat_music/watch/SK/TH_SK - War.ogg", 0],
             ["bass_icon.png", "music/threat_music/watch/SK/TH_SK - BASSI.ogg", 0],
@@ -549,17 +596,44 @@
             ["xylo_icon.png", "music/threat_music/watch/SK/TH_SK - ARP.ogg", 0],
             ["scug_sing_icon.png", "music/threat_music/watch/SK/TH_SK - MELODY.ogg", 0],
             ["scug_sing_icon.png", "music/threat_music/watch/SK/TH_SK - LEAD.ogg", 0],
-            ["pad_icon.png", "music/threat_music/watch/SK/TH_SK - Bop.ogg", 1],
-            ["synth_icon.png", "music/threat_music/watch/SK/TH_SK - Synth.ogg", 1],
-            ["xylo_icon.png", "music/threat_music/watch/SK/TH_SK - Bells.ogg", 1],
-            ["lead_1_icon.png", "music/threat_music/watch/SK/TH_SK - Strings.ogg", 1]
+            ["pad_icon.png", "music/threat_music/watch/SK/TH_W12 - PERC.ogg", 1],
+            ["synth_icon.png", "music/threat_music/watch/SK/TH_W12 - BASS.ogg", 1],
+            ["radio_icon.png", "music/threat_music/watch/SK/TH_W12 - LEAD.ogg", 1],
+            ["pad_icon.png", "music/threat_music/watch/SK/TH_SK - Bop.ogg", 2],
+            ["synth_icon.png", "music/threat_music/watch/SK/TH_SK - Synth.ogg", 2],
+            ["xylo_icon.png", "music/threat_music/watch/SK/TH_SK - Bells.ogg", 2],
+            ["lead_1_icon.png", "music/threat_music/watch/SK/TH_SK - Strings.ogg", 2]
         ],
-        "colors": ["#2d3e4a", "#1f6879"],
+        "colors": ["#2d3e4a", "#ed5d80", "#1f6879"],
         "filters": ["brightness(0) saturate(100%) invert(21%) sepia(28%) saturate(575%) hue-rotate(162deg) brightness(89%) contrast(87%)",
+                    "brightness(0) saturate(100%) invert(51%) sepia(95%) saturate(1647%) hue-rotate(310deg) brightness(95%) contrast(94%)",
                     "brightness(0) saturate(100%) invert(36%) sepia(7%) saturate(4559%) hue-rotate(144deg) brightness(87%) contrast(83%)"],
-        "containerWidth": "56vw",
+        "containerWidth": "69vw",
         "background": "assets/images/backgrounds/stormy_coast.png",
         "preview": "music/music_snippets/SK_snippet.mp3"
+    },
+    {
+        "name": "The Surface",
+        "groups": ["watch"],
+        "new": true,
+        "favorited": false,
+        "songCredits": "James Primate(?)",
+        "regionCredits": "Kaeporo / Watcher Team",
+        "artCredits": "N/A",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/watch/TS/TH_W9 - KICK.ogg", 0],
+            ["bongos_icon.png", "music/threat_music/watch/TS/TH_W9 - PERC.ogg", 0],
+            ["bass_icon.png", "music/threat_music/watch/TS/TH_W9 - BASS.ogg", 0],
+            ["pad_icon.png", "music/threat_music/watch/TS/TH_W9 - PADS.ogg", 0],
+            ["synth_icon.png", "music/threat_music/watch/TS/TH_W9 - ARP.ogg", 0],
+            ["arps_icon.png", "music/threat_music/watch/TS/TH_W9 - ARPS.ogg", 0],
+            ["noise_icon.png", "music/threat_music/watch/TS/TH_W9 - NOISE.ogg", 0]
+        ],
+        "colors": ["#dad7de"],
+        "filters": ["brightness(0) saturate(100%) invert(89%) sepia(4%) saturate(283%) hue-rotate(224deg) brightness(102%) contrast(83%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/the_surface.png",
+        "preview": "music/music_snippets/TS_snippet.mp3"
     },
     {
         "name": "Torrid Desert",
@@ -756,7 +830,7 @@
     {
         "name": "Bioengineering Center",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "LudoCrypt",
         "regionCredits": "Mold223",
@@ -1312,7 +1386,7 @@
     {   
         "name": "Industrial Outflow",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "totallydutch",
         "regionCredits": "totallydutch",

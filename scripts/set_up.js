@@ -83,7 +83,7 @@ let menuMusicTimeout,
     volumeSliders = [];
 
 let regionThreatLayers, hoverCheck, currentPreviewPlaying, // selection screen
-    noRegionsText, favFilterLabel,
+    noRegionsText, favFilterLabel, activePreview,
     houseCount = 0,
     storedScrollPosition = buttonOverflow.scrollTop,
     farShoreSelected = false,

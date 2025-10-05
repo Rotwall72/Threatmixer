@@ -18,15 +18,14 @@ If you want to see developement logs, share mixes, or just hang out with other f
 
 # *Changelog*
 
-Version 2.2.1
-- 3 new regions/songs
-    - The Surface
-    - Shattered Terrace
-    - Pillar Grove
-- New layers for Stormy Coast
+Version 2.2.2
+- Reworked song preview loading
+    - Now loads them as you hover over their corresponding buttons rather than all at once upon loading the selection screen
+- Updated the ARP layer in Verdant Waterway's threat theme
+    - Now changes key rather than ending in the latter half of the song
 
 Bugfixes:
-- Fixed a small issue with local storage not saving the preview toggle state correctly
+- N/A
 
 In progress:
 - Up-to-date tutorial section

@@ -117,17 +117,6 @@ function setUpSelectionScreen(regionData) {
                 }
 
                 newRegionButton.appendChild(newFavoriteButton);
-
-                // adding song snippets for when you hover over buttons using howler
-                if (region.preview != undefined) {
-                    var songPreview =  new Howl({
-                        src: buildAudioSRC(region.preview),
-                        loop: true,
-                        onplay: () => {songPreview.fade(0, 1, 1000)},
-                        onstop: () => {previewIsFadingOut = false}
-                    })
-                }
-
                 buttonOverflow.appendChild(newRegionButton);
 
                 // giving each button hover events
@@ -175,6 +164,16 @@ function setUpSelectionScreen(regionData) {
                     regionCreditsInfo.innerText = `Region by: ${region.regionCredits}`;
                     artCreditsInfo.innerText = `Art by: ${region.artCredits}`;
 
+                    // creating the song preview
+                    if (region.preview != undefined) {
+                        activePreview =  new Howl({
+                            src: buildAudioSRC(region.preview),
+                            loop: true,
+                            onplay: () => {activePreview.fade(0, 1, 1000)},
+                            onstop: () => {previewIsFadingOut = false}
+                        })
+                    }
+                    
                     // fading in the song preview
                     if (region.preview != "N/A" && previewCanPlay && !loadingRegion && previewsOn) {
                         if (previewIsFadingOut) {
@@ -184,9 +183,9 @@ function setUpSelectionScreen(regionData) {
                             previewIsFadingOut = false;
                         }
 
-                        if (!previewIsFadingOut && !songPreview.playing() && !loadingRegion && previewsOn) {
-                            songPreview.play();
-                            currentPreviewPlaying = songPreview;
+                        if (!previewIsFadingOut && !activePreview.playing() && !loadingRegion && previewsOn) {
+                            activePreview.play();
+                            currentPreviewPlaying = activePreview;
                         }
                     }
                 }
@@ -202,9 +201,9 @@ function setUpSelectionScreen(regionData) {
                     // fading out the song preview
                     if (region.preview != "N/A" && previewCanPlay) {
                         previewIsFadingOut = true;
-                        songPreview.fade(1, 0, 1000)
+                        activePreview.fade(1, 0, 1000)
                         // waiting for the song to fully fade before stopping it
-                        fadeCheck = setTimeout(() => {songPreview.stop()}, 1000)
+                        fadeCheck = setTimeout(() => {activePreview.stop()}, 1000)
                     }
                 }
 

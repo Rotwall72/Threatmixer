@@ -3,6 +3,16 @@ Here, the selection screen is set up, which involves getting all of the region d
 of the region buttons work.
 */
 
+// preview constructor
+class Preview {
+    constructor(song, region, isFadingOut = false, isFadingIn = false) {
+        this.song = song,
+        this.region = region,
+        this.isFadingOut = isFadingOut,
+        this.isFadingIn = isFadingIn
+    }
+}
+
 function setUpSelectionScreen(regionData) {
     // switching previews off if we're on mobile
     if (isMobileDevice) {
@@ -119,6 +129,8 @@ function setUpSelectionScreen(regionData) {
                 newRegionButton.appendChild(newFavoriteButton);
                 buttonOverflow.appendChild(newRegionButton);
 
+                var songPreview = new Preview(null, region.name);
+
                 // giving each button hover events
                 newRegionButton.onmouseenter = () => {
                     // updating info text
@@ -166,26 +178,31 @@ function setUpSelectionScreen(regionData) {
 
                     // creating the song preview
                     if (region.preview != undefined) {
-                        activePreview =  new Howl({
+                        songPreview.song = new Howl({
                             src: buildAudioSRC(region.preview),
                             loop: true,
-                            onplay: () => {activePreview.fade(0, 1, 1000)},
-                            onstop: () => {previewIsFadingOut = false}
+                            onplay: () => {songPreview.song.fade(0, 1, 1000)},
+                            onstop: () => {
+                                songPreview.isFadingOut = false;
+                                previousPreview = undefined;
+                            }
                         })
                     }
                     
-                    // fading in the song preview
                     if (region.preview != "N/A" && previewCanPlay && !loadingRegion && previewsOn) {
-                        if (previewIsFadingOut) {
-                            try {currentPreviewPlaying.stop();}
-                            catch {console.log("Damn!!!!!!!! Slow down!!!!!!!");}
-                            clearTimeout(fadeCheck);
-                            previewIsFadingOut = false;
-                        }
+                        if (previousPreview !== undefined) {
+                            if (previousPreview.isFadingOut) {
+                                previousPreview.song.stop();
+                                clearTimeout(fadeCheck);
+                                previousPreview.isFadingOut = false;
+                            }
 
-                        if (!previewIsFadingOut && !activePreview.playing() && !loadingRegion && previewsOn) {
-                            activePreview.play();
-                            currentPreviewPlaying = activePreview;
+                            if (!previousPreview.isFadingOut && !songPreview.song.playing() && !loadingRegion && previewsOn) {
+                                songPreview.song.play();
+                            }
+                        }
+                        else {
+                            songPreview.song.play();
                         }
                     }
                 }
@@ -200,10 +217,11 @@ function setUpSelectionScreen(regionData) {
 
                     // fading out the song preview
                     if (region.preview != "N/A" && previewCanPlay) {
-                        previewIsFadingOut = true;
-                        activePreview.fade(1, 0, 1000)
+                        songPreview.isFadingOut = true;
+                        songPreview.song.fade(1, 0, 1000);
+                        previousPreview = songPreview;
                         // waiting for the song to fully fade before stopping it
-                        fadeCheck = setTimeout(() => {activePreview.stop()}, 1000)
+                        fadeCheck = setTimeout(() => {songPreview.song.stop()}, 1000)
                     }
                 }
 
@@ -501,6 +519,7 @@ previewToggleButton.onclick = () => {
     if (!previewsOn) {
         previewToggleIcon.src = "assets/images/button_icons/preview_disabled_icon.png";
         updateTippyContent(previewToggleButton, "Preview Toggle (Off)");
+        Howler.stop()
     }
     else {
         previewToggleIcon.src = "assets/images/button_icons/preview_enabled_icon.png";

@@ -82,15 +82,14 @@ let menuMusicTimeout,
     tippyLayerNames = [],
     volumeSliders = [];
 
-let regionThreatLayers, hoverCheck, currentPreviewPlaying, // selection screen
-    noRegionsText, favFilterLabel, activePreview,
+let regionThreatLayers, hoverCheck, previousPreview, // selection screen
+    noRegionsText, favFilterLabel,
     houseCount = 0,
     storedScrollPosition = buttonOverflow.scrollTop,
     farShoreSelected = false,
     menuMusicPlaying = false,
     clickOnTimeout = false,
     regionButtonClicked = false,
-    previewIsFadingOut = false,
     previewCanPlay = false,
     loadingRegion = false,
     regionCountFinished = false,

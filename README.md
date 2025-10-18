@@ -18,11 +18,13 @@ If you want to see developement logs, share mixes, or just hang out with other f
 
 # *Changelog*
 
-Version 2.2.3
+Version 2.2.4
+
+- Marked Watcher 1.5 regions as no longer "new"
+- Updated credits to include github contributers
 
 Bugfixes:
-- Implemented a band-aid fix for preview songs not fading out
-    - Hitting the preview toggle button will end all currently playing previews
+- Proper fix to unruly previews made
 
 In progress:
 - Up-to-date tutorial section

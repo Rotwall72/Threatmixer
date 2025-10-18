@@ -485,7 +485,7 @@
     {
         "name": "Pillar Grove",
         "groups": ["watch"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "James Primate",
         "regionCredits": "Watcher Team",
@@ -530,7 +530,7 @@
     {
         "name": "Shattered Terrace",
         "groups": ["watch"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "James Primate",
         "regionCredits": "Watcher Team",
@@ -576,7 +576,7 @@
     {
         "name": "Stormy Coast",
         "groups": ["watch"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Serpanoy",
         "regionCredits": "Wrayk",
@@ -615,7 +615,7 @@
     {
         "name": "The Surface",
         "groups": ["watch"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "James Primate(?)",
         "regionCredits": "Kaeporo / Watcher Team",

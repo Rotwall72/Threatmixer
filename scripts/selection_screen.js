@@ -177,7 +177,7 @@ function setUpSelectionScreen(regionData) {
                     artCreditsInfo.innerText = `Art by: ${region.artCredits}`;
 
                     // creating the song preview
-                    if (region.preview != undefined) {
+                    if (region.preview !== undefined) {
                         previousPreview?.song.stop();
                         clearTimeout(fadeCheck);
                         previousPreview = songPreview;

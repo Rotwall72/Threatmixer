@@ -24,7 +24,7 @@ function setUpSelectionScreen(regionData) {
     showScreen(loadingScreen);
     document.title = "Threatmixer - Selection Screen";
 
-    
+
         // figuring out how many regions there are of each group
         Array.from(filterLabels).forEach((label) => {
             const targetGroup = label.htmlFor.replace("_filter", "");
@@ -178,14 +178,14 @@ function setUpSelectionScreen(regionData) {
 
                     // creating the song preview
                     if (region.preview != undefined) {
+                        previousPreview?.song.stop();
+                        clearTimeout(fadeCheck);
+                        previousPreview = songPreview;
                         songPreview.song = new Howl({
                             src: buildAudioSRC(region.preview),
                             loop: true,
                             onplay: () => {songPreview.song.fade(0, 1, 1000)},
-                            onstop: () => {
-                                songPreview.isFadingOut = false;
-                                previousPreview = undefined;
-                            }
+                            onstop: () => {songPreview.isFadingOut = false;}
                         })
                     }
                     
@@ -219,7 +219,6 @@ function setUpSelectionScreen(regionData) {
                     if (region.preview != "N/A" && previewCanPlay) {
                         songPreview.isFadingOut = true;
                         songPreview.song.fade(1, 0, 1000);
-                        previousPreview = songPreview;
                         // waiting for the song to fully fade before stopping it
                         fadeCheck = setTimeout(() => {songPreview.song.stop()}, 1000)
                     }

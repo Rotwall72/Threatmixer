@@ -18,10 +18,11 @@ If you want to see developement logs, share mixes, or just hang out with other f
 
 # *Changelog*
 
-Version 2.2.4
+Version 2.2.5
 
-- Marked Watcher 1.5 regions as no longer "new"
-- Updated credits to include github contributers
+- Tweaked song credits for The Rot
+    - Corrected original song credits from Connor "12LBS" Skidmore to James Primate
+- Updated credits for Budc
 
 Bugfixes:
 - Proper fix to unruly previews made

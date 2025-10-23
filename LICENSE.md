@@ -13,9 +13,9 @@ You can also find me on the [Official Rain World Discord Server](https://discord
 
 - [ECSP](https://ecsp.dev/) (Personal Website): Pixel Art, Playtesting, & Creative Assistence
 - [ParraKoot](https://m.soundcloud.com/laurens-wallner-859047082) (Soundcloud): Main menu music, Playtesting, & Creative Assistence
-- [Budc](https://budc123.github.io/) (Personal Website): Code Assistence & Playtesting
-- [Melncat](https://github.com/MelnCat) (Github) Code Assistence, "Sharper Button Icons" merge pull
-- [Nekomi4](https://github.com/Nekomi4) (Github) Code Assistence, "Fix selection screen previews" merge pull
+- [Budc](https://budc123.github.io/) (Personal Website): Code Assistence, Playtesting, & UI design
+- [Melncat](https://github.com/MelnCat) (Github) Code Assistence; "Sharper Button Icons" merge pull
+- [Nekomi4](https://github.com/Nekomi4) (Github) Code Assistence; "Fix selection screen previews" merge pull
 
 ## Videocult
 

@@ -23,6 +23,7 @@ Version 2.2.5
 - Tweaked song credits for The Rot
     - Corrected original song credits from Connor "12LBS" Skidmore to James Primate
 - Updated credits for Budc
+- Made it so previews aren't loaded while they're turned off
 
 Bugfixes:
 - Proper fix to unruly previews made

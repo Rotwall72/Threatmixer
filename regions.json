@@ -2353,8 +2353,8 @@
         "groups": ["mods"],
         "new": true,
         "favorited": false,
-        "songCredits": "Toxi",
-        "regionCredits": "Eco/Ruby",
+        "songCredits": "Eco/Ruby",
+        "regionCredits": "Toxi",
         "artCredits": "N/A",
         "layers": [
             ["spear_tap_icon.png", "music/threat_music/mods/WIA/TH_WIA - TAPTAP.ogg", 0],

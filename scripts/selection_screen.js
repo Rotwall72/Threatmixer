@@ -31,7 +31,7 @@ function setUpSelectionScreen(regionData) {
             if (!regionCountFinished) {
                 var regionCount = 0;
 
-                if (targetGroup != "fav") {
+                if (targetGroup !== "fav") {
                     regionData.forEach((region) => {
                         if ((region.groups[0] == targetGroup)) {regionCount++;}
                     })
@@ -163,6 +163,9 @@ function setUpSelectionScreen(regionData) {
                         case ("pilgrim"):
                             regionGroup = "Pilgrimate Threat Themes"
                             break;
+                        case("jeeper"):
+                            regionGroup = "Jeeper's Watcher Themes"
+                            break;
                         default:
                             regionGroup = region.groups[0];
                             break;
@@ -216,7 +219,7 @@ function setUpSelectionScreen(regionData) {
                     artCreditsInfo.innerText = "Art by: N/A";
 
                     // fading out the song preview
-                    if (region.preview != "N/A" && previewCanPlay) {
+                    if (region.preview != "N/A" && previewCanPlay && previewsOn) {
                         songPreview.isFadingOut = true;
                         songPreview.song.fade(1, 0, 1000);
                         // waiting for the song to fully fade before stopping it
@@ -249,17 +252,19 @@ function setUpSelectionScreen(regionData) {
             buttonOverflow.scrollTop = storedScrollPosition;
 
             // search and filter functionality
-            filterRegions(regionData, searchBar.value.toLowerCase()) // failsafe check
+            if (!failsafesDone) {filterRegions(regionData, searchBar.value.toLowerCase())} // failsafe check
             searchBar.oninput = () => {filterRegions(regionData, searchBar.value.toLowerCase())}
 
             Array.from(filterOptions).forEach((checkbox, index) => {
-                filterRegions(regionData, searchBar.value.toLowerCase(), checkbox) // failsafe checks
+                if (!failsafesDone) {filterRegions(regionData, searchBar.value.toLowerCase(), checkbox)}; // failsafe checks
                 updateLabelBrightness(checkbox, index);
                 checkbox.oninput = () => {
                     filterRegions(regionData, searchBar.value.toLowerCase(), checkbox);
                     updateLabelBrightness(checkbox, index);
                 }
             })
+
+            failsafesDone = true;
         });
 
         // adding a short cooldown to when song previews can begin playing
@@ -526,6 +531,18 @@ previewToggleButton.onclick = () => {
     }
 }
 
+showAllButton.onclick = () => {
+    Array.from(filterOptions).forEach((checkbox) => {
+        if (!checkbox.checked) {checkbox.click();}
+    })
+}
+
+hideAllButton.onclick = () => {
+    Array.from(filterOptions).forEach((checkbox) => {
+        if (checkbox.checked) {checkbox.click();}
+    })
+}
+
 // MISC FUNCTIONS
 function filterRegions(regionData, searchInput, filterInput = null) {
     // finding what categories of regions need to be excluded
@@ -544,10 +561,24 @@ function filterRegions(regionData, searchInput, filterInput = null) {
 
     regionData.forEach((region) => {
         const regionIndex = regionData.indexOf(region),
-            currentButton = regionButtons[regionIndex];
+            currentRegionButton = regionButtons[regionIndex];
         var regionName = region.name.toLowerCase(),
-            regionTrueName = regionName; 
+            regionTrueName = regionName,
+            regionArtists = [region.songCredits.toLowerCase()];
+        
+        const layerPathing = region.layers[0][1],
+            filePrefixIndex = layerPathing.indexOf("TH_");
+        // the +3 signifies moving 3 indexes to the right to reach the start of the ancronym
+        // likewise, the +7 signifies the end of the acronym (if it's 4 chars long) starting from the TH_ prefix
+        var regionAcronym = layerPathing.slice(filePrefixIndex + 3, filePrefixIndex + 7).toLowerCase();
 
+        const indexOfDash = -1;
+        if (regionAcronym[indexOfDash] === "-") {regionAcronym.splice(indexOfDash, 1)}
+        regionAcronym = regionAcronym.trim();
+
+        if (regionArtists[0].includes("&")) {
+            regionArtists = regionArtists[0].split(" & ");
+        }
         // trueName by default = display name, unless specified in json
         if (region.trueName != undefined) {
             regionTrueName = region.trueName.toLowerCase();
@@ -559,8 +590,23 @@ function filterRegions(regionData, searchInput, filterInput = null) {
             regionName = regionName.replace("the ", "");
         }
 
-        const nameContainsInput = regionName.slice(0, searchInput.length) == searchInput;
-        const trueNameContainsInput = regionTrueName.slice(0, searchInput.length) == searchInput;
+        var searchConditionMet = false;
+        switch(searchOptions.value) {
+            case("region"):
+                const nameContainsInput = regionName.slice(0, searchInput.length) === searchInput;
+                const trueNameContainsInput = regionTrueName.slice(0, searchInput.length) === searchInput;
+                searchConditionMet = nameContainsInput || trueNameContainsInput;
+                break;
+            case("artist"):
+                regionArtists.forEach((artist) => {
+                    if (artist.slice(0, searchInput.length) === searchInput) {searchConditionMet = true;}
+                })
+                break;
+            case("acronym"):
+                searchConditionMet = regionAcronym.slice(0, searchInput.length) === searchInput;
+                break;
+        }
+        
 
         var allGroupsExcluded = true;
 
@@ -570,11 +616,11 @@ function filterRegions(regionData, searchInput, filterInput = null) {
             }
         });
 
-        if ((!nameContainsInput && !trueNameContainsInput) || allGroupsExcluded) {
-            currentButton.style.display = "none";
+        if (!searchConditionMet || allGroupsExcluded) {
+            currentRegionButton.style.display = "none";
         }
         else {
-            currentButton.style.display = "block";
+            currentRegionButton.style.display = "block";
         }
     });
 

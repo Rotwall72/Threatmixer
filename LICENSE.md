@@ -60,12 +60,14 @@ Here's a full list of everyone who's region, music, and/or art is shown in this 
 - [Detrax](https://steamcommunity.com/profiles/76561198449674241) (Steam)
 - [Don](https://www.youtube.com/@donschnulione6646) (Youtube)
 - Fishswallower
+- [Eco/Ruby](https://www.youtube.com/channel/UCKPtLd13KVtzf1d1uDpHOFA) (Youtube)
 - [Fishnoid](https://www.youtube.com/channel/UCG-mPR0LtVn4QX0QSmSwCjQ) (Youtube)
 - [Gamerdog1654](https://steamcommunity.com/id/gamerdogdotcom) (Steam)
 - [Henpemaz](https://www.youtube.com/@henpemaz) (Youtube)
 - [Hessi](https://www.youtube.com/@hessi_943/videos) (Youtube)
 - Inspectnerd
 - [Iterator-iterator](https://steamcommunity.com/profiles/76561198045845551) (Steam)
+- [JeeperCreeperIH](https://steamcommunity.com/profiles/76561199202219418) (Steam)
 - [Joseph Nied](https://www.youtube.com/@josephtnied) (Youtube)
 - [Kaeporo](https://www.youtube.com/@Kaeporo) (Youtube)
 - [Kizorke](https://steamcommunity.com/profiles/76561199006667350) (Steam)
@@ -95,6 +97,7 @@ Here's a full list of everyone who's region, music, and/or art is shown in this 
 - [Snugboat](https://x.com/SnugBoat11) (Twitter)
 - Spog_frog
 - [totallydutch](https://steamcommunity.com/profiles/76561199198610727) (Steam)
+- [Toxi](https://steamcommunity.com/profiles/76561199406431694) (Steam)
 - [Tronsx](https://www.youtube.com/@tronsx8480) (Youtube)
 - [Turt](https://steamcommunity.com/id/turtlemanjackson) (Steam)
 - Tsunochizu
@@ -281,6 +284,9 @@ And here's the credits by region:
 - Region Art by Notocordia
 - Threat Theme by Serpanoy
 
+## The Annex (A & B):
+- Region & Threat Theme by BubbleGUMz
+
 ## The Cusp:
 - Region and Region Art by Blasting
 - Threat Theme by SaykioPorko
@@ -304,6 +310,10 @@ And here's the credits by region:
 
 ## Urban Reservoir
 - Region & Threat Theme by LudoCrypt
+
+## Windy Acre
+- Region by Toxi
+- Threat Theme by Eco/Ruby
 
 ## Winter's End Regions
 - Regions by Myztileaf
@@ -355,6 +365,10 @@ All of the songs featured in this mod were also produced by Best Gamer Ever.
 [Pilgrimate Threat Themes](https://steamcommunity.com/sharedfiles/filedetails/?id=3475378071) is a mod created by Sako L Patatas which, like Frigid Threat Themes, gives the Saint region variants new threat themes.
 
 All of the songs featured in this mod were also produced by Sako L Pata.
+
+# *Jeeper's Watcher Themes Credits*
+
+[JeeperCreeperIH's Watcher Threat Themes](https://steamcommunity.com/sharedfiles/filedetails/?id=3582718103&searchtext=watcher+threat) is a mod created by the one mentioned in its title which adds new threat themes to watcher regions that either didn't have a song before or just shared one from another region.
 
 ### Once again, thanks to all of you for allowing your amazing works to become a part of Threatmixer. You're all incredibly talented, and I couldn't be more proud to be in a community full of creatives like yourselves.
 

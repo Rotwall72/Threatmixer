@@ -18,15 +18,16 @@ If you want to see developement logs, share mixes, or just hang out with other f
 
 # *Changelog*
 
-Version 2.2.5
+Version 2.3.0
 
-- Tweaked song credits for The Rot
-    - Corrected original song credits from Connor "12LBS" Skidmore to James Primate
-- Updated credits for Budc
-- Made it so previews aren't loaded while they're turned off
-
-Bugfixes:
-- Proper fix to unruly previews made
+- Added 2 new search options
+    - Search by artist
+    - Search by acronym
+- Handful of new songs
+    - Windy Acre
+    - The Annex
+    - Outer Outskirts (new)
+    - JeeperCreeperIH's watcher threat themes
 
 In progress:
 - Up-to-date tutorial section

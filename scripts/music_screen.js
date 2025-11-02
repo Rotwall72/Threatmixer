@@ -752,6 +752,7 @@ function setUpMusicScreen() {
             switchToDark(saveButton, deleteButton, pauseButton);
 
             globalDuration = 9999;
+            failsafesDone = false;
             layerNameArray = [];
             tippyLayerNames = [];
             volumeSliders = [];

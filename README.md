@@ -18,11 +18,15 @@ If you want to see developement logs, share mixes, or just hang out with other f
 
 # *Changelog*
 
-Version 2.3.0
+Version 2.3.1
 
 - Added 2 new search options
     - Search by artist
     - Search by acronym
+
+- New filter options
+    - Either show/hide all categories
+
 - Handful of new songs
     - Windy Acre
     - The Annex

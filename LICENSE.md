@@ -370,6 +370,10 @@ All of the songs featured in this mod were also produced by Sako L Pata.
 
 [JeeperCreeperIH's Watcher Threat Themes](https://steamcommunity.com/sharedfiles/filedetails/?id=3582718103&searchtext=watcher+threat) is a mod created by the one mentioned in its title which adds new threat themes to watcher regions that either didn't have a song before or just shared one from another region.
 
+# *Miscellaneous Threat Themes*
+
+The Aether Ridge threat theme by yours truly is part of a [mod which replaces the WARF threat theme](https://steamcommunity.com/sharedfiles/filedetails/?id=3599933299). Threat themes for the other AR regions are planned to be added in the future as well.
+
 ### Once again, thanks to all of you for allowing your amazing works to become a part of Threatmixer. You're all incredibly talented, and I couldn't be more proud to be in a community full of creatives like yourselves.
 
 # *Licenses*

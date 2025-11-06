@@ -166,6 +166,9 @@ function setUpSelectionScreen(regionData) {
                         case("jeeper"):
                             regionGroup = "Jeeper's Watcher Themes"
                             break;
+                        case("misc"):
+                            regionGroup = "Miscellaneous"
+                            break;
                         default:
                             regionGroup = region.groups[0];
                             break;
@@ -639,7 +642,7 @@ function clearSelectionScreen() {
     layerButtonContainer.innerHTML = "";
     buttonOverflow.innerHTML = "";
     groupInfo.innerText = "Category:";
-    layerInfo.innerText = "Layers:"
+    layerInfo.innerText = "Layers:";
     musicCreditsInfo.innerText = "Song by:";
     regionCreditsInfo.innerText = "Region by:";
     artCreditsInfo.innerText = "Art by:";

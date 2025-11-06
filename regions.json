@@ -3946,22 +3946,17 @@
         "layers": [
             ["kick_icon.png", "music/threat_music/jeeper/ARD/TH_WARD - KICK.ogg", 0],
             ["snare_icon.png", "music/threat_music/jeeper/ARD/TH_WARD - DRUM.ogg", 0],
-            ["hit_icon.png", "music/threat_music/jeeper/ARD/TH_WARD - CLANG.ogg", 0],
             ["tom_icon.png", "music/threat_music/jeeper/ARD/TH_WARD - HIT.ogg", 0],
-            ["perc_icon.png", "music/threat_music/jeeper/ARD/TH_WARD - BASELINE.ogg", 0],
-            ["noise_icon.png", "music/threat_music/jeeper/ARD/TH_WARD - BOOM.ogg", 0],
-            ["kick_icon.png", "music/threat_music/jeeper/ARD/TH_WARD - HEARTBEAT.ogg", 0],
             ["pad_icon.png", "music/threat_music/jeeper/ARD/TH_WARD - TIMPANI.ogg", 0],
             ["synth_icon.png", "music/threat_music/jeeper/ARD/TH_WARD - WEIRD.ogg", 0],
             ["hat_icon.png", "music/threat_music/jeeper/ARD/TH_WARD - HISS.ogg", 0],
-            ["weird_sine_wave_icon.png", "music/threat_music/jeeper/ARD/TH_WARD - SIREN.ogg", 0],
             ["synth_icon.png", "music/threat_music/jeeper/ARD/TH_WARD - LEAD.ogg", 0]
         ],
         "colors": ["#8d5ee7"],
         "filters": ["brightness(0) saturate(100%) invert(38%) sepia(98%) saturate(512%) hue-rotate(221deg) brightness(95%) contrast(91%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/cold_storage.png",
-        "preview": "music/music_snippets/ARD_snippet.mp3"
+        "preview": "music/music_snippets/ARDA_snippet.mp3"
     },
     {
         "name": "Fractured Gateways",
@@ -3983,6 +3978,27 @@
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/fractured_gateways.png",
         "preview": "music/music_snippets/VWB_snippet.mp3"
+    },
+    {
+        "name": "Heat Ducts",
+        "groups": ["jeeper"],
+        "new": true,
+        "favorited": false,
+        "songCredits": "JeeperCreeperIH",
+        "regionCredits": "Kaeporo",
+        "artCredits": "N/A",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/jeeper/ARE/TH_WARE - DRUM.ogg", 0],
+            ["pad_icon.png", "music/threat_music/jeeper/ARE/TH_WARE - HIT.ogg", 0],
+            ["gas_noise_icon.png", "music/threat_music/jeeper/ARE/TH_WARE - HISS.ogg", 0],
+            ["shaker_icon.png", "music/threat_music/jeeper/ARE/TH_WARE - WEIRD.ogg", 0],
+            ["xylo_icon.png", "music/threat_music/jeeper/ARE/TH_WARE - BELL.ogg", 0]
+        ],
+        "colors": ["#8e252d"],
+        "filters": ["brightness(0) saturate(100%) invert(15%) sepia(50%) saturate(3892%) hue-rotate(339deg) brightness(92%) contrast(87%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/heat_ducts.png",
+        "preview": "music/music_snippets/ARE_snippet.mp3"
     },
     {
         "name": "Migration Path",
@@ -4027,6 +4043,27 @@
         "preview": "music/music_snippets/SKD_snippet.mp3"
     },
     {
+        "name": "Station Annex",
+        "groups": ["jeeper"],
+        "new": true,
+        "favorited": false,
+        "songCredits": "JeeperCreeperIH",
+        "regionCredits": "Kaeporo",
+        "artCredits": "N/A",
+        "layers": [
+            ["hit_icon.png", "music/threat_music/jeeper/ARD/TH_WARD - CLANG.ogg", 0],
+            ["perc_icon.png", "music/threat_music/jeeper/ARD/TH_WARD - BASELINE.ogg", 0],
+            ["noise_icon.png", "music/threat_music/jeeper/ARD/TH_WARD - BOOM.ogg", 0],
+            ["kick_icon.png", "music/threat_music/jeeper/ARD/TH_WARD - HEARTBEAT.ogg", 0],
+            ["weird_sine_wave_icon.png", "music/threat_music/jeeper/ARD/TH_WARD - SIREN.ogg", 0]
+        ],
+        "colors": ["#622dc7"],
+        "filters": ["brightness(0) saturate(100%) invert(27%) sepia(20%) saturate(4434%) hue-rotate(237deg) brightness(100%) contrast(122%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/station_annex.png",
+        "preview": "music/music_snippets/ARDB_snippet.mp3"
+    },
+    {
         "name": "Torrential Railways",
         "groups": ["jeeper"],
         "new": true,
@@ -4047,5 +4084,30 @@
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/torrential_railways.png",
         "preview": "music/music_snippets/SKA_snippet.mp3"
+    },
+    {
+        "name": "Aether Ridge",
+        "groups": ["misc"],
+        "new": true,
+        "favorited": false,
+        "songCredits": "Rotwall",
+        "regionCredits": "Kaeporo",
+        "artCredits": "N/A",
+        "layers": [
+            ["noise_icon.png", "music/threat_music/misc/ARF/TH_WARF - NOISE.ogg", 0],
+            ["kick_icon.png", "music/threat_music/misc/ARF/TH_WARF - KICK.ogg", 0],
+            ["snare_icon.png", "music/threat_music/misc/ARF/TH_WARF - PERC.ogg", 0],
+            ["hat_icon.png", "music/threat_music/misc/ARF/TH_WARF - CRASH.ogg", 0],
+            ["bass_icon.png", "music/threat_music/misc/ARF/TH_WARF - BASS.ogg", 0],
+            ["synth_icon.png", "music/threat_music/misc/ARF/TH_WARF - CHORDS.ogg", 0],
+            ["arps_icon.png", "music/threat_music/misc/ARF/TH_WARF - ARPS.ogg", 0],
+            ["synth_icon.png", "music/threat_music/misc/ARF/TH_WARF - LEAD.ogg", 0],
+            ["arps_icon.png", "music/threat_music/misc/ARF/TH_WARF - ALTARPS.ogg", 0]
+        ],
+        "colors": ["#f4faff"],
+        "filters": ["brightness(0) saturate(100%) invert(93%) sepia(35%) saturate(1609%) hue-rotate(179deg) brightness(112%) contrast(104%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/alt_aether_ridge_2.png",
+        "preview": "music/music_snippets/ARFR_snippet.mp3"
     }
 ]

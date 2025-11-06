@@ -18,20 +18,11 @@ If you want to see developement logs, share mixes, or just hang out with other f
 
 # *Changelog*
 
-Version 2.3.1
+Version 2.4.0
 
-- Added 2 new search options
-    - Search by artist
-    - Search by acronym
-
-- New filter options
-    - Either show/hide all categories
-
-- Handful of new songs
-    - Windy Acre
-    - The Annex
-    - Outer Outskirts (new)
-    - JeeperCreeperIH's watcher threat themes
+- Seperated Jeeper's Cold Storage track into Cold Storage and Station Annex
+- Added Jeeper's Heat Ducts
+- Added Rotwall's (my) Aehter Ridge w/ a new misc category
 
 In progress:
 - Up-to-date tutorial section

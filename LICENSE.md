@@ -372,7 +372,9 @@ All of the songs featured in this mod were also produced by Sako L Pata.
 
 # *Miscellaneous Threat Themes*
 
-The Aether Ridge threat theme by yours truly is part of a [mod which replaces the WARF threat theme](https://steamcommunity.com/sharedfiles/filedetails/?id=3599933299). Threat themes for the other AR regions are planned to be added in the future as well.
+The Aether Ridge threat theme by yours truly is part of a [mod which replaces the WARF threat theme](https://steamcommunity.com/sharedfiles/filedetails/?id=3599933299).
+
+The Heat Ducts threat was also made by me and is part of a [similar mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3602996916).
 
 ### Once again, thanks to all of you for allowing your amazing works to become a part of Threatmixer. You're all incredibly talented, and I couldn't be more proud to be in a community full of creatives like yourselves.
 

@@ -1542,7 +1542,7 @@
     {
         "name": "Outer Outskirts",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Kizorke",
         "regionCredits": "Kizorke",
@@ -2067,7 +2067,7 @@
     {   
         "name": "The Annex (A)",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "BubbleGUMz",
         "regionCredits": "BubbleGUMz",
@@ -2089,7 +2089,7 @@
     {   
         "name": "The Annex (B)",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "BubbleGUMz",
         "regionCredits": "BubbleGUMz",
@@ -2351,7 +2351,7 @@
     {   
         "name": "Windy Acre",
         "groups": ["mods"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Eco/Ruby",
         "regionCredits": "Toxi",
@@ -3917,7 +3917,7 @@
     {
         "name": "Aether Ridge",
         "groups": ["jeeper"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "JeeperCreeperIH",
         "regionCredits": "Kaeporo",
@@ -3938,7 +3938,7 @@
     {
         "name": "Cold Storage",
         "groups": ["jeeper"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "JeeperCreeperIH",
         "regionCredits": "Kaeporo",
@@ -3961,7 +3961,7 @@
     {
         "name": "Fractured Gateways",
         "groups": ["jeeper"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "JeeperCreeperIH",
         "regionCredits": "Watcher Team",
@@ -3982,7 +3982,7 @@
     {
         "name": "Heat Ducts",
         "groups": ["jeeper"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "JeeperCreeperIH",
         "regionCredits": "Kaeporo",
@@ -4003,7 +4003,7 @@
     {
         "name": "Migration Path",
         "groups": ["jeeper"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "JeeperCreeperIH",
         "regionCredits": "Watcher Team",
@@ -4024,7 +4024,7 @@
     {
         "name": "Shrouded Stacks",
         "groups": ["jeeper"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "JeeperCreeperIH",
         "regionCredits": "Wrayk",
@@ -4045,7 +4045,7 @@
     {
         "name": "Station Annex",
         "groups": ["jeeper"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "JeeperCreeperIH",
         "regionCredits": "Kaeporo",
@@ -4066,7 +4066,7 @@
     {
         "name": "Torrential Railways",
         "groups": ["jeeper"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "JeeperCreeperIH",
         "regionCredits": "Wrayk",
@@ -4088,26 +4088,49 @@
     {
         "name": "Aether Ridge",
         "groups": ["misc"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Rotwall",
         "regionCredits": "Kaeporo",
         "artCredits": "N/A",
         "layers": [
-            ["noise_icon.png", "music/threat_music/misc/ARF/TH_WARF - NOISE.ogg", 0],
-            ["kick_icon.png", "music/threat_music/misc/ARF/TH_WARF - KICK.ogg", 0],
-            ["snare_icon.png", "music/threat_music/misc/ARF/TH_WARF - PERC.ogg", 0],
-            ["hat_icon.png", "music/threat_music/misc/ARF/TH_WARF - CRASH.ogg", 0],
-            ["bass_icon.png", "music/threat_music/misc/ARF/TH_WARF - BASS.ogg", 0],
-            ["synth_icon.png", "music/threat_music/misc/ARF/TH_WARF - CHORDS.ogg", 0],
-            ["arps_icon.png", "music/threat_music/misc/ARF/TH_WARF - ARPS.ogg", 0],
-            ["synth_icon.png", "music/threat_music/misc/ARF/TH_WARF - LEAD.ogg", 0],
-            ["arps_icon.png", "music/threat_music/misc/ARF/TH_WARF - ALTARPS.ogg", 0]
+            ["noise_icon.png", "music/threat_music/misc/ARFR/TH_WARF - NOISE.ogg", 0],
+            ["kick_icon.png", "music/threat_music/misc/ARFR/TH_WARF - KICK.ogg", 0],
+            ["snare_icon.png", "music/threat_music/misc/ARFR/TH_WARF - PERC.ogg", 0],
+            ["hat_icon.png", "music/threat_music/misc/ARFR/TH_WARF - CRASH.ogg", 0],
+            ["bass_icon.png", "music/threat_music/misc/ARFR/TH_WARF - BASS.ogg", 0],
+            ["synth_icon.png", "music/threat_music/misc/ARFR/TH_WARF - CHORDS.ogg", 0],
+            ["arps_icon.png", "music/threat_music/misc/ARFR/TH_WARF - ARPS.ogg", 0],
+            ["synth_icon.png", "music/threat_music/misc/ARFR/TH_WARF - LEAD.ogg", 0],
+            ["arps_icon.png", "music/threat_music/misc/ARFR/TH_WARF - ALTARPS.ogg", 0]
         ],
         "colors": ["#f4faff"],
         "filters": ["brightness(0) saturate(100%) invert(93%) sepia(35%) saturate(1609%) hue-rotate(179deg) brightness(112%) contrast(104%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/alt_aether_ridge_2.png",
         "preview": "music/music_snippets/ARFR_snippet.mp3"
+    },
+    {
+        "name": "Heat Ducts",
+        "groups": ["misc"],
+        "new": true,
+        "favorited": false,
+        "songCredits": "Rotwall",
+        "regionCredits": "Kaeporo",
+        "artCredits": "N/A",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/misc/ARER/TH_WARE - KICK.ogg", 0],
+            ["spear_tap_icon.png", "music/threat_music/misc/ARER/TH_WARE - TAPS.ogg", 0],
+            ["hit_icon.png", "music/threat_music/misc/ARER/TH_WARE - BASS.ogg", 0],
+            ["gas_noise_icon.png", "music/threat_music/misc/ARER/TH_WARE - GAS.ogg", 0],
+            ["hat_icon.png", "music/threat_music/misc/ARER/TH_WARE - HAT.ogg", 0],
+            ["bass_icon.png", "music/threat_music/misc/ARER/TH_WARE - HUM.ogg", 0],
+            ["arps_icon.png", "music/threat_music/misc/ARER/TH_WARE - ARPS.ogg", 0]
+        ],
+        "colors": ["#6c060d"],
+        "filters": ["brightness(0) saturate(100%) invert(8%) sepia(86%) saturate(3058%) hue-rotate(337deg) brightness(92%) contrast(105%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/alt_heat_ducts.png",
+        "preview": "music/music_snippets/ARER_snippet.mp3"
     }
 ]

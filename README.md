@@ -18,11 +18,10 @@ If you want to see developement logs, share mixes, or just hang out with other f
 
 # *Changelog*
 
-Version 2.4.0
+Version 2.5.0
 
-- Seperated Jeeper's Cold Storage track into Cold Storage and Station Annex
-- Added Jeeper's Heat Ducts
-- Added Rotwall's (my) Aehter Ridge w/ a new misc category
+- Added Rotwall's (my) Heat Ducts theme
+- Replaced the layers for my Aether Ridge theme with better looping ones
 
 In progress:
 - Up-to-date tutorial section

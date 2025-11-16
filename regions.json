@@ -4101,11 +4101,12 @@
             ["bass_icon.png", "music/threat_music/misc/ARFR/TH_WARF - BASS.ogg", 0],
             ["synth_icon.png", "music/threat_music/misc/ARFR/TH_WARF - CHORDS.ogg", 0],
             ["arps_icon.png", "music/threat_music/misc/ARFR/TH_WARF - ARPS.ogg", 0],
-            ["synth_icon.png", "music/threat_music/misc/ARFR/TH_WARF - LEAD.ogg", 0],
-            ["arps_icon.png", "music/threat_music/misc/ARFR/TH_WARF - ALTARPS.ogg", 0]
+            ["arps_icon.png", "music/threat_music/misc/ARFR/TH_WARF - ALTARPS.ogg", 1],
+            ["synth_icon.png", "music/threat_music/misc/ARFR/TH_WARF - LEAD.ogg", 1]
         ],
-        "colors": ["#f4faff"],
-        "filters": ["brightness(0) saturate(100%) invert(93%) sepia(35%) saturate(1609%) hue-rotate(179deg) brightness(112%) contrast(104%)"],
+        "colors": ["#f4faff", "#7cbbf0"],
+        "filters": ["brightness(0) saturate(100%) invert(93%) sepia(35%) saturate(1609%) hue-rotate(179deg) brightness(112%) contrast(104%)",
+                    "brightness(0) saturate(100%) invert(68%) sepia(36%) saturate(601%) hue-rotate(173deg) brightness(100%) contrast(89%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/alt_aether_ridge_2.png",
         "preview": "music/music_snippets/ARFR_snippet.mp3"
@@ -4113,7 +4114,7 @@
     {
         "name": "Heat Ducts",
         "groups": ["misc"],
-        "new": true,
+        "new": false,
         "favorited": false,
         "songCredits": "Rotwall",
         "regionCredits": "Kaeporo",

@@ -18,10 +18,9 @@ If you want to see developement logs, share mixes, or just hang out with other f
 
 # *Changelog*
 
-Version 2.5.0
+Version 2.5.1
 
-- Added Rotwall's (my) Heat Ducts theme
-- Replaced the layers for my Aether Ridge theme with better looping ones
+- Changed layer coloration for ARFR (Rot's Aether Ridge)
 
 In progress:
 - Up-to-date tutorial section

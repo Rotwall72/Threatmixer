@@ -18,9 +18,11 @@ If you want to see developement logs, share mixes, or just hang out with other f
 
 # *Changelog*
 
-Version 2.5.1
+Version 2.5.2
 
-- Changed layer coloration for ARFR (Rot's Aether Ridge)
+- Updated credits for The Surface and Stormy Coast threat themes
+    - Stormy Coast: "Serpanoy" -> "Serpanoy & James Primate (Sunbaked Layers)"
+    - The Surface: "James Primate(?)" -> "James Primate"
 
 In progress:
 - Up-to-date tutorial section

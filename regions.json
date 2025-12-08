@@ -384,7 +384,7 @@
                     "brightness(0) saturate(100%) invert(79%) sepia(48%) saturate(7414%) hue-rotate(309deg) brightness(95%) contrast(85%)",
                     "brightness(0) saturate(100%) invert(35%) sepia(55%) saturate(3686%) hue-rotate(241deg) brightness(101%) contrast(90%)",
                     "brightness(0) saturate(100%) invert(36%) sepia(13%) saturate(1984%) hue-rotate(167deg) brightness(94%) contrast(92%)"],
-        "containerWidth": "56vw",
+        "containerWidth": "69vw",
         "background": "assets/images/backgrounds/aether_ridge.png",
         "preview": "music/music_snippets/AR_snippet.mp3"
     },
@@ -608,7 +608,7 @@
         "filters": ["brightness(0) saturate(100%) invert(21%) sepia(28%) saturate(575%) hue-rotate(162deg) brightness(89%) contrast(87%)",
                     "brightness(0) saturate(100%) invert(51%) sepia(95%) saturate(1647%) hue-rotate(310deg) brightness(95%) contrast(94%)",
                     "brightness(0) saturate(100%) invert(36%) sepia(7%) saturate(4559%) hue-rotate(144deg) brightness(87%) contrast(83%)"],
-        "containerWidth": "69vw",
+        "containerWidth": "71vw",
         "background": "assets/images/backgrounds/stormy_coast.png",
         "preview": "music/music_snippets/SK_snippet.mp3"
     },
@@ -1787,7 +1787,7 @@
         "filters": ["brightness(0) saturate(100%) invert(66%) sepia(27%) saturate(404%) hue-rotate(335deg) brightness(87%) contrast(93%)",
                     "brightness(0) saturate(100%) invert(74%) sepia(13%) saturate(5979%) hue-rotate(183deg) brightness(100%) contrast(105%)",
                     "invert(21%) sepia(66%) saturate(1409%) hue-rotate(205deg) brightness(93%) contrast(92%)"],
-        "containerWidth": "76vw",
+        "containerWidth": "83vw",
         "background": "assets/images/backgrounds/rusted_basin.png",
         "preview": "music/music_snippets/RB_snippet.mp3"
     },

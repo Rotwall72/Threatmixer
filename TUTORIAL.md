@@ -4,135 +4,79 @@
 
 When exporting a mix from Google Chrome, Microsoft Edge, or really (to my knowledge) any other web browser aside from Firefox, the resulting audio file will likely be in the .webm format and won't have any metadata. This means that you likely won't be able to control the file's playback in your device's media player nor edit it in an audio/video editing software. To convert these files to a different format and restore the metadata, I recommend that you use a file converter like [Cloud Convert](https://cloudconvert.com/).
 
-## Music screen refusing to load
+# *Guide (as of 2.6.0)*
 
-Issues like this are typically due to restrictions or device complications on the user's end. Try researching and changing any settings on your browser that may be blocking this webpage from functioning properly.
-
-## Mobile Incompatability
-
-Mobile devices tend to struggle to load the webpage and its resources. They also often cannot utelize every feature available on the webpage. As much as an inconvenience as this may be for some, I'd recommend using the site on a computer/laptop until a proper patch for mobile devices is made.
-
-# *Tutorial*
-
-Welcome to threatmixer! This short tutorial will go over the basics of how to use this webpage. If you have any further questions, or have any suggestions for this webpage, feel free to ask on the discord server. (you can find the link on the home screen)
+Welcome to Threatmixer! Here, we'll go over the basics of how to use the webpage.
 
 ![Home Screen](assets/images/tutorial/home_screen_example.png)
 
-When you first open the page, you'll be presented with the home screen, where you can learn more about this project before getting started. When you're ready to start click the "BEGIN!" button, and you will be brought to the region selection screen, where you can choose which threat theme you want to play with.
+Upon first opening the page, you'll be presented with the home screen. Take a second to admire the names behind the project before selecting from the five options beneath the title:
+- **BEGIN!**: Takes you out of the home screen and into the selection screen.
+- **ABOUT**: Displays general info about the project as well as the changelog for the current version.
+- **HELP**: Where you are now.
+- **CREDITS**: Self-explanatory. Library liscenses are also detailed here.
+- **GIVE FEEDBACK**: Opens up a Google form in another tab where you can submit any comments and suggestions.
 
-## Selection screen
+You'll also notice some buttons in the corner of the screen. In the bottom left, the blue button leads to our official Discord server and the white one leads to the webpage's Github repository. Click the button in the top right of the screen to hear some wonderful menu music made by Parrakoot!
 
-This is the selection screen, here you can select the threat theme you want to play with.
+Once you're done looking around, hit the BEGIN button to enter the selection screen and start hearing some threat themes.
 
-### Region List
+## The Selection Screen
 
-![Region List](assets/images/tutorial/region_list_example.png)
+Here, you can peruse the webpage's huge catalogue of songs, all from Rain World's original soundtrack alongside fan-made ones from the community. 
 
-This is the region list, here you can choose what threat theme you want to play with. You can scroll through the list of regions with the scroll wheel, or by dragging the scroll bar to the right. To select a region, simply click on the region button that you want to mix.
+![Selection Screen](assets/images/tutorial/selection_screen_example.png)
 
-### Menu Buttons
+Simply scroll through the buttons labeled with region names until you find something you want to listen to. If you're on a computer, hover over a region button to hear a small preview of the full song! While hovering, you can also look towards the bottom right of the screen to see some more information on the song, including who made it, what region it's for, and what category it belongs to.
 
-![Menu Buttons](assets/images/tutorial/region_list_buttons_example.png)
+These categories alongside the search bar and filter options make it easy to find exact songs. The search bar allows you to search for songs by the region name, artist name, or region acronym (for those that know them). Simply type where it prompts you to and the catalogue will automatically only show what fits your query. You can then further narrow down your search with the additional filters in the top right. Toggle which categories of songs you wish to see by using the checkboxes.
 
-These are the menu buttons for the selection screen. From left to right, they are:
-1. Back button: This button brings you back to the home screen.
-2. Preview music toggle: This turns on and off the Preview music that plays when you hover over a region.
-3. Search box: This allows you to search for regions by name.
+Also, while hovering over a button, you may have noticed a little heart appear:
 
-### Search Filters
+![Favorite Button](assets/images/tutorial/region_list_fav_example.png)
 
-![Search Filters](assets/images/tutorial/region_list_filters_example.png)
+By clicking it, you'd have set the current song as one of your favorites. Favorited songs get put into their own special category so you can easily find them later. The webpage will remember which regions you selected as favorites by storing the information within your browser's local storage.
 
-This allows you to filter what regions from certain mods/DLCs are displayed. Click on the checkbox next to a mod/DLC name to show or hide regions in that category. You can also view your favorited regions here, but that will be covered in more detail later.
+Lastly, the two buttons in the top left of the screen and the exit and preview toggle buttons. They will both bring you back to the home screen and prevent song previews from playing respectively.
 
-### Region Info
+Now that you can nagivate the selection screen, it's time to choose a threat theme and get mixing.
 
-![Region Info](assets/images/tutorial/region_list_info_example.png)
+## The Music Screen
 
-This will display information about the hovered region, such as what category it's in, how many layers the threat theme has, and who made the song, region & art.
+Let's say you chose Metropolis because you have incredible taste. You'll then be greeted with this:
 
-### Favorite Regions
+![Music Screen](assets/images/tutorial/music_screen_example.png)
 
-![Region Info](assets/images/tutorial/region_list_fav_example.png)
+There's lots of things to go over here, so bear with me as I walk you through it all. Let's go over the **layer buttons** first.
 
-To favorite a region, hover over it and click the small heart in the top-left corner of the region button, that region will then be added to your favorites. To see the regions that you have favorited, uncheck everything in the "Search Filters" section, except for "Favorites". Your favorited regions are saved, even if you leave the webpage and come back.
+![Layer and Solo Buttons](assets/images/tutorial/layer_and_solo_example.png)
 
-## Music screen
+These are what are right in the middle of the screen and have special icons typically representing sounds/instruments. Each layer button corresponds with a different layer of the threat theme. You can see the name of said layer by hovering over the button. Simply click these buttons to either play or mute specific sounds. These would then all come together to form the complete song. Rather than clicking, you could also activate a button by pressing its assigned key on your keyboard.
 
-Let's say you chose Outskirts. You'll then be brought to this region's "music screen".
+Below each layer button is what's called a **solo button**. As the name implies, it will solo out its corresponding layer once pressed, muting all others which were playing beforehand. Pressing the button again will un-solo the song, unmuting the other sounds which were originally playing. To activate them with a keyboard, simply hold shift and press the corresponding layer button's key (for example, to solo out the kick, you'd hit shift + 1).
 
-![SU Music Screen](assets/images/tutorial/example_2.png)
+Furthermore, layer buttons will sometimes have different colors despite being from the same region. This is usually to denote subregions, certain layers that aren't meant to be heard together in-game, or other such special cases.
 
-In the top left, you'll find the exit button, which will bring you back to the selection screen. Everything under the title of the region will be what you use to create your mixes. You'll also find that, when you begin playing music, a visualizer will appear and start moving in the background. Its visibility is toggleable via a button in the row of buttons towards the bottom, which I will cover in more detail later.
+Now, let's cover the **control buttons**.
 
-## Progress Bar
+![Control Buttons](assets/images/tutorial/control_buttons_example.png)
 
-The progress bar represents the duration of the threat theme. It will automatically begin once you start the song, and reset when the song loops. Use it to learn when certain layers of the threat theme will begin playing to create stronger mixes!
+Here's how they function from left to right:
+- **Start Button**: Begins the song with your selected layers.
+- **Play/End All Button**: Begins the song with every layer unmuted. Ends the song if it is currently playing.
+- **Pause Button**: Pauses the song. Pauses recordings as well.
+- **Record Button**: Begins a recording.
+- **Save Button**: Brings up a prompt to name and save the recording to your downloads.
+- **Delete Button**: Discards the current recording.
+- **Fade Toggle**: Enables/disables fading in/out layers. All layers will become fadable when enabled.
+- **Visualizer Toggle**: Hides/shows the visualizer.
 
-![Progress Bar](assets/images/tutorial/example_3.png)
+Pretty simple, right? The settings button in the top left also provides some greater control over your mix and the music screen as a whole:
 
-## Layer Buttons
+![Setting Button](assets/images/tutorial/settings_example.png)
 
-This row of buttons represents each individual layer of your region's threat theme. Each button has an icon to help you understand what sound each button is representing. Beneath each large button (also called a "layer button"), is a smaller button with an icon representing headphones. These are called "solo buttons". 
+These options should be pretty self-explanatory, but I will go over the "Reset Individual Layer Volumes" quickly. When hovering over a layer button, a volume slider will appear which allows you to alter how loud that specific layer is. When you click the volume reset button, it does what it says it will for every layer.
 
-![Layer Buttons](assets/images/tutorial/example_4.png)
+Last but not least, the exit button above the settings button will take you back to the selection screen once ready.
 
-To simply go over what clicking each button will do, clicking a layer button will either mute or unmute the sound that it is representing (**after the start button has been clicked!**). Hitting a solo button will solo out whichever layer you want to have playing by itself. Clicking the solo button again will un-solo the layer that you've chosen and unmute any other layers that were playing beforehand. 
-For instance, if I have the kick (scug drum), bass (guitar), and arps (piano) playing, when I hit the solo button under the arps button, both the kick and bass layers are muted so that only the arps are audible. Clicking that same solo button again will unmute the kick and the bass.
-
-## General Control Buttons
-
-Below the layer buttons, you'll find another row of buttons which provide you with greater control over your mix. From the left to right, the first three buttons control how the song plays, the next three allow you to record your mixes, and the final button is a simple toggle for the visualizer that runs in the background.
-
-![Layer Buttons](assets/images/tutorial/example_5.png)
-
-Here's how each button is used:
-
-### 1. Start Button (Glass Play Icon)
-
-![Button Icon](assets/images/tutorial/start_button_example.png)
-
-Before the song begins, you have the option to choose which layers you want to start off with. In order for this button to work, you must have at least 1 layer pre-selected. This is done by clicking on the layer buttons that you want to pre-select, causing them to enlarge to signify that they're active. Once you've chosen all of your layers, you can then click the start button to begin the threat theme. The layers that you've pre-picked will now be audible. Again, **you must click the start button to begin the song before anything can play!**
-
-### 2. Play All Button (Stripped Play Icon)
-
-![Button Icon](assets/images/tutorial/play_all_button_example.png)
-![Button Icon](assets/images/tutorial/stop_all_button_example.png)
-
-Alternatively to the start button, you can also click the play all button to begin the song with every layer active at once. If the threat theme is active and is currently playing, this button will change icons and become a stop or "end all" button. When clicked at any point, the song will cease and completely reset. The button will then change back to its "play all" state, and you can then either press it again or pre-select layers and use the start button.
-
-### 3. Pause/Resume Button (Pause/Resume Icon)
-
-![Button Icon](assets/images/tutorial/pause_button_example.png) 
-![Button Icon](assets/images/tutorial/resume_button_example.png)
-
-Clicking the pause button will halt the song without ending it. The progress bar and visualizer will cease movement as well. This also extends to the recording feature that you may have active, temporarily stopping it without effecting the resulting mp3 file. Although the song is paused, you can still mute, unmute, and solo layer buttons as you please (use this to your advantage to really get creative with your mixes!). After pausing the song, the pause button will become a resume button and, as you could guess, will resume the song once clicked.
-
-### 4. Start Recording Button (Mic Icon)
-
-![Button Icon](assets/images/tutorial/recording_button_example.png)
-![Button Icon](assets/images/tutorial/recording_started_button_example.png)
-![Button Icon](assets/images/tutorial/recording_pending_button_example.png)
-
-Pressing this button will activate this webpage's recorder, which allows you to record your mixes and then export them as an mp3 file. The recorder only picks up audio made by the page and no other audio sources; so not your microphone or external tabs/programs making noise. When the recorder is active, this button's icon will gain an ellipsis next to the microphone to show that recording is in progress. If you press this button before the song starts, the button icon will gain a large circle next to the microphone and the recorder will then be queued, meaning it will activate as soon as the song starts.
-
-### 5. Save Recording Button (Mic + Floppy Disk Icon)
-
-![Button Icon](assets/images/tutorial/save_recording_button_example.png)
-
-Pressing this button will transfer whatever the recorder picked up into an exportable mp3 file. You'll be prompted to enter the name of your file before it's automatically downloaded onto your computer. This file can then be used and shared (hopefully) wherever you please.
-
-### 6. Delete Recording Button (Mic + Trash Bin Icon)
-
-![Button Icon](assets/images/tutorial/delete_recording_button_example.png)
-
-When pressed, the recording that's currently active will be discarded. A new recording can then begin afterwards, given there's no other recordings currently running. This button will also cancel a queued recording if the song hasn't started yet.
-
-### 7. Visualizer Toggle (Canvas w/ Waves Icon)
-
-![Button Icon](assets/images/tutorial/canvas_on_button_example.png)
-![Button Icon](assets/images/tutorial/canvas_off_button_example.png)
-
-Lastly, the visualizer toggle can turn the visualizer moving in the background on or off. When on, the button icon will be how it is normally, representing audio waves enclosed in a canvas. When off, the button icon will be crossed out to signify the visualizer not being active.
-
-That wraps up about everything that you need to know to use this webpage to its fullest. You have the tools to mix and match the layers of your favorite threat themes as you please, so I hope you enjoy using Threatmixer!
+...And that's all! As the webpage gains more features and becomes more complex over time, this guide will reflect such. I hope you have an easy and fun time exploring what Threatmixer has to offer. Now stop reading and go listen to some music!

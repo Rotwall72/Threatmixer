@@ -75,6 +75,8 @@ const layerButtons = document.getElementsByClassName("layer_button"), // music s
     settingsButton = document.getElementById("settings_button"),
     settingsContainer = document.getElementById("settings_container"),
     volumeResetButton = document.getElementById("volume_reset_button"),
+    shortcutToggle = document.getElementById("shortcut_toggle"),
+    keyLabels = document.getElementsByClassName("key_labels"),
     masterVolumeSlider = document.getElementById("master_volume_slider"),
     sliders = document.getElementsByClassName("sliders");
 
@@ -99,6 +101,7 @@ let regionThreatLayers, hoverCheck, previousPreview, // selection screen
     regionCountFinished = false,
     favoriteButtonCicked = false,
     failsafesDone = false,
+    keyLabelsAlreadyAppend = false,
     previewsOn = getLocalItem("previewsOn"),
     excludeList = [],
     favoritedArray = getLocalItem("favorites");
@@ -106,10 +109,14 @@ let regionThreatLayers, hoverCheck, previousPreview, // selection screen
 const percentConversion = 100, // music screen
     brightened = "brightness(100%)",
     dimmed = "brightness(50%)",
+    soloIcon1 = "assets/images/button_icons/solo_icon_1.png",
+    soloIcon2 = "assets/images/button_icons/solo_icon_2.png",
     unmute = 1,
     mute = 0,
-    soloIcon1 = "assets/images/button_icons/solo_icon_1.png",
-    soloIcon2 = "assets/images/button_icons/solo_icon_2.png";
+    keysArray = ["1", "2", "3", "4", "5", "6", "7", "8", "9",
+        "q", "w", "e", "r", "t", "y", "u", "i", "o", "p",
+        "a", "s", "d", "f", "g", "h", "j", "k", "l"],
+    correspondingShiftKeys = ["!", "@", "#", "$", "%", "^", "&", "*", "("];
 let songSoloed, songStarted, eraseRecording, loadedLayers, 
     layersPlaying, startingLayers, recordedData, songDuration, 
     barUpdateInterval, fadeCheck, instanceSongLength,
@@ -384,6 +391,8 @@ function createTippy(element, content, color) {
         layerVolumeSlider.max = "300";
         layerVolumeSlider.value = "100";
         layerVolumeSlider.classList.add("sliders");
+        layerVolumeSlider.style.width = "10vw"
+        layerVolumeSlider.style.height = "1vw"
         layerVolumeSlider.style.setProperty("--dynamic-color", color);
         volumeSliders.push(layerVolumeSlider);
 

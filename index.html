@@ -68,8 +68,8 @@
             <img class="link_icon" src="assets\images\button_icons\github_icon.png">
         </button> 
 
-        <p id="disclaimer">DISCLAIMER: I am not affiliated with Videocult nor Akupara Games in any way. This is a fan project, and I own none of the images or music featured on this page. Also, beware of major game and dlc spoilers for Rain World!</p>
-        <p id="version">Version 2.5.2</p>
+        <p id="disclaimer">DISCLAIMER: I am not affiliated with Videocult nor Akupara Games in any way. This is a fan project, and I own almost none of the images or music featured on this page. Also, beware of major game and dlc spoilers for Rain World!</p>
+        <p id="version">Version 2.6.0</p>
 
         <img id="bird" src="assets\images\misc\vanillabean.png">
     </div>
@@ -205,12 +205,12 @@
         <!-- Music Screen Option Buttons-->
         <div id="music_option_buttons_container">
             <!-- Exit Button -->
-            <button data-title="Back" class="needs_other_tippy_style" id="exit_button">
+            <button data-title="Back" data-correspondingkey="Escape" class="other_buttons needs_other_tippy_style" id="exit_button">
                 <img class="other_button_icons" src="assets/images/button_icons/exit_icon.png">
             </button>
 
             <!-- Settings Button -->
-            <button data-title="Settings" class="needs_other_tippy_style" id="settings_button">
+            <button data-title="Settings" data-correspondingkey="Tab" class="other_buttons needs_other_tippy_style" id="settings_button">
                 <img class="other_button_icons" src="assets/images/button_icons/gear_icon.png">
             </button>
         </div>
@@ -232,34 +232,34 @@
         <!-- Other buttons -->
         <div id="option_buttons_container">
             <!-- Music control -->
-            <button data-title="Start Song" class="other_buttons darken_button" id="start_button">
+            <button data-title="Start Song" data-correspondingKey="z" class="other_buttons darken_button" id="start_button">
                 <img class="other_button_icons" src="assets/images/button_icons/start_icon.png">
             </button>
-            <button data-title="Play All Layers" class="other_buttons" id="play_button">
+            <button data-title="Play All Layers" data-correspondingKey="x" class="other_buttons" id="play_button">
                 <img class="other_button_icons" src="assets/images/button_icons/play_all_icon.png">
             </button>
-            <button data-title="Pause Song & Recording" class="other_buttons darken_button" id="pause_button">
+            <button data-title="Pause Song & Recording" data-correspondingKey="c" class="other_buttons darken_button" id="pause_button">
                 <img class="other_button_icons" src="assets/images/button_icons/pause_icon.png">
             </button>
         
             <!-- Recording control -->
-            <button data-title="Start Recording" class="other_buttons recording_buttons" id="record_button">
+            <button data-title="Start Recording" data-correspondingKey="v" class="other_buttons recording_buttons" id="record_button">
                 <img class="other_button_icons" src="assets/images/button_icons/rec_icon.png">
             </button>
-            <button data-title="Save Recording" class="other_buttons recording_buttons darken_button" id="save_button">
+            <button data-title="Save Recording" data-correspondingKey="b" class="other_buttons recording_buttons darken_button" id="save_button">
                 <img class="other_button_icons" src="assets/images/button_icons/save_icon.png">
             </button>
-            <button data-title="Discard Recording" class="other_buttons recording_buttons darken_button" id="delete_button">
+            <button data-title="Discard Recording" data-correspondingKey="n" class="other_buttons recording_buttons darken_button" id="delete_button">
                 <img class="other_button_icons" src="assets/images/button_icons/delete_icon.png">
             </button>
 
             <!-- Fade toggle -->
-            <button data-title="Fade Toggle (Off)" class="other_buttons" id="fade_toggle">
+            <button data-title="Fade Toggle (Off)" data-correspondingKey="m" class="other_buttons" id="fade_toggle">
                 <img class="other_button_icons" id="fade_toggle_icon" src="assets/images/button_icons/fade_disabled_icon.png">
             </button>
 
             <!-- Visualizer toggle -->
-            <button data-title="Visualizer Toggle (On)" class="other_buttons" id="visualizer_toggle">
+            <button data-title="Visualizer Toggle (On)" data-correspondingKey="," class="other_buttons" id="visualizer_toggle">
                 <img class="other_button_icons" src="assets/images/button_icons/vis_enabled_icon.png">
             </button>
         </div>
@@ -281,6 +281,11 @@
             <div>
                 <label id="fade_out_duration_label" for="fade_out_duration_slider">Fade Out Duration</label>
                 <input class="fade_duration_sliders sliders needs_other_tippy_style" id="fade_out_duration_slider" name="fade_out_duration_slider" type="range" min="1" max="60" value="5">
+            </div>
+
+            <div id="shortcut_toggle_div">
+                <label id="shortcut_toggle_label" for="shortcut_toggle">Show Keyboard Shortcuts:</label>
+                <input id="shortcut_toggle" type="checkbox" checked/>
             </div>
         </div>
 

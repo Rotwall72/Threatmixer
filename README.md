@@ -18,12 +18,13 @@ If you want to see developement logs, share mixes, or just hang out with other f
 
 # *Changelog*
 
-Version 2.5.2
+Version 2.6.0
 
-- Updated credits for The Surface and Stormy Coast threat themes
-    - Stormy Coast: "Serpanoy" -> "Serpanoy & James Primate (Sunbaked Layers)"
-    - The Surface: "James Primate(?)" -> "James Primate"
+- Added keyboard shortcuts for music screen controls
+- Rewrote tutorial/guide information to be up-to-date
+- Fixed UI errors on mobile displays
+    - Volume sliders are no longer massive
+    - Regions with lots of layers no longer push control buttons off-screen
 
 In progress:
-- Up-to-date tutorial section
-- Mobile compatability
+- Rebindable shortcuts

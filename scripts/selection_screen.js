@@ -14,10 +14,11 @@ class Preview {
 }
 
 function setUpSelectionScreen(regionData) {
-    // switching previews off if we're on mobile
+    // switching previews and keyboard shortcuts off if we're on mobile
     if (isMobileDevice) {
         previewsOn = false;
         previewToggleButton.style.display = "none";
+        shortcutToggle.checked = false;
     }
 
     hideScreen(musicScreen);
@@ -335,10 +336,13 @@ function addOnClick(element, regionData, resolve) {
                 var newDiv = document.createElement("div");
                 newDiv.classList.add("layer_options");
 
-                // creating the layer and solo buttons
+                // creating a layer button
                 var newLayerButton = document.createElement("button"); 
                 newLayerButton.classList.add("layer_button", "layer_button_darkened");
                 newLayerButton.dataset.title = " (Muted)";
+
+                // text info
+                appendKeyLabel(newLayerButton, keysArray[index]);
 
                 // giving the button a title
                 var rawLayerSrc = layer[1],
@@ -424,6 +428,7 @@ function addOnClick(element, regionData, resolve) {
                     buttonFilter = filterArray[layer[2]];
 
                 newLayerButton.style.border = `0.16vw solid ${buttonColor}`;
+                newLayerButton.style.color = `${buttonColor}`
                 newSoloButton.style.border = `0.16vw solid ${buttonColor}`;
                 if (layerName != "Thanks Snoodle") {newLayerIcon.style.filter = `${buttonFilter}`};
                 newSoloIcon.style.filter = `${buttonFilter}`;
@@ -486,6 +491,15 @@ function addOnClick(element, regionData, resolve) {
             
             setDynamicColor(Array.from(otherButtons), defaultColor);
             setDynamicFilter(Array.from(otherButtonIcons), defaultFilter);
+            setDynamicFilter([shortcutToggle], defaultFilter);
+
+            // giving the option buttons key labels
+            if (!keyLabelsAlreadyAppend) {
+                Array.from(otherButtons).forEach((button) => {
+                    appendKeyLabel(button, button.dataset.correspondingkey);
+                })
+                keyLabelsAlreadyAppend = true;
+            }
 
             // changing the background image depending on the region
             musicScreen.style.backgroundImage = `url(${regionChosen.background})`;
@@ -689,4 +703,13 @@ function setFavoriteButtonIcon(regionFavorited, button) {
 function updateFavoritesLabelCount(favoritedArray, label) {
     label.innerHTML = "Favorites ";
     label.innerHTML += `(${favoritedArray.length})`;
+}
+
+function appendKeyLabel(button, key) {
+    var keyLabel = document.createElement("p");
+    keyLabel.classList.add("key_labels");
+    keyLabel.innerText = key;
+    if (shortcutToggle.checked) {keyLabel.style.setProperty("--shortcut-visibility", "block");}
+    else {keyLabel.style.setProperty("--shortcut-visibility", "none");}
+    button.appendChild(keyLabel);
 }

@@ -101,6 +101,14 @@ body, #music_screen {
     border: 0.16vw solid var(--dynamic-color);
 }
 
+.key_labels {
+    display: var(--shortcut-visibility, block);
+    position: absolute;
+    font-size: 0.5vw;
+    bottom: -0.4vw;
+    left: 0.3vw;
+}
+
 #region_name {
     margin: 0vw;
     font-size: 7vw;
@@ -174,6 +182,7 @@ body, #music_screen {
     -webkit-appearance: none;
     appearance: none;
     border-radius: 1vw;
+    height: 1vw;
     background-color: #000000;
     border: 0.15vw solid var(--dynamic-color);
     cursor: pointer;
@@ -191,6 +200,9 @@ body, #music_screen {
 .sliders::-moz-range-thumb {
     border: none;
     background-color: var(--dynamic-color);
+    height: 0.8vw;
+    width: 0.8vw;
+    border-radius: 5vw;
 }
 
 #master_volume_slider {
@@ -225,12 +237,26 @@ body, #music_screen {
     height: 17vw;
 }
 
-#volume_reset_button {
+.setting_option_buttons {
     color: inherit;
     border: 0.16vw solid var(--dynamic-color);
     font-size: 0.6vw;
     margin-left: 0vw;
     padding: 0.6vw;
+}
+
+#shortcut_toggle_div {
+    display: flex;
+}
+
+#shortcut_toggle {
+    margin-left: 0.5vw;
+    border-color: black;
+    filter: var(--dynamic-filter);
+}
+
+#shortcut_toggle:checked {
+    background-image: url(../assets/images/misc/filterable_checkmark.png);
 }
 
 #c {

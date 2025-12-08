@@ -1,8 +1,8 @@
 # *Credits*
 
-## Me
+## Me (Rotwall)
 
-Hey, I'm rotwall, and I'm responsible for the coding and designing of this webpage. Here's some links if you want to find out more about me or see what else I'm working on:
+Hey, I'm responsible for the coding and designing of this webpage. Here's some links if you want to find out more about me or see what else I'm working on:
 - [Github](https://github.com/Rotwall72)
 - [Youtube](https://www.youtube.com/@Rotwall)
 - [Email](rotwall721@gmail.com)

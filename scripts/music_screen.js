@@ -261,6 +261,43 @@ function setUpMusicScreen() {
     var processingGoal = regionThreatLayers.length
     updateLoadingInfo(0, processingGoal)
 
+    // event listener for keyboard inputs
+    document.onkeydown = (event) => {
+        var correspondingIndex;
+        const keyPressed = event.key,
+            indexToLengthAdjustment = 1,
+            keyPressedinKeysArray = keysArray.includes(keyPressed),
+            keyPressedinShiftArray = correspondingShiftKeys.includes(keyPressed),
+            uppercaseKeyPressed = keysArray.includes(keyPressed.toLowerCase());
+
+        // layer buttons inputs
+        if (keyPressedinKeysArray) {
+            correspondingIndex = keysArray.indexOf(keyPressed);
+            if (correspondingIndex + indexToLengthAdjustment <= layerButtons.length) {
+                layerButtons[correspondingIndex].click();
+            };
+        }
+
+        // solo buttons inputs
+        else if (keyPressedinShiftArray || uppercaseKeyPressed) {
+            if (keyPressedinShiftArray) {correspondingIndex = correspondingShiftKeys.indexOf(keyPressed);}
+            else if (uppercaseKeyPressed) {correspondingIndex = keysArray.indexOf(keyPressed.toLowerCase());}
+
+            if (correspondingIndex + indexToLengthAdjustment <= soloButtons.length) {
+                soloButtons[correspondingIndex].click();
+            };
+        }
+
+        // option buttons inputs
+        else {
+            Array.from(otherButtons).forEach((button) => {
+                if (keyPressed === button.dataset.correspondingkey) {
+                    button.click();
+                }
+            })
+        }
+    }
+
     // error handling
     const oneMinute = 60000; // in ms
     var waitingForError = true;
@@ -724,6 +761,16 @@ function setUpMusicScreen() {
             })
         }
 
+        shortcutToggle.oninput = () => {
+            var display;
+            if (shortcutToggle.checked) {display = "block";}
+            else {display = "none";}
+
+            Array.from(keyLabels).forEach((label) => {
+                label.style.setProperty("--shortcut-visibility", display);
+            })
+        }
+
         exitButton.onclick = () => {
             songStarted = false;
             layersCanFade = false;
@@ -766,6 +813,9 @@ function setUpMusicScreen() {
             updateTippyContent(fadeToggleButton, "Fade Toggle (Off)");
 
             if (timerExists) {songTimer.stop()}
+
+            // resetting event handler
+            document.onkeydown = () => {}
 
             // recursion point
             runProgram();

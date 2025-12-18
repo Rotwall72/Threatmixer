@@ -189,7 +189,7 @@ function setUpSelectionScreen(regionData) {
                         clearTimeout(fadeCheck);
                         previousPreview = songPreview;
                         songPreview.song = new Howl({
-                            src: buildAudioSRC(region.preview),
+                            src: buildAudioSRC(region.preview, region.pathingToAudioRepo),
                             loop: true,
                             onplay: () => {songPreview.song.fade(0, 1, 1000)},
                             onstop: () => {songPreview.isFadingOut = false;}
@@ -470,7 +470,7 @@ function addOnClick(element, regionData, resolve) {
                 layerNameArray.push(layerName);
             
                 // storing audio files
-                regionThreatLayers.push(new Audio(buildAudioSRC(layer[1])));
+                regionThreatLayers.push(new Audio(buildAudioSRC(layer[1], regionChosen.pathingToAudioRepo)));
             });
 
             // creating dynamic style changes

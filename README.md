@@ -18,13 +18,10 @@ If you want to see developement logs, share mixes, or just hang out with other f
 
 # *Changelog*
 
-Version 2.6.0
+Version 2.6.1
 
-- Added keyboard shortcuts for music screen controls
-- Rewrote tutorial/guide information to be up-to-date
-- Fixed UI errors on mobile displays
-    - Volume sliders are no longer massive
-    - Regions with lots of layers no longer push control buttons off-screen
+- Added new json property: pathingToAudioRepo (bool)
+    - Allows for the webpage to search for audios outside of the audio storage repo when false.
 
 In progress:
 - Rebindable shortcuts

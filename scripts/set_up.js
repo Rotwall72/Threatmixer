@@ -460,8 +460,9 @@ function defineButtonLink(button, src) {
     }
 }
 
-function buildAudioSRC(pathing) {
-    return linkPrefix + pathing;
+function buildAudioSRC(pathing, pathingToAudioRepo = true) {
+    if (pathingToAudioRepo) {return linkPrefix + pathing;}
+    else {return pathing;}
 }
 
 function getLocalItem(item) {

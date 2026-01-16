@@ -1439,33 +1439,6 @@
         "background": "assets/images/backgrounds/howling_rift.png",
         "preview": "music/music_snippets/HC_snippet.mp3"
     },
-    {
-        "name": "Howling Rift",
-        "groups": ["mods"],
-        "new": false,
-        "favorited": false,
-        "pathingToAudioRepo": true,
-        "songCredits": "Snoodle",
-        "regionCredits": "Nautilo",
-        "artCredits": "Nautilo",
-        "layers": [
-            ["kick_icon.png", "music/threat_music/mods/HC/TH_HC - KICK.ogg", 0],
-            ["bass_icon.png", "music/threat_music/mods/HC/TH_HC - DRONE.ogg", 0],
-            ["shaker_icon.png", "music/threat_music/mods/HC/TH_HC - SHAKER.ogg", 0],
-            ["snare_icon.png", "music/threat_music/mods/HC/TH_HC - SNARE.ogg", 0],
-            ["crusher_icon.png", "music/threat_music/mods/HC/TH_HC - HIT.ogg", 0],
-            ["bass_icon.png", "music/threat_music/mods/HC/TH_HC - TWANG.ogg", 0],
-            ["synth_icon.png", "music/threat_music/mods/HC/TH_HC - BASS.ogg", 0],
-            ["weird_sine_wave_icon.png", "music/threat_music/mods/HC/TH_HC - PHASE.ogg", 0],
-            ["arps_icon.png", "music/threat_music/mods/HC/TH_HC - ARPS.ogg", 0],
-            ["lead_3_icon.png", "music/threat_music/mods/HC/TH_HC - LEAD.ogg", 0]
-        ],
-        "colors": ["#930a07"],
-        "filters": ["brightness(0) saturate(100%) invert(14%) sepia(97%) saturate(2569%) hue-rotate(353deg) brightness(85%) contrast(103%)"],
-        "containerWidth": "100%",
-        "background": "assets/images/backgrounds/howling_rift.png",
-        "preview": "music/music_snippets/HC_snippet.mp3"
-    },
     {   
         "name": "Icebound Fringe",
         "groups": ["mods"],

@@ -18,9 +18,9 @@ If you want to see developement logs, share mixes, or just hang out with other f
 
 # *Changelog*
 
-Version 2.6.2
+Version 2.6.3
 
-- Fixed a bug where search filters would be ignored after entering the selection screen, exiting it, and then re-entering it
+- Removed a duplicate Howling Rift
 
 In progress:
 - Rebindable shortcuts

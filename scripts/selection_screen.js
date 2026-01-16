@@ -522,6 +522,7 @@ selectionBackButton.onclick = () => {
     showScreen(homeScreen)
     hideScreen(selectionScreen)
     clearSelectionScreen()
+    failsafesDone = false;
 
     // restarting the menu music check
     menuMusicCheck = setInterval(() => {

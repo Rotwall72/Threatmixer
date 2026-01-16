@@ -18,10 +18,9 @@ If you want to see developement logs, share mixes, or just hang out with other f
 
 # *Changelog*
 
-Version 2.6.1
+Version 2.6.2
 
-- Added new json property: pathingToAudioRepo (bool)
-    - Allows for the webpage to search for audios outside of the audio storage repo when false.
+- Fixed a bug where search filters would be ignored after entering the selection screen, exiting it, and then re-entering it
 
 In progress:
 - Rebindable shortcuts

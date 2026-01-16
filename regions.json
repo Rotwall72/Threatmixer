@@ -1439,26 +1439,56 @@
         "background": "assets/images/backgrounds/howling_rift.png",
         "preview": "music/music_snippets/HC_snippet.mp3"
     },
-    {   
-        "name": "Industrial Outflow",
+    {
+        "name": "Howling Rift",
         "groups": ["mods"],
         "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
-        "songCredits": "totallydutch",
-        "regionCredits": "totallydutch",
-        "artCredits": "totallydutch",
+        "songCredits": "Snoodle",
+        "regionCredits": "Nautilo",
+        "artCredits": "Nautilo",
         "layers": [
-            ["weird_icon.png", "music/threat_music/mods/IDDC/TH_IDDC - SHK.ogg", 0],
-            ["pad_icon.png", "music/threat_music/mods/IDDC/TH_IDDC - PER.ogg", 0],
-            ["synth_icon.png", "music/threat_music/mods/IDDC/TH_IDDC - OOO.ogg", 0],
-            ["pad_icon.png", "music/threat_music/mods/IDDC/TH_IDDC - YEP.ogg", 0]
+            ["kick_icon.png", "music/threat_music/mods/HC/TH_HC - KICK.ogg", 0],
+            ["bass_icon.png", "music/threat_music/mods/HC/TH_HC - DRONE.ogg", 0],
+            ["shaker_icon.png", "music/threat_music/mods/HC/TH_HC - SHAKER.ogg", 0],
+            ["snare_icon.png", "music/threat_music/mods/HC/TH_HC - SNARE.ogg", 0],
+            ["crusher_icon.png", "music/threat_music/mods/HC/TH_HC - HIT.ogg", 0],
+            ["bass_icon.png", "music/threat_music/mods/HC/TH_HC - TWANG.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/HC/TH_HC - BASS.ogg", 0],
+            ["weird_sine_wave_icon.png", "music/threat_music/mods/HC/TH_HC - PHASE.ogg", 0],
+            ["arps_icon.png", "music/threat_music/mods/HC/TH_HC - ARPS.ogg", 0],
+            ["lead_3_icon.png", "music/threat_music/mods/HC/TH_HC - LEAD.ogg", 0]
         ],
-        "colors": ["#4d4d53"],
-        "filters": ["brightness(0) saturate(100%) invert(29%) sepia(8%) saturate(373%) hue-rotate(202deg) brightness(90%) contrast(84%)"],
+        "colors": ["#930a07"],
+        "filters": ["brightness(0) saturate(100%) invert(14%) sepia(97%) saturate(2569%) hue-rotate(353deg) brightness(85%) contrast(103%)"],
         "containerWidth": "100%",
-        "background": "assets/images/backgrounds/industrial_outflow.png",
-        "preview": "music/music_snippets/IDDC_snippet.mp3"
+        "background": "assets/images/backgrounds/howling_rift.png",
+        "preview": "music/music_snippets/HC_snippet.mp3"
+    },
+    {   
+        "name": "Icebound Fringe",
+        "groups": ["mods"],
+        "new": true,
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Kaylestuffs/PootisBird",
+        "regionCredits": "Tryn",
+        "artCredits": "Notocorda",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/mods/OZLT/TH_SNOE - LT - KICK.ogg", 0],
+            ["snare_icon.png", "music/threat_music/mods/OZLT/TH_SNOE - LT - PERC.ogg", 0],
+            ["bass_icon.png", "music/threat_music/mods/OZLT/TH_SNOE - LT - BASS.ogg", 0],
+            ["bongos_icon.png", "music/threat_music/mods/OZLT/TH_SNOE - LT - BONGO.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/OZLT/TH_SNOE - LT - ARP.ogg", 0],
+            ["wawa_icon.png", "music/threat_music/mods/OZLT/TH_SNOE - LT - WAWA.ogg", 0],
+            ["bass_icon.png", "music/threat_music/mods/OZLT/TH_SNOE - LT - FILTHBASS.ogg", 0]
+        ],
+        "colors": ["#d5a99e"],
+        "filters": ["brightness(0) saturate(100%) invert(76%) sepia(38%) saturate(263%) hue-rotate(323deg) brightness(90%) contrast(84%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/icebound_fringe.png",
+        "preview": "music/music_snippets/OZLT_snippet.mp3"
     },
     {   
         "name": "Luminous Cove",
@@ -1818,6 +1848,32 @@
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/purification_conduits.png",
         "preview": "music/music_snippets/BY_snippet.mp3"
+    },
+    {   
+        "name": "Rooted Culvert",
+        "groups": ["mods"],
+        "new": true,
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Kaylestuffs/PootisBird",
+        "regionCredits": "Tryn",
+        "artCredits": "N/A",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/mods/OZRC/TH_SNOE - RC - KICK.ogg", 0],
+            ["hat_icon.png", "music/threat_music/mods/OZRC/TH_SNOE - RC - HAT.ogg", 0],
+            ["sine_wave_icon.png", "music/threat_music/mods/OZRC/TH_SNOE - RC - BASS.ogg", 0],
+            ["snare_icon.png", "music/threat_music/mods/OZRC/TH_SNOE - RC - PERC.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/OZRC/TH_SNOE - RC - WOWO.ogg", 0],
+            ["hit_icon.png", "music/threat_music/mods/OZRC/TH_SNOE - RC - SLAPCLAP.ogg", 0],
+            ["wawa_icon.png", "music/threat_music/mods/OZRC/TH_SNOE - RC - WAWA.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/OZRC/TH_SNOE - RC - ARP.ogg", 0],
+            ["perc_icon.png", "music/threat_music/mods/OZRC/TH_SNOE - RC - NOISE.ogg", 0]
+        ],
+        "colors": ["#273513"],
+        "filters": ["brightness(0) saturate(100%) invert(16%) sepia(58%) saturate(437%) hue-rotate(43deg) brightness(95%) contrast(96%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/rooted_culvert.png",
+        "preview": "music/music_snippets/OZRC_snippet.mp3"
     },
     {   
         "name": "Rusted Basin",
@@ -2324,6 +2380,55 @@
         "preview": "music/music_snippets/F1G_snippet.mp3"
     },
     {   
+        "name": "The Permafrost",
+        "groups": ["mods"],
+        "new": true,
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Kaylestuffs/PootisBird",
+        "regionCredits": "Tryn",
+        "artCredits": "N/A",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/mods/OZPF/TH_SNOE - PF - KICK.ogg", 0],
+            ["perc_icon.png", "music/threat_music/mods/OZPF/TH_SNOE - PF - PERC.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/OZPF/TH_SNOE - PF - BASS.ogg", 0],
+            ["shaker_icon.png", "music/threat_music/mods/OZPF/TH_SNOE - PF - SHAKER.ogg", 0],
+            ["arps_icon.png", "music/threat_music/mods/OZPF/TH_SNOE - PF - ARP.ogg", 0],
+            ["snare_icon.png", "music/threat_music/mods/OZPF/TH_SNOE - PF - BOOGIE.ogg", 0],
+            ["xylo_icon.png", "music/threat_music/mods/OZPF/TH_SNOE - PF - BELLS.ogg", 0]
+        ],
+        "colors": ["#b7c2db"],
+        "filters": ["brightness(0) saturate(100%) invert(98%) sepia(9%) saturate(5980%) hue-rotate(177deg) brightness(96%) contrast(79%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/the_permafrost.png",
+        "preview": "music/music_snippets/OZPF_snippet.mp3"
+    },
+    {   
+        "name": "The Remains",
+        "groups": ["mods"],
+        "new": true,
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Kaylestuffs/PootisBird",
+        "regionCredits": "Tryn",
+        "artCredits": "N/A",
+        "layers": [
+            ["hit_icon.png", "music/threat_music/mods/OZTR/TH_SNOE - TR - KICK.ogg", 0],
+            ["hat_icon.png", "music/threat_music/mods/OZTR/TH_SNOE - TR - METAL.ogg", 0],
+            ["bass_icon.png", "music/threat_music/mods/OZTR/TH_SNOE - TR - BASS.ogg", 0],
+            ["tom_icon.png", "music/threat_music/mods/OZTR/TH_SNOE - TR - KABLOOIE.ogg", 0],
+            ["perc_icon.png", "music/threat_music/mods/OZTR/TH_SNOE - TR - PERC.ogg", 0],
+            ["sine_wave_icon.png", "music/threat_music/mods/OZTR/TH_SNOE - TR - WEWE.ogg", 0],
+            ["snare_icon.png", "music/threat_music/mods/OZTR/TH_SNOE - TR - DUMPSTER.ogg", 0],
+            ["wawa_icon.png", "music/threat_music/mods/OZTR/TH_SNOE - TR - WAWA.ogg", 0]
+        ],
+        "colors": ["#483e41"],
+        "filters": ["brightness(0) saturate(100%) invert(22%) sepia(27%) saturate(226%) hue-rotate(291deg) brightness(85%) contrast(83%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/the_remains.png",
+        "preview": "music/music_snippets/OZTR_snippet.mp3"
+    },
+    {   
         "name": "The Roof",
         "groups": ["mods"],
         "new": false,
@@ -2546,7 +2651,7 @@
         "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
-        "songCredits": "Kaylestuffs",
+        "songCredits": "Kaylestuffs/PootisBird",
         "regionCredits": "Videocult",
         "artCredits": "Allegra \" Del\" Northern",
         "layers": [
@@ -2598,7 +2703,7 @@
         "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
-        "songCredits": "Kaylestuffs",
+        "songCredits": "Kaylestuffs/PootisBird",
         "regionCredits": "Downpour Team",
         "artCredits": "N/A",
         "layers": [
@@ -2655,7 +2760,7 @@
         "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
-        "songCredits": "Kaylestuffs",
+        "songCredits": "Kaylestuffs/PootisBird",
         "regionCredits": "Downpour Team",
         "artCredits": "Tom \" Norgad\" Starbuck",
         "layers": [
@@ -2680,7 +2785,7 @@
         "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
-        "songCredits": "Kaylestuffs",
+        "songCredits": "Kaylestuffs/PootisBird",
         "regionCredits": "Downpour Team",
         "artCredits": "Tom \" Norgad\" Starbuck",
         "layers": [

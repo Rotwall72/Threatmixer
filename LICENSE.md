@@ -70,6 +70,7 @@ Here's a full list of everyone who's region, music, and/or art is shown in this 
 - [JeeperCreeperIH](https://steamcommunity.com/profiles/76561199202219418) (Steam)
 - [Joseph Nied](https://www.youtube.com/@josephtnied) (Youtube)
 - [Kaeporo](https://www.youtube.com/@Kaeporo) (Youtube)
+- [Kaylestuffs/PootisBird](https://www.youtube.com/@thingsarepostedhere) (Youtube)
 - [Kizorke](https://steamcommunity.com/profiles/76561199006667350) (Steam)
 - [klumquart](https://steamcommunity.com/profiles/76561199123058149) (Steam)
 - LolaTheLoach
@@ -171,13 +172,18 @@ And here's the credits by region:
 - Threat Theme by Aki
 - Region art by 4slugcats
 
+## Icebound Fringe (The Permafrost, Rooted Culvert, & The Remains):
+- Region by Tryn
+- Threat Themes by Kaylestuffs/PootisBird
+- Region art by Notocorda
+
 ## Far Shore:
 - Region by Myrmice
 - Region Art by Nautillo
 - Far Shore Threat Theme by Aki
 - Woven Nest Threat Theme by Snoodle
 
-## Forsaken Factory (Abyss, Core, Overgrowth, & Roof)
+## Forsaken Factory (Abyss, Core, Overgrowth, & Roof):
 - Regions by Nytrok07
 - Threat Themes by Roasted AND Toasted
 
@@ -335,7 +341,7 @@ The artists whose music is featured in this mod and now this webpage are:
     - Undergrowth
 - [Albert Guy](https://www.youtube.com/@Albertable) (Youtube)
     - Underhang
-- [Kaylestuffs](https://www.youtube.com/@thingsarepostedhere) (Youtube)
+- [Kaylestuffs/PootisBird](https://www.youtube.com/@thingsarepostedhere) (Youtube)
     - Drainage System, Silent Construct, Submerged Superstructe, & House of Braids
 - [Sidera](https://www.youtube.com/@SideraMusic) (Youtube)
     - Subterranean, Filtration System

@@ -2,7 +2,6 @@
     {
         "name": "Chimney Canopy",
         "groups": ["base"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
@@ -30,7 +29,6 @@
     {
         "name": "Farm Arrays",
         "groups": ["base"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
@@ -55,7 +53,6 @@
     {
         "name": "Five Pebbles",
         "groups": ["base"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
@@ -77,7 +74,6 @@
     {
         "name": "Garbage Wastes",
         "groups": ["base"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
@@ -103,7 +99,6 @@
     {
         "name": "Industrial Complex",
         "groups": ["base"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
@@ -128,7 +123,6 @@
     {
         "name": "Outskirts",
         "groups": ["base"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
@@ -153,7 +147,6 @@
     {
         "name": "Shoreline",
         "groups": ["base"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
@@ -178,7 +171,6 @@
     {
         "name": "Sky Islands",
         "groups": ["base"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
@@ -203,7 +195,6 @@
     {
         "name": "Looks to the Moon",
         "groups": ["msc"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Conner \" 12LBS\" Skidmore",
@@ -226,7 +217,6 @@
     {
         "name": "Metropolis",
         "groups": ["msc"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Conner \" 12LBS\" Skidmore",
@@ -262,7 +252,6 @@
     {
         "name": "Outer Expanse",
         "groups": ["msc"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Conner \" 12LBS\" Skidmore",
@@ -288,7 +277,6 @@
     {
         "name": "Pipeyard",
         "groups": ["msc"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Conner \" 12LBS\" Skidmore",
@@ -314,7 +302,6 @@
     {
         "name": "Rubicon",
         "groups": ["msc"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Conner \" 12LBS\" Skidmore",
@@ -341,7 +328,6 @@
     {
         "name": "Waterfront Facility",
         "groups": ["msc"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Conner \" 12LBS\" Skidmore",
@@ -367,7 +353,6 @@
     {
         "name": "Aether Ridge",
         "groups": ["watch"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Kaeporo / Watcher Team",
@@ -406,7 +391,6 @@
     {
         "name": "Badlands",
         "groups": ["watch"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
@@ -429,7 +413,6 @@
     {
         "name": "Coral Caves",
         "groups": ["watch"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Snoodle",
@@ -459,7 +442,6 @@
     {
         "name": "Desolate Tracts",
         "groups": ["watch"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
@@ -481,7 +463,6 @@
     {
         "name": "Fetid Glen",
         "groups": ["watch"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
@@ -504,7 +485,6 @@
     {
         "name": "Pillar Grove",
         "groups": ["watch"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
@@ -528,7 +508,6 @@
     {
         "name": "Rusted Wrecks",
         "groups": ["watch"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
@@ -551,7 +530,6 @@
     {
         "name": "Shattered Terrace",
         "groups": ["watch"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
@@ -576,7 +554,6 @@
     {
         "name": "Signal Spires",
         "groups": ["watch"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
@@ -599,7 +576,6 @@
     {
         "name": "Stormy Coast",
         "groups": ["watch"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Serpanoy & James Primate (Sunbaked Layers)",
@@ -639,7 +615,6 @@
     {
         "name": "The Surface",
         "groups": ["watch"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
@@ -663,7 +638,6 @@
     {
         "name": "Torrid Desert",
         "groups": ["watch"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
@@ -687,7 +661,6 @@
     {
         "name": "Verdant Waterways",
         "groups": ["watch"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
@@ -709,7 +682,6 @@
     {
         "name": "Rotted Regions",
         "groups": ["watch"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
@@ -731,7 +703,6 @@
     {   
         "name": "Aqueducts",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Pinpoint",
@@ -756,7 +727,6 @@
     {   
         "name": "Ashen Bow",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "owlsquish",
@@ -783,7 +753,6 @@
     {
         "name": "Archaic Facility (A)",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Anonymous",
@@ -810,7 +779,6 @@
     {
         "name": "Archaic Facility (B)",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Anonymous",
@@ -835,9 +803,31 @@
         "preview": "music/music_snippets/KFB_snippet.mp3"
     },
     {
+        "name": "Awful Malicious Pole",
+        "groups": ["mods", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "cecilia.wav",
+        "regionCredits": "cecilia.wav",
+        "artCredits": "N/A",
+        "layers": [
+            ["weird_icon.png", "music/threat_music/mods/POLE/TH_POLE - WEIRD.ogg", 0],
+            ["kick_icon.png", "music/threat_music/mods/POLE/TH_POLE - KICK.ogg", 0],
+            ["pad_icon.png", "music/threat_music/mods/POLE/TH_POLE - PERC2.ogg", 0],
+            ["bongos_icon.png", "music/threat_music/mods/POLE/TH_POLE - PERC1.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/POLE/TH_POLE - BASS.ogg", 0],
+            ["arps_icon.png", "music/threat_music/mods/POLE/TH_POLE - ARPS.ogg", 0],
+            ["handpan_icon.png", "music/threat_music/mods/POLE/TH_POLE - LEAD.ogg", 0]
+        ],
+        "colors": ["#70998d"],
+        "filters": ["brightness(0) saturate(100%) invert(57%) sepia(32%) saturate(275%) hue-rotate(112deg) brightness(94%) contrast(84%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/awful_malicious_pole.png",
+        "preview": "music/music_snippets/POLE_snippet.mp3"
+    },
+    {
         "name": "Badlands (Legacy)",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Snoodle",
@@ -863,7 +853,6 @@
     {
         "name": "Bioengineering Center",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "LudoCrypt",
@@ -888,7 +877,6 @@
     {
         "name": "Blizzard's Embrace",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -913,7 +901,6 @@
     {
         "name": "Central Factory",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "FishSwallower",
@@ -935,7 +922,6 @@
     {
         "name": "Cliffside",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "LudoCrypt",
@@ -961,9 +947,32 @@
         "preview": "music/music_snippets/LI_snippet.mp3"
     },
     {   
+        "name": "Coastal Industry",
+        "groups": ["mods", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "SaykioPorko",
+        "regionCredits": "Porter Foamer",
+        "artCredits": "Porter Foamer",
+        "layers": [
+            ["tick_icon.png", "music/threat_music/mods/IZ/TH_J1 - PERC.ogg", 0],
+            ["underwater_icon.png", "music/threat_music/mods/IZ/TH_J1 - WAVES.ogg", 0],
+            ["kick_icon.png", "music/threat_music/mods/IZ/TH_J1 - KICK.ogg", 0],
+            ["snare_icon.png", "music/threat_music/mods/IZ/TH_J1 - SNARE.ogg", 0],
+            ["atmos_icon.png", "music/threat_music/mods/IZ/TH_J1 - SIREN.ogg", 0],
+            ["bass_icon.png", "music/threat_music/mods/IZ/TH_J1 - BASS.ogg", 0],
+            ["arps_icon.png", "music/threat_music/mods/IZ/TH_J1 - ARPS.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/IZ/TH_J1 - SYNTH.ogg", 0]
+        ],
+        "colors": ["#44ae6a"],
+        "filters": ["brightness(0) saturate(100%) invert(59%) sepia(61%) saturate(397%) hue-rotate(89deg) brightness(87%) contrast(89%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/coastal_industry.png",
+        "preview": "music/music_snippets/IZ_snippet.mp3"
+    },
+    {   
         "name": "Concealed Gardens",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Henpemaz",
@@ -986,7 +995,6 @@
     {   
         "name": "Corroded Manufactory",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "totallydutch",
@@ -1009,7 +1017,6 @@
     {   
         "name": "Corroded Passage",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "MojiEmoji",
@@ -1034,7 +1041,6 @@
     {   
         "name": "Curious Ascent",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Tryn",
@@ -1058,7 +1064,6 @@
     {
         "name": "Data Manifold",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Snoodle",
@@ -1083,7 +1088,6 @@
     {
         "name": "Decaying Wastes",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Blizzard Psyche",
@@ -1105,7 +1109,6 @@
     {
         "name": "Deserted Wastelands",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Don",
@@ -1129,7 +1132,6 @@
     {
         "name": "Eroded Refinery",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Aki",
@@ -1155,7 +1157,6 @@
     {
         "name": "Far Shore",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Aki",
@@ -1181,7 +1182,6 @@
     {   
         "name": "Fog Gulch",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Snoodle",
@@ -1206,7 +1206,6 @@
     {   
         "name": "Forsaken Station (A)",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -1234,7 +1233,6 @@
     {   
         "name": "Forsaken Station (B)",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -1263,7 +1261,6 @@
     {
         "name": "Gloaming Refinery",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "BubbleGUMz",
@@ -1287,7 +1284,6 @@
     {   
         "name": "Gloomy Marshland",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Ninjakittens",
@@ -1313,7 +1309,6 @@
     {   
         "name": "Grand Reservoir",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Albert Guy",
@@ -1338,7 +1333,6 @@
     {   
         "name": "Grand Reservoir (Old)",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Albert Guy",
@@ -1363,7 +1357,6 @@
     {
         "name": "Gray Urban",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Aki",
@@ -1389,7 +1382,6 @@
     {   
         "name": "Hanging Gardens",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Snoodle",
@@ -1415,7 +1407,6 @@
     {   
         "name": "Howling Rift",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Snoodle",
@@ -1442,7 +1433,6 @@
     {   
         "name": "Icebound Fringe",
         "groups": ["mods"],
-        "new": true,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Kaylestuffs/PootisBird",
@@ -1466,7 +1456,6 @@
     {   
         "name": "Luminous Cove",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Aki",
@@ -1501,7 +1490,6 @@
     {   
         "name": "Lush Mire",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Andrew Man",
@@ -1527,7 +1515,6 @@
     {   
         "name": "Moss Fields",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Aki",
@@ -1560,7 +1547,6 @@
     {   
         "name": "Nascent Woods",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "MojiEmoji",
@@ -1586,7 +1572,6 @@
     {
         "name": "Oil Station",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "FishSwallower",
@@ -1607,7 +1592,6 @@
     {
         "name": "Outer Outskirts",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Kizorke",
@@ -1631,7 +1615,6 @@
     {
         "name": "Outer Outskirts (Old)",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Kizorke",
@@ -1654,7 +1637,6 @@
     {
         "name": "Outpost Citadel",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Sequoia7",
@@ -1672,10 +1654,32 @@
         "background": "assets/images/backgrounds/outpost_citadel.png",
         "preview": "music/music_snippets/Z2_snippet.mp3"
     },
+    {
+        "name": "Overgrown Urban",
+        "groups": ["mods", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "P01yphemmus",
+        "regionCredits": "ValiThe",
+        "artCredits": "thewrldlookswhite",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/mods/O7/TH_DL1 - Kicks.ogg", 0],
+            ["bass_icon.png", "music/threat_music/mods/O7/TH_DL1 - BassSub.ogg", 0],
+            ["pad_icon.png", "music/threat_music/mods/O7/TH_DL1 - ArpLow.ogg", 0],
+            ["shaker_icon.png", "music/threat_music/mods/O7/TH_DL1 - Shaker.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/O7/TH_DL1 - ArpHigh.ogg", 0],
+            ["tom_icon.png", "music/threat_music/mods/O7/TH_DL1 - Toms.ogg", 0],
+            ["radio_icon.png", "music/threat_music/mods/O7/TH_DL1 - HighThreat.ogg", 0]
+        ],
+        "colors": ["#e8938f"],
+        "filters": [" brightness(0) saturate(100%) invert(65%) sepia(30%) saturate(563%) hue-rotate(314deg) brightness(96%) contrast(89%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/overgrown_urban.png",
+        "preview": "music/music_snippets/O7_snippet.mp3"
+    },
     {   
         "name": "Peripheral Wreckage",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Hessi",
@@ -1703,7 +1707,6 @@
     {   
         "name": "Pilgrims' Ascent",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Aki",
@@ -1726,7 +1729,6 @@
     {   
         "name": "Pipegrave",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "LolaTheLoach",
@@ -1751,7 +1753,6 @@
     {   
         "name": "Power Plant",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "AzeXir",
@@ -1775,7 +1776,6 @@
     {   
         "name": "Preservatory",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Snoodle",
@@ -1800,7 +1800,6 @@
     {   
         "name": "Purification Conduits",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Snoodle",
@@ -1825,7 +1824,6 @@
     {   
         "name": "Rooted Culvert",
         "groups": ["mods"],
-        "new": true,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Kaylestuffs/PootisBird",
@@ -1851,7 +1849,6 @@
     {   
         "name": "Rusted Basin",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "LolaTheLoach",
@@ -1895,7 +1892,6 @@
     {   
         "name": "Rusted Canals",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Iterator-iterator",
@@ -1918,7 +1914,6 @@
     {   
         "name": "Scorched District (Day)",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Joseph Neid",
@@ -1944,7 +1939,6 @@
     {   
         "name": "Scorched District (Night)",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Aki",
@@ -1969,7 +1963,6 @@
     {   
         "name": "Scrapped Peaks",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Pinpoint",
@@ -1990,9 +1983,34 @@
         "preview": "music/music_snippets/SPS_snippet.mp3"
     },
     {   
+        "name": "Sequestered Facility",
+        "groups": ["mods", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "SaykioPorko",
+        "regionCredits": "Fox Fantastic",
+        "artCredits": "N/A",
+        "layers": [
+            ["pad_icon.png", "music/threat_music/mods/SEQF/SEQF_PERC II.ogg", 0],
+            ["kick_icon.png", "music/threat_music/mods/SEQF/SEQF_KICK II.ogg", 0],
+            ["noise_icon.png", "music/threat_music/mods/SEQF/SEQF_NOISE.ogg", 0],
+            ["bass_icon.png", "music/threat_music/mods/SEQF/SEQF_BASS.ogg", 0],
+            ["snare_icon.png", "music/threat_music/mods/SEQF/SEQF_BREAK.ogg", 0],
+            ["pad_icon.png", "music/threat_music/mods/SEQF/SEQF_PAD.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/SEQF/SEQF_SAW.ogg", 0],
+            ["arps_icon.png", "music/threat_music/mods/SEQF/SEQF_ARP.ogg", 0],
+            ["hit_icon.png", "music/threat_music/mods/SEQF/SEQF_SNARE II.ogg", 0],
+            ["scug_sing_icon.png", "music/threat_music/mods/SEQF/SEQF_VOX.ogg", 0]
+        ],
+        "colors": ["#f048f0"],
+        "filters": ["brightness(0) saturate(100%) invert(39%) sepia(87%) saturate(3793%) hue-rotate(278deg) brightness(110%) contrast(88%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/sequestered_facility.png",
+        "preview": "music/music_snippets/SEQF_snippet.mp3"
+    },
+    {   
         "name": "Side House",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Mikronaut",
@@ -2015,9 +2033,30 @@
         "preview": "music/music_snippets/RW_snippet.mp3"
     },
     {   
+        "name": "Sludge Tunnels",
+        "groups": ["mods", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Fishy",
+        "regionCredits": "Fishy",
+        "artCredits": "N/A",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/mods/SLUDGET/TH_SLUDGET - BigKicks.ogg", 0],
+            ["snare_icon.png", "music/threat_music/mods/SLUDGET/TH_SLUDGET - Drums.ogg", 0],
+            ["hat_icon.png", "music/threat_music/mods/SLUDGET/TH_SLUDGET - Hithats1.ogg", 0],
+            ["hat_icon.png", "music/threat_music/mods/SLUDGET/TH_SLUDGET - Hithats2.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/SLUDGET/TH_SLUDGET - Cowbells.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/SLUDGET/TH_SLUDGET - Synth.ogg", 0]
+        ],
+        "colors": ["#6b7145"],
+        "filters": ["brightness(0) saturate(100%) invert(43%) sepia(7%) saturate(1979%) hue-rotate(28deg) brightness(96%) contrast(92%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/sludge_tunnels.png",
+        "preview": "music/music_snippets/SLUDGET_snippet.mp3"
+    },
+    {   
         "name": "Smokestack Treetop",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "LolaTheLoach",
@@ -2046,7 +2085,6 @@
         {   
         "name": "Soaring Lookout",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -2072,7 +2110,6 @@
     {   
         "name": "Steaming Edifice",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Snoodle",
@@ -2096,9 +2133,32 @@
         "preview": "music/music_snippets/SE_snippet.mp3"
     },
     {   
+        "name": "Steel Mill (Unused)",
+        "groups": ["mods", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "MaxDubstep",
+        "regionCredits": "MaxDubstep",
+        "artCredits": "MaxDubstep",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/mods/SM/TH_SM - KICK.ogg", 0],
+            ["hat_icon.png", "music/threat_music/mods/SM/TH_SM - HAT.ogg", 0],
+            ["bass_icon.png", "music/threat_music/mods/SM/TH_SM - BASS.ogg", 0],
+            ["perc_icon.png", "music/threat_music/mods/SM/TH_SM - PERC1.ogg", 0],
+            ["weird_icon.png", "music/threat_music/mods/SM/TH_SM - PERC2.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/SM/TH_SM - CHORD.ogg", 0],
+            ["arps_icon.png", "music/threat_music/mods/SM/TH_SM - ARP.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/SM/TH_SM - LEAD.ogg", 0]
+        ],
+        "colors": ["#e6d570"],
+        "filters": ["brightness(0) saturate(100%) invert(82%) sepia(27%) saturate(662%) hue-rotate(8deg) brightness(99%) contrast(93%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/steel_mill.png",
+        "preview": "music/music_snippets/SM_snippet.mp3"
+    },
+    {   
         "name": "Subway Lines",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "FishSwallower",
@@ -2121,7 +2181,6 @@
     {   
         "name": "Sunlit Alleyways",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "LolaTheLoach",
@@ -2155,7 +2214,6 @@
     {   
         "name": "The Abyss",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -2179,7 +2237,6 @@
     {   
         "name": "The Annex (A)",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "BubbleGUMz",
@@ -2202,7 +2259,6 @@
     {   
         "name": "The Annex (B)",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "BubbleGUMz",
@@ -2224,7 +2280,6 @@
     {   
         "name": "The Core",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -2249,7 +2304,6 @@
     {   
         "name": "The Cusp",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "SaykioPorko",
@@ -2279,7 +2333,6 @@
     {
         "name": "The Grinder",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Atom & Ren is Taking Ten",
@@ -2305,7 +2358,6 @@
     {   
         "name": "The Mast",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Snoodle",
@@ -2330,7 +2382,6 @@
     {   
         "name": "The Overgrowth",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -2355,7 +2406,6 @@
     {   
         "name": "The Permafrost",
         "groups": ["mods"],
-        "new": true,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Kaylestuffs/PootisBird",
@@ -2379,7 +2429,6 @@
     {   
         "name": "The Remains",
         "groups": ["mods"],
-        "new": true,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Kaylestuffs/PootisBird",
@@ -2404,7 +2453,6 @@
     {   
         "name": "The Roof",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -2429,7 +2477,6 @@
     {
         "name": "Underbelly",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Pinpoint",
@@ -2452,7 +2499,6 @@
     {
         "name": "Undersea",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Wrayk & Pinpoint",
@@ -2475,7 +2521,6 @@
     {
         "name": "Urban Reservoir",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "LudoCrypt",
@@ -2500,7 +2545,6 @@
     {
         "name": "Weakened Platform",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Alekus",
@@ -2524,7 +2568,6 @@
     {   
         "name": "Windy Acre",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Eco/Ruby",
@@ -2558,7 +2601,6 @@
     {   
         "name": "Withstanding Factory",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "BLU",
@@ -2591,7 +2633,6 @@
     {
         "name": "Woven Nest",
         "groups": ["mods"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Snoodle",
@@ -2621,7 +2662,6 @@
     {
         "name": "Drainage System",
         "groups": ["extra"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Kaylestuffs/PootisBird",
@@ -2648,7 +2688,6 @@
     {
         "name": "Filtration System",
         "groups": ["extra"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Sidera",
@@ -2673,7 +2712,6 @@
     {
         "name": "House of Braids",
         "groups": ["extra"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Kaylestuffs/PootisBird",
@@ -2704,7 +2742,6 @@
     {
         "name": "Shaded Citadel",
         "groups": ["extra"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Snoodle",
@@ -2730,7 +2767,6 @@
     {
         "name": "Silent Construct",
         "groups": ["extra"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Kaylestuffs/PootisBird",
@@ -2755,7 +2791,6 @@
     {
         "name": "Submerged Superstructure",
         "groups": ["extra"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Kaylestuffs/PootisBird",
@@ -2783,7 +2818,6 @@
     {
         "name": "Subterranean",
         "groups": ["extra"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Sidera",
@@ -2808,7 +2842,6 @@
     {
         "name": "Undergrowth",
         "groups": ["extra"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "BeanieBongle",
@@ -2835,7 +2868,6 @@
     {
         "name": "The Precipice",
         "groups": ["extra"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Aki",
@@ -2861,7 +2893,6 @@
     {
         "name": "The Underhang",
         "groups": ["extra"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Albert Guy",
@@ -2885,7 +2916,6 @@
     {
         "name": "The Wall (Day)",
         "groups": ["extra"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Axye",
@@ -2909,7 +2939,6 @@
     {
         "name": "The Wall (Night)",
         "groups": ["extra"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Axye",
@@ -2934,7 +2963,6 @@
     {
         "name": "Bitter Aerie",
         "groups": ["roast"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -2959,7 +2987,6 @@
     {
         "name": "Chimney Canopy (Inv)",
         "groups": ["roast"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -2983,7 +3010,6 @@
     {
         "name": "Drainage System",
         "groups": ["roast"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3009,7 +3035,6 @@
     {
         "name": "Filtration System",
         "groups": ["roast"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3034,7 +3059,6 @@
     {
         "name": "Five Pebbles (Inv)",
         "groups": ["roast"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3061,7 +3085,6 @@
     {
         "name": "Garbage Wastes (Past)",
         "groups": ["roast"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3086,7 +3109,6 @@
     {
         "name": "Industrial Complex (Inv)",
         "groups": ["roast"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3111,7 +3133,6 @@
     {
         "name": "LTTM (Struts & Vents)",
         "groups": ["roast"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3141,7 +3162,6 @@
     {
         "name": "Luna",
         "groups": ["roast"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3174,7 +3194,6 @@
         "name": "Nachos Will Never Be The Same",
         "trueName": "Garbage Wastes (Inv)",
         "groups": ["roast"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3201,7 +3220,6 @@
         "name": "Painage System",
         "trueName": "Drainage System (Inv)",
         "groups": ["roast"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3225,7 +3243,6 @@
     {
         "name": "Memory Crypts",
         "groups": ["roast"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3250,7 +3267,6 @@
     {
         "name": "Rubicon",
         "groups": ["roast"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3280,7 +3296,6 @@
     {
         "name": "Shaded Citadel",
         "groups": ["roast"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3305,7 +3320,6 @@
     {
         "name": "Submerged Superstructure",
         "groups": ["roast"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3333,7 +3347,6 @@
     {
         "name": "Subterranean",
         "groups": ["roast"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3359,7 +3372,6 @@
     {
         "name": "Sump Tunnel",
         "groups": ["roast"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted & Conner \"12LBS\" Skidmore",
@@ -3390,7 +3402,6 @@
     {
         "name": "The Precipice",
         "groups": ["roast"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3415,7 +3426,6 @@
     {
         "name": "The Rot",
         "groups": ["roast"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted & James Primate",
@@ -3439,7 +3449,6 @@
     {
         "name": "The Underhang",
         "groups": ["roast"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3467,7 +3476,6 @@
     {
         "name": "The Wall",
         "groups": ["roast"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3493,7 +3501,6 @@
         "name": "TOOOOOOOO OOOOOOOOO OOOOOOOBS",
         "trueName": "Pipeyard (Inv)",
         "groups": ["roast"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3522,7 +3529,6 @@
         "name": "We Forgot To Render This One Sorry",
         "trueName": "Outskirts (Inv)",
         "groups": ["roast"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3549,7 +3555,6 @@
     {
         "name": "Chimney Canopy",
         "groups": ["night"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Qwertz",
@@ -3575,7 +3580,6 @@
     {
         "name": "Farm Arrays",
         "groups": ["night"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Qwertz",
@@ -3601,7 +3605,6 @@
     {
         "name": "Garbage Wastes",
         "groups": ["night"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Qwertz",
@@ -3626,7 +3629,6 @@
     {
         "name": "Industrial Complex",
         "groups": ["night"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Qwertz",
@@ -3652,7 +3654,6 @@
     {
         "name": "Outskirts",
         "groups": ["night"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Qwertz",
@@ -3679,7 +3680,6 @@
     {
         "name": "Shoreline",
         "groups": ["night"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Qwertz",
@@ -3705,7 +3705,6 @@
     {
         "name": "Sky Islands",
         "groups": ["night"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Qwertz",
@@ -3731,7 +3730,6 @@
     {
         "name": "Desolate Fields",
         "groups": ["frigid"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Best Gamer Ever",
@@ -3755,7 +3753,6 @@
     {
         "name": "Frigid Coast",
         "groups": ["frigid"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Best Gamer Ever",
@@ -3778,7 +3775,6 @@
     {
         "name": "Glacial Wasteland",
         "groups": ["frigid"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Best Gamer Ever",
@@ -3800,7 +3796,6 @@
     {
         "name": "Icy Monument",
         "groups": ["frigid"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Best Gamer Ever",
@@ -3825,7 +3820,6 @@
     {
         "name": "Solitary Towers",
         "groups": ["frigid"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Best Gamer Ever",
@@ -3849,7 +3843,6 @@
     {
         "name": "Suburban Drifts",
         "groups": ["frigid"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Best Gamer Ever",
@@ -3872,7 +3865,6 @@
     {
         "name": "Barren Conduits",
         "groups": ["pilgrim"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Sake L Patatas",
@@ -3898,7 +3890,6 @@
     {
         "name": "Desolate Fields",
         "groups": ["pilgrim"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Sake L Patatas",
@@ -3923,7 +3914,6 @@
     {
         "name": "Drainage System",
         "groups": ["pilgrim"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Sake L Patatas",
@@ -3948,7 +3938,6 @@
     {
         "name": "Frigid Coast",
         "groups": ["pilgrim"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Sake L Patatas",
@@ -3973,7 +3962,6 @@
     {
         "name": "Glacial Wasteland",
         "groups": ["pilgrim"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Sake L Patatas",
@@ -3999,7 +3987,6 @@
     {
         "name": "Icy Monument",
         "groups": ["pilgrim"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Sake L Patatas",
@@ -4024,7 +4011,6 @@
     {
         "name": "Silent Construct",
         "groups": ["pilgrim"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Sake L Patatas",
@@ -4049,7 +4035,6 @@
     {
         "name": "Solitary Towers",
         "groups": ["pilgrim"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Sake L Patatas",
@@ -4077,7 +4062,6 @@
     {
         "name": "Suburban Drifts",
         "groups": ["pilgrim"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Sake L Patatas",
@@ -4102,7 +4086,6 @@
     {
         "name": "Undergrowth",
         "groups": ["pilgrim"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Sake L Patatas",
@@ -4127,7 +4110,6 @@
     {
         "name": "Windswept Spires",
         "groups": ["pilgrim"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Sake L Patatas",
@@ -4152,7 +4134,6 @@
     {
         "name": "Aether Ridge",
         "groups": ["jeeper"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "JeeperCreeperIH",
@@ -4174,7 +4155,6 @@
     {
         "name": "Cold Storage",
         "groups": ["jeeper"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "JeeperCreeperIH",
@@ -4198,7 +4178,6 @@
     {
         "name": "Fractured Gateways",
         "groups": ["jeeper"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "JeeperCreeperIH",
@@ -4220,7 +4199,6 @@
     {
         "name": "Heat Ducts",
         "groups": ["jeeper"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "JeeperCreeperIH",
@@ -4242,7 +4220,6 @@
     {
         "name": "Migration Path",
         "groups": ["jeeper"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "JeeperCreeperIH",
@@ -4264,7 +4241,6 @@
     {
         "name": "Shrouded Stacks",
         "groups": ["jeeper"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "JeeperCreeperIH",
@@ -4286,7 +4262,6 @@
     {
         "name": "Station Annex",
         "groups": ["jeeper"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "JeeperCreeperIH",
@@ -4308,7 +4283,6 @@
     {
         "name": "Torrential Railways",
         "groups": ["jeeper"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "JeeperCreeperIH",
@@ -4331,7 +4305,6 @@
     {
         "name": "Aether Ridge",
         "groups": ["misc"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Rotwall",
@@ -4358,7 +4331,6 @@
     {
         "name": "Heat Ducts",
         "groups": ["misc"],
-        "new": false,
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Rotwall",

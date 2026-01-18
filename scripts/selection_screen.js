@@ -34,7 +34,7 @@ function setUpSelectionScreen(regionData) {
 
                 if (targetGroup !== "fav") {
                     regionData.forEach((region) => {
-                        if ((region.groups[0] == targetGroup)) {regionCount++;}
+                        if ((region.groups.includes(targetGroup))) {regionCount++;}
                     })
 
                     label.innerHTML += ` (${regionCount})`;
@@ -68,7 +68,7 @@ function setUpSelectionScreen(regionData) {
                 newRegionButton.innerText = region.name;
 
                 // new indicator
-                if (region.new) {
+                if (region.groups.includes("new")) {
                     var newRegionIndicator = document.createElement("img");
                     newRegionIndicator.src = "assets/images/misc/new_region_indicator_icon.png";
                     newRegionIndicator.classList.add("new_region_indicators");

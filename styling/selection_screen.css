@@ -271,8 +271,8 @@
 
 .new_region_indicators {
     filter: var(--indicator-filter);
-    width: 1.6vw;
-    height: 1.6vw;
+    width: 1.8vw;
+    height: 1.8vw;
     opacity: 1;
     left: auto;
     right: 0.3vw;

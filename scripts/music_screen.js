@@ -634,9 +634,9 @@ function setUpMusicScreen() {
 
                 // stopping recording if is has started
                 if (recorder.state != "inactive") {
+                    if (!confirm("Save recording to device?")) {eraseRecording = true;}
                     recorder.stop();
                     updateTippyContent(recordButton, "Start Recording");
-                    // eraseRecording = true;
                     recordIcon.src = "assets/images/button_icons/rec_icon.png";
                     switchToDark(saveButton, deleteButton);
                 }

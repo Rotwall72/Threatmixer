@@ -56,12 +56,15 @@ Here's a full list of everyone who's region, music, and/or art is shown in this 
 - [BubbleGUMz](www.youtube.com/@BubbleyCodes) (Youtube)
 - [cam_dev](www.youtube.com/@dragonmasterc) (Youtube)
 - [Carrotpudding](https://www.youtube.com/@carrotpudding2191) (Youtube)
+- [cecilia.wav](https://steamcommunity.com/profiles/76561199523135193) (Steam)
 - Classick
 - [Detrax](https://steamcommunity.com/profiles/76561198449674241) (Steam)
 - [Don](https://www.youtube.com/@donschnulione6646) (Youtube)
 - Fishswallower
 - [Eco/Ruby](https://www.youtube.com/channel/UCKPtLd13KVtzf1d1uDpHOFA) (Youtube)
 - [Fishnoid](https://www.youtube.com/channel/UCG-mPR0LtVn4QX0QSmSwCjQ) (Youtube)
+- [Fishy](www.youtube.com/@Fishy-rea) (Youtube)
+- [Fox Fantastic](https://steamcommunity.com/profiles/76561198899454510) (Steam)
 - [Gamerdog1654](https://steamcommunity.com/id/gamerdogdotcom) (Steam)
 - [Henpemaz](https://www.youtube.com/@henpemaz) (Youtube)
 - [Hessi](https://www.youtube.com/@hessi_943/videos) (Youtube)
@@ -76,6 +79,7 @@ Here's a full list of everyone who's region, music, and/or art is shown in this 
 - LolaTheLoach
 - [LudoCrypt](https://ludocrypt.bandcamp.com/music) (Bandcamp)
 - Mikronaut
+- [MaxDubstep](https://steamcommunity.com/id/AsagiArs) (Steam)
 - [MojiEmoji](https://www.youtube.com/@MojiEmoji) (Youtube)
 - [Mojosoup](https://x.com/MojoMojosoup) (Twitter)
 - [Mold223](https://steamcommunity.com/profiles/76561199567480000) (Steam)
@@ -88,6 +92,8 @@ Here's a full list of everyone who's region, music, and/or art is shown in this 
 - [owlsquish](www.youtube.com/@owlsquish) (Youtube)
 - [Parageist](https://steamcommunity.com/id/Parageist) (Steam)
 - [Pinpoint](https://oliverlollsdesign.com/) (Personal Website)
+- [P01yphemmus](https://p01yphemmus.bandcamp.com/community) (Bandcamp)
+- [Porter Foamer](https://steamcommunity.com/id/333333322342) (Steam)
 - [Ren is Taking Ten](https://www.youtube.com/channel/UCwbD6t3L5doFdyyKr6d6Qqg) (Youtube)
 - [Roasted AND Toasted](https://www.youtube.com/@roastedandtoasted187/videos) (Youtube)
 - [Sako L Patatas](https://www.youtube.com/channel/UCSVoNhfzaXNclJG7U8GkoXA) (Youtube)
@@ -97,11 +103,13 @@ Here's a full list of everyone who's region, music, and/or art is shown in this 
 - [Snoodle](https://snoodle-stuff.carrd.co/) (Personal Website)
 - [Snugboat](https://x.com/SnugBoat11) (Twitter)
 - Spog_frog
+- [thewrldlookswhite](https://ko-fi.com/saturncomm) (Ko-fi)
 - [totallydutch](https://steamcommunity.com/profiles/76561199198610727) (Steam)
 - [Toxi](https://steamcommunity.com/profiles/76561199406431694) (Steam)
 - [Tronsx](https://www.youtube.com/@tronsx8480) (Youtube)
 - [Turt](https://steamcommunity.com/id/turtlemanjackson) (Steam)
 - Tsunochizu
+- [ValiThe](https://steamcommunity.com/profiles/76561199466105237) (Steam)
 - Vela
 - [Wolfycatt](https://wolfycatt.crd.co/) (Personal Website)
 - [Wrayk](https://steamcommunity.com/profiles/76561197975243281) (Steam)
@@ -125,6 +133,9 @@ And here's the credits by region:
 - Region & Region Art by cam_dev
 - Threat Theme by Anonymous
 
+## Awful Malicious Pole
+- Region & Threat Theme by cecilia.wav
+
 ## Badlands (Legacy):
 - Region & Region Art by Fishnoid
 - Threat Theme by Snoodle
@@ -137,6 +148,10 @@ And here's the credits by region:
 - Region by Parageist
 - Region Art by Wolfycatt
 - Threat Theme by LudoCrypt
+
+## Coastal Industry
+- Region & Region Art by Porter Foamer
+- Threat Theme by SaykioPorko
 
 ## Concealed Gardens:
 - Region, Region Art, & Threat Theme by Henpemaz
@@ -239,6 +254,11 @@ And here's the credits by region:
 ## Outer Outskirts:
 - Region, Threat Theme, & Region art by Kizorke
 
+## Overgrown Urban
+- Region by ValiThe
+- Region Art by thewrldlookswhite
+- Threat Theme by P01yphemmus
+
 ## Peripheral Wreckage
 - Region by BubbleGUMz
 - Threat Theme by Hessi
@@ -276,14 +296,24 @@ And here's the credits by region:
 - Region & Region Art by Spog_frog
 - Threat Theme by Pinpoint
 
+## Sequestered Facility:
+- Region by Fox Fantastic
+- Threat Theme by SaykioPorko
+
 ## Side House:
 - Region & Region Art by AndrewFM
 - Threat Theme by Mikronaut
+
+## Sludge Tunnels:
+- Region & Threat Theme by Fishy
 
 ## Soaring Lookout:
 - Region by Inspectnerd
 - Region Art by Notocorda
 - Threat Theme by Roasted AND Toasted
+
+## Steel Mill:
+- Region, Region Art, & Threat Theme by MaxDubstep
 
 ## Stormy Coast:
 - Region by Wrayk

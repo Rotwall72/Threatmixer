@@ -27,3 +27,8 @@ Version 2.8.0
 - Made several code changes in an attempt to fix memory leaks
     - Function recursion is no longer used to move between music and selection screen
 - Removed "new" property from regions which once had it
+
+Version 2.8.1
+
+- Spelling corrections for Connor "12LBS" Skidmore
+- Layer name corrections for Sequestered Facility

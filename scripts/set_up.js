@@ -92,7 +92,6 @@ let menuMusicTimeout,
 
 let regionThreatLayers, hoverCheck, previousPreview, // selection screen
     noRegionsText, favFilterLabel,
-    houseCount = 0,
     storedScrollPosition = buttonOverflow.scrollTop,
     farShoreSelected = false,
     menuMusicPlaying = false,

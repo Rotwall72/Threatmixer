@@ -374,9 +374,9 @@ function addOnClick(element, regionData) {
 
                 if (underscoreSkipped) {layerName = layerName.replace("_", " ");}
 
-                // hardcoding House of Braids tippy names (for now)
+                // hardcoding some tippy names
                 if (regionName == "House of Braids") {
-                    switch (houseCount) {
+                    switch (index) {
                         case 8:
                             layerName = "BASS1 (NIGHT)";
                             break;
@@ -393,8 +393,19 @@ function addOnClick(element, regionData) {
                             layerName = "WAWA (NIGHT)";
                             break;
                     }
-
-                    houseCount++;
+                }
+                else if (regionName == "Sequestered Facility") {
+                    switch(index) {
+                        case 0:
+                            layerName = "PERC II";
+                            break;
+                        case 1:
+                            layerName = "KICK II";
+                            break;
+                        case 8:
+                            layerName = "SNARE II";
+                            break;
+                    }
                 }
                 else if (regionName == "Woven Nest" && index == 11) {
                     layerName = "Thanks Snoodle";
@@ -672,19 +683,6 @@ function filterRegions(regionData, searchInput, filterInput = null) {
 
     if (allHidden) {noRegionsText.style.display = "block";}
     else {noRegionsText.style.display = "none";}
-}
-
-function clearSelectionScreen() {
-    document.title = "Threatmixer";
-    layerButtonContainer.innerHTML = "";
-    buttonOverflow.innerHTML = "";
-    groupInfo.innerText = "Category:";
-    layerInfo.innerText = "Layers:";
-    musicCreditsInfo.innerText = "Song by:";
-    regionCreditsInfo.innerText = "Region by:";
-    artCreditsInfo.innerText = "Art by:";
-    regionButtonClicked = false;
-    houseCount = 0;
 }
 
 function setDynamicColor(elementArray, color) {

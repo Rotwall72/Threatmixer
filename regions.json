@@ -45,7 +45,7 @@
             ["noise_icon.png", "music/threat_music/base/LF/TH_LF - NOISE.ogg", 0]
         ],
         "colors": ["#7b462b"],
-        "filters": ["invert(29%) sepia(7%) saturate(3588%) hue-rotate(335deg) brightness(99%) contrast(92%)"],
+        "filters": ["brightness(0) saturate(100%) invert(27%) sepia(37%) saturate(895%) hue-rotate(336deg) brightness(96%) contrast(85%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/farm_arrays.png",
         "preview": "music/music_snippets/LF_snippet.mp3"
@@ -269,7 +269,7 @@
         ],
         "colors": ["#bd9c7d", "#80452b"],
         "filters": ["invert(65%) sepia(37%) saturate(291%) hue-rotate(348deg) brightness(92%) contrast(89%)",
-                    "brightness(0) saturate(100%) invert(30%) sepia(7%) saturate(4038%) hue-rotate(333deg) brightness(95%) contrast(90%)"],
+                    "brightness(0) saturate(100%) invert(28%) sepia(41%) saturate(753%) hue-rotate(333deg) brightness(96%) contrast(92%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/outer_expanse.png",
         "preview": "music/music_snippets/OE_snippet.mp3"
@@ -522,7 +522,7 @@
             ["underwater_icon.png", "music/threat_music/watch/RR/TH_W5 - NOISE.ogg", 0]
         ],
         "colors": ["#ab8779"],
-        "filters": ["brightness(0) saturate(100%) invert(53%) sepia(4%) saturate(2134%) hue-rotate(331deg) brightness(104%) contrast(96%)"],
+        "filters": ["brightness(0) saturate(100%) invert(58%) sepia(16%) saturate(613%) hue-rotate(331deg) brightness(94%) contrast(85%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/rusted_wrecks.png",
         "preview": "music/music_snippets/RR_snippet.mp3"
@@ -607,7 +607,7 @@
         "colors": ["#2d3e4a", "#ed5d80", "#1f6879"],
         "filters": ["brightness(0) saturate(100%) invert(21%) sepia(28%) saturate(575%) hue-rotate(162deg) brightness(89%) contrast(87%)",
                     "brightness(0) saturate(100%) invert(51%) sepia(95%) saturate(1647%) hue-rotate(310deg) brightness(95%) contrast(94%)",
-                    "brightness(0) saturate(100%) invert(36%) sepia(7%) saturate(4559%) hue-rotate(144deg) brightness(87%) contrast(83%)"],
+                    "brightness(0) saturate(100%) invert(33%) sepia(35%) saturate(862%) hue-rotate(144deg) brightness(93%) contrast(90%)"],
         "containerWidth": "71vw",
         "background": "assets/images/backgrounds/stormy_coast.png",
         "preview": "music/music_snippets/SK_snippet.mp3"
@@ -845,7 +845,7 @@
             ["wawa_icon.png", "music/threat_music/mods/BL/TH_BL - LEAD.ogg", 0]
         ],
         "colors": ["#e37230"],
-        "filters": ["invert(45%) sepia(12%) saturate(5741%) hue-rotate(351deg) brightness(86%) contrast(78%)"],
+        "filters": ["brightness(0) saturate(100%) invert(48%) sepia(67%) saturate(735%) hue-rotate(341deg) brightness(96%) contrast(84%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/badlands.png",
         "preview": "music/music_snippets/BL_snippet.mp3"
@@ -869,7 +869,7 @@
             ["scug_sing_icon.png", "music/threat_music/mods/BI/TH_BI - VOX.ogg", 0]
         ],
         "colors": ["#b06762"],
-        "filters": ["brightness(0) saturate(100%) invert(41%) sepia(5%) saturate(3598%) hue-rotate(315deg) brightness(112%) contrast(103%)"],
+        "filters": ["brightness(0) saturate(100%) invert(46%) sepia(15%) saturate(1432%) hue-rotate(315deg) brightness(95%) contrast(83%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/bioengineering_center.png",
         "preview": "music/music_snippets/BI_snippet.mp3"
@@ -1009,7 +1009,7 @@
             ["bass_icon.png", "music/threat_music/mods/CRID/TH_CRID - LEAD.ogg", 0]
         ],
         "colors": ["#857454"],
-        "filters": ["brightness(0) saturate(100%) invert(48%) sepia(19%) saturate(702%) hue-rotate(1deg) brightness(90%) contrast(80%)"],
+        "filters": ["brightness(0) saturate(100%) invert(46%) sepia(12%) saturate(1114%) hue-rotate(1deg) brightness(96%) contrast(82%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/corroded_manufactory.png",
         "preview": "music/music_snippets/CRID_snippet.mp3"
@@ -1033,7 +1033,7 @@
             ["noise_icon.png", "music/threat_music/mods/PQ/TH_PQ - Train.ogg", 0]
         ],
         "colors": ["#502e2c"],
-        "filters": ["brightness(0) saturate(100%) invert(21%) sepia(8%) saturate(2560%) hue-rotate(315deg) brightness(87%) contrast(94%)"],
+        "filters": ["brightness(0) saturate(100%) invert(15%) sepia(51%) saturate(575%) hue-rotate(315deg) brightness(95%) contrast(86%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/corroded_passage.png",
         "preview": "music/music_snippets/PQ_snippet.mp3"
@@ -1080,7 +1080,7 @@
             ["bass_icon.png", "music/threat_music/mods/MD/TH_MD - BASS.ogg", 0]
         ],
         "colors": ["#625756"],
-        "filters": ["brightness(0) saturate(100%) invert(33%) sepia(5%) saturate(881%) hue-rotate(316deg) brightness(98%) contrast(88%)"],
+        "filters": ["brightness(0) saturate(100%) invert(36%) sepia(7%) saturate(670%) hue-rotate(317deg) brightness(87%) contrast(81%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/data_manifold.png",
         "preview": "music/music_snippets/MD_snippet.mp3"
@@ -1374,7 +1374,7 @@
             ["radio_icon.png", "music/threat_music/mods/GU/TH_GU - LEAD.ogg", 0]
         ],
         "colors": ["#777c91"],
-        "filters": ["brightness(0) saturate(100%) invert(54%) sepia(7%) saturate(927%) hue-rotate(191deg) brightness(89%) contrast(90%)"],
+        "filters": ["brightness(0) saturate(100%) invert(51%) sepia(9%) saturate(694%) hue-rotate(191deg) brightness(94%) contrast(88%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/gray_urban.png",
         "preview": "music/music_snippets/GU_snippet.mp3"
@@ -1467,7 +1467,7 @@
             ["pad_icon.png", "music/threat_music/mods/IDDC/TH_IDDC - YEP.ogg", 0]
         ],
         "colors": ["#4d4d53"],
-        "filters": ["brightness(0) saturate(100%) invert(29%) sepia(8%) saturate(373%) hue-rotate(202deg) brightness(90%) contrast(84%)"],
+        "filters": ["brightness(0) saturate(100%) invert(28%) sepia(9%) saturate(347%) hue-rotate(202deg) brightness(96%) contrast(86%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/industrial_outflow.png",
         "preview": "music/music_snippets/IDDC_snippet.mp3"
@@ -1500,8 +1500,8 @@
             ["synth_icon.png", "music/threat_music/mods/EU/TH_EU - SHADEMELODY.ogg", 0]
         ],
         "colors": ["#0f6cb9", "#46272d"],
-        "filters": ["brightness(0) saturate(100%) invert(30%) sepia(91%) saturate(1138%) hue-rotate(184deg) brightness(92%) contrast(94%)",
-                    "brightness(0) saturate(100%) invert(16%) sepia(21%) saturate(1117%) hue-rotate(298deg) brightness(87%) contrast(91%)"],
+        "filters": ["brightness(0) saturate(100%) invert(23%) sepia(100%) saturate(2049%) hue-rotate(192deg) brightness(90%) contrast(88%)",
+                    "brightness(0) saturate(100%) invert(12%) sepia(49%) saturate(685%) hue-rotate(298deg) brightness(90%) contrast(84%)"],
         "containerWidth": "65vw",
         "background": "assets/images/backgrounds/luminous_cove.png",
         "preview": "music/music_snippets/EU_snippet.mp3"
@@ -1603,7 +1603,7 @@
             ["synth_icon.png", "music/threat_music/mods/OS/TH_OS - BASS.ogg", 0]
         ],
         "colors": ["#4f393f"],
-        "filters": ["brightness(0) saturate(100%) invert(19%) sepia(7%) saturate(2073%) hue-rotate(293deg) brightness(95%) contrast(81%)"],
+        "filters": ["brightness(0) saturate(100%) invert(20%) sepia(9%) saturate(1632%) hue-rotate(293deg) brightness(88%) contrast(80%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/oil_station.png",
         "preview": "music/music_snippets/OS_snippet.mp3"
@@ -1626,7 +1626,7 @@
             ["wawa_icon.png", "music/threat_music/mods/VQN/TH_VQ - WAWA.ogg", 0]
         ],
         "colors": ["#997f9a"],
-        "filters": ["brightness(0) saturate(100%) invert(63%) sepia(4%) saturate(1847%) hue-rotate(250deg) brightness(83%) contrast(91%)"],
+        "filters": ["brightness(0) saturate(100%) invert(58%) sepia(13%) saturate(589%) hue-rotate(250deg) brightness(89%) contrast(85%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/outer_outskirts_new.png",
         "preview": "music/music_snippets/VQN_snippet.mp3"
@@ -1764,7 +1764,7 @@
             ["synth_icon.png", "music/threat_music/mods/PY/TH_PY - LEAD.ogg", 0]
         ],
         "colors": ["#503e36"],
-        "filters": ["brightness(0) saturate(100%) invert(20%) sepia(42%) saturate(347%) hue-rotate(334deg) brightness(98%) contrast(83%)"],
+        "filters": ["brightness(0) saturate(100%) invert(23%) sepia(20%) saturate(649%) hue-rotate(333deg) brightness(92%) contrast(87%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/pipegrave.png",
         "preview": "music/music_snippets/PY_snippet.mp3"
@@ -1925,7 +1925,7 @@
 
         ],
         "colors": ["#60423d"],
-        "filters": ["brightness(0) saturate(100%) invert(25%) sepia(10%) saturate(1559%) hue-rotate(321deg) brightness(96%) contrast(86%)"],
+        "filters": ["brightness(0) saturate(100%) invert(22%) sepia(17%) saturate(1143%) hue-rotate(321deg) brightness(99%) contrast(79%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/rusted_canals.png",
         "preview": "music/music_snippets/2G_snippet.mp3"
@@ -1950,7 +1950,7 @@
             ["sand_icon.png", "music/threat_music/mods/SD_DAY/TH_SD - NOISEDAY.ogg", 0]
         ],
         "colors": ["#84442B"],
-        "filters": ["brightness(0) saturate(100%) invert(28%) sepia(51%) saturate(675%) hue-rotate(331deg) brightness(94%) contrast(89%)"],
+        "filters": ["brightness(0) saturate(100%) invert(22%) sepia(61%) saturate(1390%) hue-rotate(346deg) brightness(93%) contrast(75%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/scorched_district_day.png",
         "preview": "music/music_snippets/SD_DAY_snippet.mp3"
@@ -1974,7 +1974,7 @@
             ["wawa_icon.png", "music/threat_music/mods/SD_NIGHT/TH_SD - LEADNIGHT.ogg", 0]
         ],
         "colors": ["#254163"],
-        "filters": ["brightness(0) saturate(100%) invert(18%) sepia(82%) saturate(437%) hue-rotate(171deg) brightness(97%) contrast(88%)"],
+        "filters": ["brightness(0) saturate(100%) invert(17%) sepia(80%) saturate(570%) hue-rotate(174deg) brightness(95%) contrast(83%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/scorched_district_night.png",
         "preview": "music/music_snippets/SD_NIGHT_snippet.mp3"
@@ -1996,7 +1996,7 @@
             ["scug_sing_icon.png", "music/threat_music/mods/SPS/TH_SP - LEAD.ogg", 0]
         ],
         "colors": ["#2a7d64"],
-        "filters": ["brightness(0) saturate(100%) invert(41%) sepia(13%) saturate(1906%) hue-rotate(111deg) brightness(94%) contrast(86%)"],
+        "filters": ["brightness(0) saturate(100%) invert(35%) sepia(89%) saturate(314%) hue-rotate(111deg) brightness(96%) contrast(86%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/scrapped_peaks.png",
         "preview": "music/music_snippets/SPS_snippet.mp3"
@@ -2121,7 +2121,7 @@
             ["radio_icon.png", "music/threat_music/mods/JJ/TH_JJ - NOISE.ogg", 0]
         ],
         "colors": ["#fcaf56"],
-        "filters": ["brightness(0) saturate(100%) invert(74%) sepia(19%) saturate(1447%) hue-rotate(339deg) brightness(102%) contrast(98%)"],
+        "filters": ["brightness(0) saturate(100%) invert(64%) sepia(68%) saturate(371%) hue-rotate(349deg) brightness(101%) contrast(98%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/soaring_lookout.png",
         "preview": "music/music_snippets/JJ_snippet.mp3"
@@ -2270,7 +2270,7 @@
             ["synth_icon.png", "music/threat_music/mods/RTAA/TH_RNSA - LEAD.ogg", 0]
         ],
         "colors": ["#432cb7"],
-        "filters": ["brightness(0) saturate(100%) invert(15%) sepia(94%) saturate(4703%) hue-rotate(254deg) brightness(75%) contrast(87%)"],
+        "filters": ["brightness(0) saturate(100%) invert(22%) sepia(86%) saturate(7499%) hue-rotate(253deg) brightness(74%) contrast(90%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/the_annex.png",
         "preview": "music/music_snippets/RTAAA_snippet.mp3"
@@ -2291,7 +2291,7 @@
             ["gas_noise_icon.png", "music/threat_music/mods/RTAA/TH_RTAA - SUB.ogg", 0]
         ],
         "colors": ["#3F288A"],
-        "filters": ["brightness(0) saturate(100%) invert(18%) sepia(83%) saturate(1713%) hue-rotate(239deg) brightness(86%) contrast(101%)"],
+        "filters": ["brightness(0) saturate(100%) invert(11%) sepia(90%) saturate(2819%) hue-rotate(249deg) brightness(95%) contrast(91%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/alt_the_annex.png",
         "preview": "music/music_snippets/RTAAB_snippet.mp3"
@@ -2344,7 +2344,7 @@
         ],
         "colors": ["#cd6158", " #5b534c"],
         "filters": ["brightness(0) saturate(100%) invert(46%) sepia(17%) saturate(1653%) hue-rotate(316deg) brightness(98%) contrast(91%)",
-                    "brightness(0) saturate(100%) invert(29%) sepia(6%) saturate(810%) hue-rotate(346deg) brightness(103%) contrast(86%)"],
+                    "brightness(0) saturate(100%) invert(32%) sepia(11%) saturate(463%) hue-rotate(346deg) brightness(94%) contrast(89%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/the_cusp.png",
         "preview": "music/music_snippets/AQTC_snippet.mp3"
@@ -2440,7 +2440,7 @@
             ["xylo_icon.png", "music/threat_music/mods/OZPF/TH_SNOE - PF - BELLS.ogg", 0]
         ],
         "colors": ["#b7c2db"],
-        "filters": ["brightness(0) saturate(100%) invert(98%) sepia(9%) saturate(5980%) hue-rotate(177deg) brightness(96%) contrast(79%)"],
+        "filters": ["brightness(0) saturate(100%) invert(83%) sepia(24%) saturate(243%) hue-rotate(186deg) brightness(92%) contrast(86%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/the_permafrost.png",
         "preview": "music/music_snippets/OZPF_snippet.mp3"
@@ -2464,7 +2464,7 @@
             ["wawa_icon.png", "music/threat_music/mods/OZTR/TH_SNOE - TR - WAWA.ogg", 0]
         ],
         "colors": ["#483e41"],
-        "filters": ["brightness(0) saturate(100%) invert(22%) sepia(27%) saturate(226%) hue-rotate(291deg) brightness(85%) contrast(83%)"],
+        "filters": ["brightness(0) saturate(100%) invert(26%) sepia(7%) saturate(636%) hue-rotate(291deg) brightness(92%) contrast(95%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/the_remains.png",
         "preview": "music/music_snippets/OZTR_snippet.mp3"
@@ -2488,7 +2488,7 @@
             ["arps_icon.png", "music/threat_music/mods/F1/TH_F1 - ROOFPIANO.ogg", 0]
         ],
         "colors": ["#223d47"],
-        "filters": ["brightness(0) saturate(100%) invert(18%) sepia(20%) saturate(1121%) hue-rotate(150deg) brightness(98%) contrast(88%)"],
+        "filters": ["brightness(0) saturate(100%) invert(17%) sepia(75%) saturate(331%) hue-rotate(150deg) brightness(93%) contrast(88%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/roof.png",
         "preview": "music/music_snippets/F1R_snippet.mp3"
@@ -2510,7 +2510,7 @@
             ["weird_sine_wave_icon.png", "music/threat_music/mods/UB/TH_UB - NOISE.ogg", 0]
         ],
         "colors": ["#3c3c44"],
-        "filters": ["brightness(0) saturate(100%) invert(18%) sepia(17%) saturate(352%) hue-rotate(201deg) brightness(101%) contrast(85%)"],
+        "filters": ["brightness(0) saturate(100%) invert(23%) sepia(10%) saturate(456%) hue-rotate(201deg) brightness(95%) contrast(96%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/underbelly.png",
         "preview": "music/music_snippets/UB_snippet.mp3"
@@ -2673,7 +2673,7 @@
         ],
         "colors": ["#3d3934", "#272f19", "#272f19"],
         "filters": ["brightness(0) saturate(100%) invert(19%) sepia(22%) saturate(270%) hue-rotate(354deg) brightness(88%) contrast(85%)",
-                    "brightness(0) saturate(100%) invert(12%) sepia(8%) saturate(3747%) hue-rotate(40deg) brightness(89%) contrast(83%)"],
+                    "brightness(0) saturate(100%) invert(12%) sepia(38%) saturate(606%) hue-rotate(40deg) brightness(99%) contrast(89%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/woven_nest.png",
         "preview": "music/music_snippets/WN_snippet.mp3"
@@ -2778,7 +2778,7 @@
             ["noise_icon.png", "music/threat_music/extra/SH/TH_SH - NOISE.ogg", 0]
         ],
         "colors": ["#3F3736"],
-        "filters": ["brightness(0) saturate(100%) invert(18%) sepia(5%) saturate(1119%) hue-rotate(318deg) brightness(96%) contrast(85%)"],
+        "filters": ["brightness(0) saturate(100%) invert(17%) sepia(6%) saturate(1164%) hue-rotate(318deg) brightness(91%) contrast(81%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/shaded_citadel.png",
         "preview": "music/music_snippets/SH_snippet.mp3"
@@ -2829,7 +2829,7 @@
         ],
         "colors": ["#34AB5A", "#84c0fe"],
         "filters": ["brightness(0) saturate(100%) invert(79%) sepia(8%) saturate(4071%) hue-rotate(79deg) brightness(74%) contrast(73%)",
-                    "brightness(0) saturate(100%) invert(79%) sepia(11%) saturate(6942%) hue-rotate(182deg) brightness(103%) contrast(99%)"],
+                    "brightness(0) saturate(100%) invert(66%) sepia(32%) saturate(558%) hue-rotate(172deg) brightness(103%) contrast(99%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/alt_submerged_superstructure.png",
         "preview": "music/music_snippets/MS_snippet.mp3"
@@ -2853,7 +2853,7 @@
             ["hat_icon.png", "music/threat_music/extra/SB/TH_SB - RAILS.ogg", 0]
         ],
         "colors": ["#682118"],
-        "filters": ["brightness(0) saturate(100%) invert(14%) sepia(27%) saturate(4733%) hue-rotate(345deg) brightness(94%) contrast(92%)"],
+        "filters": ["brightness(0) saturate(100%) invert(19%) sepia(55%) saturate(1534%) hue-rotate(334deg) brightness(81%) contrast(99%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/subterranean.png",
         "preview": "music/music_snippets/SB_snippet.mp3"
@@ -2927,7 +2927,7 @@
             ["weird_sine_wave_icon.png", "music/threat_music/extra/UH/TH_UW - UNDERHANG - ITERATOR.ogg", 0]
         ],
         "colors": ["#4b3c29"],
-        "filters": ["brightness(0) saturate(100%) invert(23%) sepia(28%) saturate(577%) hue-rotate(354deg) brightness(93%) contrast(93%)"],
+        "filters": ["brightness(0) saturate(100%) invert(20%) sepia(37%) saturate(522%) hue-rotate(354deg) brightness(93%) contrast(86%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/underhang.png",
         "preview": "music/music_snippets/UH_snippet.mp3"
@@ -2950,7 +2950,7 @@
             ["scug_sing_icon.png", "music/threat_music/extra/TWD/TH_UW - DAYLEAD.ogg", 0]
         ],
         "colors": ["#896b61"],
-        "filters": ["brightness(0) saturate(100%) invert(46%) sepia(11%) saturate(868%) hue-rotate(329deg) brightness(93%) contrast(87%)"],
+        "filters": ["brightness(0) saturate(100%) invert(41%) sepia(25%) saturate(410%) hue-rotate(329deg) brightness(100%) contrast(86%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/wall_day.png",
         "preview": "music/music_snippets/TWD_snippet.mp3"
@@ -2974,7 +2974,7 @@
             ["scug_sing_icon.png", "music/threat_music/extra/TWN/TH_UW - NIGHTLEAD.ogg", 0]
         ],
         "colors": ["#1f3144"],
-        "filters": ["brightness(0) saturate(100%) invert(14%) sepia(50%) saturate(603%) hue-rotate(170deg) brightness(87%) contrast(88%)"],
+        "filters": ["brightness(0) saturate(100%) invert(14%) sepia(43%) saturate(615%) hue-rotate(170deg) brightness(97%) contrast(91%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/wall_night.png",
         "preview": "music/music_snippets/TWN_snippet.mp3"
@@ -3120,7 +3120,7 @@
             ["underwater_icon.png", "music/threat_music/roast/GWP/TH_GW - UNITNOISE.ogg", 0]
         ],
         "colors": ["#529b47"],
-        "filters": ["brightness(0) saturate(100%) invert(50%) sepia(78%) saturate(320%) hue-rotate(65deg) brightness(89%) contrast(91%)"],
+        "filters": ["brightness(0) saturate(100%) invert(50%) sepia(51%) saturate(459%) hue-rotate(65deg) brightness(95%) contrast(92%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/past_garbage_wastes.png",
         "preview": "music/music_snippets/GWP_snippet.mp3"
@@ -3144,7 +3144,7 @@
             ["arps_icon.png", "music/threat_music/roast/HII/TH_HI - BONUSLEAD.ogg", 0]
         ],
         "colors": ["#416053"],
-        "filters": ["invert(36%) sepia(10%) saturate(960%) hue-rotate(103deg) brightness(91%) contrast(94%)"],
+        "filters": ["brightness(0) saturate(100%) invert(35%) sepia(13%) saturate(858%) hue-rotate(103deg) brightness(91%) contrast(88%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/alt_industrial_complex.png",
         "preview": "music/music_snippets/HII_snippet.mp3"
@@ -3278,7 +3278,7 @@
             ["noise_icon.png", "music/threat_music/roast/SHMR/TH_SH - CRYPTNOISE.ogg", 0]
         ],
         "colors": ["#2f375f"],
-        "filters": ["brightness(0) saturate(100%) invert(18%) sepia(12%) saturate(2872%) hue-rotate(193deg) brightness(94%) contrast(87%)"],
+        "filters": ["brightness(0) saturate(100%) invert(20%) sepia(33%) saturate(798%) hue-rotate(193deg) brightness(100%) contrast(97%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/memory_crypts.png",
         "preview": "music/music_snippets/SHMR_snippet.mp3"
@@ -3331,7 +3331,7 @@
             ["noise_icon.png", "music/threat_music/roast/SHR/TH_SH - SHADENOISE.ogg", 0]
         ],
         "colors": ["#3F3736"],
-        "filters": ["brightness(0) saturate(100%) invert(18%) sepia(5%) saturate(1119%) hue-rotate(318deg) brightness(96%) contrast(85%)"],
+        "filters": ["brightness(0) saturate(100%) invert(16%) sepia(7%) saturate(893%) hue-rotate(319deg) brightness(100%) contrast(83%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/alt_shaded_citadel.png",
         "preview": "music/music_snippets/SHR_snippet.mp3"
@@ -3383,7 +3383,7 @@
             
         ],
         "colors": ["#682118"],
-        "filters": ["brightness(0) saturate(100%) invert(14%) sepia(27%) saturate(4733%) hue-rotate(345deg) brightness(94%) contrast(92%)"],
+        "filters": ["brightness(0) saturate(100%) invert(16%) sepia(36%) saturate(2567%) hue-rotate(337deg) brightness(95%) contrast(97%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/alt_subterranean.png",
         "preview": "music/music_snippets/SBR_snippet.mp3"
@@ -3591,7 +3591,7 @@
             ["noise_icon.png", "music/threat_music/night/CC/TH_CC - NIGHT - NOISE.ogg", 0]
         ],
         "colors": ["#363450"],
-        "filters": ["brightness(0) saturate(100%) invert(19%) sepia(9%) saturate(2092%) hue-rotate(205deg) brightness(98%) contrast(93%)"],
+        "filters": ["brightness(0) saturate(100%) invert(17%) sepia(28%) saturate(817%) hue-rotate(205deg) brightness(98%) contrast(88%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/night_chimney_canopy.png",
         "preview": "music/music_snippets/CC_NIGHT_snippet.mp3"
@@ -3640,7 +3640,7 @@
             ["arps_icon.png", "music/threat_music/night/GW/TH_GW - NIGHT - EXTRA.ogg", 0]
         ],
         "colors": ["#43500a"],
-        "filters": ["brightness(0) saturate(100%) invert(29%) sepia(23%) saturate(1305%) hue-rotate(31deg) brightness(94%) contrast(99%)"],
+        "filters": ["brightness(0) saturate(100%) invert(30%) sepia(45%) saturate(714%) hue-rotate(31deg) brightness(86%) contrast(98%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/night_garbage_wastes.png",
         "preview": "music/music_snippets/GW_NIGHT_snippet.mp3"
@@ -3665,7 +3665,7 @@
             ["machine_icon.png", "music/threat_music/night/HI/TH_HI - NIGHT - INDUSTRY.ogg", 0]
         ],
         "colors": ["#234545"],
-        "filters": ["brightness(0) saturate(100%) invert(24%) sepia(9%) saturate(2104%) hue-rotate(131deg) brightness(88%) contrast(89%)"],
+        "filters": ["brightness(0) saturate(100%) invert(21%) sepia(64%) saturate(320%) hue-rotate(131deg) brightness(89%) contrast(90%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/night_industrial_complex.png",
         "preview": "music/music_snippets/HI_NIGHT_snippet.mp3"
@@ -3691,7 +3691,7 @@
             ["noise_icon.png", "music/threat_music/night/SU/TH_SU - NIGHT - NOISE.ogg", 0]
         ],
         "colors": ["#3b4140"],
-        "filters": ["brightness(0) saturate(100%) invert(23%) sepia(12%) saturate(275%) hue-rotate(120deg) brightness(90%) contrast(87%)"],
+        "filters": ["brightness(0) saturate(100%) invert(21%) sepia(6%) saturate(526%) hue-rotate(120deg) brightness(98%) contrast(87%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/night_outskirts.png",
         "preview": "music/music_snippets/SU_NIGHT_snippet.mp3"
@@ -3716,7 +3716,7 @@
             ["synth_icon.png", "music/threat_music/night/SL/TH_SL - NIGHT - SPECIAL.ogg", 0]
         ],
         "colors": ["#374939"],
-        "filters": ["brightness(0) saturate(100%) invert(22%) sepia(10%) saturate(1082%) hue-rotate(76deg) brightness(102%) contrast(86%)"],
+        "filters": ["brightness(0) saturate(100%) invert(25%) sepia(12%) saturate(863%) hue-rotate(76deg) brightness(95%) contrast(90%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/night_shoreline.png",
         "preview": "music/music_snippets/SL_NIGHT_snippet.mp3"
@@ -4316,7 +4316,7 @@
             ["rain_icon.png", "music/threat_music/jeeper/SKA/TH_WSKA - NOISE.ogg", 0]
         ],
         "colors": ["#5a546a"],
-        "filters": ["brightness(0) saturate(100%) invert(32%) sepia(8%) saturate(1209%) hue-rotate(215deg) brightness(97%) contrast(86%)"],
+        "filters": ["brightness(0) saturate(100%) invert(31%) sepia(17%) saturate(555%) hue-rotate(215deg) brightness(98%) contrast(86%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/torrential_railways.png",
         "preview": "music/music_snippets/SKA_snippet.mp3"

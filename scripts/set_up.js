@@ -34,6 +34,7 @@ const regionButtonContainer = document.getElementById("region_button_container")
     selectionBackButton = document.getElementById("selection_back_button"),
     previewToggleButton = document.getElementById("preview_toggle_button"),
     previewToggleIcon = document.getElementById("preview_toggle_icon"),
+    randomButton = document.getElementById("random_button"),
     searchBar = document.getElementById("search_bar"),
     searchOptions = document.getElementById("search_options"),
     searchDropdownOptions = document.getElementsByClassName("search_dropdown_options"),
@@ -82,8 +83,9 @@ const layerButtons = document.getElementsByClassName("layer_button"), // music s
 
 // globals
 const linkPrefix = "https://raw.githubusercontent.com/Rotwall72/Threatmixer-Audio-Storage/main/"; // misc/home screen
-let menuMusicTimeout, 
+let menuMusicTimeout,
     canBounce = true,
+    regionsFetched = false,
     menuMusicEnabled = false,
     tippyLayerNames = [],
     volumeSliders = [];
@@ -134,6 +136,11 @@ let songSoloed, songStarted, eraseRecording, loadedLayers,
 
 // hiding certain screens for cleaner page startup
 const hiddenElements = [loadingScreen, musicScreen, selectionScreen];
+
+// making images load "lazily"
+Array.from(document.querySelectorAll("img")).forEach((element) => {
+    element.loading = "lazy";
+})
 
 // hiding all other screens and only showing the home screen first
 hideScreen(selectionScreen, musicScreen, loadingScreen);
@@ -237,13 +244,25 @@ menuMusicToggleButton.onclick = () => {
 }
 
 beginButton.onclick = () => {
-    hideScreen(homeScreen, selectionScreen);
-    loadingText.innerText = "Preparing selection screen...";
-    showScreen(loadingScreen);
+    hideScreen(homeScreen);
     if (menuMusicPlaying && menuMusicEnabled) {menuMusic.fade(menuMusic.volume(), 0, 3000);}
     clearInterval(menuMusicCheck);
     clearTimeout(menuMusicTimeout);
-    runProgram();
+
+    if (!regionsFetched) {
+        fetch("regions.json").then((data) => {
+            return data.json();
+        })
+        .then(async (regionData) => {
+            // once that data has been obtained,
+            await setUpSelectionScreen(regionData);
+        })
+        .then(() => {
+            regionsFetched = true;
+            showScreen(selectionScreen);
+        })
+    }
+    else {showScreen(selectionScreen);}
 }
 
 defineButtonLink(feedbackButton, "https://forms.gle/R7q3uP9jSBQfEmuF8");
@@ -304,6 +323,8 @@ if (!previewsOn) {
     previewToggleIcon.src = "assets/images/button_icons/preview_disabled_icon.png";
     updateTippyContent(previewToggleButton, "Preview Toggle (Off)");
 }
+
+createTippy(randomButton, randomButton.dataset.title, "#dadbdd")
 
 // MISC FUNCTIONS
 function defineMarkdownOnclick(button, parentContainer, childContainer) {

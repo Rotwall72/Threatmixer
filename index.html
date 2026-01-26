@@ -19,7 +19,6 @@
     <script src="scripts/set_up.js" defer></script>
     <script src="scripts/selection_screen.js" defer></script>
     <script src="scripts/music_screen.js" defer></script>
-    <script src="scripts/main.js" defer></script>
 </head>
 <body>
     <!-- Screen Cover -->
@@ -69,7 +68,7 @@
         </button> 
 
         <p id="disclaimer">DISCLAIMER: I am not affiliated with Videocult nor Akupara Games in any way. This is a fan project, and I own almost none of the images or music featured on this page. Also, beware of major game and dlc spoilers for Rain World!</p>
-        <p id="version">Version 2.7.0</p>
+        <p id="version">Version 2.8.0</p>
 
         <img id="bird" src="assets\images\misc\vanillabean.png">
     </div>
@@ -79,13 +78,18 @@
         <div id="left_selection_screen_container">
             <div id="buttons_and_search_container">
                 <!-- Back Button -->
-                <button class="selection_back_and_preview_buttons" id="selection_back_button">
+                <button class="selection_screen_buttons" id="selection_back_button">
                     <img id="selection_back_button_icon" src="assets/images/button_icons/alt_exit_icon.png">
                 </button>
 
                 <!--Preview Toggle -->
-                <button data-title="Preview Toggle (On)" class="selection_back_and_preview_buttons" id="preview_toggle_button">
+                <button data-title="Preview Toggle (On)" class="selection_screen_buttons" id="preview_toggle_button">
                     <img id="preview_toggle_icon" src="assets\images\button_icons\preview_enabled_icon.png">
+                </button>
+
+                <!-- Random Button -->
+                <button data-title="Random Song" class="selection_screen_buttons" id="random_button">
+                    <img id="random_button_icon" src="assets\images\button_icons\random1_icon.png">
                 </button>
 
                 <!-- Search Bar -->

@@ -74,12 +74,14 @@ function setUpSelectionScreen(regionData) {
                     newRegionIndicator.classList.add("new_region_indicators");
                     newRegionIndicator.style.setProperty("--indicator-filter", region.filters[0]);
                     newRegionIndicator.style.setProperty("--glow-color", region.colors[0]);
+                    newRegionIndicator.loading = "lazy";
                     newRegionButton.appendChild(newRegionIndicator);
                 }
 
                 // favorite button
                 var newFavoriteButton = document.createElement("img");
                 newFavoriteButton.classList.add("favorite_button");
+                newFavoriteButton.loading = "lazy";
 
                 /* The .favorited property doesn't carry over between selection resets,
                 so we keep track of which regions were favorite using favoritedArray */
@@ -195,7 +197,7 @@ function setUpSelectionScreen(regionData) {
                             onstop: () => {songPreview.isFadingOut = false;}
                         })
                     }
-                    
+
                     if (region.preview != "N/A" && previewCanPlay && !loadingRegion && previewsOn) {
                         if (previousPreview !== undefined) {
                             if (previousPreview.isFadingOut) {
@@ -204,6 +206,7 @@ function setUpSelectionScreen(regionData) {
                                 previousPreview.isFadingOut = false;
                             }
 
+                            // console.log(!previousPreview.isFadingOut && !songPreview.song.playing() && !loadingRegion && previewsOn)
                             if (!previousPreview.isFadingOut && !songPreview.song.playing() && !loadingRegion && previewsOn) {
                                 songPreview.song.play();
                             }
@@ -233,7 +236,7 @@ function setUpSelectionScreen(regionData) {
 
                 // this function adds an onclick event to each button that will cause them to begin loading their respective song screen
                 if (region.name != "Coming Soon!") {
-                    addOnClick(newRegionButton, regionData, resolve);
+                    addOnClick(newRegionButton, regionData);
                 }
 
                 // finishing button set up
@@ -269,6 +272,7 @@ function setUpSelectionScreen(regionData) {
             })
 
             failsafesDone = true;
+            resolve();
         });
 
         // adding a short cooldown to when song previews can begin playing
@@ -277,7 +281,7 @@ function setUpSelectionScreen(regionData) {
 }
 
 // this function handles giving the button functionality and loading the music screen
-function addOnClick(element, regionData, resolve) {
+function addOnClick(element, regionData) {
     element.onclick = () => {
         // preventing this code from running twice due to a double click, and also if the favorite button was clicked
         if (!regionButtonClicked && !favoriteButtonCicked) {
@@ -404,6 +408,7 @@ function addOnClick(element, regionData, resolve) {
                 // creating the icons to put in each button
                 var newLayerIcon = document.createElement("img");
                 newLayerIcon.classList.add("button_icon");
+                newLayerIcon.loading = "lazy";
 
                 if (regionName == "Data Manifold" && index == 3) {
                     var potRoll = Math.floor(Math.random() * 10) + 1;
@@ -422,6 +427,7 @@ function addOnClick(element, regionData, resolve) {
                 var newSoloIcon = document.createElement("img");
                 newSoloIcon.classList.add("button_icon", "solo_button_icon");
                 newSoloIcon.src = soloIcon1;
+                newSoloIcon.loading = "lazy";
 
                 // applying color to the buttons
                 var buttonColor = colorArray[layer[2]],
@@ -508,9 +514,9 @@ function addOnClick(element, regionData, resolve) {
             canvasContext.fillStyle = `${defaultColor}`;
             canvasContext.strokeStyle = `${defaultColor}`;
 
-            // once this has all been done, move onto the next step
-            resolve();
+            setUpMusicScreen();
         }
+
         else {
             favoriteButtonCicked = false;
         }
@@ -521,7 +527,7 @@ function addOnClick(element, regionData, resolve) {
 selectionBackButton.onclick = () => {
     showScreen(homeScreen)
     hideScreen(selectionScreen)
-    clearSelectionScreen()
+    // clearSelectionScreen()
     failsafesDone = false;
 
     // restarting the menu music check
@@ -546,6 +552,22 @@ previewToggleButton.onclick = () => {
     else {
         previewToggleIcon.src = "assets/images/button_icons/preview_enabled_icon.png";
         updateTippyContent(previewToggleButton, "Preview Toggle (On)");
+    }
+}
+
+randomButton.onclick = () => {
+    const regionButtonArray = Array.from(regionButtons);
+    var possibleIndices = [];
+
+    regionButtonArray.forEach((button, index) => {
+        if (button.style.display === "block") {
+            possibleIndices.push(index);
+        }
+    });
+
+    if (possibleIndices.length > 0) {
+        const randomIndex = possibleIndices[Math.floor(Math.random() * possibleIndices.length)];
+        regionButtonArray[randomIndex].click();
     }
 }
 

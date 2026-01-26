@@ -804,7 +804,7 @@
     },
     {
         "name": "Awful Malicious Pole",
-        "groups": ["mods", "new"],
+        "groups": ["mods"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "cecilia.wav",
@@ -948,7 +948,7 @@
     },
     {   
         "name": "Coastal Industry",
-        "groups": ["mods", "new"],
+        "groups": ["mods"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "SaykioPorko",
@@ -1454,6 +1454,25 @@
         "preview": "music/music_snippets/OZLT_snippet.mp3"
     },
     {   
+        "name": "Industrial Outflow",
+        "groups": ["mods"],
+        "favorited": false,
+        "songCredits": "totallydutch",
+        "regionCredits": "totallydutch",
+        "artCredits": "totallydutch",
+        "layers": [
+            ["weird_icon.png", "music/threat_music/mods/IDDC/TH_IDDC - SHK.ogg", 0],
+            ["pad_icon.png", "music/threat_music/mods/IDDC/TH_IDDC - PER.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/IDDC/TH_IDDC - OOO.ogg", 0],
+            ["pad_icon.png", "music/threat_music/mods/IDDC/TH_IDDC - YEP.ogg", 0]
+        ],
+        "colors": ["#4d4d53"],
+        "filters": ["brightness(0) saturate(100%) invert(29%) sepia(8%) saturate(373%) hue-rotate(202deg) brightness(90%) contrast(84%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/industrial_outflow.png",
+        "preview": "music/music_snippets/IDDC_snippet.mp3"
+    },
+    {   
         "name": "Luminous Cove",
         "groups": ["mods"],
         "favorited": false,
@@ -1656,7 +1675,7 @@
     },
     {
         "name": "Overgrown Urban",
-        "groups": ["mods", "new"],
+        "groups": ["mods"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "P01yphemmus",
@@ -1984,7 +2003,7 @@
     },
     {   
         "name": "Sequestered Facility",
-        "groups": ["mods", "new"],
+        "groups": ["mods"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "SaykioPorko",
@@ -2034,7 +2053,7 @@
     },
     {   
         "name": "Sludge Tunnels",
-        "groups": ["mods", "new"],
+        "groups": ["mods"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Fishy",
@@ -2134,7 +2153,7 @@
     },
     {   
         "name": "Steel Mill (Unused)",
-        "groups": ["mods", "new"],
+        "groups": ["mods"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "MaxDubstep",

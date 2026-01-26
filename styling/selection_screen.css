@@ -42,28 +42,28 @@
     justify-content: space-evenly;
 }
 
-.selection_back_and_preview_buttons, #menu_music_toggle_button {
+.selection_screen_buttons, #menu_music_toggle_button {
     padding-right: 4.7vw;
     padding-left: 0.7vw;
     padding-top: 0.7vw;
     padding-bottom: 5vw;
 }
 
-.selection_back_and_preview_buttons {
+.selection_screen_buttons {
     width: 1vw;
     height: 1vw;
     box-shadow: none;
     border: 0.2vw solid #dadbdd;
 }
 
-#preview_toggle_icon, #selection_back_button_icon, #menu_music_toggle_icon {
+#preview_toggle_icon, #selection_back_button_icon, #menu_music_toggle_icon, #random_button_icon {
     image-rendering: pixelated;
     width: 4.2vw;
 }
 
 #search_bar {
     height: 2.5vw;
-    width: 45vw;
+    width: 36vw;
     font-family: RWmenu;
     font-size: 1vw;
     border: 0.2vw solid #dadbdd;

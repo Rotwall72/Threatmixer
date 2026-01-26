@@ -18,15 +18,12 @@ If you want to see developement logs, share mixes, or just hang out with other f
 
 # *Changelog*
 
-Version 2.7.0
+Version 2.8.0
 
-- Added a new search filter: New Additions
-    - Removed the "new" boolean property from regions and instead made it a possible group
-- Added a prompt for when a song is stopped while being recorded
-- Added 6 new regions/songs
-    - Awful Malicious Pole
-    - Coastal Industry
-    - Overgrown Urban
-    - Sequestered Facility
-    - Sludge Tunnels
-    - Steel Mill
+- Re-added Industrial Outflow (it got deleted somehow)
+- Added a new "random" button to selection screen
+    - Randomly selects 1 region/song for the user, ingoring ones hidden by search filters
+- Removed main.js
+- Made several code changes in an attempt to fix memory leaks
+    - Function recursion is no longer used to move between music and selection screen
+- Removed "new" property from regions which once had it

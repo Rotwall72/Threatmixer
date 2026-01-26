@@ -791,8 +791,6 @@ function setUpMusicScreen() {
                 layer.bufferSource.disconnect();
             }
 
-            clearSelectionScreen();
-
             playAllIcon.src = "assets/images/button_icons/play_all_icon.png";
             pauseIcon.src = "assets/images/button_icons/pause_icon.png";
             recordIcon.src = "assets/images/button_icons/rec_icon.png";
@@ -800,12 +798,15 @@ function setUpMusicScreen() {
 
             globalDuration = 9999;
             failsafesDone = false;
+            regionButtonClicked = false;
+            loadingRegion = false;
             layerNameArray = [];
             tippyLayerNames = [];
             volumeSliders = [];
 
             settingsContainer.style.opacity = "0";
             settingsContainer.style.pointerEvents = "none";
+            layerButtonContainer.innerHTML = "";
 
             updateTippyContent(playAllButton, "Play All Layers");
             updateTippyContent(pauseButton, "Pause Song & Recording");
@@ -817,8 +818,9 @@ function setUpMusicScreen() {
             // resetting event handler
             document.onkeydown = () => {}
 
-            // recursion point
-            runProgram();
+            // returning to the selection screen
+            hideScreen(musicScreen);
+            showScreen(selectionScreen);
         };
     });
 }

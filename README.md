@@ -27,3 +27,7 @@ Version 2.9.3
     - Forest Sanctuary + Old ver.
     - Intake System + Old ver.
 - Restored his power
+
+Version 2.9.4
+
+- File naming corrections

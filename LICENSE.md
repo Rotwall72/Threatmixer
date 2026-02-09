@@ -60,6 +60,7 @@ Here's a full list of everyone who's region, music, and/or art is shown in this 
 - Classick
 - [Detrax](https://steamcommunity.com/profiles/76561198449674241) (Steam)
 - [Don](https://www.youtube.com/@donschnulione6646) (Youtube)
+- [Dragonly44](https://steamcommunity.com/id/Dragonly44/) (Steam)
 - Fishswallower
 - [Eco/Ruby](https://www.youtube.com/channel/UCKPtLd13KVtzf1d1uDpHOFA) (Youtube)
 - [Fishnoid](https://www.youtube.com/channel/UCG-mPR0LtVn4QX0QSmSwCjQ) (Youtube)
@@ -100,8 +101,10 @@ Here's a full list of everyone who's region, music, and/or art is shown in this 
 - [SaykioPorko](https://www.youtube.com/channel/UCZZkji3lcDIY7h8T5C-WxIQ) (Youtube)
 - [Sequoia7](https://www.youtube.com/@Sequoia7_RW) (Youtube)
 - [Serpanoy](https://serpanoy.carrd.co/) (Personal Website)
+- [Sipik](https://sipik.carrd.co/) (Personal Website)
 - [Snoodle](https://snoodle-stuff.carrd.co/) (Personal Website)
 - [Snugboat](https://x.com/SnugBoat11) (Twitter)
+- [Soff](https://www.youtube.com/channel/UC1r4s-qw-oAE2-rCpHQfrbw) (Youtube)
 - Spog_frog
 - [thewrldlookswhite](https://ko-fi.com/saturncomm) (Ko-fi)
 - [totallydutch](https://steamcommunity.com/profiles/76561199198610727) (Steam)
@@ -144,6 +147,10 @@ And here's the credits by region:
 - Region & Region Art by Mold223
 - Threat Theme by LudoCrypt
 
+## Celestial Summit:
+- Region & Region Art by FlanAce
+- Threat Theme by totallydutch
+
 ## Cliffside:
 - Region by Parageist
 - Region Art by Wolfycatt
@@ -182,6 +189,10 @@ And here's the credits by region:
 ## Deserted Wastelands:
 - Region, Region Art, & Threat Theme by Don
 
+## Drought Regions (Forest Sanctuary & Intake System):
+- Regions and Region Artworks by Drought Team
+- Threat Themes by Sipik
+
 ## Eroded Refinery:
 - Region by Detrax
 - Threat Theme by Aki
@@ -206,6 +217,14 @@ And here's the credits by region:
 - Region by Tronsx
 - Region Art by 4slugcats
 - Threat Theme by Roasted AND Toasted
+
+## Freezing Flights
+- Region & Region Art by FlanAce
+- Threat Theme by dragonly44
+
+## Freezing Flights
+- Region & Region Art by FlanAce
+- Threat Theme by soff
 
 ## Gloaming Refinery:
 - Region & Threat Theme by BubbleGUMz

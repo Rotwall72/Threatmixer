@@ -480,6 +480,10 @@ function addOnClick(element, regionData) {
                         beenFound = true;
                     }
                 }
+                else if (regionName !== "Woven Nest") {
+                    var him = document.getElementById("c");
+                    him.style.display = "none";
+                }
 
                 // creating a pop-up tip for each button
                 createTippy(newLayerButton, layerName, buttonColor);

@@ -274,7 +274,12 @@ function setUpMusicScreen() {
         if (keyPressedinKeysArray) {
             correspondingIndex = keysArray.indexOf(keyPressed);
             if (correspondingIndex + indexToLengthAdjustment <= layerButtons.length) {
-                layerButtons[correspondingIndex].click();
+                if (layerNameArray[correspondingIndex] !== "Thanks Snoodle") {
+                    layerButtons[correspondingIndex].click();
+                }
+                else if (beenFound) {
+                    layerButtons[correspondingIndex].click();
+                }
             };
         }
 

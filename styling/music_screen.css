@@ -263,7 +263,7 @@ body, #music_screen {
     display: none;
     position: absolute;
     z-index: 999;
-    opacity: 3%;
+    opacity: 8%;
     max-height: 4vw;
     width: 10vw;
     top: -1vw;

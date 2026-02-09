@@ -18,17 +18,12 @@ If you want to see developement logs, share mixes, or just hang out with other f
 
 # *Changelog*
 
-Version 2.8.0
+Version 2.9.3
 
-- Re-added Industrial Outflow (it got deleted somehow)
-- Added a new "random" button to selection screen
-    - Randomly selects 1 region/song for the user, ingoring ones hidden by search filters
-- Removed main.js
-- Made several code changes in an attempt to fix memory leaks
-    - Function recursion is no longer used to move between music and selection screen
-- Removed "new" property from regions which once had it
-
-Version 2.8.1
-
-- Spelling corrections for Connor "12LBS" Skidmore
-- Layer name corrections for Sequestered Facility
+- New Songs from Global Hyper-Transit System and Drought regions
+    - Freezing Flights
+    - Celestial Summit
+    - Fractured Foundry
+    - Forest Sanctuary + Old ver.
+    - Intake System + Old ver.
+- Restored his power

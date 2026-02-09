@@ -899,6 +899,27 @@
         "preview": "music/music_snippets/Z3_snippet.mp3"
     },
     {
+        "name": "Celestial Summit",
+        "groups": ["mods", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "totallydutch",
+        "regionCredits": "FlanAce",
+        "artCredits": "FlanAce",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/mods/CEL/TH_CELESTE - KICK.ogg", 0],
+            ["snare_icon.png", "music/threat_music/mods/CEL/TH_CELESTE - DRUMS.ogg", 0],
+            ["bass_icon.png", "music/threat_music/mods/CEL/TH_CELESTE - BASS.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/CEL/TH_CELESTE - SYNTH.ogg", 0],
+            ["pad_icon.png", "music/threat_music/mods/CEL/TH_CELESTE - ECHO.ogg", 0]
+        ],
+        "colors": ["#d9cedb"],
+        "filters": ["brightness(0) saturate(100%) invert(87%) sepia(7%) saturate(275%) hue-rotate(244deg) brightness(95%) contrast(93%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/celestial_summit.png",
+        "preview": "music/music_snippets/CEL_snippet.mp3"
+    },
+    {
         "name": "Central Factory",
         "groups": ["mods"],
         "favorited": false,
@@ -1204,6 +1225,66 @@
         "preview": "music/music_snippets/FO_snippet.mp3"
     },
     {   
+        "name": "Forest Sanctuary",
+        "groups": ["mods", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Sipik",
+        "regionCredits": "Drought Team",
+        "artCredits": "Drought Team",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/mods/FS/TH_FS - Kick.mp3", 0],
+            ["perc_icon.png", "music/threat_music/mods/FS/TH_FS - Perc.mp3", 0],
+            ["snare_icon.png", "music/threat_music/mods/FS/TH_FS - Perc2.mp3", 0],
+            ["band_drum_icon.png", "music/threat_music/mods/FS/TH_FS - Perc3.mp3", 0],
+            ["castanets_icon.png", "music/threat_music/mods/FS/TH_FS - Shaker.mp3", 0],
+            ["shaker_icon.png", "music/threat_music/mods/FS/TH_FS - Shaker2.mp3", 0],
+            ["shaker_icon.png", "music/threat_music/mods/FS/TH_FS - Shaker3.mp3", 0],
+            ["weird_icon.png", "music/threat_music/mods/FS/TH_FS - Shaker4.mp3", 0],
+            ["bass_icon.png", "music/threat_music/mods/FS/TH_FS - Bass.mp3", 0],
+            ["synth_icon.png", "music/threat_music/mods/FS/TH_FS - Bells.mp3", 0],
+            ["synth_icon.png", "music/threat_music/mods/FS/TH_FS - BigBell.mp3", 0],
+            ["xylo_icon.png", "music/threat_music/mods/FS/TH_FS - BellsAgain.mp3", 0],
+            ["atmos_icon.png", "music/threat_music/mods/FS/TH_FS - MoreBells.mp3", 0],
+            ["weird_icon.png", "music/threat_music/mods/FS/TH_FS - FX.mp3", 0],
+            ["hit_icon.png", "music/threat_music/mods/FS/TH_FS - Snare.mp3", 0],
+            ["castanets_icon.png", "music/threat_music/mods/FS/TH_FS - Rimshot.mp3", 0],
+            ["handpan_icon.png", "music/threat_music/mods/FS/TH_FS - Gong.mp3", 0],
+            ["noise_icon.png", "music/threat_music/mods/FS/TH_FS - Sweep.mp3", 0],
+            ["sine_wave_icon.png", "music/threat_music/mods/FS/TH_FS - Synth.mp3", 0],
+            ["pad_icon.png", "music/threat_music/mods/FS/TH_FS - Synth2.mp3", 0]
+        ],
+        "colors": ["#88b823"],
+        "filters": ["brightness(0) saturate(100%) invert(89%) sepia(18%) saturate(4376%) hue-rotate(25deg) brightness(85%) contrast(73%)"],
+        "containerWidth": "68vw",
+        "background": "assets/images/backgrounds/forest_sanctuary.png",
+        "preview": "music/music_snippets/FS_snippet.mp3"
+    },
+    {   
+        "name": "Forest Sanctuary (Old)",
+        "groups": ["mods", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Sipik",
+        "regionCredits": "Drought Team",
+        "artCredits": "Drought Team",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/mods/FS_OLD/oldTH_FS - KICC.ogg", 0],
+            ["bongos_icon.png", "music/threat_music/mods/FS_OLD/oldTH_FS - BONGO.ogg", 0],
+            ["hat_icon.png", "music/threat_music/mods/FS_OLD/oldTH_FS - TENCE.ogg", 0],
+            ["shaker_icon.png", "music/threat_music/mods/FS_OLD/oldTH_FS - SHAKER.ogg", 0],
+            ["weird_sine_wave_icon.png", "music/threat_music/mods/FS_OLD/oldTH_FS - BASS.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/FS_OLD/oldTH_FS - CHORDS.ogg", 0],
+            ["perc_icon.png", "music/threat_music/mods/FS_OLD/oldTH_FS - RATTLE.ogg", 0],
+            ["arps_icon.png", "music/threat_music/mods/FS_OLD/oldTH_FS - ARPEGGIO.ogg", 0]
+        ],
+        "colors": ["#71912f"],
+        "filters": ["brightness(0) saturate(100%) invert(48%) sepia(71%) saturate(376%) hue-rotate(38deg) brightness(93%) contrast(91%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/alt_forest_sanctuary.png",
+        "preview": "music/music_snippets/FS_OLD_snippet.mp3"
+    },
+    {   
         "name": "Forsaken Station (A)",
         "groups": ["mods"],
         "favorited": false,
@@ -1257,6 +1338,51 @@
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/forlorn_valley.png",
         "preview": "music/music_snippets/FTB_snippet.mp3"
+    },
+    {   
+        "name": "Fractured Foundry",
+        "groups": ["mods", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "soff",
+        "regionCredits": "FlanAce",
+        "artCredits": "FlanAce",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/mods/XQ/TH_XQ - KICK.ogg", 0],
+            ["bass_icon.png", "music/threat_music/mods/XQ/TH_XQ - BASS.ogg", 0],
+            ["atmos_icon.png", "music/threat_music/mods/XQ/TH_XQ - FLAKE.ogg", 0],
+            ["pad_icon.png", "music/threat_music/mods/XQ/TH_XQ - RISE.ogg", 0],
+            ["shaker_icon.png", "music/threat_music/mods/XQ/TH_XQ - SHAKER.ogg", 0],
+            ["noise_icon.png", "music/threat_music/mods/XQ/TH_XQ - PUSH.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/XQ/TH_XQ - ARP.ogg", 0],
+            ["pad_icon.png", "music/threat_music/mods/XQ/TH_XQ - FROST.ogg", 0],
+            ["noise_icon.png", "music/threat_music/mods/XQ/TH_XQ - NOISE.ogg", 0]
+        ],
+        "colors": ["#88656a"],
+        "filters": ["brightness(0) saturate(100%) invert(43%) sepia(12%) saturate(913%) hue-rotate(302deg) brightness(93%) contrast(81%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/fractured_foundry.png",
+        "preview": "music/music_snippets/XQ_snippet.mp3"
+    },
+    {   
+        "name": "Freezing Flights",
+        "groups": ["mods", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "dragonly44",
+        "regionCredits": "FlanAce",
+        "artCredits": "FlanAce",
+        "layers": [
+            ["pad_icon.png", "music/threat_music/mods/IQ/TH_IQ - BASE.ogg", 0],
+            ["shaker_icon.png", "music/threat_music/mods/IQ/TH_IQ - BEAT.ogg", 0],
+            ["weird_sine_wave_icon.png", "music/threat_music/mods/IQ/TH_IQ - SYNTH.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/IQ/TH_IQ - LEAD.ogg", 0]
+        ],
+        "colors": ["#572568"],
+        "filters": ["brightness(0) saturate(100%) invert(19%) sepia(33%) saturate(2149%) hue-rotate(252deg) brightness(92%) contrast(97%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/freezing_flights.png",
+        "preview": "music/music_snippets/IQ_snippet.mp3"
     },
     {
         "name": "Gloaming Refinery",
@@ -1471,6 +1597,53 @@
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/industrial_outflow.png",
         "preview": "music/music_snippets/IDDC_snippet.mp3"
+    },
+    {   
+        "name": "Intake System",
+        "groups": ["mods", "new"],
+        "favorited": false,
+        "songCredits": "Sipik",
+        "regionCredits": "Drought Team",
+        "artCredits": "Drought Team",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/mods/IS/TH_IS - Kick.mp3", 0],
+            ["synth_icon.png", "music/threat_music/mods/IS/TH_IS - Bass.mp3", 0],
+            ["bongos_icon.png", "music/threat_music/mods/IS/TH_IS - Bongo.mp3", 0],
+            ["pad_icon.png", "music/threat_music/mods/IS/TH_IS - Granulator.mp3", 0],
+            ["snare_icon.png", "music/threat_music/mods/IS/TH_IS - Snare.mp3", 0],
+            ["noise_icon.png", "music/threat_music/mods/IS/TH_IS - Growls.mp3", 0],
+            ["weird_icon.png", "music/threat_music/mods/IS/TH_IS - Perc.mp3", 0],
+            ["synth_icon.png", "music/threat_music/mods/IS/TH_IS - Atmosphere.mp3", 0],
+            ["arps_icon.png", "music/threat_music/mods/IS/TH_IS - Pluck1.mp3", 0],
+            ["arps_icon.png", "music/threat_music/mods/IS/TH_IS - Pluck2.mp3", 0],
+            ["rave_icon.png", "music/threat_music/mods/IS/TH_IS - Sampler.mp3", 0]
+            
+        ],
+        "colors": ["#39394e"],
+        "filters": ["brightness(0) saturate(100%) invert(20%) sepia(32%) saturate(496%) hue-rotate(201deg) brightness(88%) contrast(87%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/intake_system.png",
+        "preview": "music/music_snippets/IS_snippet.mp3"
+    },
+    {   
+        "name": "Intake System (Old)",
+        "groups": ["mods", "new"],
+        "favorited": false,
+        "songCredits": "Sipik",
+        "regionCredits": "Drought Team",
+        "artCredits": "Drought Team",
+        "layers": [
+            ["hit_icon.png", "music/threat_music/mods/IS_OLD/oldTH_IS - IMPACT.ogg", 0],
+            ["shaker_icon.png", "music/threat_music/mods/IS_OLD/oldTH_IS - SHAKER.ogg", 0],
+            ["shaker_icon.png", "music/threat_music/mods/IS_OLD/oldTH_IS - SHAKER2.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/IS_OLD/oldTH_IS - CHORDS.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/IS_OLD/oldTH_IS - ARPEGGIO.ogg", 0]
+        ],
+        "colors": ["#44444a"],
+        "filters": ["brightness(0) saturate(100%) invert(31%) sepia(1%) saturate(2034%) hue-rotate(202deg) brightness(86%) contrast(101%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/alt_intake_system.png",
+        "preview": "music/music_snippets/IS_OLD_snippet.mp3"
     },
     {   
         "name": "Luminous Cove",

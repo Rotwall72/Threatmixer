@@ -58,6 +58,7 @@ Here's a full list of everyone who's region, music, and/or art is shown in this 
 - [Carrotpudding](https://www.youtube.com/@carrotpudding2191) (Youtube)
 - [cecilia.wav](https://steamcommunity.com/profiles/76561199523135193) (Steam)
 - Classick
+- Danji
 - [Detrax](https://steamcommunity.com/profiles/76561198449674241) (Steam)
 - [Don](https://www.youtube.com/@donschnulione6646) (Youtube)
 - [Dragonly44](https://steamcommunity.com/id/Dragonly44/) (Steam)
@@ -192,6 +193,7 @@ And here's the credits by region:
 ## Drought Regions (Forest Sanctuary & Intake System):
 - Regions and Region Artworks by Drought Team
 - Threat Themes by Sipik
+- Old Threat Themes by Danji
 
 ## Eroded Refinery:
 - Region by Detrax

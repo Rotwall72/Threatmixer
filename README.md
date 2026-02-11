@@ -31,3 +31,7 @@ Version 2.9.3
 Version 2.9.4
 
 - File naming corrections
+
+Version 2.9.5
+
+- Credits correction

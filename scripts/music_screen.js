@@ -62,8 +62,6 @@ const dataArray = new Uint8Array(bufferLength);
 const barWidth = 3;
 canvas.width = barWidth * bufferLength;
 const canvasContext = canvas.getContext("2d");
-visualizer.fftSize = 512;
-canvas.width = barWidth * bufferLength;
 canvasContext.imageSmoothingEnabled = false;
 
 function drawLine() {
@@ -168,8 +166,6 @@ function startLayerFadeIn(layer) {
                     layerButton.dataset.title = " (Playing)";
                     updateTippyContent(layerButton, layerName, layerIndex);
                 }
-
-                // console.log(layer.volume.gain.value);
             }, updateIntervalTime);
         }
         else {
@@ -216,7 +212,6 @@ function startLayerFadeOut(layer) {
                 if (audioContext.state != "suspended" && !songPaused) {
                     newVolume -= volumeRed;
                     if (newVolume <= 0) {newVolume = 0;}
-                    console.log(newVolume / volumeMult)
                     layer.volume.gain.value = newVolume * volumeMult;
                 }
             }
@@ -240,7 +235,8 @@ function startLayerFadeOut(layer) {
 
 // layer constructor
 class Layer {
-    constructor(bufferSource, gainNode, unmuteValue, index, isFadingIn, isFadingOut, isMuted, isSoloed, name, fadeInterval = "") {
+    constructor(bufferSource, gainNode, unmuteValue, index, isFadingIn, isFadingOut, 
+            isMuted, isSoloed, name, noiseIndicator, waveform, fadeInterval = "") {
         this.bufferSource = bufferSource;
         this.volume = gainNode;
         this.unmuteValue = unmuteValue;
@@ -250,6 +246,8 @@ class Layer {
         this.isMuted = isMuted;
         this.isSoloed = isSoloed;
         this.name = name;
+        this.noiseIndicator = noiseIndicator;
+        this.waveform = waveform;
         this.fadeInterval = fadeInterval;
     }
 }
@@ -320,7 +318,7 @@ function setUpMusicScreen() {
                     if (!result.ok) {
                         clearTimeout(errorListener);
                         errorResponses[0].innerText = `An error has occured. Error status: ${result.status}`;
-                        errorResponses[1].innerText = "See console for more information. If this is a re-occuring issue, leave a bug report in our discord.";
+                        errorResponses[1].innerText = "See the console for more information. If this is a re-occuring issue, leave a bug report in our discord.";
                         setResponseOpacityandColor("1", "red");
                     }
                     return result.arrayBuffer();
@@ -418,6 +416,9 @@ function setUpMusicScreen() {
                         }
 
                         switchToBright(layerButtons[i]);
+
+                        // checking if the layer is making any noise
+                        noiseCheck(layer, layer.noiseIndicator, layer.waveform);
                     }
 
                     else {
@@ -477,6 +478,8 @@ function setUpMusicScreen() {
                         soloButtons[layerIndex].style.filter = brightened;
                         soloButtons[layerIndex].querySelector("img").src = soloIcon2;
                         switchToBright(layerButtons[layerIndex]);
+
+                        noiseCheck(layer, layer.noiseIndicator, layer.waveform);
                     }
 
                     loadedLayers.forEach((currentLayer) => {
@@ -526,6 +529,8 @@ function setUpMusicScreen() {
                         if (playingLayer.isSoloed) {
                             playingLayer.isSoloed = false;
                         }
+
+                        noiseCheck(playingLayer, playingLayer.noiseIndicator, playingLayer.waveform);
                     });
 
                     songSoloed = false;
@@ -619,13 +624,14 @@ function setUpMusicScreen() {
                     layerFadeInterval = layer.fadeInterval;
 
                     if (layerFadeInterval != "") {clearInterval(layerFadeInterval)}
+                    layer.isMuted = true;
                     layer.bufferSource.stop();
                     layer.bufferSource.disconnect();
 
                     switchToDark(layerButtons[layerIndex]);
                     layerButtons[layerIndex].dataset.title = " (Muted)"
                     updateTippyContent(layerButtons[layerIndex], layerName, layerIndex);
-                }) 
+                });
 
                 // darkening the solo buttons
                 Array.from(soloButtons).forEach((element) => {
@@ -776,6 +782,18 @@ function setUpMusicScreen() {
             })
         }
 
+        noiseIndicatorToggle.oninput = () => {
+            canRunNoiseCheck = noiseIndicatorToggle.checked;
+
+            if (!canRunNoiseCheck) {
+                const noiseIndicators = Array.from(document.getElementsByClassName("noise_indicator"))
+                noiseIndicators.forEach((indicator) => {indicator.style.opacity = "0";})
+            }
+            else {
+                layersPlaying.forEach((layer) => {noiseCheck(layer, layer.noiseIndicator, layer.waveform)})
+            }
+        }
+
         exitButton.onclick = () => {
             songStarted = false;
             layersCanFade = false;
@@ -792,6 +810,7 @@ function setUpMusicScreen() {
 
             for (let i = 0; i < loadedLayers.length; i++) {
                 var layer = loadedLayers[i];
+                layer.isMuted = true;
                 layer.bufferSource.stop();
                 layer.bufferSource.disconnect();
             }
@@ -846,11 +865,18 @@ function prepSong(arrayBuffer) {
         bufferSource.connect(gainNode);
         gainNode.connect(visualizer);
 
-        // returning the buffer, gain, and index of the layer in an array for easy accessibility
-        // see the contsructor in set_up.js for reference
+        // tracking the waveform data and finding the corresponding noise indicator
+        const waveform = audioContext.createAnalyser();
+        waveform.fftSize = 512;
+        gainNode.connect(waveform);
+
+        const noiseIndicators = Array.from(document.getElementsByClassName("noise_indicator")),
+            correspondingIndicator = noiseIndicators[index];
+
         const percentConversion = 100;
         var unmuteValue = (volumeSliders[index].value / percentConversion) * masterMultiplier;
-        loadedLayers.push(new Layer(bufferSource, gainNode, unmuteValue, index, false, false, true, false, layerNameArray[index]));
+        loadedLayers.push(new Layer(bufferSource, gainNode, unmuteValue, index, false, false, 
+            true, false, layerNameArray[index], correspondingIndicator, waveform)); // see the layer constructor for reference
     });
     
 
@@ -883,6 +909,7 @@ function prepSong(arrayBuffer) {
             layerButtons[i].dataset.title = " (Playing)";
             updateTippyContent(layerButtons[i], layer.name, i);
             layersPlaying.push(layer);
+            noiseCheck(layer, layer.noiseIndicator, layer.waveform);
         }
 
         // if none of these are true, that must mean this layer has to start off muted
@@ -898,6 +925,7 @@ function prepSong(arrayBuffer) {
             updateTippyContent(layerButtons[i], layer.name, i);
             layersPlaying.push(layer);
             startLayerFadeIn(layer);
+            noiseCheck(layer, layer.noiseIndicator, layer.waveform);
         }
     }
 
@@ -948,6 +976,28 @@ function setResponseOpacityandColor(opacity, color) {
         text.style.opacity = opacity;
         text.style.color = color;
     });
+}
+
+// noise indicator functionality
+function noiseCheck(layer, noiseIndicator, waveform) {
+    var noiseCheckInterval = setInterval(() => {
+        const arrayLength = waveform.frequencyBinCount,
+            dataArray = new Uint8Array(arrayLength);
+        waveform.getByteFrequencyData(dataArray);
+        
+        // dataArray stores a bunch of numbers which represent waveform information. If all of these numbers are 0,
+        // that means there is "no data" going through the waveform (i.e. it's flat). Therefore, the layer is currently silent.
+        var intsOverZero = 0
+        dataArray.forEach((int) => {if (int > 0) {intsOverZero++};})
+
+        if (intsOverZero === 0) {noiseIndicator.style.opacity = "0";}
+        else {noiseIndicator.style.opacity = "1";}
+
+        if ((layer.isMuted && !layer.isFadingIn && !layer.isFadingOut) || !canRunNoiseCheck) {
+            noiseIndicator.style.opacity = "0";
+            clearInterval(noiseCheckInterval);
+        }
+    }, 100)
 }
 
 // hiding settings container when clicking anywhere else

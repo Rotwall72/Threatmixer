@@ -18,20 +18,15 @@ If you want to see developement logs, share mixes, or just hang out with other f
 
 # *Changelog*
 
-Version 2.9.3
+Version 2.10.0
 
-- New Songs from Global Hyper-Transit System and Drought regions
-    - Freezing Flights
-    - Celestial Summit
-    - Fractured Foundry
-    - Forest Sanctuary + Old ver.
-    - Intake System + Old ver.
-- Restored his power
-
-Version 2.9.4
-
-- File naming corrections
-
-Version 2.9.5
-
-- Credits correction
+- New Feature: Noise Indicators
+    - Allows the user to know if a layer is making any sound or not while unmuted.
+    - A setting option to toggle them was added as well
+- New Song Category: Layer Shuffle Songs
+    - 5 new songs
+        - The Nest
+        - Windswept Railway
+        - Infested Edifice
+        - Dumpyard Ravine
+        - Demolished Temple

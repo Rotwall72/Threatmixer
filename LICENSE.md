@@ -7,7 +7,7 @@ Hey, I'm responsible for the coding and designing of this webpage. Here's some l
 - [Youtube](https://www.youtube.com/@Rotwall)
 - [Email](rotwall721@gmail.com)
 
-You can also find me on the [Official Rain World Discord Server](https://discord.gg/rainworld), my username is the same there as it is anywhere else.
+You can also find me on the [Official Rain World Discord Server](https://discord.gg/rainworld). My username is the same there as it is anywhere else.
 
 ## Contributors
 
@@ -19,7 +19,7 @@ You can also find me on the [Official Rain World Discord Server](https://discord
 
 ## Videocult
 
-Rain World is a property of Videocult, and I am not affiliated with Videocult or Akupara Games in any way. All assets inside of the threat_music and region_backgrounds folders were created by members of Videocult as well as others who worked on the Downpour and Watcher. All base game threat themes can be found in the official [Rain World ost](https://www.youtube.com/playlist?list=PLuX1dXf1Zu0kHEc_TrwqgbKaEkWJOAqlN). All audio files and images were either ripped from the game using [AssetRipper](https://assetripper.github.io/AssetRipper/) or were provided by the [official Rain World wiki](https://rainworld.miraheze.org/wiki/Official_Art).
+Rain World is a property of Videocult. I am not affiliated with Videocult nor Akupara Games in any way. All assets inside of the threat_music and region_backgrounds folders were created by members of Videocult as well as others who worked on the Downpour and Watcher. All base game threat themes can be found in the official [Rain World ost](https://www.youtube.com/playlist?list=PLuX1dXf1Zu0kHEc_TrwqgbKaEkWJOAqlN). All audio files and images were either ripped from the game using [AssetRipper](https://assetripper.github.io/AssetRipper/) or were provided by the [official Rain World wiki](https://rainworld.miraheze.org/wiki/Official_Art).
 
 ## Fonts
 
@@ -31,7 +31,7 @@ The Rain World menu font was recreated by DANNYY1TDM on [fontstruct](https://fon
 
 The visualizer present in the music screen was made by following a tutorial created by [QuickCodingTuts](https://www.youtube.com/watch?v=sb6C1XNqJzA) on YouTube.
 
-I also have to give credit to Barrett Sonntag for creating a [CSS filter generator](https://codepen.io/sosuke/pen/Pjoqqp), making finding the filters to use for changing the color of images a hell of a lot easier.
+I also have to give credit to Barrett Sonntag for creating a [CSS filter generator](https://angel-rs.github.io/css-color-filter-generator/), making finding the filters to use for changing the color of images a hell of a lot easier.
 
 # *Modded Region Credits*
 
@@ -95,7 +95,7 @@ Here's a full list of everyone who's region, music, and/or art is shown in this 
 - [Parageist](https://steamcommunity.com/id/Parageist) (Steam)
 - [Pinpoint](https://oliverlollsdesign.com/) (Personal Website)
 - [P01yphemmus](https://p01yphemmus.bandcamp.com/community) (Bandcamp)
-- [Porter Foamer](https://steamcommunity.com/id/333333322342) (Steam)
+- [Porter Foamer](https://youtube.com/@josephyeen) (Youtube)
 - [Ren is Taking Ten](https://www.youtube.com/channel/UCwbD6t3L5doFdyyKr6d6Qqg) (Youtube)
 - [Roasted AND Toasted](https://www.youtube.com/@roastedandtoasted187/videos) (Youtube)
 - [Sako L Patatas](https://www.youtube.com/channel/UCSVoNhfzaXNclJG7U8GkoXA) (Youtube)
@@ -432,6 +432,20 @@ All of the songs featured in this mod were also produced by Sako L Pata.
 The Aether Ridge threat theme by yours truly is part of a [mod which replaces the WARF threat theme](https://steamcommunity.com/sharedfiles/filedetails/?id=3599933299).
 
 The Heat Ducts threat was also made by me and is part of a [similar mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3602996916).
+
+# *Layer Shuffle Songs*
+
+Layer shuffle is an event hosted on our discord server where we work together to create multiple threat themes. What's special is that each layer of each threat theme is created by a different person! Below are the participates for each unique session:
+
+- Session 1 (The Nest, Windswept Railway, Infested Edifice, Dumpyard Ravine, Demolished Temple)
+    - Rotwall
+    - [Budc](https://budc123.github.io/) (Personal Website)
+    - [Parrakoot](https://soundcloud.com/laurens-wallner-859047082) (Soundcloud)
+    - [Bagbox](https://x.com/bagbox4556?s=21) (Twitter)
+    - [fogyx](https://www.youtube.com/@fogyx) (Youtube) 
+    - [SaykioPorko](https://www.youtube.com/channel/UCZZkji3lcDIY7h8T5C-WxIQ) (Youtube)
+
+Feel free to join our [Discord server](https://discord.gg/BCU2UbMRBc) to learn more and participate yourself!
 
 ### Once again, thanks to all of you for allowing your amazing works to become a part of Threatmixer. You're all incredibly talented, and I couldn't be more proud to be in a community full of creatives like yourselves.
 

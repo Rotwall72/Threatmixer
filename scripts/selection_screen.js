@@ -172,6 +172,9 @@ function setUpSelectionScreen(regionData) {
                         case("misc"):
                             regionGroup = "Miscellaneous"
                             break;
+                        case("shuffle"):
+                            regionGroup = "Layer Shuffle Songs"
+                            break;
                         default:
                             regionGroup = region.groups[0];
                             break;
@@ -348,6 +351,13 @@ function addOnClick(element, regionData) {
                 // text info
                 appendKeyLabel(newLayerButton, keysArray[index]);
 
+                // noise indicator
+                var newNoiseIndicator = document.createElement("img");
+                newNoiseIndicator.src = "assets/images/misc/noise_indicator.png"
+                newNoiseIndicator.classList.add("noise_indicator");
+                newNoiseIndicator.style.opacity = "0";
+                newLayerButton.appendChild(newNoiseIndicator)
+
                 // giving the button a title
                 var rawLayerSrc = layer[1],
                     strIndex = -4,
@@ -449,6 +459,7 @@ function addOnClick(element, regionData) {
                 newSoloButton.style.border = `0.16vw solid ${buttonColor}`;
                 if (layerName != "Thanks Snoodle") {newLayerIcon.style.filter = `${buttonFilter}`};
                 newSoloIcon.style.filter = `${buttonFilter}`;
+                newNoiseIndicator.style.filter = `${buttonFilter}`;
 
                 newLayerButton.style.setProperty("--glow-color", `${buttonColor}99`);
                 newLayerButton.style.setProperty("--tippy-color", `${buttonColor}`);
@@ -512,7 +523,7 @@ function addOnClick(element, regionData) {
             
             setDynamicColor(Array.from(otherButtons), defaultColor);
             setDynamicFilter(Array.from(otherButtonIcons), defaultFilter);
-            setDynamicFilter([shortcutToggle], defaultFilter);
+            setDynamicFilter(Array.from(musicScreenCheckboxes), defaultFilter);
 
             // giving the option buttons key labels
             if (!keyLabelsAlreadyAppend) {

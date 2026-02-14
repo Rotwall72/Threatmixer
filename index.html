@@ -68,7 +68,7 @@
         </button> 
 
         <p id="disclaimer">DISCLAIMER: I am not affiliated with Videocult nor Akupara Games in any way. This is a fan project, and I own almost none of the images or music featured on this page. Also, beware of major game and dlc spoilers for Rain World!</p>
-        <p id="version">Version 2.9.5</p>
+        <p id="version">Version 2.10.0</p>
 
         <img id="bird" src="assets\images\misc\vanillabean.png">
     </div>
@@ -168,6 +168,10 @@
                     <div class="filter_option_divs">
                         <input class="filter_options" id="misc_filter" type="checkbox" value="misc" checked/>
                         <label class="filter_labels" for="misc_filter">Miscellaneous</label>
+                    </div>
+                    <div class="filter_option_divs">
+                        <input class="filter_options" id="shuffle_filter" type="checkbox" value="shuffle" checked/>
+                        <label class="filter_labels" for="shuffle_filter">Layer Shuffle Songs</label>
                     </div>
                     <div class="filter_option_divs">
                         <input class="filter_options" id="new_filter" type="checkbox" value="new" checked/>
@@ -291,9 +295,14 @@
                 <input class="fade_duration_sliders sliders needs_other_tippy_style" id="fade_out_duration_slider" name="fade_out_duration_slider" type="range" min="1" max="60" value="5">
             </div>
 
-            <div id="shortcut_toggle_div">
+            <div class="music_screen_checkbox_divs" id="shortcut_toggle_div">
                 <label id="shortcut_toggle_label" for="shortcut_toggle">Show Keyboard Shortcuts:</label>
-                <input id="shortcut_toggle" type="checkbox" checked/>
+                <input class="music_screen_checkboxes" id="shortcut_toggle" type="checkbox" checked/>
+            </div>
+
+            <div class="music_screen_checkbox_divs" id="noise_indicator_toggle_div">
+                <label id="noise_indicator_toggle_label" for="noise_indicator_toggle">Show Noise Indicators:</label>
+                <input class="music_screen_checkboxes" id="noise_indicator_toggle" type="checkbox" checked/>
             </div>
         </div>
 

@@ -109,6 +109,15 @@ body, #music_screen {
     left: 0.3vw;
 }
 
+.noise_indicator {
+    image-rendering: pixelated;
+    position: absolute;
+    width: 1vw;
+    top: 0.1vw;
+    left: 0.2vw;
+    transition: opacity 0.3s ease;
+}
+
 #region_name {
     margin: 0vw;
     font-size: 7vw;
@@ -245,17 +254,17 @@ body, #music_screen {
     padding: 0.6vw;
 }
 
-#shortcut_toggle_div {
+.music_screen_checkbox_divs {
     display: flex;
 }
 
-#shortcut_toggle {
+.music_screen_checkboxes {
     margin-left: 0.5vw;
     border-color: black;
     filter: var(--dynamic-filter);
 }
 
-#shortcut_toggle:checked {
+.music_screen_checkboxes:checked {
     background-image: url(../assets/images/misc/filterable_checkmark.png);
 }
 

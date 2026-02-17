@@ -433,6 +433,8 @@ The Aether Ridge threat theme by yours truly is part of a [mod which replaces th
 
 The Heat Ducts threat was also made by me and is part of a [similar mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3602996916).
 
+The threat theme for the [Drainage System Remake mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3660186466&searchtext=drainage+systemn) was done by [Ethanwantsfood](https://www.youtube.com/watch?v=i3oQuJ7f8Bs) (Youtube), with the region itself being made by [Solar](https://www.youtube.com/channel/UC4W0o7YD4ACQiLMdWB4hf2w) (Youtube).
+
 # *Layer Shuffle Songs*
 
 Layer shuffle is an event hosted on our discord server where we work together to create multiple threat themes. What's special is that each layer of each threat theme is created by a different person! Below are the participates for each unique session:

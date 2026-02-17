@@ -4521,6 +4521,31 @@
         "preview": "music/music_snippets/ARFR_snippet.mp3"
     },
     {
+        "name": "Drainage System (Remake)",
+        "groups": ["misc", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Ethanwantsfood",
+        "regionCredits": "Solar",
+        "artCredits": "N/A",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/misc/DSRE/TH_DS - KICK.ogg", 0],
+            ["droplet_icon.png", "music/threat_music/misc/DSRE/TH_DS - DRIP.ogg", 0],
+            ["pad_icon.png", "music/threat_music/misc/DSRE/TH_DS - PAD.ogg", 0],
+            ["noise_icon.png", "music/threat_music/misc/DSRE/TH_DS - NOISE.ogg", 0],
+            ["synth_icon.png", "music/threat_music/misc/DSRE/TH_DS - BASS.ogg", 0],
+            ["castanets_icon.png", "music/threat_music/misc/DSRE/TH_DS - PERC1.ogg", 0],
+            ["arps_icon.png", "music/threat_music/misc/DSRE/TH_DS - ARP.ogg", 0],
+            ["bongos_icon.png", "music/threat_music/misc/DSRE/TH_DS - PERC2.ogg", 0],
+            ["synth_icon.png", "music/threat_music/misc/DSRE/TH_DS - LEAD.ogg", 0]
+        ],
+        "colors": ["#682e20"],
+        "filters": ["brightness(0) saturate(100%) invert(19%) sepia(24%) saturate(2563%) hue-rotate(334deg) brightness(92%) contrast(89%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/drainage_system_remake.png",
+        "preview": "music/music_snippets/DSRE_snippet.mp3"
+    },
+    {
         "name": "Heat Ducts",
         "groups": ["misc"],
         "favorited": false,

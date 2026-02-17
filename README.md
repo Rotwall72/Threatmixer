@@ -30,3 +30,7 @@ Version 2.10.0
         - Infested Edifice
         - Dumpyard Ravine
         - Demolished Temple
+
+Version 2.11.1
+
+- Added Drainage System (Remake) under Misc.

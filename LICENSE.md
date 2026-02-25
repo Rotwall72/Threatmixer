@@ -33,7 +33,26 @@ The visualizer present in the music screen was made by following a tutorial crea
 
 I also have to give credit to Barrett Sonntag for creating a [CSS filter generator](https://angel-rs.github.io/css-color-filter-generator/), making finding the filters to use for changing the color of images a hell of a lot easier.
 
-# *Modded Region Credits*
+## Watcher Region Art
+
+The region art used for the various watcher threat themes were provided by [Shrub](https://www.youtube.com/@shrubfromtomorrow) (Youtube) and are part of the [Watcher Region Art Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3660768308&searchtext=region+art). Below are the credits by artist:
+
+- [Irri](https://www.youtube.com/@irritator_challengeri-1313) (Youtube): Badlands, Cold Storage, Migration Path, Torrential Railways
+- [Alkali](https://steamcommunity.com/profiles/76561199009185190/) (Steam): Torrential Railways
+- [Yellow Ghost](https://bsky.app/profile/yellowghost.bsky.social) (Bluesky): Desolate Tract
+- [YSHM](https://www.tumblr.com/yyshm) (Tumblr): Fetid Glen, Signal Spires, Fractured Gateways
+- [Sigma](https://www.youtube.com/@Sigmanins) (Youtube): Fractured Gateways
+- [WillowWisperr](https://willowwisperr.carrd.co/) (Personal Site): Pillar Grove
+- [Ravenmind](https://linktr.ee/ravenmind_artist) (Personal Site): Rusted Wrecks, Decaying Tunnels (Rotten Regions)
+- [Astroik](https://bsky.app/profile/astroik.bsky.social) (Bluesky): Shattered Terrace
+- [Smudge](https://www.tumblr.com/anglesmudge) (Tumblr): The Surface
+- [headintheklouds](https://www.youtube.com/@headin_theklouds) (Youtube): Torrid Desert
+- [Kali](https://x.com/Kalidoesart) (Twitter): Verdant Waterways
+- [CasVer_W](https://x.com/Casver_W) (Twitter): Aether Ridge
+- [River the Gremlin](https://bsky.app/profile/riverthegremlin.bsky.social) (Bluesky): Heat Ducts
+- [Sparkbreeze](https://www.tumblr.com/sparkbreeze) (Tumblr): Shrouded Stacks
+
+# *Modded Region/Custom Song Credits*
 
 A humongous thank you to Rain World's modding community for allowing their amazing work to be featured on this page.
 

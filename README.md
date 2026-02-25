@@ -34,3 +34,8 @@ Version 2.10.0
 Version 2.11.1
 
 - Added Drainage System (Remake) under Misc.
+
+Version 2.11.2
+
+- Replaced background images for some watcher regions with custom art from the watcher region art mod
+    - See LICENSE.md for credits

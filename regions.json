@@ -395,7 +395,7 @@
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
         "regionCredits": "Watcher Team",
-        "artCredits": "N/A",
+        "artCredits": "Irri",
         "layers": [
             ["kick_icon.png", "music/threat_music/watch/BL/TH_W1 - KICK.ogg", 0],
             ["hat_icon.png", "music/threat_music/watch/BL/TH_W1 - PERC.ogg", 0],
@@ -407,7 +407,7 @@
         "colors": ["#8a5133"],
         "filters": ["brightness(0) saturate(100%) invert(34%) sepia(35%) saturate(811%) hue-rotate(336deg) brightness(92%) contrast(88%)"],
         "containerWidth": "100%",
-        "background": "assets/images/backgrounds/watcher_badlands.png",
+        "background": "assets/images/backgrounds/badlands_irri.png",
         "preview": "music/music_snippets/watcher_BL_snippet.mp3"
     },
     {
@@ -446,7 +446,7 @@
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
         "regionCredits": "Wrayk / Watcher Team",
-        "artCredits": "N/A",
+        "artCredits": "Yellow Ghost",
         "layers": [
             ["kick_icon.png", "music/threat_music/watch/TDB/TH_W6 - KICK.ogg", 0],
             ["hat_icon.png", "music/threat_music/watch/TDB/TH_W6 - PERC.ogg", 0],
@@ -454,10 +454,10 @@
             ["synth_icon.png", "music/threat_music/watch/TDB/TH_W6 - ARP.ogg", 0],
             ["wawa_icon.png", "music/threat_music/watch/TDB/TH_W6 - LEAD.ogg", 0]
         ],
-        "colors": ["#e0e1dc"],
-        "filters": ["brightness(0) saturate(100%) invert(98%) sepia(4%) saturate(183%) hue-rotate(30deg) brightness(94%) contrast(90%)"],
+        "colors": ["#babdb3"],
+        "filters": ["brightness(0) saturate(100%) invert(89%) sepia(2%) saturate(698%) hue-rotate(37deg) brightness(85%) contrast(91%)"],
         "containerWidth": "100%",
-        "background": "assets/images/backgrounds/desolate_tracts.png",
+        "background": "assets/images/backgrounds/desolate_tract_yellowghost.png",
         "preview": "music/music_snippets/TDB_snippet.mp3"
     },
     {
@@ -467,7 +467,7 @@
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
         "regionCredits": "Kaeporo / Watcher Team",
-        "artCredits": "N/A",
+        "artCredits": "YSHM",
         "layers": [
             ["kick_icon.png", "music/threat_music/watch/ARC/TH_W7 - KICK.ogg", 0],
             ["gear_icon.png", "music/threat_music/watch/ARC/TH_W7 - PERC.ogg", 0],
@@ -476,10 +476,10 @@
             ["synth_icon.png", "music/threat_music/watch/ARC/TH_W7 - ARP.ogg", 0],
             ["pad_icon.png", "music/threat_music/watch/ARC/TH_W7 - PAD.ogg", 0]
         ],
-        "colors": ["#803321"],
-        "filters": ["brightness(0) saturate(100%) invert(21%) sepia(29%) saturate(2717%) hue-rotate(339deg) brightness(95%) contrast(90%)"],
+        "colors": ["#bb492e"],
+        "filters": ["brightness(0) saturate(100%) invert(34%) sepia(18%) saturate(4600%) hue-rotate(340deg) brightness(93%) contrast(86%)"],
         "containerWidth": "100%",
-        "background": "assets/images/backgrounds/fetid_glen.png",
+        "background": "assets/images/backgrounds/fetid_glen_yshm.png",
         "preview": "music/music_snippets/ARC_snippet.mp3"
     },
     {
@@ -489,7 +489,7 @@
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
         "regionCredits": "Watcher Team",
-        "artCredits": "N/A",
+        "artCredits": "WillowWisperr",
         "layers": [
             ["kick_icon.png", "music/threat_music/watch/PG/TH_W11 - KICK.ogg", 0],
             ["pad_icon.png", "music/threat_music/watch/PG/TH_W11 - PERC.ogg", 0],
@@ -502,7 +502,7 @@
         "colors": ["#d8c5bb"],
         "filters": ["brightness(0) saturate(100%) invert(98%) sepia(65%) saturate(828%) hue-rotate(296deg) brightness(104%) contrast(69%)"],
         "containerWidth": "100%",
-        "background": "assets/images/backgrounds/pillar_grove.png",
+        "background": "assets/images/backgrounds/pillar_grove_willowwisperr.png",
         "preview": "music/music_snippets/PG_snippet.mp3"
     },
     {
@@ -512,7 +512,7 @@
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
         "regionCredits": "Watcher Team",
-        "artCredits": "N/A",
+        "artCredits": "Ravenmind",
         "layers": [
             ["kick_icon.png", "music/threat_music/watch/RR/TH_W5 - KICK.ogg", 0],
             ["snare_icon.png", "music/threat_music/watch/RR/TH_W5 - PERC.ogg", 0],
@@ -521,10 +521,10 @@
             ["xylo_icon.png", "music/threat_music/watch/RR/TH_W5 - ARP.ogg", 0],
             ["underwater_icon.png", "music/threat_music/watch/RR/TH_W5 - NOISE.ogg", 0]
         ],
-        "colors": ["#ab8779"],
-        "filters": ["brightness(0) saturate(100%) invert(58%) sepia(16%) saturate(613%) hue-rotate(331deg) brightness(94%) contrast(85%)"],
+        "colors": ["#c49786"],
+        "filters": ["brightness(0) saturate(100%) invert(63%) sepia(38%) saturate(282%) hue-rotate(331deg) brightness(94%) contrast(88%)"],
         "containerWidth": "100%",
-        "background": "assets/images/backgrounds/rusted_wrecks.png",
+        "background": "assets/images/backgrounds/rusted_wrecks_ravenmind.png",
         "preview": "music/music_snippets/RR_snippet.mp3"
     },
     {
@@ -534,7 +534,7 @@
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
         "regionCredits": "Watcher Team",
-        "artCredits": "N/A",
+        "artCredits": "Astroik",
         "layers": [
             ["kick_icon.png", "music/threat_music/watch/ST/TH_W10 - KICK.ogg", 0],
             ["weird_icon.png", "music/threat_music/watch/ST/TH_W10 - PERC.ogg", 0],
@@ -548,7 +548,7 @@
         "colors": ["#d2ce77"],
         "filters": ["brightness(0) saturate(100%) invert(90%) sepia(40%) saturate(461%) hue-rotate(358deg) brightness(86%) contrast(91%)"],
         "containerWidth": "100%",
-        "background": "assets/images/backgrounds/shattered_terrace.png",
+        "background": "assets/images/backgrounds/shattered_terrace_astroik.png",
         "preview": "music/music_snippets/ST_snippet.mp3"
     },
     {
@@ -558,7 +558,7 @@
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
         "regionCredits": "Watcher Team",
-        "artCredits": "N/A",
+        "artCredits": "YSHM",
         "layers": [
             ["kick_icon.png", "music/threat_music/watch/PT/TH_W3 - KICK.ogg", 0],
             ["snare_icon.png", "music/threat_music/watch/PT/TH_W3 - PERC.ogg", 0],
@@ -570,7 +570,7 @@
         "colors": ["#feb2e3"],
         "filters": ["brightness(0) saturate(100%) invert(92%) sepia(84%) saturate(3180%) hue-rotate(280deg) brightness(106%) contrast(99%)"],
         "containerWidth": "100%",
-        "background": "assets/images/backgrounds/alt_signal_spires.png",
+        "background": "assets/images/backgrounds/signal_spires_yshm.png",
         "preview": "music/music_snippets/PT_snippet.mp3"
     },
     {
@@ -619,7 +619,7 @@
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
         "regionCredits": "Kaeporo / Watcher Team",
-        "artCredits": "N/A",
+        "artCredits": "Smudge",
         "layers": [
             ["kick_icon.png", "music/threat_music/watch/TS/TH_W9 - KICK.ogg", 0],
             ["bongos_icon.png", "music/threat_music/watch/TS/TH_W9 - PERC.ogg", 0],
@@ -632,7 +632,7 @@
         "colors": ["#dad7de"],
         "filters": ["brightness(0) saturate(100%) invert(89%) sepia(4%) saturate(283%) hue-rotate(224deg) brightness(102%) contrast(83%)"],
         "containerWidth": "100%",
-        "background": "assets/images/backgrounds/the_surface.png",
+        "background": "assets/images/backgrounds/the_surface_smudge.png",
         "preview": "music/music_snippets/TS_snippet.mp3"
     },
     {
@@ -642,7 +642,7 @@
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
         "regionCredits": "Wrayk / Watcher Team",
-        "artCredits": "N/A",
+        "artCredits": "headintheklouds",
         "layers": [
             ["kick_icon.png", "music/threat_music/watch/TDA/TH_W2 - KICK.ogg", 0],
             ["snare_icon.png", "music/threat_music/watch/TDA/TH_W2 - PERC.ogg", 0],
@@ -655,7 +655,7 @@
         "colors": ["#b58462"],
         "filters": ["brightness(0) saturate(100%) invert(51%) sepia(57%) saturate(300%) hue-rotate(342deg) brightness(96%) contrast(88%)"],
         "containerWidth": "100%",
-        "background": "assets/images/backgrounds/torrid_desert.png",
+        "background": "assets/images/backgrounds/torrid_desert_kloud.png",
         "preview": "music/music_snippets/TDA_snippet.mp3"
     },
     {
@@ -665,7 +665,7 @@
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
         "regionCredits": "FishSwallower / Watcher Team",
-        "artCredits": "N/A",
+        "artCredits": "Kali",
         "layers": [
             ["kick_icon.png", "music/threat_music/watch/VW/TH_W4 - KICK.ogg", 0],
             ["pad_icon.png", "music/threat_music/watch/VW/TH_W4 - PERC.ogg", 0],
@@ -673,20 +673,20 @@
             ["weird_icon.png", "music/threat_music/watch/VW/TH_W4 - PERC2.ogg", 0],
             ["synth_icon.png", "music/threat_music/watch/VW/TH_W4 - ARP.ogg", 0]
         ],
-        "colors": ["#b0df4d"],
-        "filters": ["brightness(0) saturate(100%) invert(97%) sepia(11%) saturate(2257%) hue-rotate(20deg) brightness(86%) contrast(104%)"],
+        "colors": ["#49b377"],
+        "filters": ["brightness(0) saturate(100%) invert(58%) sepia(38%) saturate(575%) hue-rotate(93deg) brightness(98%) contrast(88%)"],
         "containerWidth": "100%",
-        "background": "assets/images/backgrounds/verdant_waterways.png",
+        "background": "assets/images/backgrounds/verdant_waterways_kali.png",
         "preview": "music/music_snippets/VW_snippet.mp3"
     },
     {
-        "name": "Rotted Regions",
+        "name": "Rotten Regions",
         "groups": ["watch"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "James Primate",
         "regionCredits": "Watcher Team",
-        "artCredits": "N/A",
+        "artCredits": "Ravenmind",
         "layers": [
             ["kick_icon.png", "music/threat_music/watch/IF/TH_W8 - KICK.ogg", 0],
             ["weird_sine_wave_icon.png", "music/threat_music/watch/IF/TH_W8 - BASS.ogg", 0],
@@ -694,10 +694,10 @@
             ["weird_icon.png", "music/threat_music/watch/IF/TH_W8 - LEAD.ogg", 0],
             ["noise_icon.png", "music/threat_music/watch/IF/TH_W8 - NOISE.ogg", 0]
         ],
-        "colors": ["#593599"],
-        "filters": ["brightness(0) saturate(100%) invert(22%) sepia(89%) saturate(1233%) hue-rotate(240deg) brightness(88%) contrast(95%)"],
+        "colors": ["#4c3377"],
+        "filters": ["brightness(0) saturate(100%) invert(15%) sepia(29%) saturate(3613%) hue-rotate(242deg) brightness(104%) contrast(84%)"],
         "containerWidth": "100%",
-        "background": "assets/images/backgrounds/infection.png",
+        "background": "assets/images/backgrounds/decaying_tunnels_ravenmind.png",
         "preview": "music/music_snippets/IF_snippet.mp3"
     },
     {   
@@ -4330,7 +4330,7 @@
         "pathingToAudioRepo": true,
         "songCredits": "JeeperCreeperIH",
         "regionCredits": "Kaeporo",
-        "artCredits": "N/A",
+        "artCredits": "CasVer_W",
         "layers": [
             ["kick_icon.png", "music/threat_music/jeeper/ARF/TH_WARF - KICK.ogg", 0],
             ["spear_tap_icon.png", "music/threat_music/jeeper/ARF/TH_WARF - TAP.ogg", 0],
@@ -4338,10 +4338,10 @@
             ["bass_icon.png", "music/threat_music/jeeper/ARF/TH_WARF - STRUM.ogg", 0],
             ["xylo_icon.png", "music/threat_music/jeeper/ARF/TH_WARF - BELL.ogg", 0]
         ],
-        "colors": ["#c1d8ef"],
-        "filters": ["brightness(0) saturate(100%) invert(97%) sepia(36%) saturate(6963%) hue-rotate(175deg) brightness(102%) contrast(87%)"],
+        "colors": ["#bbddff"],
+        "filters": ["brightness(0) saturate(100%) invert(77%) sepia(25%) saturate(492%) hue-rotate(183deg) brightness(103%) contrast(104%)"],
         "containerWidth": "100%",
-        "background": "assets/images/backgrounds/alt_aether_ridge.png",
+        "background": "assets/images/backgrounds/aether_ridge_cas.png",
         "preview": "music/music_snippets/ARF_snippet.mp3"
     },
     {
@@ -4351,7 +4351,7 @@
         "pathingToAudioRepo": true,
         "songCredits": "JeeperCreeperIH",
         "regionCredits": "Kaeporo",
-        "artCredits": "N/A",
+        "artCredits": "Irri",
         "layers": [
             ["kick_icon.png", "music/threat_music/jeeper/ARD/TH_WARD - KICK.ogg", 0],
             ["snare_icon.png", "music/threat_music/jeeper/ARD/TH_WARD - DRUM.ogg", 0],
@@ -4364,7 +4364,7 @@
         "colors": ["#8d5ee7"],
         "filters": ["brightness(0) saturate(100%) invert(38%) sepia(98%) saturate(512%) hue-rotate(221deg) brightness(95%) contrast(91%)"],
         "containerWidth": "100%",
-        "background": "assets/images/backgrounds/cold_storage.png",
+        "background": "assets/images/backgrounds/cold_storage_irri.png",
         "preview": "music/music_snippets/ARDA_snippet.mp3"
     },
     {
@@ -4374,7 +4374,7 @@
         "pathingToAudioRepo": true,
         "songCredits": "JeeperCreeperIH",
         "regionCredits": "Watcher Team",
-        "artCredits": "N/A",
+        "artCredits": "Sigma & YSHM",
         "layers": [
             ["kick_icon.png", "music/threat_music/jeeper/VWB/TH_WVWB - drum.ogg", 0],
             ["snare_icon.png", "music/threat_music/jeeper/VWB/TH_WVWB - sound.ogg", 0],
@@ -4385,7 +4385,7 @@
         "colors": ["#758c4d"],
         "filters": ["brightness(0) saturate(100%) invert(51%) sepia(12%) saturate(1200%) hue-rotate(40deg) brightness(98%) contrast(96%)"],
         "containerWidth": "100%",
-        "background": "assets/images/backgrounds/fractured_gateways.png",
+        "background": "assets/images/backgrounds/fractured_gateways_sigmayshm.png",
         "preview": "music/music_snippets/VWB_snippet.mp3"
     },
     {
@@ -4395,7 +4395,7 @@
         "pathingToAudioRepo": true,
         "songCredits": "JeeperCreeperIH",
         "regionCredits": "Kaeporo",
-        "artCredits": "N/A",
+        "artCredits": "River the Gremlin",
         "layers": [
             ["kick_icon.png", "music/threat_music/jeeper/ARE/TH_WARE - DRUM.ogg", 0],
             ["pad_icon.png", "music/threat_music/jeeper/ARE/TH_WARE - HIT.ogg", 0],
@@ -4403,10 +4403,10 @@
             ["shaker_icon.png", "music/threat_music/jeeper/ARE/TH_WARE - WEIRD.ogg", 0],
             ["xylo_icon.png", "music/threat_music/jeeper/ARE/TH_WARE - BELL.ogg", 0]
         ],
-        "colors": ["#8e252d"],
-        "filters": ["brightness(0) saturate(100%) invert(15%) sepia(50%) saturate(3892%) hue-rotate(339deg) brightness(92%) contrast(87%)"],
+        "colors": ["#e63f4b"],
+        "filters": ["brightness(0) saturate(100%) invert(32%) sepia(54%) saturate(2952%) hue-rotate(335deg) brightness(95%) contrast(89%)"],
         "containerWidth": "100%",
-        "background": "assets/images/backgrounds/heat_ducts.png",
+        "background": "assets/images/backgrounds/heat_ducts_river.png",
         "preview": "music/music_snippets/ARE_snippet.mp3"
     },
     {
@@ -4416,7 +4416,7 @@
         "pathingToAudioRepo": true,
         "songCredits": "JeeperCreeperIH",
         "regionCredits": "Watcher Team",
-        "artCredits": "N/A",
+        "artCredits": "Irri",
         "layers": [
             ["kick_icon.png", "music/threat_music/jeeper/MP/TH_WMPA - DRUM.ogg", 0],
             ["hat_icon.png", "music/threat_music/jeeper/MP/TH_WMPA - CLICK.ogg", 0],
@@ -4427,7 +4427,7 @@
         "colors": ["#476367"],
         "filters": ["brightness(0) saturate(100%) invert(32%) sepia(26%) saturate(418%) hue-rotate(139deg) brightness(101%) contrast(87%)"],
         "containerWidth": "100%",
-        "background": "assets/images/backgrounds/migration_path.png",
+        "background": "assets/images/backgrounds/migration_path_irri.png",
         "preview": "music/music_snippets/MP_snippet.mp3"
     },
     {
@@ -4437,7 +4437,7 @@
         "pathingToAudioRepo": true,
         "songCredits": "JeeperCreeperIH",
         "regionCredits": "Wrayk",
-        "artCredits": "N/A",
+        "artCredits": "sparkbreeze",
         "layers": [
             ["kick_icon.png", "music/threat_music/jeeper/SKD/TH_WSKD - KICK.ogg", 0],
             ["pad_icon.png", "music/threat_music/jeeper/SKD/TH_WSKD - HIT.ogg", 0],
@@ -4448,7 +4448,7 @@
         "colors": ["#ffffff"],
         "filters": ["brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7117%) hue-rotate(276deg) brightness(102%) contrast(100%)"],
         "containerWidth": "100%",
-        "background": "assets/images/backgrounds/shrouded_stacks.png",
+        "background": "assets/images/backgrounds/shrouded_stacks_sparkbreeze.png",
         "preview": "music/music_snippets/SKD_snippet.mp3"
     },
     {
@@ -4479,7 +4479,7 @@
         "pathingToAudioRepo": true,
         "songCredits": "JeeperCreeperIH",
         "regionCredits": "Wrayk",
-        "artCredits": "N/A",
+        "artCredits": "Alkali & Irri",
         "layers": [
             ["kick_icon.png", "music/threat_music/jeeper/SKA/TH_WSKA - KICK.ogg", 0],
             ["hat_icon.png", "music/threat_music/jeeper/SKA/TH_WSKA - CLAP.ogg", 0],
@@ -4488,10 +4488,10 @@
             ["synth_icon.png", "music/threat_music/jeeper/SKA/TH_WSKA - LEAD.ogg", 0],
             ["rain_icon.png", "music/threat_music/jeeper/SKA/TH_WSKA - NOISE.ogg", 0]
         ],
-        "colors": ["#5a546a"],
-        "filters": ["brightness(0) saturate(100%) invert(31%) sepia(17%) saturate(555%) hue-rotate(215deg) brightness(98%) contrast(86%)"],
+        "colors": ["#827c93"],
+        "filters": ["brightness(0) saturate(100%) invert(53%) sepia(9%) saturate(722%) hue-rotate(215deg) brightness(92%) contrast(83%)"],
         "containerWidth": "100%",
-        "background": "assets/images/backgrounds/torrential_railways.png",
+        "background": "assets/images/backgrounds/torrential_railways_alkaliirri.png",
         "preview": "music/music_snippets/SKA_snippet.mp3"
     },
     {
@@ -4522,7 +4522,7 @@
     },
     {
         "name": "Drainage System (Remake)",
-        "groups": ["misc", "new"],
+        "groups": ["misc"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Ethanwantsfood",
@@ -4570,7 +4570,7 @@
     },
     {
         "name": "Demolished Temple",
-        "groups": ["shuffle", "new"],
+        "groups": ["shuffle"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 1 Participants",
@@ -4594,7 +4594,7 @@
     },
     {
         "name": "Dumpyard Ravine",
-        "groups": ["shuffle", "new"],
+        "groups": ["shuffle"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 1 Participants",
@@ -4617,7 +4617,7 @@
     },
     {
         "name": "Infested Edifice",
-        "groups": ["shuffle", "new"],
+        "groups": ["shuffle"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 1 Participants",
@@ -4641,7 +4641,7 @@
     },
     {
         "name": "The Nest",
-        "groups": ["shuffle", "new"],
+        "groups": ["shuffle"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 1 Participants",
@@ -4664,7 +4664,7 @@
     },
     {
         "name": "Windswept Railways",
-        "groups": ["shuffle", "new"],
+        "groups": ["shuffle"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 1 Participants",

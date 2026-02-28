@@ -466,6 +466,15 @@ Layer shuffle is an event hosted on our discord server where we work together to
     - [fogyx](https://www.youtube.com/@fogyx) (Youtube) 
     - [SaykioPorko](https://www.youtube.com/channel/UCZZkji3lcDIY7h8T5C-WxIQ) (Youtube)
 
+- Session 2 (Abyssal Manifold, Overtaken Bridge, Shadowed Refuge, Hazy Reserve, Facility Ducts, Hylean Steelworks, Soaring Overpass)
+    - Rotwall
+    - [Budc](https://budc123.github.io/) (Personal Website)
+    - [Bagbox](https://x.com/bagbox4556?s=21) (Twitter)
+    - [fogyx](https://www.youtube.com/@fogyx) (Youtube) 
+    - [SaykioPorko](https://www.youtube.com/channel/UCZZkji3lcDIY7h8T5C-WxIQ) (Youtube)
+    - [JosephYeen](https://youtube.com/@josephyeen) (Youtube)
+    - [Haizlbliek](https://goofybox-studios.github.io/) (Personal Website)
+
 Feel free to join our [Discord server](https://discord.gg/BCU2UbMRBc) to learn more and participate yourself!
 
 ### Once again, thanks to all of you for allowing your amazing works to become a part of Threatmixer. You're all incredibly talented, and I couldn't be more proud to be in a community full of creatives like yourselves.

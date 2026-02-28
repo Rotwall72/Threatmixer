@@ -4699,6 +4699,7 @@
             ["gear_icon.png", "music/threat_music/shuffle/AM2/TH_AM - NOISE.ogg", 0],
             ["snare_icon.png", "music/threat_music/shuffle/AM2/TH_AM - SNARENOISE.ogg", 0],
             ["bass_icon.png", "music/threat_music/shuffle/AM2/TH_AM - BASS.ogg", 0],
+            ["castanets_icon.png", "music/threat_music/shuffle/AM2/TH_AM - PERC.ogg", 0],
             ["synth_icon.png", "music/threat_music/shuffle/AM2/TH_AM - PLUCK.ogg", 0],
             ["scug_sing_icon.png", "music/threat_music/shuffle/AM2/TH_AM - SYNTH.ogg", 0]
         ],

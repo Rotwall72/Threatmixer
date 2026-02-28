@@ -39,3 +39,19 @@ Version 2.11.2
 
 - Replaced background images for some watcher regions with custom art from the watcher region art mod
     - See LICENSE.md for credits
+
+Version 2.11.3
+
+- Added Layer Shuffle Session 2 songs
+    - Abyssal Manifold
+    - Facility Ducts
+    - Hazy Reserve
+    - Hylean Steelworks
+    - Overtaken Bridge
+    - Shadowed Refuge
+    - Soaring Overpass
+
+Version 2.11.4
+
+- Added a missing layer to Abyssal Manifold
+- Version number correction

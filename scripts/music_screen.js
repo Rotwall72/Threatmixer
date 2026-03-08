@@ -991,7 +991,7 @@ function noiseCheck(layer, noiseIndicator, waveform) {
         dataArray.forEach((int) => {if (int > 0) {intsOverZero++};})
 
         if (intsOverZero === 0) {noiseIndicator.style.opacity = "0";}
-        else {noiseIndicator.style.opacity = "1";}
+        else if (noiseIndicator.style.opacity === "0") {noiseIndicator.style.opacity = "1";}
 
         if ((layer.isMuted && !layer.isFadingIn && !layer.isFadingOut) || !canRunNoiseCheck) {
             noiseIndicator.style.opacity = "0";

@@ -55,3 +55,7 @@ Version 2.11.4
 
 - Added a missing layer to Abyssal Manifold
 - Version number correction
+
+Version 2.11.5
+
+- Fixed button icon jittering on some devices

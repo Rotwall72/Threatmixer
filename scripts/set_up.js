@@ -301,7 +301,7 @@ githubButton.style.setProperty("--glow-color", "#f0f6fc99");
 githubButton.style.setProperty("--left-distance", "7.1vw");
 youtubeButton.style.setProperty("--border-color", "#ff0033");
 youtubeButton.style.setProperty("--glow-color", "#ff003399");
-youtubeButton.style.setProperty("--left-distance", "13.1vw")
+youtubeButton.style.setProperty("--left-distance", "13.1vw");
 
 // menu music handling
 let menuMusic = new Howl({

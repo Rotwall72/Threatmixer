@@ -25,7 +25,6 @@ function setUpSelectionScreen(regionData) {
     showScreen(loadingScreen);
     document.title = "Threatmixer - Selection Screen";
 
-
         // figuring out how many regions there are of each group
         Array.from(filterLabels).forEach((label) => {
             const targetGroup = label.htmlFor.replace("_filter", "");
@@ -169,8 +168,8 @@ function setUpSelectionScreen(regionData) {
                         case("jeeper"):
                             regionGroup = "Jeeper's Watcher Themes"
                             break;
-                        case("misc"):
-                            regionGroup = "Miscellaneous"
+                        case("rot"):
+                            regionGroup = "Rotwall's Renditions"
                             break;
                         case("shuffle"):
                             regionGroup = "Layer Shuffle Songs"
@@ -269,6 +268,18 @@ function setUpSelectionScreen(regionData) {
                 if (!failsafesDone) {filterRegions(regionData, searchBar.value.toLowerCase(), checkbox)}; // failsafe checks
                 updateLabelBrightness(checkbox, index);
                 checkbox.oninput = () => {
+                    if (checkbox.classList.contains("root_filter")) {
+                        const subFilterClassName = `sub_${checkbox.value}`,
+                            subFilters = document.getElementsByClassName(subFilterClassName);
+                        
+                        Array.from(subFilters).forEach((subCheckbox) => {
+                            if ((checkbox.checked && !subCheckbox.checked) || (!checkbox.checked && subCheckbox.checked)) {
+                                // this basically serves to have all of the sub-checkboxes match the root one
+                                subCheckbox.click()
+                            }
+                        })
+                    }
+
                     filterRegions(regionData, searchBar.value.toLowerCase(), checkbox);
                     updateLabelBrightness(checkbox, index);
                 }
@@ -295,6 +306,12 @@ function addOnClick(element, regionData) {
             loadingDetails.innerText = "Processed layers: (0/0)";
             storedScrollPosition = buttonOverflow.scrollTop;
             
+            // loading tips
+            loadingTip.innerText = getLoadingTip(); // doesn't show up before cycling without this
+            loadingTipsInterval = setInterval(() => {
+                loadingTip.innerText = getLoadingTip();
+            }, 8000);
+
             hideScreen(selectionScreen);
             showScreen(loadingScreen);
 
@@ -434,6 +451,7 @@ function addOnClick(element, regionData) {
                 if (regionName == "Data Manifold" && index == 3) {
                     var potRoll = Math.floor(Math.random() * 10) + 1;
 
+                    console.log(potRoll)
                     if (potRoll == 1) {
                         newLayerIcon.src = `assets/images/button_icons/smug_jug_icon.png`;
                     }
@@ -609,6 +627,19 @@ hideAllButton.onclick = () => {
     })
 }
 
+filterDropdownButton.onclick = () => {
+    if (!filtersExpanded) {
+        filterForm.style.setProperty("--form-height", "32vw");
+        dropdownButtonCarrot.style.setProperty("--rotation-degree", "180deg");
+    }
+    else {
+        filterForm.style.setProperty("--form-height", "10.4vw");
+        dropdownButtonCarrot.style.setProperty("--rotation-degree", "0deg");
+    }
+    filtersExpanded = !filtersExpanded;
+
+}
+
 // MISC FUNCTIONS
 function filterRegions(regionData, searchInput, filterInput = null) {
     // finding what categories of regions need to be excluded
@@ -748,4 +779,25 @@ function appendKeyLabel(button, key) {
     if (shortcutToggle.checked) {keyLabel.style.setProperty("--shortcut-visibility", "block");}
     else {keyLabel.style.setProperty("--shortcut-visibility", "none");}
     button.appendChild(keyLabel);
+}
+
+function getLoadingTip(providedId = null) {
+    if (providedId === null) {
+        var chosenTip;
+        var newTipGenerated = false;
+        while (!newTipGenerated) {
+            var randomIndex = Math.floor(Math.random() * loadingTipsArray.length);
+            chosenTip = loadingTipsArray[randomIndex]
+            newTipGenerated = chosenTip.id !== previousTipID;
+        }
+
+        previousTipID = chosenTip.id;
+        return chosenTip.text;
+    }
+    else {
+        for (let i = 0; i < loadingTipsArray.length; i++) {
+            if (loadingTipsArray[i].id === providedId) {return loadingTipsArray[i].text;}
+        }
+        return "Invalid ID.";
+    }
 }

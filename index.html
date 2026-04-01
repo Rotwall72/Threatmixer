@@ -65,10 +65,14 @@
         
         <button data-title="See the Repository!" class="back_button link_button" id="github_button">
             <img class="link_icon" src="assets\images\button_icons\github_icon.png">
-        </button> 
+        </button>
+
+        <button data-title="Check my Youtube!" class="back_button link_button" id="youtube_button">
+            <img class="link_icon" id="youtube_icon" src="assets\images\button_icons\youtube_icon.png">
+        </button>
 
         <p id="disclaimer">DISCLAIMER: I am not affiliated with Videocult nor Akupara Games in any way. This is a fan project, and I own almost none of the images or music featured on this page. Also, beware of major game and dlc spoilers for Rain World!</p>
-        <p id="version">Version 2.11.5</p>
+        <p id="version">Version 2.12.0</p>
 
         <img id="bird" src="assets\images\misc\vanillabean.png">
     </div>
@@ -117,6 +121,7 @@
             <div id="filter_container">
                 <h2 id="filter_header">Search Filters</h2>
                 <form id="filter_form">
+                    <!-- Show/Hide All Options -->
                     <div class="filter_option_divs">
                         <input class="filter_toggle_buttons" id="show_all_button" type="checkbox" value="show"/>
                         <label class="filter_toggle_labels" for="show_all_button">Show All</label>
@@ -125,6 +130,7 @@
                         <input class="filter_toggle_buttons" id="hide_all_button" type="checkbox" value="hide"/>
                         <label class="filter_toggle_labels" for="hide_all_button">Hide All</label>
                     </div>
+                    <!-- Vanilla, Downpour, and Watcher Filters -->
                     <div class="filter_option_divs">
                         <input class="filter_options" id="base_filter" type="checkbox" value="base" checked/>
                         <label class="filter_labels" for="base_filter">Vanilla Regions</label>
@@ -137,18 +143,61 @@
                         <input class="filter_options" id="watch_filter" type="checkbox" value="watch" checked/>
                         <label class="filter_labels" for="watch_filter">Watcher Regions</label>
                     </div>
+                    <!-- Modded Region Filters-->
                     <div class="filter_option_divs">
-                        <input class="filter_options" id="mods_filter" type="checkbox" value="mods" checked/>
+                        <input class="filter_options root_filter" id="mods_filter" type="checkbox" value="mods" checked/>
                         <label class="filter_labels" for="mods_filter">Modded Regions</label>
                     </div>
+                    <div>
+                        <div class="filter_option_divs sub_filter">
+                            <input class="filter_options sub_mods" id="forsaken_filter" type="checkbox" value="forsaken" checked/>
+                            <label class="filter_labels" for="forsaken_filter">Forsaken Factory</label>
+                        </div>
+                        <div class="filter_option_divs sub_filter">
+                            <input class="filter_options sub_mods" id="sunlit_filter" type="checkbox" value="sunlit" checked/>
+                            <label class="filter_labels" for="sunlit_filter">Sunlit Trail</label>
+                        </div>
+                        <div class="filter_option_divs sub_filter">
+                            <input class="filter_options sub_mods" id="entropy_filter" type="checkbox" value="entropy" checked/>
+                            <label class="filter_labels" for="entropy_filter">Reclaiming Entropy</label>
+                        </div>
+                        <div class="filter_option_divs sub_filter">
+                            <input class="filter_options sub_mods" id="evergreen_filter" type="checkbox" value="evergreen" checked/>
+                            <label class="filter_labels" for="evergreen_filter">Evergreen</label>
+                        </div>
+                        <div class="filter_option_divs sub_filter">
+                            <input class="filter_options sub_mods" id="ONH_filter" type="checkbox" value="ONH" checked/>
+                            <label class="filter_labels" for="ONH_filter">Old New Horizons</label>
+                        </div>
+                        <div class="filter_option_divs sub_filter">
+                            <input class="filter_options sub_mods" id="drought_filter" type="checkbox" value="drought" checked/>
+                            <label class="filter_labels" for="drought_filter">Rain World: Drought</label>
+                        </div>
+                        <div class="filter_option_divs sub_filter">
+                            <input class="filter_options sub_mods" id="desolate_filter" type="checkbox" value="desolate" checked/>
+                            <label class="filter_labels" for="desolate_filter">Rain World: Desolation</label>
+                        </div>
+                        <div class="filter_option_divs sub_filter">
+                            <input class="filter_options sub_mods" id="black_filter" type="checkbox" value="black" checked/>
+                            <label class="filter_labels" for="black_filter">Rain World: Pitch Black</label>
+                        </div>
+                    </div>
+                    <!-- ETT & RTT Filters -->
                     <div class="filter_option_divs">
                         <input class="filter_options" id="extra_filter" type="checkbox" value="extra" checked/>
                         <label class="filter_labels" for="extra_filter">Extra Threat Themes</label>
                     </div>
                     <div class="filter_option_divs">
-                        <input class="filter_options" id="roast_filter" type="checkbox" value="roast" checked/>
+                        <input class="filter_options root_filter" id="roast_filter" type="checkbox" value="roast" checked/>
                         <label class="filter_labels" for="roast_filter">Roasted's Threat Themes</label>
                     </div>
+                    <div>
+                        <div class="filter_option_divs sub_filter">
+                            <input class="filter_options sub_roast" id="inv_filter" type="checkbox" value="inv" checked/>
+                            <label class="filter_labels" for="inv_filter">Sofanthiel/Inv Versions</label>
+                        </div>
+                    </div>
+                    <!-- Misc Additions Filters -->
                     <div class="filter_option_divs">
                         <input class="filter_options" id="night_filter" type="checkbox" value="night" checked/>
                         <label class="filter_labels" for="night_filter">NMRW/Night Variants</label>
@@ -166,12 +215,32 @@
                         <label class="filter_labels" for="jeeper_filter">Jeeper's Watcher Themes</label>
                     </div>
                     <div class="filter_option_divs">
-                        <input class="filter_options" id="misc_filter" type="checkbox" value="misc" checked/>
-                        <label class="filter_labels" for="misc_filter">Miscellaneous</label>
+                        <input class="filter_options" id="rot_filter" type="checkbox" value="rot" checked/>
+                        <label class="filter_labels" for="rot_filter">Rotwall's Renditions</label>
                     </div>
+                    <!-- Layer Shuffle Filters -->
                     <div class="filter_option_divs">
-                        <input class="filter_options" id="shuffle_filter" type="checkbox" value="shuffle" checked/>
+                        <input class="filter_options root_filter" id="shuffle_filter" type="checkbox" value="shuffle" checked/>
                         <label class="filter_labels" for="shuffle_filter">Layer Shuffle Songs</label>
+                    </div>
+                    <div>
+                        <div class="filter_option_divs sub_filter">
+                            <input class="filter_options sub_shuffle" id="sesh1_filter" type="checkbox" value="sesh1" checked/>
+                            <label class="filter_labels" for="sesh1_filter">Session One</label>
+                        </div>
+                        <div class="filter_option_divs sub_filter">
+                            <input class="filter_options sub_shuffle" id="sesh2_filter" type="checkbox" value="sesh2" checked/>
+                            <label class="filter_labels" for="sesh2_filter">Session Two</label>
+                        </div>
+                        <div class="filter_option_divs sub_filter">
+                            <input class="filter_options sub_shuffle" id="sesh3_filter" type="checkbox" value="sesh3" checked/>
+                            <label class="filter_labels" for="sesh3_filter">Session Three</label>
+                        </div>
+                    </div>
+                    <!-- Other Filters -->
+                    <div class="filter_option_divs">
+                        <input class="filter_options" id="spotlight_filter" type="checkbox" value="spotlight" checked/>
+                        <label class="filter_labels" for="spotlight_filter">Community Spotlight</label>
                     </div>
                     <div class="filter_option_divs">
                         <input class="filter_options" id="new_filter" type="checkbox" value="new" checked/>
@@ -180,10 +249,15 @@
                     <div class="filter_option_divs">
                         <input class="filter_options" id="fav_filter" type="checkbox" value="fav" checked/>
                         <label class="filter_labels" for="fav_filter">Favorites</label>
-                    </div>
+                    </div>                 
                 </form>
             </div>
 
+            <!-- Dropdown Button -->
+            <button id="filter_dropdown_button">
+                <img id="dropdown_button_carrot" src="assets/images/button_icons/arrow_icon.png"/>
+            </button>
+       
             <hr id="filter_and_info_break"/>
 
             <!-- Info Container -->
@@ -206,6 +280,10 @@
         <p class="loading_info" id="loading_details"></p>
         <p class="loading_info error_responses" id="loading_error_response"></p>
         <p class="loading_info error_responses" id="sub_error_response"></p>
+        <div id="loading_tips_div">
+            <p id="loading_tip_intro">THREATY:</p>
+            <p id="loading_tip"></p>
+        </div>
         <img id="loading_logo" src="assets/images/misc/logo.png">
     </div>
 

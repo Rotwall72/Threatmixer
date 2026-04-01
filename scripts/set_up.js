@@ -23,8 +23,10 @@ const aboutButton = document.getElementById("about_button"), // misc/home screen
     menuMusicToggleIcon = document.getElementById("menu_music_toggle_icon"),
     discordButton = document.getElementById("discord_button"),
     githubButton = document.getElementById("github_button"),
+    youtubeButton = document.getElementById("youtube_button"),
     loadingText = document.getElementById("loading_text"),
     loadingDetails = document.getElementById("loading_details"),
+    loadingTip = document.getElementById("loading_tip"),
     errorResponses = document.getElementsByClassName("error_responses"),
     elementsNeedingOtherTippy = document.getElementsByClassName("needs_other_tippy_style");
 
@@ -42,6 +44,10 @@ const regionButtonContainer = document.getElementById("region_button_container")
     filterLabels = document.getElementsByClassName("filter_labels"),
     showAllButton = document.getElementById("show_all_button"),
     hideAllButton = document.getElementById("hide_all_button"),
+    filterForm = document.getElementById("filter_form"),
+    filterDropdownButton = document.getElementById("filter_dropdown_button"),
+    dropdownButtonCarrot = document.getElementById("dropdown_button_carrot"),
+    lowerFilterAndInfoContainer = document.getElementById("lower_filter_and_info_container"),
     groupInfo = document.getElementById("group_info"),
     layerInfo = document.getElementById("layer_info"),
     musicCreditsInfo = document.getElementById("music_credits_info"),
@@ -93,7 +99,7 @@ let menuMusicTimeout,
     volumeSliders = [];
 
 let regionThreatLayers, hoverCheck, previousPreview, // selection screen
-    noRegionsText, favFilterLabel,
+    noRegionsText, favFilterLabel, loadingTipsInterval,
     storedScrollPosition = buttonOverflow.scrollTop,
     farShoreSelected = false,
     menuMusicPlaying = false,
@@ -105,6 +111,7 @@ let regionThreatLayers, hoverCheck, previousPreview, // selection screen
     favoriteButtonCicked = false,
     failsafesDone = false,
     keyLabelsAlreadyAppend = false,
+    filtersExpanded = false,
     previewsOn = getLocalItem("previewsOn"),
     excludeList = [],
     favoritedArray = getLocalItem("favorites");
@@ -135,6 +142,14 @@ let songSoloed, songStarted, eraseRecording, loadedLayers,
     pendingFadeIns = [],
     pendingFadeOuts = [],
     layerNameArray = [];
+
+// loading screen tips
+let loadingTipsArray; 
+fetch("misc/tips.json")
+    .then((tips) => {return tips.json()})
+    .then((rawTips) => {loadingTipsArray = rawTips});
+
+let previousTipID = "";
 
 // hiding certain screens for cleaner page startup
 const hiddenElements = [loadingScreen, musicScreen, selectionScreen];
@@ -270,11 +285,13 @@ beginButton.onclick = () => {
 defineButtonLink(feedbackButton, "https://forms.gle/R7q3uP9jSBQfEmuF8");
 defineButtonLink(discordButton, "https://discord.gg/BCU2UbMRBc");
 defineButtonLink(githubButton, "https://github.com/Rotwall72/Threatmixer");
+defineButtonLink(youtubeButton, "https://www.youtube.com/@Rotwall");
 
 // button tips
 createTippy(menuMusicToggleButton, menuMusicToggleButton.dataset.title, "#dadbdd");
 createTippy(discordButton, discordButton.dataset.title, "#5865f2");
 createTippy(githubButton, githubButton.dataset.title, "#f0f6fc");
+createTippy(youtubeButton, youtubeButton.dataset.title, "#ff0033");
 
 discordButton.style.setProperty("--border-color", "#5865f2");
 discordButton.style.setProperty("--glow-color", "#5865f299");
@@ -282,6 +299,9 @@ discordButton.style.setProperty("--left-distance", "1.1vw");
 githubButton.style.setProperty("--border-color", "#f0f6fc");
 githubButton.style.setProperty("--glow-color", "#f0f6fc99");
 githubButton.style.setProperty("--left-distance", "7.1vw");
+youtubeButton.style.setProperty("--border-color", "#ff0033");
+youtubeButton.style.setProperty("--glow-color", "#ff003399");
+youtubeButton.style.setProperty("--left-distance", "13.1vw")
 
 // menu music handling
 let menuMusic = new Howl({

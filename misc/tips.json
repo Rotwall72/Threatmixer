@@ -1,0 +1,122 @@
+[
+    {
+        "id": "siteTip1",
+        "text": "You can solo out layers by holding shift with their keybinds!"
+    },
+    {
+        "id": "siteTip2",
+        "text": "When a song is paused, so is the recording!"
+    },
+    {
+        "id": "siteTip3",
+        "text": "All keybinds are reconfigurable through this webpage's code."
+    },
+    {
+        "id": "siteTip4",
+        "text": "This project is open source, meaning that you can look at and edit the code as you please!"
+    },
+    {
+        "id": "musicTip1",
+        "text": "Bitcrushing is often used to add texture and movement to a song."
+    },
+    {
+        "id": "musicTip2",
+        "text": "When in doubt, bitcrush it out."
+    },
+    {
+        "id": "musicTip3",
+        "text": "Reverb is amazing for creating atmosphere. Almost every threat theme has some!"
+    },
+    {
+        "id": "musicTip4",
+        "text": "Reverb is love, reverb is life."
+    },
+    {
+        "id": "musicTip5",
+        "text": "Automation can make songs feel more dynamic and less repetitive!"
+    },
+    {
+        "id": "musicTip6",
+        "text": "The majority of threat themes are in a minor key, but the mode (or type) of each varies."
+    },
+    {
+        "id": "musicTip7",
+        "text": "Noise layers are great for filling up empty space and creating a sense of pressure and intensity!"
+    },
+    {
+        "id": "randomFact1",
+        "text": "Coral Caves's threat theme is the shortest non-modded/custom song at only 16 seconds in length!"
+    },
+    {
+        "id": "randomFact2",
+        "text": "The threat theme which is truly the shortest belongs to Rusted Basin, being just 7 seconds long!"
+    },
+    {
+        "id": "randomFact3",
+        "text": "Rusted Basin has the most layers out of any song on the webpage, coming in at a whopping 24!"
+    },
+    {
+        "id": "hint1",
+        "text": "There exists 4 secrets scattered across the webpage... can you find them?"
+    },
+    {
+        "id": "hint2",
+        "text": "Away at home, back in his coop, a lonely Koot awaits his boop."
+    },
+    {
+        "id": "hint3",
+        "text": "Where data folds and decays with time, a pot casts a grin, bold and sublime."
+    },
+    {
+        "id": "hint4",
+        "text": "He lurks in the nest, tangled in spider's thread. Only those with pure sight could spot him overhead."
+    },
+    {
+        "id": "echo1",
+        "text": "This moment, right here! It is where we are meant to be."
+    },
+    {
+        "id": "echo2",
+        "text": "The irony is not lost on me, mouse!"
+    },
+    {
+        "id": "echo3",
+        "text": "We found a way."
+    },
+    {
+        "id": "echo4",
+        "text": "Swim with the tide or against it."
+    },
+    {
+        "id": "rw1",
+        "text": "Pipeyard is a good region."
+    },
+    {
+        "id": "rw2",
+        "text": "TRIPLE AFFIRMATIVE! TRIPLE AFFIRMATIVE!"
+    },
+    {
+        "id": "rw3",
+        "text": "All slugpups go to hell."
+    },
+    {
+        "id": "rw4",
+        "text": "All roads lead to Aether Ridge."
+    },
+    {
+        "id": "rw5",
+        "text": "OAOAOAOAOAOAOAOAOAOAOA!"
+    },
+    {
+        "id": "rw6",
+        "text": "Wawa."
+    },
+    {
+        "id": "rw7",
+        "text": "Budc loves Shaded Citadel."
+    },
+    {
+        "id": "misc1",
+        "text": "ECSP stands for [REDACTED]"
+    }
+]

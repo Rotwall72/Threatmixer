@@ -46,10 +46,10 @@ body, #music_screen {
 
 #timer {
     font-family: RWmenu;
-    font-size: 1vw;
+    font-size: 1.7vw;
     margin-left: 1vw;
     margin-top: 0.6vw;
-    margin-bottom: 0.6vw;
+    margin-bottom: 0.25vw;
     color: var(--dynamic-color);
 }
 
@@ -104,8 +104,8 @@ body, #music_screen {
 .key_labels {
     display: var(--shortcut-visibility, block);
     position: absolute;
-    font-size: 0.5vw;
-    bottom: -0.4vw;
+    font-size: 0.8vw;
+    bottom: -0.6vw;
     left: 0.3vw;
 }
 
@@ -187,6 +187,10 @@ body, #music_screen {
     align-items: center;
 }
 
+.tippy_layer_name {
+    margin: 0vw;
+}
+
 .sliders {
     -webkit-appearance: none;
     appearance: none;
@@ -227,7 +231,7 @@ body, #music_screen {
     pointer-events: none;
     transition: opacity 0.3s ease;
     font-family: RWmenu;
-    font-size: 0.7vw;
+    font-size: 1.25vw;
     color: var(--dynamic-color);
     border-radius: 1vw;
     border: 0.16vw solid var(--dynamic-color);
@@ -243,15 +247,16 @@ body, #music_screen {
     padding: 1vw;
     padding-top: 0.4vw;
     width: 20vw;
-    height: 17vw;
+    height: 23vw;
 }
 
 .setting_option_buttons {
     color: inherit;
     border: 0.16vw solid var(--dynamic-color);
-    font-size: 0.6vw;
+    font-size: 1.17vw;
     margin-left: 0vw;
     padding: 0.6vw;
+    padding-bottom: 0.4vw;
 }
 
 .music_screen_checkbox_divs {
@@ -259,9 +264,13 @@ body, #music_screen {
 }
 
 .music_screen_checkboxes {
-    margin-left: 0.5vw;
     border-color: black;
     filter: var(--dynamic-filter);
+}
+
+#noise_indicator_toggle_label, #shortcut_toggle_label {
+    margin-right: 0.3vw;
+    margin-top: 0.1vw;
 }
 
 .music_screen_checkboxes:checked {

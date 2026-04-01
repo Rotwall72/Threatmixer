@@ -320,6 +320,9 @@ function setUpMusicScreen() {
                         errorResponses[0].innerText = `An error has occured. Error status: ${result.status}`;
                         errorResponses[1].innerText = "See the console for more information. If this is a re-occuring issue, leave a bug report in our discord.";
                         setResponseOpacityandColor("1", "red");
+
+                        clearInterval(loadingTipsInterval);
+                        loadingTip.innerText = "Oh no. Hit ctrl + shift + i to see the console!";
                     }
                     return result.arrayBuffer();
                 })     
@@ -334,6 +337,9 @@ function setUpMusicScreen() {
     Promise.all(loadSounds).then((arrayBuffer) => {
         hideScreen(loadingScreen);
         showScreen(musicScreen);
+
+        // ending loading tips interval
+        clearInterval(loadingTipsInterval);
 
         if (waitingForError) {clearTimeout(errorListener);}
         setResponseOpacityandColor("0", "white");

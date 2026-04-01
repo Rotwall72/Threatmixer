@@ -90,6 +90,7 @@ Here's a full list of everyone who's region, music, and/or art is shown in this 
 - [Henpemaz](https://www.youtube.com/@henpemaz) (Youtube)
 - [Hessi](https://www.youtube.com/@hessi_943/videos) (Youtube)
 - Inspectnerd
+- ItzThe_Blu
 - [Iterator-iterator](https://steamcommunity.com/profiles/76561198045845551) (Steam)
 - [JeeperCreeperIH](https://steamcommunity.com/profiles/76561199202219418) (Steam)
 - [Joseph Nied](https://www.youtube.com/@josephtnied) (Youtube)
@@ -116,6 +117,7 @@ Here's a full list of everyone who's region, music, and/or art is shown in this 
 - [P01yphemmus](https://p01yphemmus.bandcamp.com/community) (Bandcamp)
 - [Porter Foamer](https://youtube.com/@josephyeen) (Youtube)
 - [Ren is Taking Ten](https://www.youtube.com/channel/UCwbD6t3L5doFdyyKr6d6Qqg) (Youtube)
+- [Respite](https://www.youtube.com/channel/UCEQwQF04_sJW3HYWhpmhT8A) (Youtube)
 - [Roasted AND Toasted](https://www.youtube.com/@roastedandtoasted187/videos) (Youtube)
 - [Sako L Patatas](https://www.youtube.com/channel/UCSVoNhfzaXNclJG7U8GkoXA) (Youtube)
 - [SaykioPorko](https://www.youtube.com/channel/UCZZkji3lcDIY7h8T5C-WxIQ) (Youtube)
@@ -140,6 +142,10 @@ Here's a full list of everyone who's region, music, and/or art is shown in this 
 (For those without a link attached, I was unfortunately unable to find something that I could refer users to which pertains to you and any other things you've worked on. If you wish for me to attach a link to your name or change the one which I have given you, please reach out to me on Discord.)
 
 And here's the credits by region:
+
+## Anthill
+- Region by Ant
+- Threat Theme by ItzThe_Blu
 
 ## Aether Ridge:
 - Region, Region Art, & Threat Theme by Kaeporo
@@ -281,6 +287,11 @@ And here's the credits by region:
 - Region Art by Snugboat
 - Threat Theme by Andrew Man
 
+## Meadow:
+- Region by Desolation Team
+- Region Art by AnzelHC
+- Threat Theme by Respite
+
 ## Moss Fields:
 - Region by Myrmice
 - Region Art by Tsunochizu
@@ -307,6 +318,10 @@ And here's the credits by region:
 - Region by Myrmice
 - Region Art by Beep
 - Threat Theme by Aki
+
+## Pitch Black Threat Themes:
+- Regions by Pitch Black Team
+- Threat Themes by Roasted AND Toasted
 
 ## Power Plant:
 - Region & Region Art by Nautilo
@@ -361,7 +376,8 @@ And here's the credits by region:
 - Threat Theme by Serpanoy
 
 ## The Annex (A & B):
-- Region & Threat Theme by BubbleGUMz
+- Threat Theme (A) by Hessi
+- Region & Threat Theme (B) by BubbleGUMz
 
 ## The Cusp:
 - Region and Region Art by Blasting
@@ -458,7 +474,7 @@ The threat theme for the [Drainage System Remake mod](https://steamcommunity.com
 
 Layer shuffle is an event hosted on our discord server where we work together to create multiple threat themes. What's special is that each layer of each threat theme is created by a different person! Below are the participates for each unique session:
 
-- Session 1 (The Nest, Windswept Railway, Infested Edifice, Dumpyard Ravine, Demolished Temple)
+- Session 1
     - Rotwall
     - [Budc](https://budc123.github.io/) (Personal Website)
     - [Parrakoot](https://soundcloud.com/laurens-wallner-859047082) (Soundcloud)
@@ -466,7 +482,7 @@ Layer shuffle is an event hosted on our discord server where we work together to
     - [fogyx](https://www.youtube.com/@fogyx) (Youtube) 
     - [SaykioPorko](https://www.youtube.com/channel/UCZZkji3lcDIY7h8T5C-WxIQ) (Youtube)
 
-- Session 2 (Abyssal Manifold, Overtaken Bridge, Shadowed Refuge, Hazy Reserve, Facility Ducts, Hylean Steelworks, Soaring Overpass)
+- Session 2
     - Rotwall
     - [Budc](https://budc123.github.io/) (Personal Website)
     - [Bagbox](https://x.com/bagbox4556?s=21) (Twitter)
@@ -474,6 +490,21 @@ Layer shuffle is an event hosted on our discord server where we work together to
     - [SaykioPorko](https://www.youtube.com/channel/UCZZkji3lcDIY7h8T5C-WxIQ) (Youtube)
     - [JosephYeen](https://youtube.com/@josephyeen) (Youtube)
     - [Haizlbliek](https://goofybox-studios.github.io/) (Personal Website)
+
+- Session 3
+    - Rotwall
+    - [Budc](https://budc123.github.io/) (Personal Website)
+    - [Bagbox](https://x.com/bagbox4556?s=21) (Twitter)
+    - [fogyx](https://www.youtube.com/@fogyx) (Youtube) 
+    - [SaykioPorko](https://www.youtube.com/channel/UCZZkji3lcDIY7h8T5C-WxIQ) (Youtube)
+    - [JosephYeen](https://youtube.com/@josephyeen) (Youtube)
+    - [Haizlbliek](https://goofybox-studios.github.io/) (Personal Website)
+    - [Parrakoot](https://soundcloud.com/laurens-wallner-859047082) (Soundcloud)
+    - [Zephyrus](https://www.youtube.com/channel/UCrG6eSZq_VIlxQiEi0WSj8Q) (Youtube)
+    - [Sako L Patatas](https://www.youtube.com/channel/UCSVoNhfzaXNclJG7U8GkoXA) (Youtube)
+    - [500mils](https://www.youtube.com/@mils500) (Youtube)
+    - [Pandoranoss](https://www.youtube.com/@splun2706) (Youtube)
+    - Astro
 
 Feel free to join our [Discord server](https://discord.gg/BCU2UbMRBc) to learn more and participate yourself!
 

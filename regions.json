@@ -701,6 +701,52 @@
         "preview": "music/music_snippets/IF_snippet.mp3"
     },
     {   
+        "name": "Alleyways",
+        "groups": ["mods", "black", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Roasted AND Toasted",
+        "regionCredits": "Pitch Black Team",
+        "artCredits": "N/A",
+        "layers": [
+            ["pad_icon.png", "music/threat_music/mods/SUPB/TH_SU - NIGHTFLOW.ogg", 0],
+            ["kick_icon.png", "music/threat_music/mods/SUPB/TH_SU - NIGHTKICK.ogg", 0],
+            ["spear_tap_icon.png", "music/threat_music/mods/SUPB/TH_SU - NIGHTHATS.ogg", 0],
+            ["perc_icon.png", "music/threat_music/mods/SUPB/TH_SU - NIGHTPERC.ogg", 0],
+            ["sine_wave_icon.png", "music/threat_music/mods/SUPB/TH_SU - NIGHTBASS.ogg", 0],
+            ["hit_icon.png", "music/threat_music/mods/SUPB/TH_SU - NIGHTHITS.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/SUPB/TH_SU - NIGHTARPS.ogg", 0],
+            ["snare_icon.png", "music/threat_music/mods/SUPB/TH_SU - NIGHTNOISE.ogg", 0]
+
+        ],
+        "colors": ["#5a79b1"],
+        "filters": ["brightness(0) saturate(100%) invert(60%) sepia(13%) saturate(6136%) hue-rotate(195deg) brightness(76%) contrast(74%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/alleyways.png",
+        "preview": "music/music_snippets/SUPB_snippet.mp3"
+    },
+    {   
+        "name": "Anthill",
+        "groups": ["mods", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "ItzThe_Blu",
+        "regionCredits": "Ant",
+        "artCredits": "N/A",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/mods/ANT/ANT - KICK.ogg", 0],
+            ["perc_icon.png", "music/threat_music/mods/ANT/ANT - PERC.ogg", 0],
+            ["bass_icon.png", "music/threat_music/mods/ANT/ANT - BASS.ogg", 0],
+            ["arps_icon.png", "music/threat_music/mods/ANT/ANT - ARPS.ogg", 0],
+            ["scug_sing_icon.png", "music/threat_music/mods/ANT/ANT - LEAD.ogg", 0]
+        ],
+        "colors": ["#643d36"],
+        "filters": ["brightness(0) saturate(100%) invert(25%) sepia(8%) saturate(2669%) hue-rotate(321deg) brightness(95%) contrast(90%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/anthill.png",
+        "preview": "music/music_snippets/ANT_snippet.mp3"
+    },
+    {   
         "name": "Aqueducts",
         "groups": ["mods"],
         "favorited": false,
@@ -851,6 +897,32 @@
         "preview": "music/music_snippets/BL_snippet.mp3"
     },
     {
+        "name": "Barren Plains",
+        "groups": ["mods", "black", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Roasted AND Toasted",
+        "regionCredits": "Pitch Black Team",
+        "artCredits": "N/A",
+        "layers": [
+            ["pad_icon.png", "music/threat_music/mods/LFPB/TH_LF - NIGHTFLOW.ogg", 0],
+            ["kick_icon.png", "music/threat_music/mods/LFPB/TH_LF - NIGHTKICK.ogg", 0],
+            ["shaker_icon.png", "music/threat_music/mods/LFPB/TH_LF - NIGHTSHAKER.ogg", 0],
+            ["perc_icon.png", "music/threat_music/mods/LFPB/TH_LF - NIGHTBOUNCEPERC.ogg", 0],
+            ["spear_tap_icon.png", "music/threat_music/mods/LFPB/TH_LF - NIGHTBELLPERC.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/LFPB/TH_LF - NIGHTBASS.ogg", 0],
+            ["snare_icon.png", "music/threat_music/mods/LFPB/TH_LF - NIGHTSNARE.ogg", 0],
+            ["arps_icon.png", "music/threat_music/mods/LFPB/TH_LF - NIGHTARPS.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/LFPB/TH_LF - NIGHTCHORDS.ogg", 0],
+            ["radio_icon.png", "music/threat_music/mods/LFPB/TH_LF - NIGHTNOISE.ogg", 0]
+        ],
+        "colors": ["#603030"],
+        "filters": ["brightness(0) saturate(100%) invert(18%) sepia(24%) saturate(1522%) hue-rotate(314deg) brightness(92%) contrast(81%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/barren_plains.png",
+        "preview": "music/music_snippets/LFPB_snippet.mp3"
+    },
+    {
         "name": "Bioengineering Center",
         "groups": ["mods"],
         "favorited": false,
@@ -921,7 +993,7 @@
     },
     {
         "name": "Central Factory",
-        "groups": ["mods"],
+        "groups": ["mods", "ONH"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "FishSwallower",
@@ -1151,6 +1223,58 @@
         "preview": "music/music_snippets/DW_snippet.mp3"
     },
     {
+        "name": "Drainage System (Remake)",
+        "groups": ["mods", "spotlight"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Ethanwantsfood",
+        "regionCredits": "Solar",
+        "artCredits": "N/A",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/mods/DSRE/TH_DS - KICK.ogg", 0],
+            ["droplet_icon.png", "music/threat_music/mods/DSRE/TH_DS - DRIP.ogg", 0],
+            ["pad_icon.png", "music/threat_music/mods/DSRE/TH_DS - PAD.ogg", 0],
+            ["noise_icon.png", "music/threat_music/mods/DSRE/TH_DS - NOISE.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/DSRE/TH_DS - BASS.ogg", 0],
+            ["castanets_icon.png", "music/threat_music/mods/DSRE/TH_DS - PERC1.ogg", 0],
+            ["arps_icon.png", "music/threat_music/mods/DSRE/TH_DS - ARP.ogg", 0],
+            ["bongos_icon.png", "music/threat_music/mods/DSRE/TH_DS - PERC2.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/DSRE/TH_DS - LEAD.ogg", 0]
+        ],
+        "colors": ["#682e20"],
+        "filters": ["brightness(0) saturate(100%) invert(19%) sepia(24%) saturate(2563%) hue-rotate(334deg) brightness(92%) contrast(89%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/drainage_system_remake.png",
+        "preview": "music/music_snippets/DSRE_snippet.mp3"
+    },
+    {
+        "name": "Dusky Smokestack",
+        "groups": ["mods", "black", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Roasted AND Toasted",
+        "regionCredits": "Pitch Black Team",
+        "artCredits": "N/A",
+        "layers": [
+            ["pad_icon.png", "music/threat_music/mods/CCPB/TH_CC - FLOWNIGHT.ogg", 0],
+            ["kick_icon.png", "music/threat_music/mods/CCPB/TH_CC - KICKNIGHT.ogg", 0],
+            ["hat_icon.png", "music/threat_music/mods/CCPB/TH_CC - HATSNIGHT.ogg", 0],
+            ["snare_icon.png", "music/threat_music/mods/CCPB/TH_CC - PERCNIGHT.ogg", 0],
+            ["bass_icon.png", "music/threat_music/mods/CCPB/TH_CC - BASSNIGHT.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/CCPB/TH_CC - ARPSNIGHT.ogg", 0],
+            ["noot_vox_icon.png", "music/threat_music/mods/CCPB/TH_CC - VOXNIGHT.ogg", 0],
+            ["gas_noise_icon.png", "music/threat_music/mods/CCPB/TH_CC - NOISENIGHT.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/CCPB/TH_CC - LEADNIGHT.ogg", 0],
+            ["atmos_icon.png", "music/threat_music/mods/CCPB/TH_CC - ALARMNIGHT.ogg", 1]
+        ],
+        "colors": ["#535678", "#674222"],
+        "filters": ["brightness(0) saturate(100%) invert(35%) sepia(25%) saturate(545%) hue-rotate(196deg) brightness(90%) contrast(91%)",
+                    "brightness(0) saturate(100%) invert(22%) sepia(76%) saturate(458%) hue-rotate(347deg) brightness(97%) contrast(85%)"],
+        "containerWidth": "62vw",
+        "background": "assets/images/backgrounds/dusky_smokestack.png",
+        "preview": "music/music_snippets/CCPB_snippet.mp3"
+    },
+    {
         "name": "Eroded Refinery",
         "groups": ["mods"],
         "favorited": false,
@@ -1176,8 +1300,36 @@
         "preview": "music/music_snippets/ER_snippet.mp3"
     },
     {
+        "name": "Erstwhile Bastion",
+        "groups": ["mods", "black", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Roasted AND Toasted",
+        "regionCredits": "Pitch Black Team",
+        "artCredits": "N/A",
+        "layers": [
+            ["pad_icon.png", "music/threat_music/mods/SHPB/TH_SH - NIGHTFLOW.ogg", 0],
+            ["kick_icon.png", "music/threat_music/mods/SHPB/TH_SH - NIGHTKICK.ogg", 0],
+            ["hat_icon.png", "music/threat_music/mods/SHPB/TH_SH - NIGHTHATS.ogg", 0],
+            ["perc_icon.png", "music/threat_music/mods/SHPB/TH_SH - NIGHTPERC.ogg", 0],
+            ["hit_icon.png", "music/threat_music/mods/SHPB/TH_SH - NIGHTCRASH.ogg", 0],
+            ["weird_sine_wave_icon.png", "music/threat_music/mods/SHPB/TH_SH - NIGHTNOISE.ogg", 0],
+            ["bass_icon.png", "music/threat_music/mods/SHPB/TH_SH - NIGHTBASS.ogg", 1],
+            ["synth_icon.png", "music/threat_music/mods/SHPB/TH_SH - NIGHTARPS.ogg", 1],
+            ["pad_icon.png", "music/threat_music/mods/SHPB/TH_SH - NIGHTCHORDS.ogg", 2],
+            ["synth_icon.png", "music/threat_music/mods/SHPB/TH_SH - NIGHTARPCRUSH.ogg", 2]
+        ],
+        "colors": ["#5e5e69", "#44508b", "#d53a15"],
+        "filters": ["brightness(0) saturate(100%) invert(39%) sepia(12%) saturate(355%) hue-rotate(201deg) brightness(88%) contrast(85%)",
+                    "brightness(0) saturate(100%) invert(31%) sepia(10%) saturate(2852%) hue-rotate(193deg) brightness(94%) contrast(89%)",
+                    "brightness(0) saturate(100%) invert(36%) sepia(21%) saturate(7252%) hue-rotate(350deg) brightness(83%) contrast(100%)"],
+        "containerWidth": "43vw",
+        "background": "assets/images/backgrounds/erstwhile_bastion.png",
+        "preview": "music/music_snippets/SHPB_snippet.mp3"
+    },
+    {
         "name": "Far Shore",
-        "groups": ["mods"],
+        "groups": ["mods", "sunlit"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Aki",
@@ -1226,7 +1378,7 @@
     },
     {   
         "name": "Forest Sanctuary",
-        "groups": ["mods"],
+        "groups": ["mods", "drought", "spotlight"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Sipik",
@@ -1262,7 +1414,7 @@
     },
     {   
         "name": "Forest Sanctuary (Old)",
-        "groups": ["mods"],
+        "groups": ["mods", "drought"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Danji",
@@ -1386,7 +1538,7 @@
     },
     {
         "name": "Gloaming Refinery",
-        "groups": ["mods"],
+        "groups": ["mods", "spotlight"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "BubbleGUMz",
@@ -1409,7 +1561,7 @@
     },
     {   
         "name": "Gloomy Marshland",
-        "groups": ["mods"],
+        "groups": ["mods", "entropy"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Ninjakittens",
@@ -1434,7 +1586,7 @@
     },
     {   
         "name": "Grand Reservoir",
-        "groups": ["mods"],
+        "groups": ["mods", "spotlight"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Albert Guy",
@@ -1482,7 +1634,7 @@
     },
     {
         "name": "Gray Urban",
-        "groups": ["mods"],
+        "groups": ["mods", "sunlit"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Aki",
@@ -1558,7 +1710,7 @@
     },
     {   
         "name": "Icebound Fringe",
-        "groups": ["mods"],
+        "groups": ["mods", "evergreen"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Kaylestuffs/PootisBird",
@@ -1600,7 +1752,7 @@
     },
     {   
         "name": "Intake System",
-        "groups": ["mods"],
+        "groups": ["mods", "drought"],
         "favorited": false,
         "songCredits": "Sipik",
         "regionCredits": "Drought Team",
@@ -1627,7 +1779,7 @@
     },
     {   
         "name": "Intake System (Old)",
-        "groups": ["mods"],
+        "groups": ["mods", "drought"],
         "favorited": false,
         "songCredits": "Danji",
         "regionCredits": "Drought Team",
@@ -1645,9 +1797,34 @@
         "background": "assets/images/backgrounds/alt_intake_system.png",
         "preview": "music/music_snippets/IS_OLD_snippet.mp3"
     },
+    {
+        "name": "Lightless Compound",
+        "groups": ["mods", "black", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Roasted AND Toasted",
+        "regionCredits": "Pitch Black Team",
+        "artCredits": "N/A",
+        "layers": [
+            ["pad_icon.png", "music/threat_music/mods/HIPB/TH_HI - NIGHTFLOW.ogg", 0],
+            ["kick_icon.png", "music/threat_music/mods/HIPB/TH_HI - NIGHTKICK.ogg", 0],
+            ["hat_icon.png", "music/threat_music/mods/HIPB/TH_HI - NIGHTHATS.ogg", 0],
+            ["perc_icon.png", "music/threat_music/mods/HIPB/TH_HI - NIGHTPERC.ogg", 0],
+            ["snare_icon.png", "music/threat_music/mods/HIPB/TH_HI - NIGHTSNARE.ogg", 0],
+            ["bass_icon.png", "music/threat_music/mods/HIPB/TH_HI - NIGHTBASS.ogg", 0],
+            ["weird_icon.png", "music/threat_music/mods/HIPB/TH_HI - NIGHTWEIRD.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/HIPB/TH_HI - NIGHTVOX.ogg", 0],
+            ["noise_icon.png", "music/threat_music/mods/HIPB/TH_HI - NIGHTNOISE.ogg", 0]
+        ],
+        "colors": ["#37638b"],
+        "filters": ["brightness(0) saturate(100%) invert(33%) sepia(81%) saturate(365%) hue-rotate(166deg) brightness(89%) contrast(87%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/lightless_compound.png",
+        "preview": "music/music_snippets/SHPB_snippet.mp3"
+    },
     {   
         "name": "Luminous Cove",
-        "groups": ["mods"],
+        "groups": ["mods", "sunlit", "spotlight"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Aki",
@@ -1681,7 +1858,7 @@
     },
     {   
         "name": "Lush Mire",
-        "groups": ["mods"],
+        "groups": ["mods", "spotlight"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Andrew Man",
@@ -1705,8 +1882,93 @@
         "preview": "music/music_snippets/LW_snippet.mp3"
     },
     {   
+        "name": "Meadow",
+        "groups": ["mods","desolate", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Respite",
+        "regionCredits": "Desolation Team",
+        "artCredits": "Desolation Team",
+        "layers": [
+            ["shaker_icon.png", "music/threat_music/mods/8M/TH_8M - SHAKER.ogg", 0],
+            ["kick_icon.png", "music/threat_music/mods/8M/TH_8M - KICK.ogg", 0],
+            ["noise_icon.png", "music/threat_music/mods/8M/TH_8M - NOISE.ogg", 0],
+            ["perc_icon.png", "music/threat_music/mods/8M/TH_8M - PERC.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/8M/TH_8M - RHODES.ogg", 0],
+            ["arps_icon.png", "music/threat_music/mods/8M/TH_8M - ARP.ogg", 0],
+            ["snare_icon.png", "music/threat_music/mods/8M/TH_8M - SNARE.ogg", 0],
+            ["bass_icon.png", "music/threat_music/mods/8M/TH_8M - BASS.ogg", 0],
+            ["wawa_icon.png", "music/threat_music/mods/8M/TH_8M - LEAD.ogg", 0]
+        ],
+        "colors": ["#d8ddd0"],
+        "filters": ["brightness(0) saturate(100%) invert(91%) sepia(19%) saturate(97%) hue-rotate(41deg) brightness(96%) contrast(87%)"],
+        "containerWidth": "62vw",
+        "background": "assets/images/backgrounds/meadow.png",
+        "preview": "music/music_snippets/8M_snippet.mp3"
+    },
+    {
+        "name": "Misty Foundry",
+        "groups": ["mods", "black", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Roasted AND Toasted",
+        "regionCredits": "Pitch Black Team",
+        "artCredits": "N/A",
+        "layers": [
+            ["pad_icon.png", "music/threat_music/mods/LMPB/TH_LM - NIGHTFLOW.ogg", 0],
+            ["kick_icon.png", "music/threat_music/mods/LMPB/TH_LM - NIGHTKICK.ogg", 0],
+            ["bass_icon.png", "music/threat_music/mods/LMPB/TH_LM - NIGHTBASS.ogg", 0],
+            ["tick_icon.png", "music/threat_music/mods/LMPB/TH_LM - NIGHTPERC1.ogg", 0],
+            ["spear_tap_icon.png", "music/threat_music/mods/LMPB/TH_LM - NIGHTPERC2.ogg", 0],
+            ["atmos_icon.png", "music/threat_music/mods/LMPB/TH_LM - NIGHTALARM.ogg", 0],
+            ["arps_icon.png", "music/threat_music/mods/LMPB/TH_LM - NIGHTARPS.ogg", 0],
+            ["snare_icon.png", "music/threat_music/mods/LMPB/TH_LM - NIGHTSNARE.ogg", 0],
+            ["noise_icon.png", "music/threat_music/mods/LMPB/TH_LM - NIGHTNOISE.ogg", 0],
+            ["pad_icon.png", "music/threat_music/mods/LMPB/TH_LM - NIGHTPAD.ogg", 0]
+        ],
+        "colors": ["#3e23c0"],
+        "filters": ["brightness(0) saturate(100%) invert(16%) sepia(100%) saturate(3443%) hue-rotate(250deg) brightness(74%) contrast(106%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/misty_foundry.png",
+        "preview": "music/music_snippets/LMPB_snippet.mp3"
+    },
+    {
+        "name": "Moonlit Wasteyard",
+        "groups": ["mods", "black", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Roasted AND Toasted",
+        "regionCredits": "Pitch Black Team",
+        "artCredits": "N/A",
+        "layers": [
+            ["pad_icon.png", "music/threat_music/mods/GWPB/TH_GW - NIGHTFLOW.ogg", 0],
+            ["kick_icon.png", "music/threat_music/mods/GWPB/TH_GW - NIGHTKICK.ogg", 0],
+            ["shaker_icon.png", "music/threat_music/mods/GWPB/TH_GW - NIGHTSHAKER.ogg", 0],
+            ["bass_icon.png", "music/threat_music/mods/GWPB/TH_GW - NIGHTBASS.ogg", 0],
+            ["hat_icon.png", "music/threat_music/mods/GWPB/TH_GW - NIGHTPERC1.ogg", 0],
+            ["perc_icon.png", "music/threat_music/mods/GWPB/TH_GW - NIGHTPERC2.ogg", 0],
+            ["weird_icon.png", "music/threat_music/mods/GWPB/TH_GW - NIGHTWEIRD.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/GWPB/TH_GW - NIGHTVOX.ogg", 0],
+            ["noise_icon.png", "music/threat_music/mods/GWPB/TH_GW - NIGHTNOISE.ogg", 0],
+            ["pad_icon.png", "music/threat_music/mods/GWPB/TH_GW - NIGHTDISPOSALFLOW.ogg", 1],
+            ["kick_icon.png", "music/threat_music/mods/GWPB/TH_GW - NIGHTDISPOSALKICKPERC.ogg", 1],
+            ["hat_icon.png", "music/threat_music/mods/GWPB/TH_GW - NIGHTDISPOSALHATS.ogg", 1],
+            ["bass_icon.png", "music/threat_music/mods/GWPB/TH_GW - NIGHTDISPOSALBASS.ogg", 1],
+            ["hit_icon.png", "music/threat_music/mods/GWPB/TH_GW - NIGHTDISPOSALCRASH.ogg", 1],
+            ["pad_icon.png", "music/threat_music/mods/GWPB/TH_GW - NIGHTDISPOSALTECH.ogg", 1],
+            ["arps_icon.png", "music/threat_music/mods/GWPB/TH_GW - NIGHTDISPOSALARPS.ogg", 1],
+            ["noise_icon.png", "music/threat_music/mods/GWPB/TH_GW - NIGHTDISPOSALNOISE.ogg", 1]
+        ],
+        "colors": ["#6c7835", "#435d2a"],
+        "filters": ["brightness(0) saturate(100%) invert(45%) sepia(12%) saturate(1735%) hue-rotate(30deg) brightness(92%) contrast(84%)",
+                    "brightness(0) saturate(100%) invert(30%) sepia(38%) saturate(598%) hue-rotate(48deg) brightness(95%) contrast(89%)"],
+        "containerWidth": "56vw",
+        "background": "assets/images/backgrounds/moonlit_wasteyard.png",
+        "preview": "music/music_snippets/GWPB_snippet.mp3"
+    },
+    {   
         "name": "Moss Fields",
-        "groups": ["mods"],
+        "groups": ["mods", "sunlit"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Aki",
@@ -1738,7 +2000,7 @@
     },
     {   
         "name": "Nascent Woods",
-        "groups": ["mods"],
+        "groups": ["mods", "entropy"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "MojiEmoji",
@@ -1763,7 +2025,7 @@
     },
     {
         "name": "Oil Station",
-        "groups": ["mods"],
+        "groups": ["mods", "ONH"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "FishSwallower",
@@ -1898,7 +2160,7 @@
     },
     {   
         "name": "Pilgrims' Ascent",
-        "groups": ["mods"],
+        "groups": ["mods", "sunlit", "spotlight"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Aki",
@@ -1920,7 +2182,7 @@
     },
     {   
         "name": "Pipegrave",
-        "groups": ["mods"],
+        "groups": ["mods", "entropy", "spotlight"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "LolaTheLoach",
@@ -2015,7 +2277,7 @@
     },
     {   
         "name": "Rooted Culvert",
-        "groups": ["mods"],
+        "groups": ["mods", "evergreen"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Kaylestuffs/PootisBird",
@@ -2040,7 +2302,7 @@
     },
     {   
         "name": "Rusted Basin",
-        "groups": ["mods"],
+        "groups": ["mods", "entropy"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "LolaTheLoach",
@@ -2105,7 +2367,7 @@
     },
     {   
         "name": "Scorched District (Day)",
-        "groups": ["mods"],
+        "groups": ["mods", "sunlit"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Joseph Neid",
@@ -2130,7 +2392,7 @@
     },
     {   
         "name": "Scorched District (Night)",
-        "groups": ["mods"],
+        "groups": ["mods", "sunlit"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Aki",
@@ -2176,7 +2438,7 @@
     },
     {   
         "name": "Sequestered Facility",
-        "groups": ["mods"],
+        "groups": ["mods", "spotlight"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "SaykioPorko",
@@ -2248,12 +2510,12 @@
     },
     {   
         "name": "Smokestack Treetop",
-        "groups": ["mods"],
+        "groups": ["mods", "entropy"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "LolaTheLoach",
         "regionCredits": "Parageist",
-        "artCredits": "Parageist",
+        "artCredits": "Sako L Patatas",
         "layers": [
             ["kick_icon.png", "music/threat_music/mods/TK/TH_TK - KICK.ogg", 0],
             ["tambourine_icon.png", "music/threat_music/mods/TK/TH_TK - SHAKER.ogg", 0],
@@ -2273,6 +2535,34 @@
         "containerWidth": "57vw",
         "background": "assets/images/backgrounds/smokestack_treetop.png",
         "preview": "music/music_snippets/TK_snippet.mp3"
+    },
+    {
+        "name": "Soaring Archipelago",
+        "groups": ["mods", "black", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Roasted AND Toasted",
+        "regionCredits": "Pitch Black Team",
+        "artCredits": "N/A",
+        "layers": [
+            ["pad_icon.png", "music/threat_music/mods/SIPB/TH_SI - NIGHTFLOW.ogg", 0],
+            ["kick_icon.png", "music/threat_music/mods/SIPB/TH_SI - NIGHTKICK.ogg", 0],
+            ["hat_icon.png", "music/threat_music/mods/SIPB/TH_SI - NIGHTHATS.ogg", 0],
+            ["weird_sine_wave_icon.png", "music/threat_music/mods/SIPB/TH_SI - NIGHTPERC.ogg", 0],
+            ["siren_icon.png", "music/threat_music/mods/SIPB/TH_SI - NIGHTBASS.ogg", 0],
+            ["hit_icon.png", "music/threat_music/mods/SIPB/TH_SI - NIGHTSNARE.ogg", 0],
+            ["arps_icon.png", "music/threat_music/mods/SIPB/TH_SI - NIGHTARPS.ogg", 0],
+            ["radio_icon.png", "music/threat_music/mods/SIPB/TH_SI - NIGHTNOISE.ogg", 0],
+            ["weird_sine_wave_icon.png", "music/threat_music/mods/SIPB/TH_SI - NIGHTTIMPGLITCH.ogg", 1],
+            ["perc_icon.png", "music/threat_music/mods/SIPB/TH_SI - NIGHTVERBPERC.ogg", 1],
+            ["synth_icon.png", "music/threat_music/mods/SIPB/TH_SI - NIGHTSUB.ogg", 1]
+        ],
+        "colors": ["#91455f", "#b52a5a"],
+        "filters": ["brightness(0) saturate(100%) invert(31%) sepia(17%) saturate(1555%) hue-rotate(288deg) brightness(100%) contrast(90%)",
+                    "brightness(0) saturate(100%) invert(21%) sepia(98%) saturate(1475%) hue-rotate(313deg) brightness(95%) contrast(94%)"],
+        "containerWidth": "55vw",
+        "background": "assets/images/backgrounds/soaring_archipelago.png",
+        "preview": "music/music_snippets/SIPB_snippet.mp3"
     },
         {   
         "name": "Soaring Lookout",
@@ -2350,7 +2640,7 @@
     },
     {   
         "name": "Subway Lines",
-        "groups": ["mods"],
+        "groups": ["mods", "ONH"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "FishSwallower",
@@ -2372,7 +2662,7 @@
     },
     {   
         "name": "Sunlit Alleyways",
-        "groups": ["mods"],
+        "groups": ["mods", "entropy"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "LolaTheLoach",
@@ -2405,7 +2695,7 @@
     },
     {   
         "name": "The Abyss",
-        "groups": ["mods"],
+        "groups": ["mods", "forsaken"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -2431,7 +2721,7 @@
         "groups": ["mods"],
         "favorited": false,
         "pathingToAudioRepo": true,
-        "songCredits": "BubbleGUMz",
+        "songCredits": "Hessi",
         "regionCredits": "BubbleGUMz",
         "artCredits": "N/A",
         "layers": [
@@ -2471,7 +2761,7 @@
     },
     {   
         "name": "The Core",
-        "groups": ["mods"],
+        "groups": ["mods", "forsaken"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -2573,7 +2863,7 @@
     },
     {   
         "name": "The Overgrowth",
-        "groups": ["mods"],
+        "groups": ["mods", "forsaken"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -2597,7 +2887,7 @@
     },
     {   
         "name": "The Permafrost",
-        "groups": ["mods"],
+        "groups": ["mods", "evergreen"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Kaylestuffs/PootisBird",
@@ -2620,7 +2910,7 @@
     },
     {   
         "name": "The Remains",
-        "groups": ["mods"],
+        "groups": ["mods", "evergreen"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Kaylestuffs/PootisBird",
@@ -2644,7 +2934,7 @@
     },
     {   
         "name": "The Roof",
-        "groups": ["mods"],
+        "groups": ["mods", "forsaken"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -2759,7 +3049,7 @@
     },
     {   
         "name": "Windy Acre",
-        "groups": ["mods"],
+        "groups": ["mods", "spotlight"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Eco/Ruby",
@@ -2792,12 +3082,12 @@
     },
     {   
         "name": "Withstanding Factory",
-        "groups": ["mods"],
+        "groups": ["mods", "entropy"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "BLU",
         "regionCredits": "Parageist",
-        "artCredits": "Parageist",
+        "artCredits": "Sako L Patatas",
         "layers": [
             ["kick_icon.png", "music/threat_music/mods/WT/TH_WT - DAYKICK.ogg", 0],
             ["tambourine_icon.png", "music/threat_music/mods/WT/TH_WT - DAYSHAKER.ogg", 0],
@@ -2824,7 +3114,7 @@
     },
     {
         "name": "Woven Nest",
-        "groups": ["mods"],
+        "groups": ["mods", "sunlit", "spotlight"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Snoodle",
@@ -2879,7 +3169,7 @@
     },
     {
         "name": "Filtration System",
-        "groups": ["extra"],
+        "groups": ["extra", "spotlight"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Sidera",
@@ -2933,7 +3223,7 @@
     },
     {
         "name": "Shaded Citadel",
-        "groups": ["extra"],
+        "groups": ["extra", "spotlight"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Snoodle",
@@ -3178,7 +3468,7 @@
     },
     {
         "name": "Chimney Canopy (Inv)",
-        "groups": ["roast"],
+        "groups": ["roast", "inv"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3250,7 +3540,7 @@
     },
     {
         "name": "Five Pebbles (Inv)",
-        "groups": ["roast"],
+        "groups": ["roast", "inv", "spotlight"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3300,7 +3590,7 @@
     },
     {
         "name": "Industrial Complex (Inv)",
-        "groups": ["roast"],
+        "groups": ["roast", "inv"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3323,7 +3613,7 @@
         "preview": "music/music_snippets/HII_snippet.mp3"
     },
     {
-        "name": "LTTM (Struts & Vents)",
+        "name": "Looks to the Moon",
         "groups": ["roast"],
         "favorited": false,
         "pathingToAudioRepo": true,
@@ -3385,7 +3675,7 @@
     {
         "name": "Nachos Will Never Be The Same",
         "trueName": "Garbage Wastes (Inv)",
-        "groups": ["roast"],
+        "groups": ["roast", "inv", "spotlight"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3411,7 +3701,7 @@
     {
         "name": "Painage System",
         "trueName": "Drainage System (Inv)",
-        "groups": ["roast"],
+        "groups": ["roast", "inv"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3692,7 +3982,7 @@
     {
         "name": "TOOOOOOOO OOOOOOOOO OOOOOOOBS",
         "trueName": "Pipeyard (Inv)",
-        "groups": ["roast"],
+        "groups": ["roast", "inv"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3720,7 +4010,7 @@
     {
         "name": "We Forgot To Render This One Sorry",
         "trueName": "Outskirts (Inv)",
-        "groups": ["roast"],
+        "groups": ["roast", "inv"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -3771,7 +4061,7 @@
     },
     {
         "name": "Farm Arrays",
-        "groups": ["night"],
+        "groups": ["night", "spotlight"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Qwertz",
@@ -3871,7 +4161,7 @@
     },
     {
         "name": "Shoreline",
-        "groups": ["night"],
+        "groups": ["night", "spotlight"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Qwertz",
@@ -4059,7 +4349,7 @@
         "groups": ["pilgrim"],
         "favorited": false,
         "pathingToAudioRepo": true,
-        "songCredits": "Sake L Patatas",
+        "songCredits": "Sako L Patatas",
         "regionCredits": "Downpour Team",
         "artCredits": "N/A",
         "layers": [
@@ -4084,7 +4374,7 @@
         "groups": ["pilgrim"],
         "favorited": false,
         "pathingToAudioRepo": true,
-        "songCredits": "Sake L Patatas",
+        "songCredits": "Sako L Patatas",
         "regionCredits": "Downpour Team",
         "artCredits": "N/A",
         "layers": [
@@ -4108,7 +4398,7 @@
         "groups": ["pilgrim"],
         "favorited": false,
         "pathingToAudioRepo": true,
-        "songCredits": "Sake L Patatas",
+        "songCredits": "Sako L Patatas",
         "regionCredits": "Downpour Team",
         "artCredits": "N/A",
         "layers": [
@@ -4132,7 +4422,7 @@
         "groups": ["pilgrim"],
         "favorited": false,
         "pathingToAudioRepo": true,
-        "songCredits": "Sake L Patatas",
+        "songCredits": "Sako L Patatas",
         "regionCredits": "Downpour Team",
         "artCredits": "N/A",
         "layers": [
@@ -4156,7 +4446,7 @@
         "groups": ["pilgrim"],
         "favorited": false,
         "pathingToAudioRepo": true,
-        "songCredits": "Sake L Patatas",
+        "songCredits": "Sako L Patatas",
         "regionCredits": "Downpour Team",
         "artCredits": "N/A",
         "layers": [
@@ -4181,7 +4471,7 @@
         "groups": ["pilgrim"],
         "favorited": false,
         "pathingToAudioRepo": true,
-        "songCredits": "Sake L Patatas",
+        "songCredits": "Sako L Patatas",
         "regionCredits": "Downpour Team",
         "artCredits": "N/A",
         "layers": [
@@ -4205,7 +4495,7 @@
         "groups": ["pilgrim"],
         "favorited": false,
         "pathingToAudioRepo": true,
-        "songCredits": "Sake L Patatas",
+        "songCredits": "Sako L Patatas",
         "regionCredits": "Downpour Team",
         "artCredits": "N/A",
         "layers": [
@@ -4229,7 +4519,7 @@
         "groups": ["pilgrim"],
         "favorited": false,
         "pathingToAudioRepo": true,
-        "songCredits": "Sake L Patatas",
+        "songCredits": "Sako L Patatas",
         "regionCredits": "Downpour Team",
         "artCredits": "N/A",
         "layers": [
@@ -4256,7 +4546,7 @@
         "groups": ["pilgrim"],
         "favorited": false,
         "pathingToAudioRepo": true,
-        "songCredits": "Sake L Patatas",
+        "songCredits": "Sako L Patatas",
         "regionCredits": "Downpour Team",
         "artCredits": "N/A",
         "layers": [
@@ -4277,10 +4567,10 @@
     },
     {
         "name": "Undergrowth",
-        "groups": ["pilgrim"],
+        "groups": ["pilgrim", "spotlight"],
         "favorited": false,
         "pathingToAudioRepo": true,
-        "songCredits": "Sake L Patatas",
+        "songCredits": "Sako L Patatas",
         "regionCredits": "Downpour Team",
         "artCredits": "N/A",
         "layers": [
@@ -4304,7 +4594,7 @@
         "groups": ["pilgrim"],
         "favorited": false,
         "pathingToAudioRepo": true,
-        "songCredits": "Sake L Patatas",
+        "songCredits": "Sako L Patatas",
         "regionCredits": "Downpour Team",
         "artCredits": "N/A",
         "layers": [
@@ -4496,22 +4786,22 @@
     },
     {
         "name": "Aether Ridge",
-        "groups": ["misc"],
+        "groups": ["rot"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Rotwall",
         "regionCredits": "Kaeporo",
         "artCredits": "N/A",
         "layers": [
-            ["noise_icon.png", "music/threat_music/misc/ARFR/TH_WARF - NOISE.ogg", 0],
-            ["kick_icon.png", "music/threat_music/misc/ARFR/TH_WARF - KICK.ogg", 0],
-            ["snare_icon.png", "music/threat_music/misc/ARFR/TH_WARF - PERC.ogg", 0],
-            ["hat_icon.png", "music/threat_music/misc/ARFR/TH_WARF - CRASH.ogg", 0],
-            ["bass_icon.png", "music/threat_music/misc/ARFR/TH_WARF - BASS.ogg", 0],
-            ["synth_icon.png", "music/threat_music/misc/ARFR/TH_WARF - CHORDS.ogg", 0],
-            ["arps_icon.png", "music/threat_music/misc/ARFR/TH_WARF - ARPS.ogg", 0],
-            ["arps_icon.png", "music/threat_music/misc/ARFR/TH_WARF - ALTARPS.ogg", 1],
-            ["synth_icon.png", "music/threat_music/misc/ARFR/TH_WARF - LEAD.ogg", 1]
+            ["noise_icon.png", "music/threat_music/rot/ARFR/TH_WARF - NOISE.ogg", 0],
+            ["kick_icon.png", "music/threat_music/rot/ARFR/TH_WARF - KICK.ogg", 0],
+            ["snare_icon.png", "music/threat_music/rot/ARFR/TH_WARF - PERC.ogg", 0],
+            ["hat_icon.png", "music/threat_music/rot/ARFR/TH_WARF - CRASH.ogg", 0],
+            ["bass_icon.png", "music/threat_music/rot/ARFR/TH_WARF - BASS.ogg", 0],
+            ["synth_icon.png", "music/threat_music/rot/ARFR/TH_WARF - CHORDS.ogg", 0],
+            ["arps_icon.png", "music/threat_music/rot/ARFR/TH_WARF - ARPS.ogg", 0],
+            ["arps_icon.png", "music/threat_music/rot/ARFR/TH_WARF - ALTARPS.ogg", 1],
+            ["synth_icon.png", "music/threat_music/rot/ARFR/TH_WARF - LEAD.ogg", 1]
         ],
         "colors": ["#f4faff", "#7cbbf0"],
         "filters": ["brightness(0) saturate(100%) invert(93%) sepia(35%) saturate(1609%) hue-rotate(179deg) brightness(112%) contrast(104%)",
@@ -4521,46 +4811,21 @@
         "preview": "music/music_snippets/ARFR_snippet.mp3"
     },
     {
-        "name": "Drainage System (Remake)",
-        "groups": ["misc"],
-        "favorited": false,
-        "pathingToAudioRepo": true,
-        "songCredits": "Ethanwantsfood",
-        "regionCredits": "Solar",
-        "artCredits": "N/A",
-        "layers": [
-            ["kick_icon.png", "music/threat_music/misc/DSRE/TH_DS - KICK.ogg", 0],
-            ["droplet_icon.png", "music/threat_music/misc/DSRE/TH_DS - DRIP.ogg", 0],
-            ["pad_icon.png", "music/threat_music/misc/DSRE/TH_DS - PAD.ogg", 0],
-            ["noise_icon.png", "music/threat_music/misc/DSRE/TH_DS - NOISE.ogg", 0],
-            ["synth_icon.png", "music/threat_music/misc/DSRE/TH_DS - BASS.ogg", 0],
-            ["castanets_icon.png", "music/threat_music/misc/DSRE/TH_DS - PERC1.ogg", 0],
-            ["arps_icon.png", "music/threat_music/misc/DSRE/TH_DS - ARP.ogg", 0],
-            ["bongos_icon.png", "music/threat_music/misc/DSRE/TH_DS - PERC2.ogg", 0],
-            ["synth_icon.png", "music/threat_music/misc/DSRE/TH_DS - LEAD.ogg", 0]
-        ],
-        "colors": ["#682e20"],
-        "filters": ["brightness(0) saturate(100%) invert(19%) sepia(24%) saturate(2563%) hue-rotate(334deg) brightness(92%) contrast(89%)"],
-        "containerWidth": "100%",
-        "background": "assets/images/backgrounds/drainage_system_remake.png",
-        "preview": "music/music_snippets/DSRE_snippet.mp3"
-    },
-    {
         "name": "Heat Ducts",
-        "groups": ["misc"],
+        "groups": ["rot"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Rotwall",
         "regionCredits": "Kaeporo",
         "artCredits": "N/A",
         "layers": [
-            ["kick_icon.png", "music/threat_music/misc/ARER/TH_WARE - KICK.ogg", 0],
-            ["spear_tap_icon.png", "music/threat_music/misc/ARER/TH_WARE - TAPS.ogg", 0],
-            ["hit_icon.png", "music/threat_music/misc/ARER/TH_WARE - BASS.ogg", 0],
-            ["gas_noise_icon.png", "music/threat_music/misc/ARER/TH_WARE - GAS.ogg", 0],
-            ["hat_icon.png", "music/threat_music/misc/ARER/TH_WARE - HAT.ogg", 0],
-            ["bass_icon.png", "music/threat_music/misc/ARER/TH_WARE - HUM.ogg", 0],
-            ["arps_icon.png", "music/threat_music/misc/ARER/TH_WARE - ARPS.ogg", 0]
+            ["kick_icon.png", "music/threat_music/rot/ARER/TH_WARE - KICK.ogg", 0],
+            ["spear_tap_icon.png", "music/threat_music/rot/ARER/TH_WARE - TAPS.ogg", 0],
+            ["hit_icon.png", "music/threat_music/misc/rot/TH_WARE - BASS.ogg", 0],
+            ["gas_noise_icon.png", "music/threat_music/rot/ARER/TH_WARE - GAS.ogg", 0],
+            ["hat_icon.png", "music/threat_music/misc/rot/TH_WARE - HAT.ogg", 0],
+            ["bass_icon.png", "music/threat_music/misc/rot/TH_WARE - HUM.ogg", 0],
+            ["arps_icon.png", "music/threat_music/misc/rot/TH_WARE - ARPS.ogg", 0]
         ],
         "colors": ["#6c060d"],
         "filters": ["brightness(0) saturate(100%) invert(8%) sepia(86%) saturate(3058%) hue-rotate(337deg) brightness(92%) contrast(105%)"],
@@ -4570,7 +4835,7 @@
     },
     {
         "name": "Demolished Temple",
-        "groups": ["shuffle"],
+        "groups": ["shuffle", "sesh1"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 1 Participants",
@@ -4594,7 +4859,7 @@
     },
     {
         "name": "Dumpyard Ravine",
-        "groups": ["shuffle"],
+        "groups": ["shuffle", "sesh1"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 1 Participants",
@@ -4617,7 +4882,7 @@
     },
     {
         "name": "Infested Edifice",
-        "groups": ["shuffle"],
+        "groups": ["shuffle", "sesh1"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 1 Participants",
@@ -4641,7 +4906,7 @@
     },
     {
         "name": "The Nest",
-        "groups": ["shuffle"],
+        "groups": ["shuffle", "sesh1"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 1 Participants",
@@ -4664,7 +4929,7 @@
     },
     {
         "name": "Windswept Railways",
-        "groups": ["shuffle"],
+        "groups": ["shuffle", "sesh1"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 1 Participants",
@@ -4687,7 +4952,7 @@
     },
     {
         "name": "Abyssal Manifold",
-        "groups": ["shuffle", "new"],
+        "groups": ["shuffle", "sesh2"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 2 Participants",
@@ -4711,7 +4976,7 @@
     },
     {
         "name": "Facility Ducts",
-        "groups": ["shuffle", "new"],
+        "groups": ["shuffle", "sesh2"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 2 Participants",
@@ -4734,7 +4999,7 @@
     },
     {
         "name": "Hazy Reserve",
-        "groups": ["shuffle", "new"],
+        "groups": ["shuffle", "sesh2"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 2 Participants",
@@ -4757,7 +5022,7 @@
     },
     {
         "name": "Hylean Steelworks",
-        "groups": ["shuffle", "new"],
+        "groups": ["shuffle", "sesh2"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 2 Participants",
@@ -4780,7 +5045,7 @@
     },
     {
         "name": "Overtaken Bridge",
-        "groups": ["shuffle", "new"],
+        "groups": ["shuffle", "sesh2"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 2 Participants",
@@ -4803,7 +5068,7 @@
     },
     {
         "name": "Shadowed Refuge",
-        "groups": ["shuffle", "new"],
+        "groups": ["shuffle", "sesh2"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 2 Participants",
@@ -4827,7 +5092,7 @@
     },
     {
         "name": "Soaring Overpass",
-        "groups": ["shuffle", "new"],
+        "groups": ["shuffle", "sesh2"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 2 Participants",
@@ -4848,5 +5113,254 @@
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/soaring_overpass.png",
         "preview": "music/music_snippets/shuffle_SO2_snippet.mp3"
+    },
+    {
+        "name": "Brumous Sands",
+        "groups": ["shuffle", "sesh3", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Layer Shuffle Session 3 Participants",
+        "regionCredits": "N/A",
+        "artCredits": "Porter Foamer",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/shuffle/BS3/TH_BS - KICK.ogg", 0],
+            ["shaker_icon.png", "music/threat_music/shuffle/BS3/TH_BS - SHAKERPERC.ogg", 0],
+            ["synth_icon.png", "music/threat_music/shuffle/BS3/TH_BS - BASS.ogg", 0],
+            ["bass_icon.png", "music/threat_music/shuffle/BS3/TH_BS - ATMOS.ogg", 0],
+            ["arps_icon.png", "music/threat_music/shuffle/BS3/TH_BS - ARPS.ogg", 0],
+            ["lead_3_icon.png", "music/threat_music/shuffle/BS3/TH_BS - SYNTH.ogg", 0],
+            ["sand_icon.png", "music/threat_music/shuffle/BS3/TH_BS - NOISE.ogg", 0]
+        ],
+        "colors": ["#a065ab"],
+        "filters": ["brightness(0) saturate(100%) invert(51%) sepia(13%) saturate(1651%) hue-rotate(244deg) brightness(88%) contrast(87%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/brumous_sands.png",
+        "preview": "music/music_snippets/BS3_snippet.mp3"
+    },
+    {
+        "name": "Electric Mine",
+        "groups": ["shuffle", "sesh3", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Layer Shuffle Session 3 Participants",
+        "regionCredits": "N/A",
+        "artCredits": "Porter Foamer",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/shuffle/EM3/TH_EM - KICK.mp3", 0],
+            ["perc_icon.png", "music/threat_music/shuffle/EM3/TH_EM - PERC1.mp3", 0],
+            ["bongos_icon.png", "music/threat_music/shuffle/EM3/TH_EM - PERC2.mp3", 0],
+            ["bass_icon.png", "music/threat_music/shuffle/EM3/TH_EM - BASS.mp3", 0],
+            ["atmos_icon.png", "music/threat_music/shuffle/EM3/TH_EM - BLEEPS.ogg", 0],
+            ["scug_sing_icon.png", "music/threat_music/shuffle/EM3/TH_EM - VOICES.mp3", 0],
+            ["synth_icon.png", "music/threat_music/shuffle/EM3/TH_EM - SYNTH.mp3", 0]
+        ],
+        "colors": ["#2188e7"],
+        "filters": ["brightness(0) saturate(100%) invert(40%) sepia(94%) saturate(1673%) hue-rotate(190deg) brightness(95%) contrast(89%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/electric_mine.png",
+        "preview": "music/music_snippets/EM3_snippet.mp3"
+    },
+    {
+        "name": "Luminous Stacks",
+        "groups": ["shuffle", "sesh3", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Layer Shuffle Session 3 Participants",
+        "regionCredits": "N/A",
+        "artCredits": "Porter Foamer",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/shuffle/PC3/TH_PC - KICK.ogg", 0],
+            ["atmos_icon.png", "music/threat_music/shuffle/PC3/TH_PC - PAD.ogg", 0],
+            ["hat_icon.png", "music/threat_music/shuffle/PC3/TH_PC - HATCLAP.ogg", 0],
+            ["bass_icon.png", "music/threat_music/shuffle/PC3/TH_PC - BASS.ogg", 0],
+            ["arps_icon.png", "music/threat_music/shuffle/PC3/TH_PC - ARPS.ogg", 0],
+            ["noise_icon.png", "music/threat_music/shuffle/PC3/TH_PC - NOISE.ogg", 0],
+            ["synth_icon.png", "music/threat_music/shuffle/PC3/TH_PC - LEAD.ogg", 0]
+        ],
+        "colors": ["#70b182"],
+        "filters": ["brightness(0) saturate(100%) invert(73%) sepia(13%) saturate(1032%) hue-rotate(84deg) brightness(87%) contrast(84%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/luminous_stacks.png",
+        "preview": "music/music_snippets/PC3_snippet.mp3"
+    },
+    {
+        "name": "Lush Cavern",
+        "groups": ["shuffle", "sesh3", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Layer Shuffle Session 3 Participants",
+        "regionCredits": "N/A",
+        "artCredits": "Porter Foamer",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/shuffle/VC3/TH_VC - KICK.ogg", 0],
+            ["weird_icon.png", "music/threat_music/shuffle/VC3/TH_VC - PERC.ogg", 0],
+            ["shaker_icon.png", "music/threat_music/shuffle/VC3/TH_VC - SHAKER.ogg", 0],
+            ["sine_wave_icon.png", "music/threat_music/shuffle/VC3/TH_VC - BASS.ogg", 0],
+            ["bongos_icon.png", "music/threat_music/shuffle/VC3/TH_VC - WOODSCRAPER.ogg", 0],
+            ["hat_icon.png", "music/threat_music/shuffle/VC3/TH_VC - HAT.ogg", 0],
+            ["synth_icon.png", "music/threat_music/shuffle/VC3/TH_VC - SYNTH.ogg", 0]
+        ],
+        "colors": ["#13611b"],
+        "filters": ["brightness(0) saturate(100%) invert(26%) sepia(34%) saturate(1499%) hue-rotate(81deg) brightness(96%) contrast(90%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/lush_cavern.png",
+        "preview": "music/music_snippets/VC3_snippet.mp3"
+    },
+    {
+        "name": "Memory Spires",
+        "groups": ["shuffle", "sesh3", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Layer Shuffle Session 3 Participants",
+        "regionCredits": "N/A",
+        "artCredits": "Porter Foamer",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/shuffle/MS3/TH_MS - KICKBASS.mp3", 0],
+            ["spear_tap_icon.png", "music/threat_music/shuffle/MS3/TH_MS - PERC1.mp3", 0],
+            ["bass_icon.png", "music/threat_music/shuffle/MS3/TH_MS - SUB.mp3", 0],
+            ["snare_icon.png", "music/threat_music/shuffle/MS3/TH_MS - PERC2.mp3", 0],
+            ["arps_icon.png", "music/threat_music/shuffle/MS3/TH_MS - PIANO.mp3", 0]
+        ],
+        "colors": ["#787c7c"],
+        "filters": ["brightness(0) saturate(100%) invert(51%) sepia(6%) saturate(180%) hue-rotate(131deg) brightness(93%) contrast(87%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/memory_spires.png",
+        "preview": "music/music_snippets/MS3_snippet.mp3"
+    },
+    {
+        "name": "Noxious Manufactory",
+        "groups": ["shuffle", "sesh3", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Layer Shuffle Session 3 Participants",
+        "regionCredits": "N/A",
+        "artCredits": "Porter Foamer",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/shuffle/NX3/TH_NX - KICK.ogg", 0],
+            ["bass_icon.png", "music/threat_music/shuffle/NX3/TH_NX - BASS.ogg", 0],
+            ["synth_icon.png", "music/threat_music/shuffle/NX3/TH_NX - VOX.ogg", 0],
+            ["arps_icon.png", "music/threat_music/shuffle/NX3/TH_NX - ARPS.ogg", 0],
+            ["synth_icon.png", "music/threat_music/shuffle/NX3/TH_NX - SYNTH.ogg", 0],
+            ["scug_sing_icon.png", "music/threat_music/shuffle/NX3/TH_NX - LEAD.ogg", 0]
+        ],
+        "colors": ["#2e9132"],
+        "filters": ["brightness(0) saturate(100%) invert(44%) sepia(73%) saturate(502%) hue-rotate(73deg) brightness(89%) contrast(85%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/noxious_manufactory.png",
+        "preview": "music/music_snippets/NX3_snippet.mp3"
+    },
+    {
+        "name": "Shrouded Facility",
+        "groups": ["shuffle", "sesh3", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Layer Shuffle Session 3 Participants",
+        "regionCredits": "N/A",
+        "artCredits": "Porter Foamer",
+        "layers": [
+            ["shaker_icon.png", "music/threat_music/shuffle/SF3/TH_SF - SHAKER.ogg", 0],
+            ["snare_icon.png", "music/threat_music/shuffle/SF3/TH_SF - PERCS.ogg", 0],
+            ["noise_icon.png", "music/threat_music/shuffle/SF3/TH_SF - NOISE.ogg", 0],
+            ["bass_icon.png", "music/threat_music/shuffle/SF3/TH_SF - BASS.ogg", 0],
+            ["pad_icon.png", "music/threat_music/shuffle/SF3/TH_SF - PAD.ogg", 0],
+            ["scug_sing_icon.png", "music/threat_music/shuffle/SF3/TH_SF - LEAD.ogg", 0]
+        ],
+        "colors": ["#ff5815"],
+        "filters": ["brightness(0) saturate(100%) invert(50%) sepia(77%) saturate(3690%) hue-rotate(348deg) brightness(98%) contrast(107%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/shrouded_facility.png",
+        "preview": "music/music_snippets/SF3_snippet.mp3"
+    },
+    {
+        "name": "Soiled Mill",
+        "groups": ["shuffle", "sesh3", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Layer Shuffle Session 3 Participants",
+        "regionCredits": "N/A",
+        "artCredits": "Porter Foamer",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/shuffle/SM3/TH_SM - KICK.mp3", 0],
+            ["perc_icon.png", "music/threat_music/shuffle/SM3/TH_SM - PERC.ogg", 0],
+            ["hat_icon.png", "music/threat_music/shuffle/SM3/TH_SM - CYMBAL.mp3", 0],
+            ["synth_icon.png", "music/threat_music/shuffle/SM3/TH_SM - BASS.mp3", 0],
+            ["weird_icon.png", "music/threat_music/shuffle/SM3/TH_SM - METAL.mp3", 0],
+            ["hit_icon.png", "music/threat_music/shuffle/SM3/TH_SM - HITS.mp3", 0],
+            ["wawa_icon.png", "music/threat_music/shuffle/SM3/TH_SM - LEAD.mp3", 0]
+        ],
+        "colors": ["#9347b6"],
+        "filters": ["brightness(0) saturate(100%) invert(28%) sepia(88%) saturate(1121%) hue-rotate(254deg) brightness(94%) contrast(83%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/soiled_mill.png",
+        "preview": "music/music_snippets/SM3_snippet.mp3"
+    },
+    {
+        "name": "Stained Conduit",
+        "groups": ["shuffle", "sesh3", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Layer Shuffle Session 3 Participants",
+        "regionCredits": "N/A",
+        "artCredits": "Porter Foamer",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/shuffle/SC3/TH_SC - KICK.ogg", 0],
+            ["pad_icon.png", "music/threat_music/shuffle/SC3/TH_SC - PERC.ogg", 0],
+            ["bass_icon.png", "music/threat_music/shuffle/SC3/TH_SC - BASS.ogg", 0],
+            ["synth_icon.png", "music/threat_music/shuffle/SC3/TH_SC - VOX.ogg", 0],
+            ["pad_icon.png", "music/threat_music/shuffle/SC3/TH_SC - PAD.ogg", 0],
+            ["weird_icon.png", "music/threat_music/shuffle/SC3/TH_SC - WEIRD.ogg", 0],
+            ["wawa_icon.png", "music/threat_music/shuffle/SC3/TH_SC - LEAD.ogg", 0]
+        ],
+        "colors": ["#8aa238"],
+        "filters": ["brightness(0) saturate(100%) invert(63%) sepia(7%) saturate(3176%) hue-rotate(33deg) brightness(93%) contrast(91%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/stained_conduit.png",
+        "preview": "music/music_snippets/SC3_snippet.mp3"
+    },
+    {
+        "name": "Steaming Coastline",
+        "groups": ["shuffle", "sesh3", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Layer Shuffle Session 3 Participants",
+        "regionCredits": "N/A",
+        "artCredits": "Porter Foamer",
+        "layers": [
+            ["sea_wave_icon.png", "music/threat_music/shuffle/AC3/TH_AC - NOISE.ogg", 0],
+            ["kick_icon.png", "music/threat_music/shuffle/AC3/TH_AC - KICK.ogg", 0],
+            ["castanets_icon.png", "music/threat_music/shuffle/AC3/TH_AC - PERC1.ogg", 0],
+            ["perc_icon.png", "music/threat_music/shuffle/AC3/TH_AC - PERC2.ogg", 0],
+            ["synth_icon.png", "music/threat_music/shuffle/AC3/TH_AC - BASS.ogg", 0],
+            ["pad_icon.png", "music/threat_music/shuffle/AC3/TH_AC - PAD.ogg", 0],
+            ["arps_icon.png", "music/threat_music/shuffle/AC3/TH_AC - ARPS.ogg", 0]
+        ],
+        "colors": ["#fbbc9a"],
+        "filters": ["brightness(0) saturate(100%) invert(76%) sepia(63%) saturate(383%) hue-rotate(317deg) brightness(102%) contrast(97%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/steaming_coastline.png",
+        "preview": "music/music_snippets/AC3_snippet.mp3"
+    },
+    {
+        "name": "Tethered Wastes",
+        "groups": ["shuffle", "sesh3", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Layer Shuffle Session 3 Participants",
+        "regionCredits": "N/A",
+        "artCredits": "Porter Foamer",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/shuffle/TW3/TH_TW - KICKTOM.ogg", 0],
+            ["snare_icon.png", "music/threat_music/shuffle/TW3/TH_TW - DRUMS.ogg", 0],
+            ["perc_icon.png", "music/threat_music/shuffle/TW3/TH_TW - PERC.ogg", 0],
+            ["sine_wave_icon.png", "music/threat_music/shuffle/TW3/TH_TW - BASS.ogg", 0],
+            ["radio_icon.png", "music/threat_music/shuffle/TW3/TH_TW - WEIRD.ogg", 0],
+            ["arps_icon.png", "music/threat_music/shuffle/TW3/TH_TW - ARPS.ogg", 0],
+            ["synth_icon.png", "music/threat_music/shuffle/TW3/TH_TW - LEAD.ogg", 0]
+        ],
+        "colors": ["#c5cad4"],
+        "filters": ["brightness(0) saturate(100%) invert(86%) sepia(9%) saturate(217%) hue-rotate(182deg) brightness(94%) contrast(89%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/tethered_wastes.png",
+        "preview": "music/music_snippets/TW3_snippet.mp3"
     }
 ]

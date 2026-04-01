@@ -18,44 +18,17 @@ If you want to see developement logs, share mixes, or just hang out with other f
 
 # *Changelog*
 
-Version 2.10.0
-
-- New Feature: Noise Indicators
-    - Allows the user to know if a layer is making any sound or not while unmuted.
-    - A setting option to toggle them was added as well
-- New Song Category: Layer Shuffle Songs
-    - 5 new songs
-        - The Nest
-        - Windswept Railway
-        - Infested Edifice
-        - Dumpyard Ravine
-        - Demolished Temple
-
-Version 2.11.1
-
-- Added Drainage System (Remake) under Misc.
-
-Version 2.11.2
-
-- Replaced background images for some watcher regions with custom art from the watcher region art mod
-    - See LICENSE.md for credits
-
-Version 2.11.3
-
-- Added Layer Shuffle Session 2 songs
-    - Abyssal Manifold
-    - Facility Ducts
-    - Hazy Reserve
-    - Hylean Steelworks
-    - Overtaken Bridge
-    - Shadowed Refuge
-    - Soaring Overpass
-
-Version 2.11.4
-
-- Added a missing layer to Abyssal Manifold
-- Version number correction
-
-Version 2.11.5
-
-- Fixed button icon jittering on some devices
+Version 2.12.0
+- Lots of new songs
+    - Layer Shuffle Session 3
+    - Anthill
+    - Meadow
+    - Pitch Black Threat Themes
+- Sub-filters were added
+- Search filter list is now expandable
+- Loading screen tips
+    - New JSON file added to store tips
+- Youtube button added to home screen
+- New font in use
+- Community spotlight filter was added
+- Drainage System (Remake) was moved to the mods category

@@ -1041,7 +1041,7 @@
     },
     {   
         "name": "Coastal Industry",
-        "groups": ["mods"],
+        "groups": ["mods", "north"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "SaykioPorko",
@@ -1820,7 +1820,7 @@
         "filters": ["brightness(0) saturate(100%) invert(33%) sepia(81%) saturate(365%) hue-rotate(166deg) brightness(89%) contrast(87%)"],
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/lightless_compound.png",
-        "preview": "music/music_snippets/SHPB_snippet.mp3"
+        "preview": "music/music_snippets/HIPB_snippet.mp3"
     },
     {   
         "name": "Luminous Cove",

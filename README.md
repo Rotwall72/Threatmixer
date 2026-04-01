@@ -32,3 +32,8 @@ Version 2.12.0
 - New font in use
 - Community spotlight filter was added
 - Drainage System (Remake) was moved to the mods category
+- Credits corrections for Sako L Patatas and Hessi
+
+Version 2.12.1
+- Corrected song preview for Lightless Compound
+- Created new sub-category for Northern Path

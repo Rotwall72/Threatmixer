@@ -37,3 +37,7 @@ Version 2.12.0
 Version 2.12.1
 - Corrected song preview for Lightless Compound
 - Created new sub-category for Northern Path
+
+Version 2.12.2
+- Added more loading tips
+- Corrected tip about Rusted Basin being the shortest song

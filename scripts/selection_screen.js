@@ -49,6 +49,8 @@ function setUpSelectionScreen(regionData) {
 
     return new Promise((resolve) => {
 
+        regionListLength = regionData.length;
+
         // waiting for all of the buttons to load in before showing the selection screen
         var buttonSetUp = regionData.map((region, index) => {
             
@@ -792,12 +794,17 @@ function getLoadingTip(providedId = null) {
         }
 
         previousTipID = chosenTip.id;
-        return chosenTip.text;
+        if (chosenTip.id !== "regionCount") {return chosenTip.text;}
+        else {return `This webpage currently features ${regionListLength} different threat themes!`;}
+        
     }
     else {
-        for (let i = 0; i < loadingTipsArray.length; i++) {
-            if (loadingTipsArray[i].id === providedId) {return loadingTipsArray[i].text;}
+        if (providedId !== "regionCount") {
+            for (let i = 0; i < loadingTipsArray.length; i++) {
+                if (loadingTipsArray[i].id === providedId) {return loadingTipsArray[i].text;}
+            }
+            return "Invalid ID.";
         }
-        return "Invalid ID.";
+        else {return `This webpage currently features ${regionListLength} different threat themes!`;}
     }
 }

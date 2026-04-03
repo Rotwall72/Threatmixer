@@ -91,7 +91,7 @@ const layerButtons = document.getElementsByClassName("layer_button"), // music s
 
 // globals
 const linkPrefix = "https://raw.githubusercontent.com/Rotwall72/Threatmixer-Audio-Storage/main/"; // misc/home screen
-let menuMusicTimeout,
+let menuMusicTimeout, regionListLength,
     canBounce = true,
     regionsFetched = false,
     menuMusicEnabled = false,

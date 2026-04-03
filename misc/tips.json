@@ -44,16 +44,44 @@
         "text": "Noise layers are great for filling up empty space and creating a sense of pressure and intensity!"
     },
     {
+        "id": "musicTip8",
+        "text": "Most threat themes are in 4/4 time, but other time signitures like 5/4 and 4/2 are common as well."
+    },
+    {
+        "id": "musicTip9",
+        "text": "Distortion is what can give basic sounds more grit and power! Like bitcrushing, it can make things sound less \"clean\" as well."
+    },
+    {
+        "id": "musicTip10",
+        "text": "Rain World has a very unique musical identity, pulling inspiration from numerous genres and allowing for great diversity!"
+    },
+    {
+        "id": "musicTip11",
+        "text": "Kicks, snares, and shakers are some examples of percussions, which all serve to create rhythm (what makes you wanna dance!)."
+    },
+    {
+        "id": "musicTip12",
+        "text": "Basses, arps, and leads are some examples of layers which serve to create a song's melody (what you hum!)."
+    },
+    {
+        "id": "musicTip13",
+        "text": "Weird layers are... well, weird! They can make a song memorable and fun if executed well."
+    },
+    {
         "id": "randomFact1",
         "text": "Coral Caves's threat theme is the shortest non-modded/custom song at only 16 seconds in length!"
     },
     {
         "id": "randomFact2",
-        "text": "The threat theme which is truly the shortest belongs to Rusted Basin, being just 7 seconds long!"
+        "text": "The threat theme which is truly the shortest belongs to Rusted Canals, being just 7 seconds long!"
     },
     {
         "id": "randomFact3",
         "text": "Rusted Basin has the most layers out of any song on the webpage, coming in at a whopping 24!"
+    },
+    {
+        "id": "regionCount",
+        "text": "Placeholder text. See getLoadingTip() defenition for intended use."
     },
     {
         "id": "hint1",
@@ -88,6 +116,14 @@
         "text": "Swim with the tide or against it."
     },
     {
+        "id": "echo5",
+        "text": "Fools. We were right to drill straight through them!"
+    },
+    {
+        "id": "moon1",
+        "text": "You will wake right back up again."
+    },
+    {
         "id": "rw1",
         "text": "Pipeyard is a good region."
     },
@@ -116,7 +152,19 @@
         "text": "Budc loves Shaded Citadel."
     },
     {
+        "id": "rw8",
+        "text": "Five Pebbsi is a proud sponsor of Threatmixer!"
+    },
+    {
+        "id": "rw9",
+        "text": "Thanks Andrew."
+    },
+    {
         "id": "misc1",
         "text": "ECSP stands for [REDACTED]"
+    },
+    {
+        "id": "misc2",
+        "text": "Video game music is cool, ok?"
     }
 ]

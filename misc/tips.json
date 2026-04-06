@@ -73,11 +73,15 @@
     },
     {
         "id": "randomFact2",
-        "text": "The threat theme which is truly the shortest belongs to Rusted Canals, being just 7 seconds long!"
+        "text": "Rusted Canals' and Jeeper's Migration Path threat themes are both the shortest songs on the webpage, being only 7 seconds!"
     },
     {
         "id": "randomFact3",
         "text": "Rusted Basin has the most layers out of any song on the webpage, coming in at a whopping 24!"
+    },
+    {
+        "id": "randomFact4",
+        "text": "At 4 minutes and 25 seconds, Intake System takes the throne for the longest threat theme on the webapge!"
     },
     {
         "id": "regionCount",

@@ -41,3 +41,7 @@ Version 2.12.1
 Version 2.12.2
 - Added more loading tips
 - Corrected tip about Rusted Basin being the shortest song
+
+Version 2.12.3
+- Fixed a bug where music screen keybinds still functioned on the loading screen
+- Edited tip randomFact2 and added randomFact4

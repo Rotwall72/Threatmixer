@@ -261,43 +261,45 @@ function setUpMusicScreen() {
 
     // event listener for keyboard inputs
     document.onkeydown = (event) => {
-        var correspondingIndex;
-        const keyPressed = event.key,
-            indexToLengthAdjustment = 1,
-            keyPressedinKeysArray = keysArray.includes(keyPressed),
-            keyPressedinShiftArray = correspondingShiftKeys.includes(keyPressed),
-            uppercaseKeyPressed = keysArray.includes(keyPressed.toLowerCase());
+        if (musicScreen.style.height === "100%") {
+            var correspondingIndex;
+            const keyPressed = event.key,
+                indexToLengthAdjustment = 1,
+                keyPressedinKeysArray = keysArray.includes(keyPressed),
+                keyPressedinShiftArray = correspondingShiftKeys.includes(keyPressed),
+                uppercaseKeyPressed = keysArray.includes(keyPressed.toLowerCase());
 
-        // layer buttons inputs
-        if (keyPressedinKeysArray) {
-            correspondingIndex = keysArray.indexOf(keyPressed);
-            if (correspondingIndex + indexToLengthAdjustment <= layerButtons.length) {
-                if (layerNameArray[correspondingIndex] !== "Thanks Snoodle") {
-                    layerButtons[correspondingIndex].click();
-                }
-                else if (beenFound) {
-                    layerButtons[correspondingIndex].click();
-                }
-            };
-        }
+            // layer buttons inputs
+            if (keyPressedinKeysArray) {
+                correspondingIndex = keysArray.indexOf(keyPressed);
+                if (correspondingIndex + indexToLengthAdjustment <= layerButtons.length) {
+                    if (layerNameArray[correspondingIndex] !== "Thanks Snoodle") {
+                        layerButtons[correspondingIndex].click();
+                    }
+                    else if (beenFound) {
+                        layerButtons[correspondingIndex].click();
+                    }
+                };
+            }
 
-        // solo buttons inputs
-        else if (keyPressedinShiftArray || uppercaseKeyPressed) {
-            if (keyPressedinShiftArray) {correspondingIndex = correspondingShiftKeys.indexOf(keyPressed);}
-            else if (uppercaseKeyPressed) {correspondingIndex = keysArray.indexOf(keyPressed.toLowerCase());}
+            // solo buttons inputs
+            else if (keyPressedinShiftArray || uppercaseKeyPressed) {
+                if (keyPressedinShiftArray) {correspondingIndex = correspondingShiftKeys.indexOf(keyPressed);}
+                else if (uppercaseKeyPressed) {correspondingIndex = keysArray.indexOf(keyPressed.toLowerCase());}
 
-            if (correspondingIndex + indexToLengthAdjustment <= soloButtons.length) {
-                soloButtons[correspondingIndex].click();
-            };
-        }
+                if (correspondingIndex + indexToLengthAdjustment <= soloButtons.length) {
+                    soloButtons[correspondingIndex].click();
+                };
+            }
 
-        // option buttons inputs
-        else {
-            Array.from(otherButtons).forEach((button) => {
-                if (keyPressed === button.dataset.correspondingkey) {
-                    button.click();
-                }
-            })
+            // option buttons inputs
+            else {
+                Array.from(otherButtons).forEach((button) => {
+                    if (keyPressed === button.dataset.correspondingkey) {
+                        button.click();
+                    }
+                })
+            }
         }
     }
 

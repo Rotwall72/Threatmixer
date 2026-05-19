@@ -702,7 +702,7 @@
     },
     {   
         "name": "Alleyways",
-        "groups": ["mods", "black", "new"],
+        "groups": ["mods", "black"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -727,7 +727,7 @@
     },
     {   
         "name": "Anthill",
-        "groups": ["mods", "new"],
+        "groups": ["mods"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "ItzThe_Blu",
@@ -898,7 +898,7 @@
     },
     {
         "name": "Barren Plains",
-        "groups": ["mods", "black", "new"],
+        "groups": ["mods", "black"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -1249,7 +1249,7 @@
     },
     {
         "name": "Dusky Smokestack",
-        "groups": ["mods", "black", "new"],
+        "groups": ["mods", "black"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -1301,7 +1301,7 @@
     },
     {
         "name": "Erstwhile Bastion",
-        "groups": ["mods", "black", "new"],
+        "groups": ["mods", "black"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -1799,7 +1799,7 @@
     },
     {
         "name": "Lightless Compound",
-        "groups": ["mods", "black", "new"],
+        "groups": ["mods", "black"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -1883,7 +1883,7 @@
     },
     {   
         "name": "Meadow",
-        "groups": ["mods","desolate", "new"],
+        "groups": ["mods","desolate"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Respite",
@@ -1908,7 +1908,7 @@
     },
     {
         "name": "Misty Foundry",
-        "groups": ["mods", "black", "new"],
+        "groups": ["mods", "black"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -1934,7 +1934,7 @@
     },
     {
         "name": "Moonlit Wasteyard",
-        "groups": ["mods", "black", "new"],
+        "groups": ["mods", "black"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -2538,7 +2538,7 @@
     },
     {
         "name": "Soaring Archipelago",
-        "groups": ["mods", "black", "new"],
+        "groups": ["mods", "black"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Roasted AND Toasted",
@@ -5116,7 +5116,7 @@
     },
     {
         "name": "Brumous Sands",
-        "groups": ["shuffle", "sesh3", "new"],
+        "groups": ["shuffle", "sesh3"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 3 Participants",
@@ -5139,7 +5139,7 @@
     },
     {
         "name": "Electric Mine",
-        "groups": ["shuffle", "sesh3", "new"],
+        "groups": ["shuffle", "sesh3"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 3 Participants",
@@ -5162,7 +5162,7 @@
     },
     {
         "name": "Luminous Stacks",
-        "groups": ["shuffle", "sesh3", "new"],
+        "groups": ["shuffle", "sesh3"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 3 Participants",
@@ -5185,7 +5185,7 @@
     },
     {
         "name": "Lush Cavern",
-        "groups": ["shuffle", "sesh3", "new"],
+        "groups": ["shuffle", "sesh3"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 3 Participants",
@@ -5208,7 +5208,7 @@
     },
     {
         "name": "Memory Spires",
-        "groups": ["shuffle", "sesh3", "new"],
+        "groups": ["shuffle", "sesh3"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 3 Participants",
@@ -5229,7 +5229,7 @@
     },
     {
         "name": "Noxious Manufactory",
-        "groups": ["shuffle", "sesh3", "new"],
+        "groups": ["shuffle", "sesh3"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 3 Participants",
@@ -5251,7 +5251,7 @@
     },
     {
         "name": "Shrouded Facility",
-        "groups": ["shuffle", "sesh3", "new"],
+        "groups": ["shuffle", "sesh3"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 3 Participants",
@@ -5273,7 +5273,7 @@
     },
     {
         "name": "Soiled Mill",
-        "groups": ["shuffle", "sesh3", "new"],
+        "groups": ["shuffle", "sesh3"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 3 Participants",
@@ -5296,7 +5296,7 @@
     },
     {
         "name": "Stained Conduit",
-        "groups": ["shuffle", "sesh3", "new"],
+        "groups": ["shuffle", "sesh3"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 3 Participants",
@@ -5319,7 +5319,7 @@
     },
     {
         "name": "Steaming Coastline",
-        "groups": ["shuffle", "sesh3", "new"],
+        "groups": ["shuffle", "sesh3"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 3 Participants",
@@ -5342,7 +5342,7 @@
     },
     {
         "name": "Tethered Wastes",
-        "groups": ["shuffle", "sesh3", "new"],
+        "groups": ["shuffle", "sesh3"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 3 Participants",

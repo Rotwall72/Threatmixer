@@ -80,7 +80,7 @@ function startVisualizer() {
         window.requestAnimationFrame(animate);
 
         var x = 0;
-        canvasContext.clearRect(0, 0, canvas.clientWidth, canvas.height);
+        canvasContext.clearRect(0, 0, canvas.width, canvas.height);
         visualizer.getByteFrequencyData(dataArray);
 
         for (let i = 0; i < bufferLength; i++) {

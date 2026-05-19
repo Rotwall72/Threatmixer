@@ -45,3 +45,7 @@ Version 2.12.2
 Version 2.12.3
 - Fixed a bug where music screen keybinds still functioned on the loading screen
 - Edited tip randomFact2 and added randomFact4
+
+Version 2.12.4
+- Fixed a visual bug with the visualizer in certain aspect ratios
+- Removed the "new" property from a handful of regions

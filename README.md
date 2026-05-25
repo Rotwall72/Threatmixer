@@ -24,3 +24,6 @@ Version 2.13.0 (First real update after small hiatus)
     - Lambent Veil
     - Coastland Sector
 - Added a button to my new Ko-Fi!
+
+Version 2.13.1
+- Small tweak to error message size

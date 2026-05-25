@@ -24,6 +24,7 @@ const aboutButton = document.getElementById("about_button"), // misc/home screen
     discordButton = document.getElementById("discord_button"),
     githubButton = document.getElementById("github_button"),
     youtubeButton = document.getElementById("youtube_button"),
+    kofiButton = document.getElementById("kofi_button"),
     loadingText = document.getElementById("loading_text"),
     loadingDetails = document.getElementById("loading_details"),
     loadingTip = document.getElementById("loading_tip"),
@@ -286,12 +287,14 @@ defineButtonLink(feedbackButton, "https://forms.gle/R7q3uP9jSBQfEmuF8");
 defineButtonLink(discordButton, "https://discord.gg/BCU2UbMRBc");
 defineButtonLink(githubButton, "https://github.com/Rotwall72/Threatmixer");
 defineButtonLink(youtubeButton, "https://www.youtube.com/@Rotwall");
+defineButtonLink(kofiButton, "https://ko-fi.com/rotwall");
 
 // button tips
 createTippy(menuMusicToggleButton, menuMusicToggleButton.dataset.title, "#dadbdd");
 createTippy(discordButton, discordButton.dataset.title, "#5865f2");
 createTippy(githubButton, githubButton.dataset.title, "#f0f6fc");
 createTippy(youtubeButton, youtubeButton.dataset.title, "#ff0033");
+createTippy(kofiButton, kofiButton.dataset.title, "#ffffff");
 
 discordButton.style.setProperty("--border-color", "#5865f2");
 discordButton.style.setProperty("--glow-color", "#5865f299");
@@ -302,6 +305,9 @@ githubButton.style.setProperty("--left-distance", "7.1vw");
 youtubeButton.style.setProperty("--border-color", "#ff0033");
 youtubeButton.style.setProperty("--glow-color", "#ff003399");
 youtubeButton.style.setProperty("--left-distance", "13.1vw");
+kofiButton.style.setProperty("--border-color", "#ffffff");
+kofiButton.style.setProperty("--glow-color", "#ffffff99");
+kofiButton.style.setProperty("--left-distance", "19.1vw");
 
 // menu music handling
 let menuMusic = new Howl({

@@ -18,34 +18,9 @@ If you want to see developement logs, share mixes, or just hang out with other f
 
 # *Changelog*
 
-Version 2.12.0
-- Lots of new songs
-    - Layer Shuffle Session 3
-    - Anthill
-    - Meadow
-    - Pitch Black Threat Themes
-- Sub-filters were added
-- Search filter list is now expandable
-- Loading screen tips
-    - New JSON file added to store tips
-- Youtube button added to home screen
-- New font in use
-- Community spotlight filter was added
-- Drainage System (Remake) was moved to the mods category
-- Credits corrections for Sako L Patatas and Hessi
-
-Version 2.12.1
-- Corrected song preview for Lightless Compound
-- Created new sub-category for Northern Path
-
-Version 2.12.2
-- Added more loading tips
-- Corrected tip about Rusted Basin being the shortest song
-
-Version 2.12.3
-- Fixed a bug where music screen keybinds still functioned on the loading screen
-- Edited tip randomFact2 and added randomFact4
-
-Version 2.12.4
-- Fixed a visual bug with the visualizer in certain aspect ratios
-- Removed the "new" property from a handful of regions
+Version 2.13.0 (First real update after small hiatus)
+- Added several songs
+    - Layer Shuffle Session 4
+    - Lambent Veil
+    - Coastland Sector
+- Added a button to my new Ko-Fi!

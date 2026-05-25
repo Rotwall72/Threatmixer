@@ -115,7 +115,10 @@ Here's a full list of everyone who's region, music, and/or art is shown in this 
 - [Parageist](https://steamcommunity.com/id/Parageist) (Steam)
 - [Pinpoint](https://oliverlollsdesign.com/) (Personal Website)
 - [P01yphemmus](https://p01yphemmus.bandcamp.com/community) (Bandcamp)
+- [PrestoPesto](https://pestos.cafe/) (Personal Site)
+- [Prismsoup](https://prismsoup.carrd.co/) (Personal Site)
 - [Porter Foamer](https://youtube.com/@josephyeen) (Youtube)
+- [qt.pi](https://steamcommunity.com/id/qt_pi_)(Steam)
 - [Ren is Taking Ten](https://www.youtube.com/channel/UCwbD6t3L5doFdyyKr6d6Qqg) (Youtube)
 - [Respite](https://www.youtube.com/channel/UCEQwQF04_sJW3HYWhpmhT8A) (Youtube)
 - [Roasted AND Toasted](https://www.youtube.com/@roastedandtoasted187/videos) (Youtube)
@@ -186,15 +189,17 @@ And here's the credits by region:
 - Region & Region Art by Porter Foamer
 - Threat Theme by SaykioPorko
 
+## Coastland Sector
+- Region by qt.pi
+- Region Art by Prismsoup
+- Threat Theme by Snoodle
+
 ## Concealed Gardens:
 - Region, Region Art, & Threat Theme by Henpemaz
 
 ## Coral Caves:
 - Region & Region Art by Fishnoid
 - Threat Theme by Snoodle
-
-## Industrial Outflow
-- Region, Region Art, & Threat Theme by totallydutch
 
 ## Corroded Passage
 - Region & Region Art by Gamerdog1654
@@ -276,6 +281,12 @@ And here's the credits by region:
 ## Howling Rift: 
 - Region & Region Art by Nautilo
 - Threat Theme by Snoodle
+
+## Industrial Outflow
+- Region, Region Art, & Threat Theme by totallydutch
+
+## Lambent Veil
+- Region & Threat Theme by PrestoPesto
 
 ## Luminous Cove:
 - Region by Myrmice
@@ -505,6 +516,18 @@ Layer shuffle is an event hosted on our discord server where we work together to
     - [500mils](https://www.youtube.com/@mils500) (Youtube)
     - [Pandoranoss](https://www.youtube.com/@splun2706) (Youtube)
     - Astro
+
+- Session 4
+    - Rotwall
+    - [Budc](https://budc123.github.io/) (Personal Website)
+    - [Bagbox](https://x.com/bagbox4556?s=21) (Twitter)
+    - [fogyx](https://www.youtube.com/@fogyx) (Youtube) 
+    - [JosephYeen](https://youtube.com/@josephyeen) (Youtube)
+    - [Haizlbliek](https://goofybox-studios.github.io/) (Personal Website)
+    - [Sako L Patatas](https://www.youtube.com/channel/UCSVoNhfzaXNclJG7U8GkoXA) (Youtube)
+    - [500mils](https://www.youtube.com/@mils500) (Youtube)
+    - [Anubisrah](https://www.tumblr.com/thehappyastronaut) (Tumblr)
+    - [Apis](https://www.youtube.com/@ApisTheApiary) (Youtube)
 
 Feel free to join our [Discord server](https://discord.gg/BCU2UbMRBc) to learn more and participate yourself!
 

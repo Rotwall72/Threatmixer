@@ -166,5 +166,9 @@
     {
         "id": "misc1",
         "text": "Video game music is cool, ok?"
+    },
+    {
+        "id": "special1",
+        "text": "Happy Pride Month!"
     }
 ]

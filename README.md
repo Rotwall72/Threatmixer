@@ -27,3 +27,7 @@ Version 2.13.0 (First real update after small hiatus)
 
 Version 2.13.1
 - Small tweak to error message size
+
+Version 2.13.2 (Pride)
+- Changed the home screen in celebration of Pride Month
+- Added a new loading tip

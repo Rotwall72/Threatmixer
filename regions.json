@@ -1065,7 +1065,7 @@
     },
     {   
         "name": "Coastland Sector",
-        "groups": ["mods", "new"],
+        "groups": ["mods"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Snoodle",
@@ -1223,6 +1223,32 @@
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/decaying_wastes.png",
         "preview": "music/music_snippets/M5_snippet.mp3"
+    },
+    {
+        "name": "Derelict Installation",
+        "groups": ["mods", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Flakalet",
+        "regionCredits": "TVfella",
+        "artCredits": "Irri",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/mods/DLI/TH_DLI - KICK.ogg", 0],
+            ["perc_icon.png", "music/threat_music/mods/DLI/TH_DLI - CLAP.ogg", 0],
+            ["spear_tap_icon.png", "music/threat_music/mods/DLI/TH_DLI - PERC.ogg", 0],
+            ["bass_icon.png", "music/threat_music/mods/DLI/TH_DLI - BASS.ogg", 0],
+            ["pad_icon.png", "music/threat_music/mods/DLI/TH_DLI - PAD.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/DLI/TH_DLI - ARPS.ogg", 0],
+            ["machine_icon.png", "music/threat_music/mods/DLI/TH_DLI - WUB.ogg", 0],
+            ["arps_icon.png", "music/threat_music/mods/DLI/TH_DLI - CHORDS.ogg", 0],
+            ["wawa_icon.png", "music/threat_music/mods/DLI/TH_DLI - LEAD.ogg", 0],
+            ["noise_icon.png", "music/threat_music/mods/DLI/TH_DLI - NOISE.ogg", 0]
+        ],
+        "colors": ["#ae90a1"],
+        "filters": ["brightness(0) saturate(100%) invert(66%) sepia(15%) saturate(379%) hue-rotate(271deg) brightness(90%) contrast(85%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/derelict_installation.png",
+        "preview": "music/music_snippets/DLI_snippet.mp3"
     },
     {
         "name": "Deserted Wastelands",
@@ -1824,7 +1850,7 @@
     },
     {
         "name": "Lambent Veil",
-        "groups": ["mods", "new"],
+        "groups": ["mods"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "PrestoPesto",
@@ -1870,6 +1896,31 @@
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/lightless_compound.png",
         "preview": "music/music_snippets/HIPB_snippet.mp3"
+    },
+    {
+        "name": "Lost Grotto",
+        "groups": ["mods", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Hessi",
+        "regionCredits": "FloodForge Region Jam",
+        "artCredits": "Dragonly44",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/mods/HU/TH_HU - KICK.ogg", 0],
+            ["hat_icon.png", "music/threat_music/mods/HU/TH_HU - HATS.ogg", 0],
+            ["snare_icon.png", "music/threat_music/mods/HU/TH_HU - SNARE.ogg", 0],
+            ["weird_icon.png", "music/threat_music/mods/HU/TH_HU - PERCS.ogg", 0],
+            ["bass_icon.png", "music/threat_music/mods/HU/TH_HU - BASS.ogg", 0],
+            ["radio_icon.png", "music/threat_music/mods/HU/TH_HU - WEIRD.ogg", 0],
+            ["pad_icon.png", "music/threat_music/mods/HU/TH_HU - CHORDS.ogg", 0],
+            ["xylo_icon.png", "music/threat_music/mods/HU/TH_HU - ARPS.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/HU/TH_HU - LEAD.ogg", 0]
+        ],
+        "colors": ["#1fe5bd"],
+        "filters": ["brightness(0) saturate(100%) invert(72%) sepia(75%) saturate(495%) hue-rotate(108deg) brightness(96%) contrast(86%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/lost_grotto.png",
+        "preview": "music/music_snippets/HU_snippet.mp3"
     },
     {   
         "name": "Luminous Cove",
@@ -2179,6 +2230,53 @@
         "containerWidth": "100%",
         "background": "assets/images/backgrounds/overgrown_urban.png",
         "preview": "music/music_snippets/O7_snippet.mp3"
+    },
+    {
+        "name": "Overgrown Waterworks",
+        "groups": ["mods", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Porter Foamer",
+        "regionCredits": "Porter Foamer",
+        "artCredits": "Porter Foamer",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/mods/OWJ/TH_LSV2 - KICK.ogg", 0],
+            ["shaker_icon.png", "music/threat_music/mods/OWJ/TH_LSV2 - SHAKER.ogg", 0],
+            ["spear_tap_icon.png", "music/threat_music/mods/OWJ/TH_LSV2 - NOISE.ogg", 0],
+            ["perc_icon.png", "music/threat_music/mods/OWJ/TH_LSV2 - PERC.ogg", 0],
+            ["bass_icon.png", "music/threat_music/mods/OWJ/TH_LSV2 - BASS.ogg", 0],
+            ["scug_sing_icon.png", "music/threat_music/mods/OWJ/TH_LSV2 - VOX.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/OWJ/TH_LSV2 - LEAD.ogg", 0]
+        ],
+        "colors": ["#ae7b76"],
+        "filters": ["brightness(0) saturate(100%) invert(63%) sepia(17%) saturate(597%) hue-rotate(315deg) brightness(80%) contrast(98%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/overgrown_waterworks.png",
+        "preview": "music/music_snippets/OWJ_snippet.mp3"
+    },
+    {
+        "name": "Overgrown Waterworks (Old)",
+        "groups": ["mods", "new"],
+        "favorited": false,
+        "pathingToAudioRepo": true,
+        "songCredits": "Porter Foamer",
+        "regionCredits": "Porter Foamer",
+        "artCredits": "Porter Foamer",
+        "layers": [
+            ["kick_icon.png", "music/threat_music/mods/OWJ_OLD/TH_OWJ - Kick.ogg", 0],
+            ["hit_icon.png", "music/threat_music/mods/OWJ_OLD/TH_OWJ - Hits.ogg", 0],
+            ["hat_icon.png", "music/threat_music/mods/OWJ_OLD/TH_OWJ - Perc.ogg", 0],
+            ["bass_icon.png", "music/threat_music/mods/OWJ_OLD/TH_OWJ - Bass.ogg", 0],
+            ["synth_icon.png", "music/threat_music/mods/OWJ_OLD/TH_OWJ - PadLead.ogg", 0],
+            ["gas_noise_icon.png", "music/threat_music/mods/OWJ_OLD/TH_OWJ - Noise.ogg", 0],
+            ["noise_icon.png", "music/threat_music/mods/OWJ_OLD/TH_OWJ - DarkNoise.wav", 1]
+        ],
+        "colors": ["#a17c6d", "#d3ab67"],
+        "filters": ["brightness(0) saturate(100%) invert(50%) sepia(35%) saturate(301%) hue-rotate(332deg) brightness(96%) contrast(93%)",
+                    "brightness(0) saturate(100%) invert(77%) sepia(34%) saturate(535%) hue-rotate(356deg) brightness(87%) contrast(88%)"],
+        "containerWidth": "100%",
+        "background": "assets/images/backgrounds/overgrown_waterworks_old.png",
+        "preview": "music/music_snippets/OWJ_OLD_snippet.mp3"
     },
     {   
         "name": "Peripheral Wreckage",
@@ -5414,7 +5512,7 @@
     },
     {
         "name": "Apostate Apparatus",
-        "groups": ["shuffle", "sesh4", "new"],
+        "groups": ["shuffle", "sesh4"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 4 Participants",
@@ -5437,7 +5535,7 @@
     },
     {
         "name": "Abandoned Fields",
-        "groups": ["shuffle", "sesh4", "new"],
+        "groups": ["shuffle", "sesh4"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 4 Participants",
@@ -5460,7 +5558,7 @@
     },
     {
         "name": "Boreal Railway",
-        "groups": ["shuffle", "sesh4", "new"],
+        "groups": ["shuffle", "sesh4"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 4 Participants",
@@ -5483,7 +5581,7 @@
     },
     {
         "name": "Fabricated Eminence",
-        "groups": ["shuffle", "sesh4", "new"],
+        "groups": ["shuffle", "sesh4"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 4 Participants",
@@ -5506,7 +5604,7 @@
     },
     {
         "name": "Forlorn Pylon",
-        "groups": ["shuffle", "sesh4", "new"],
+        "groups": ["shuffle", "sesh4"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 4 Participants",
@@ -5529,7 +5627,7 @@
     },
     {
         "name": "Frigid Shaft",
-        "groups": ["shuffle", "sesh4", "new"],
+        "groups": ["shuffle", "sesh4"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 4 Participants",
@@ -5551,7 +5649,7 @@
     },
     {
         "name": "Fractured Shell",
-        "groups": ["shuffle", "sesh4", "new"],
+        "groups": ["shuffle", "sesh4"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 4 Participants",
@@ -5574,7 +5672,7 @@
     },
     {
         "name": "Sheltered Aqueduct",
-        "groups": ["shuffle", "sesh4", "new"],
+        "groups": ["shuffle", "sesh4"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 4 Participants",
@@ -5597,7 +5695,7 @@
     },
     {
         "name": "Secluded Siphon",
-        "groups": ["shuffle", "sesh4", "new"],
+        "groups": ["shuffle", "sesh4"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 4 Participants",
@@ -5620,7 +5718,7 @@
     },
     {
         "name": "Towering Cascade",
-        "groups": ["shuffle", "sesh4", "new"],
+        "groups": ["shuffle", "sesh4"],
         "favorited": false,
         "pathingToAudioRepo": true,
         "songCredits": "Layer Shuffle Session 4 Participants",

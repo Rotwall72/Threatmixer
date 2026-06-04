@@ -85,10 +85,12 @@ Here's a full list of everyone who's region, music, and/or art is shown in this 
 - [Eco/Ruby](https://www.youtube.com/channel/UCKPtLd13KVtzf1d1uDpHOFA) (Youtube)
 - [Fishnoid](https://www.youtube.com/channel/UCG-mPR0LtVn4QX0QSmSwCjQ) (Youtube)
 - [Fishy](www.youtube.com/@Fishy-rea) (Youtube)
+- [Flakalet](https://steamcommunity.com/id/svntythsnd) (Steam)
 - [Fox Fantastic](https://steamcommunity.com/profiles/76561198899454510) (Steam)
 - [Gamerdog1654](https://steamcommunity.com/id/gamerdogdotcom) (Steam)
 - [Henpemaz](https://www.youtube.com/@henpemaz) (Youtube)
 - [Hessi](https://www.youtube.com/@hessi_943/videos) (Youtube)
+- [Irri](https://www.youtube.com/@irritator_challengeri-1313) (Youtube)
 - Inspectnerd
 - ItzThe_Blu
 - [Iterator-iterator](https://steamcommunity.com/profiles/76561198045845551) (Steam)
@@ -137,6 +139,7 @@ Here's a full list of everyone who's region, music, and/or art is shown in this 
 - [Tronsx](https://www.youtube.com/@tronsx8480) (Youtube)
 - [Turt](https://steamcommunity.com/id/turtlemanjackson) (Steam)
 - Tsunochizu
+- [TVfella](https://steamcommunity.com/profiles/76561198052352350) (Steam)
 - [ValiThe](https://steamcommunity.com/profiles/76561199466105237) (Steam)
 - Vela
 - [Wolfycatt](https://wolfycatt.crd.co/) (Personal Website)
@@ -146,7 +149,7 @@ Here's a full list of everyone who's region, music, and/or art is shown in this 
 
 And here's the credits by region:
 
-## Anthill
+## Anthill:
 - Region by Ant
 - Threat Theme by ItzThe_Blu
 
@@ -165,7 +168,7 @@ And here's the credits by region:
 - Region & Region Art by cam_dev
 - Threat Theme by Anonymous
 
-## Awful Malicious Pole
+## Awful Malicious Pole:
 - Region & Threat Theme by cecilia.wav
 
 ## Badlands (Legacy):
@@ -185,11 +188,11 @@ And here's the credits by region:
 - Region Art by Wolfycatt
 - Threat Theme by LudoCrypt
 
-## Coastal Industry
+## Coastal Industry:
 - Region & Region Art by Porter Foamer
 - Threat Theme by SaykioPorko
 
-## Coastland Sector
+## Coastland Sector:
 - Region by qt.pi
 - Region Art by Prismsoup
 - Threat Theme by Snoodle
@@ -201,11 +204,11 @@ And here's the credits by region:
 - Region & Region Art by Fishnoid
 - Threat Theme by Snoodle
 
-## Corroded Passage
+## Corroded Passage:
 - Region & Region Art by Gamerdog1654
 - Threat Theme by MojiEmoji
 
-## Curious Ascent
+## Curious Ascent:
 - Region by Turt
 - Threat Theme by Tryn
 - Region Art by Vela
@@ -216,6 +219,11 @@ And here's the credits by region:
 
 ## Decaying Wastes:
 - Region & Threat Theme by Blizzard Psyche
+
+## Derelict Installation:
+- Region by TVfella
+- Region Art by Irri
+- Threat Theme by Flakalet
 
 ## Deserted Wastelands:
 - Region, Region Art, & Threat Theme by Don
@@ -250,11 +258,11 @@ And here's the credits by region:
 - Region Art by 4slugcats
 - Threat Theme by Roasted AND Toasted
 
-## Freezing Flights
+## Freezing Flights:
 - Region & Region Art by FlanAce
 - Threat Theme by dragonly44
 
-## Freezing Flights
+## Freezing Flights:
 - Region & Region Art by FlanAce
 - Threat Theme by soff
 
@@ -269,7 +277,7 @@ And here's the credits by region:
 - Region Art by Notocorda
 - Threat Themes by Snoodle
 
-## Gray Urban
+## Gray Urban:
 - Region by Region Jam Contributers
 - Region Art by Notocorda
 - Threat Theme by Aki
@@ -282,11 +290,16 @@ And here's the credits by region:
 - Region & Region Art by Nautilo
 - Threat Theme by Snoodle
 
-## Industrial Outflow
+## Industrial Outflow:
 - Region, Region Art, & Threat Theme by totallydutch
 
-## Lambent Veil
+## Lambent Veil:
 - Region & Threat Theme by PrestoPesto
+
+## Lost Grotto:
+- Region by FloodForge Region Jam Contributers
+- Region Art by Dragonly44
+- Threat Theme by Hessi
 
 ## Luminous Cove:
 - Region by Myrmice
@@ -316,12 +329,15 @@ And here's the credits by region:
 ## Outer Outskirts:
 - Region, Threat Theme, & Region art by Kizorke
 
-## Overgrown Urban
+## Overgrown Urban:
 - Region by ValiThe
 - Region Art by thewrldlookswhite
 - Threat Theme by P01yphemmus
 
-## Peripheral Wreckage
+## Overgrown Waterworks:
+- Region, Threat Theme, & Region Art by Porter Foamer
+
+## Peripheral Wreckage:
 - Region by BubbleGUMz
 - Threat Theme by Hessi
 
@@ -411,18 +427,18 @@ And here's the credits by region:
 - Region by Wrayk
 - Threat Theme by Wrayk & Pinpoint
 
-## Urban Reservoir
+## Urban Reservoir:
 - Region & Threat Theme by LudoCrypt
 
-## Windy Acre
+## Windy Acre:
 - Region by Toxi
 - Threat Theme by Eco/Ruby
 
-## Winter's End Regions
+## Winter's End Regions:
 - Regions by Myztileaf
 - Threat Themes by Sequoia7 & Roasted AND Toasted
 
-## Weakened Platform
+## Weakened Platform:
 - Region & Threat Theme by Alekus
 
 # *Extra Threat Themes Credits*

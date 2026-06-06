@@ -440,10 +440,13 @@ function addOnClick(element, regionData) {
                     layerName = "Thanks Snoodle";
                 }
 
-                if (regionName == "Overgrown Waterworks (Old)") { //Hardcoded fix for this region name since it's just slightly too long
-                regionTitle.style.fontSize = "6.2vw"
-                } else {
-                regionTitle.style.fontSize = "7vw"
+                //Hardcoded fix for this region name since it's just slightly too long
+                // Thanks budc :glee:
+                if (regionName == "Overgrown Waterworks (Old)") { 
+                    regionTitle.style.fontSize = "6.2vw";
+                } 
+                else {
+                    regionTitle.style.fontSize = "7vw";
                 }
 
                 // creating a solo button

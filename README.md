@@ -31,3 +31,9 @@ Version 2.13.1
 Version 2.13.2 (Pride)
 - Changed the home screen in celebration of Pride Month
 - Added a new loading tip
+
+Version 2.13.3 (Pride)
+- 4 New Songs
+    - Derelict Installation
+    - Lost Grotto
+    - Overgrown Waterworks + Old ver.

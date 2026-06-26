@@ -37,3 +37,10 @@ Version 2.13.3 (Pride)
     - Derelict Installation
     - Lost Grotto
     - Overgrown Waterworks + Old ver.
+
+Version 2.13.4 (Pride)
+- 2 New Songs
+    - Metastasis
+    - Aether Ridge (Redux)
+- Changed icon for ko-fi button
+- Renamed layer shuffle region acronyms for easier management

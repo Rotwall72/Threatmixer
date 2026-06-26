@@ -316,6 +316,10 @@ And here's the credits by region:
 - Region Art by AnzelHC
 - Threat Theme by Respite
 
+## Metastasis:
+- Region & Region Art by Notocorda
+- Threat Theme by Snoodle
+
 ## Moss Fields:
 - Region by Myrmice
 - Region Art by Tsunochizu
@@ -494,6 +498,8 @@ All of the songs featured in this mod were also produced by Sako L Pata.
 The Aether Ridge threat theme by yours truly is part of a [mod which replaces the WARF threat theme](https://steamcommunity.com/sharedfiles/filedetails/?id=3599933299).
 
 The Heat Ducts threat was also made by me and is part of a [similar mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3602996916).
+
+The AR Redux theme is the same deal and is from [this mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3748780353).
 
 The threat theme for the [Drainage System Remake mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3660186466&searchtext=drainage+systemn) was done by [Ethanwantsfood](https://www.youtube.com/watch?v=i3oQuJ7f8Bs) (Youtube), with the region itself being made by [Solar](https://www.youtube.com/channel/UC4W0o7YD4ACQiLMdWB4hf2w) (Youtube).
 

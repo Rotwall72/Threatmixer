@@ -10,7 +10,7 @@ Example:
 "*I made this cool mix using Threatmixer! Here's the link so you could check it out yourself:*
 *(link)*"
 
-If you wish to use any pixel art on the page for whatever purpose, please contact me or ECSP directly to ask for permission.
+If you wish to use any pixel art on the page for whatever purpose, please contact me or Isadragon directly to ask for permission.
 
 # *Community*
 

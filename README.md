@@ -23,7 +23,7 @@ Version 2.14.0
 - New JSON property: "defaultMasterVolume"
     - Defines the starting volume for a threat theme. Accepts ints 0-300.
 - Added a button tip for the selection screen back button
-- Added DAYARPS layer to The Wall threat theme (ETT)
+- Added DAYPAD layer to The Wall threat theme (ETT)
 - Handful of bugfixes
     - Fixed a typo in the volume reset button
     - Fixed incorrect coloring issues in the music screen settings for some songs

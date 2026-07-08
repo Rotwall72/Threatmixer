@@ -18,29 +18,13 @@ If you want to see developement logs, share mixes, or just hang out with other f
 
 # *Changelog*
 
-Version 2.13.0 (First real update after small hiatus)
-- Added several songs
-    - Layer Shuffle Session 4
-    - Lambent Veil
-    - Coastland Sector
-- Added a button to my new Ko-Fi!
-
-Version 2.13.1
-- Small tweak to error message size
-
-Version 2.13.2 (Pride)
-- Changed the home screen in celebration of Pride Month
-- Added a new loading tip
-
-Version 2.13.3 (Pride)
-- 4 New Songs
-    - Derelict Installation
-    - Lost Grotto
-    - Overgrown Waterworks + Old ver.
-
-Version 2.13.4 (Pride)
-- 2 New Songs
-    - Metastasis
-    - Aether Ridge (Redux)
-- Changed icon for ko-fi button
-- Renamed layer shuffle region acronyms for easier management
+Version 2.14.0
+- Relocated show & hide all buttons
+- New JSON property: "defaultMasterVolume"
+    - Defines the starting volume for a threat theme. Accepts ints 0-300.
+- Added a button tip for the selection screen back button
+- Added DAYARPS layer to The Wall threat theme (ETT)
+- Handful of bugfixes
+    - Fixed a typo in the volume reset button
+    - Fixed incorrect coloring issues in the music screen settings for some songs
+    - Corrected JSON info for Stained Conduit and Heat Ducts (Rot's Renditions)

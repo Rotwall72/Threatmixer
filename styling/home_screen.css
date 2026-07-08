@@ -12,6 +12,7 @@ This file contains the stylization for the home and laoding screens, as well as 
 #page_name {
     font-size: 10vw;
     margin: -0.5vw;
+    /* Uncomment for rainbow text :)
     background: linear-gradient(90deg,
         rgb(255,0,0) 0%,
         rgb(255, 187, 0) 20%,
@@ -21,6 +22,7 @@ This file contains the stylization for the home and laoding screens, as well as 
     );
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    */
 }
 
 .subheaders {
@@ -48,7 +50,7 @@ This file contains the stylization for the home and laoding screens, as well as 
 #home_screen {
     width: 100%;
     background-size: cover;
-    background-image: url(../assets/images/backgrounds/alt_pride_home_screen_bg.png);
+    background-image: url(../assets/images/backgrounds/alt_home_screen_bg.png);
 }
 
 #disclaimer, #version {

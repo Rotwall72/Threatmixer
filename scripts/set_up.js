@@ -130,7 +130,7 @@ const percentConversion = 100, // music screen
     correspondingShiftKeys = ["!", "@", "#", "$", "%", "^", "&", "*", "("];
 let songSoloed, songStarted, eraseRecording, loadedLayers, 
     layersPlaying, startingLayers, recordedData, songDuration, 
-    barUpdateInterval, fadeCheck, instanceSongLength,
+    barUpdateInterval, fadeCheck, instanceSongLength, defaultMasterVol,
     masterMultiplier = 1,
     globalDuration = 9999999,
     recorderQueued = false,
@@ -352,7 +352,16 @@ if (!previewsOn) {
     updateTippyContent(previewToggleButton, "Preview Toggle (Off)");
 }
 
-createTippy(randomButton, randomButton.dataset.title, "#dadbdd")
+createTippy(randomButton, randomButton.dataset.title, "#dadbdd");
+createTippy(selectionBackButton, selectionBackButton.dataset.title, "#dadbdd");
+createTippy(showAllButton, showAllButton.dataset.title, "#dadbdd");
+createTippy(hideAllButton, hideAllButton.dataset.title, "#dadbdd");
+
+
+// Filter options coloring
+Array.from(filterOptions).forEach((checkbox) => {
+    checkbox.style.filter = "brightness(0) saturate(100%) invert(100%) sepia(49%) saturate(117%) hue-rotate(205deg) brightness(111%) contrast(91%)";
+})
 
 // MISC FUNCTIONS
 function defineMarkdownOnclick(button, parentContainer, childContainer) {

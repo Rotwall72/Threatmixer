@@ -347,6 +347,11 @@ function addOnClick(element, regionData) {
                     break;
             }
 
+            // storing the default master volume
+            defaultMasterVol = regionChosen.defaultMasterVolume;
+            masterVolumeSlider.value = defaultMasterVol;
+            updateTippyContent(masterVolumeSlider, `${masterVolumeSlider.value}%`);
+
             // finding the default colors for our region
             var colorArray = regionChosen.colors,
                 filterArray = regionChosen.filters,

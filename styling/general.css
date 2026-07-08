@@ -60,7 +60,7 @@ input[type=checkbox] {
 }
 
 input[type=checkbox]:checked {
-    background-image: url(../assets/images/misc/checkmark.png);
+    background-image: url(../assets/images/misc/filterable_checkmark.png);
     background-size: 75%;
     background-position: center;
     background-repeat: no-repeat;

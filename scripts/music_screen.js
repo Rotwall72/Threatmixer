@@ -101,17 +101,8 @@ createTippy(exitButton, exitButton.dataset.title, "#ffffff");
 createTippy(settingsButton, settingsButton.dataset.title, "#ffffff");
 createTippy(masterVolumeSlider, `${masterVolumeSlider.value}%`, "#ffffff");
 masterVolumeSlider.oninput = () => { 
-    masterMultiplier = masterVolumeSlider.value / percentConversion;
     updateTippyContent(masterVolumeSlider, `${masterVolumeSlider.value}%`);
-
-    // applying the master volume multiplier
-    if (songStarted) {
-        loadedLayers.forEach((layer, index) => {
-            var newVolume = (volumeSliders[index].value / percentConversion) * masterMultiplier;
-            layer.unmuteValue = newVolume;
-            if (!layer.isMuted && !(layer.isFadingIn || layer.isFadingOut)) {layer.volume.gain.value = newVolume};
-        })
-    }
+    applyMasterVolumeValue();
 }
 
 Array.from(fadeDurationSliders).forEach((slider) => {
@@ -951,6 +942,9 @@ function prepSong(arrayBuffer) {
 
     if (!visActive) {startVisualizer();}
     startUpdatingBar(globalDuration, songTimer);
+
+    if (masterVolumeSlider.value !== 100) {applyMasterVolumeValue(true);}
+    
 }
 
 // these next functions handles the song progress bar
@@ -1006,6 +1000,17 @@ function noiseCheck(layer, noiseIndicator, waveform) {
             clearInterval(noiseCheckInterval);
         }
     }, 100)
+}
+
+function applyMasterVolumeValue(hasDefaultVol = false) {
+    masterMultiplier = masterVolumeSlider.value / percentConversion;
+    if (songStarted || hasDefaultVol) {
+        loadedLayers.forEach((layer, index) => {
+            var newVolume = (volumeSliders[index].value / percentConversion) * masterMultiplier;
+            layer.unmuteValue = newVolume;
+            if (!layer.isMuted && !(layer.isFadingIn || layer.isFadingOut)) {layer.volume.gain.value = newVolume};
+        })
+    }
 }
 
 // hiding settings container when clicking anywhere else

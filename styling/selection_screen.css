@@ -161,6 +161,7 @@
     padding: 0.6vw;
     overflow: scroll;
     transition: height 0.6s ease;
+    position: relative;
 }
 
 .filter_option_divs {
@@ -168,6 +169,13 @@
     display: flex;
     align-items: center;
     margin-bottom: 0.5vw;
+}
+
+#extra_filter_options_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .filter_labels {
@@ -189,21 +197,8 @@
     padding-bottom: 0vw;
 }
 
-#show_all_button {
-    background-image: url(../assets/images/misc/show_all_icon.png);
-    background-size: 75%;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#hide_all_button {
-    background-image: url(../assets/images/misc/hide_all_icon.png);
-    background-size: 75%;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#filter_dropdown_button {
+.extra_filter_buttons {
+    image-rendering: pixelated;
     box-shadow: none;
     border: 0.2vw solid #dadbdd;
     width: 2vw;
@@ -216,9 +211,11 @@
     justify-content: center;
     align-items: center;
 }
+.extra_filter_button_images {
+    width: 0.8vw;
+}
 
 #dropdown_button_carrot {
-    width: 0.8vw;
     transition: rotate 0.2s ease;
     rotate: var(--rotation-degree, 0deg);
 }

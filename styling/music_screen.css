@@ -264,17 +264,13 @@ body, #music_screen {
 }
 
 .music_screen_checkboxes {
-    border-color: black;
+    border-color: black !important;
     filter: var(--dynamic-filter);
 }
 
 #noise_indicator_toggle_label, #shortcut_toggle_label {
     margin-right: 0.3vw;
     margin-top: 0.1vw;
-}
-
-.music_screen_checkboxes:checked {
-    background-image: url(../assets/images/misc/filterable_checkmark.png);
 }
 
 #c {

@@ -76,7 +76,7 @@
         </button>
 
         <p id="disclaimer">DISCLAIMER: I am not affiliated with Videocult nor Akupara Games in any way. This is a fan project, and I own almost none of the images or music featured on this page. Also, beware of major game and dlc spoilers for Rain World!</p>
-        <p id="version">Version 2.13.4 (Pride)</p>
+        <p id="version">Version 2.14.0</p>
 
         <img id="bird" src="assets\images\misc\vanillabean.png">
     </div>
@@ -86,7 +86,7 @@
         <div id="left_selection_screen_container">
             <div id="buttons_and_search_container">
                 <!-- Back Button -->
-                <button class="selection_screen_buttons" id="selection_back_button">
+                <button data-title="Back" class="selection_screen_buttons" id="selection_back_button">
                     <img id="selection_back_button_icon" src="assets/images/button_icons/alt_exit_icon.png">
                 </button>
 
@@ -124,16 +124,7 @@
             <!-- Filter Container -->
             <div id="filter_container">
                 <h2 id="filter_header">Search Filters</h2>
-                <form id="filter_form">
-                    <!-- Show/Hide All Options -->
-                    <div class="filter_option_divs">
-                        <input class="filter_toggle_buttons" id="show_all_button" type="checkbox" value="show"/>
-                        <label class="filter_toggle_labels" for="show_all_button">Show All</label>
-                    </div>
-                    <div class="filter_option_divs">
-                        <input class="filter_toggle_buttons" id="hide_all_button" type="checkbox" value="hide"/>
-                        <label class="filter_toggle_labels" for="hide_all_button">Hide All</label>
-                    </div>
+                <form id="filter_form"> 
                     <!-- Vanilla, Downpour, and Watcher Filters -->
                     <div class="filter_option_divs">
                         <input class="filter_options" id="base_filter" type="checkbox" value="base" checked/>
@@ -249,9 +240,9 @@
                             <label class="filter_labels" for="sesh4_filter">Session Four</label>
                         </div>
                     </div>
-                    <!-- Other Filters -->
+                    <!-- Bonus Filters -->
                     <div class="filter_option_divs">
-                        <input class="filter_options" id="spotlight_filter" type="checkbox" value="spotlight" checked/>
+                        <input data-title="Community Spotlight" class="filter_options" id="spotlight_filter" type="checkbox" value="spotlight" checked/>
                         <label class="filter_labels" for="spotlight_filter">Community Spotlight</label>
                     </div>
                     <div class="filter_option_divs">
@@ -261,14 +252,22 @@
                     <div class="filter_option_divs">
                         <input class="filter_options" id="fav_filter" type="checkbox" value="fav" checked/>
                         <label class="filter_labels" for="fav_filter">Favorites</label>
-                    </div>                 
+                    </div>  
                 </form>
             </div>
 
-            <!-- Dropdown Button -->
-            <button id="filter_dropdown_button">
-                <img id="dropdown_button_carrot" src="assets/images/button_icons/arrow_icon.png"/>
-            </button>
+            <!-- Extra Filter Options -->
+            <div id="extra_filter_options_div">
+                <button class="extra_filter_buttons" id="filter_dropdown_button"> <!--Dropdown -->
+                    <img class="extra_filter_button_images" id="dropdown_button_carrot" src="assets/images/button_icons/arrow_icon.png"/>
+                </button>
+                <button data-title="Show All" class="extra_filter_buttons" id="show_all_button"> <!-- Show All -->
+                    <img class="extra_filter_button_images" src="assets/images/misc/show_all_icon.png" loading="lazy"/>
+                </button>
+                <button data-title="Hide All" class="extra_filter_buttons" id="hide_all_button"> <!-- Hide All -->
+                    <img class="extra_filter_button_images" src="assets/images/misc/hide_all_icon.png" loading="lazy"/>
+                </button>
+            </div>
        
             <hr id="filter_and_info_break"/>
 
@@ -373,7 +372,7 @@
                 <input class="sliders needs_other_tippy_style" id="master_volume_slider" name="master_volume_slider" type="range" min="0" max="300" value="100" list="volume_sliders_datalist"/>
             </div>
 
-            <button class="setting_option_buttons" id="volume_reset_button">Reset Indivual Layer Volumes</button>
+            <button class="setting_option_buttons" id="volume_reset_button">Reset Individual Layer Volumes</button>
 
             <div>
                 <label id="fade_in_duration_label" for="fade_in_duration_slider">Fade In Duration</label>

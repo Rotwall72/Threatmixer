@@ -2,6 +2,7 @@
 #music_screen {
     width: 100%;
     background-size: cover;
+    background-position: center;
 }
 
 body, #music_screen {

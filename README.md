@@ -28,3 +28,7 @@ Version 2.14.0
     - Fixed a typo in the volume reset button
     - Fixed incorrect coloring issues in the music screen settings for some songs
     - Corrected JSON info for Stained Conduit and Heat Ducts (Rot's Renditions)
+
+Version 2.14.1
+- Added songs from Layer Shuffle: Session 5
+- Replaced the backgrounds for the sessions 1 and 4 songs

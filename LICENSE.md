@@ -505,7 +505,11 @@ The threat theme for the [Drainage System Remake mod](https://steamcommunity.com
 
 # *Layer Shuffle Songs*
 
-Layer shuffle is an event hosted on our discord server where we work together to create multiple threat themes. What's special is that each layer of each threat theme is created by a different person! Below are the participates for each unique session:
+Layer shuffle is an event hosted on our discord server where we work together to create multiple threat themes. What's special is that each layer of each threat theme is created by a different person! __Do note that the regions for these songs are totally made up and are not actual mods (*yet*).__ You can find the arranged versions of these songs on [my youtube channel!](https://www.youtube.com/@Rotwall).
+
+For the region buttons of the session 2 and 3 songs, the rooms were created by [JosephYeen](https://youtube.com/@josephyeen). For the rest of the songs, the unique graphics were created by [Bagbox](https://x.com/bagbox4556?s=21).
+
+Below are the participates for each session:
 
 - Session 1
     - Rotwall
@@ -550,6 +554,20 @@ Layer shuffle is an event hosted on our discord server where we work together to
     - [500mils](https://www.youtube.com/@mils500) (Youtube)
     - [Anubisrah](https://www.tumblr.com/thehappyastronaut) (Tumblr)
     - [Apis](https://www.youtube.com/@ApisTheApiary) (Youtube)
+
+- Session 5
+    - [Budc](https://budc123.github.io/) (Personal Website)
+    - [Bagbox](https://x.com/bagbox4556?s=21) (Twitter) 
+    - [JosephYeen](https://youtube.com/@josephyeen) (Youtube)
+    - [SaykioPorko](https://www.youtube.com/channel/UCZZkji3lcDIY7h8T5C-WxIQ) (Youtube)
+    - [500mils](https://www.youtube.com/@mils500) (Youtube)
+    - [Anubisrah](https://www.tumblr.com/thehappyastronaut) (Tumblr)
+    - [Apis](https://www.youtube.com/@ApisTheApiary) (Youtube)
+    - [Hessi](https://www.youtube.com/@hessi_943/videos) (Youtube)
+    - Vova/Jeik1454
+    - ItzThe_Blu
+    - RolinGP3
+
 
 Feel free to join our [Discord server](https://discord.gg/BCU2UbMRBc) to learn more and participate yourself!
 
